@@ -1,22 +1,13 @@
 # Card Ledger
 
-Card Ledger is a full-stack web app for tracking baseball cards.
+Card Ledger is a baseball card collection tracker built with Next.js App Router and Prisma.
 
-The long-term vision is a "Letterboxd for baseball cards" – a place where collectors can track their collection, build wishlists, review cards, organize lists, and explore players, sets, and eras.
+This MVP focuses on:
 
-## Current Status
-
-This project is currently in the starter phase.
-
-It includes:
-
-- Next.js app router frontend
-- Prisma ORM
-- PostgreSQL database
-- API routes for creating and reading records
-- Basic full-stack flow from UI to database
-
-The current version is a working foundation that will be expanded into the real Card Ledger product.
+- a baseball-inspired dashboard with collection stats and recent additions
+- creating collections
+- adding richer card records with notes and favorites
+- browsing collection detail pages with visual card tiles
 
 ## Tech Stack
 
@@ -24,7 +15,7 @@ The current version is a working foundation that will be expanded into the real 
 - React
 - TypeScript
 - Prisma
-- PostgreSQL
+- SQLite
 - Tailwind CSS
 - pnpm
 
@@ -34,3 +25,64 @@ The current version is a working foundation that will be expanded into the real 
 
 ```bash
 pnpm install
+```
+
+### 2. Apply migrations
+
+```bash
+pnpm db:migrate
+```
+
+### 3. Generate the Prisma client
+
+```bash
+pnpm db:generate
+```
+
+### 4. Seed demo data
+
+```bash
+pnpm db:seed
+```
+
+### 5. Start the app
+
+```bash
+pnpm dev
+```
+
+Open [http://localhost:3000](http://localhost:3000).
+
+## Local Testing
+
+Run the basic checks:
+
+```bash
+pnpm lint
+pnpm exec tsc --noEmit
+pnpm build
+```
+
+## Current Data Model
+
+- `User`
+- `Collection`
+  - `name`
+  - `description`
+  - `createdAt`
+- `Card`
+  - `playerName`
+  - `year`
+  - `setName`
+  - `cardTitle`
+  - `team`
+  - `notes`
+  - `isFavorite`
+  - `createdAt`
+
+## Product Surface
+
+- Dashboard homepage
+- Create Collection form
+- Add Card form
+- Collection detail pages

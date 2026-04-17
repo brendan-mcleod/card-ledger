@@ -3,11 +3,40 @@ generator client {
 }
 
 datasource db {
-  provider = "postgresql"
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
 }
 
-model Message {
-  id        Int      @id @default(autoincrement())
-  content   String
-  createdAt DateTime @default(now())
+model User {
+  id          String       @id @default(cuid())
+  email       String       @unique
+  name        String?
+  collections Collection[]
+}
+
+model Collection {
+  id          String   @id @default(cuid())
+  name        String
+  description String?
+  createdAt   DateTime @default(now())
+  userId      String
+  user        User     @relation(fields: [userId], references: [id])
+  cards       Card[]
+}
+
+model Card {
+  id           String     @id @default(cuid())
+  playerName   String
+  year         Int
+  setName      String
+  cardTitle    String
+  team         String
+  notes        String?
+  isFavorite   Boolean    @default(false)
+  createdAt    DateTime   @default(now())
+  collectionId String
+  collection   Collection @relation(fields: [collectionId], references: [id])
+
+  @@index([collectionId])
+  @@index([createdAt])
 }
