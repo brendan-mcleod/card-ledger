@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 560" fill="none">
+  <rect width="420" height="560" rx="26" fill="#1C355E"/>
+  <rect x="18" y="18" width="384" height="524" rx="18" fill="#F6F3EE"/>
+  <rect x="36" y="36" width="348" height="198" rx="14" fill="#1F4A7D"/>
+  <circle cx="210" cy="126" r="58" fill="#D6A67C"/>
+  <path d="M132 216c24-38 50-57 78-57s54 19 78 57H132Z" fill="#F2F4F8"/>
+  <rect x="52" y="252" width="316" height="118" rx="16" fill="#EDE4D8"/>
+  <path d="M116 322h188" stroke="#CB2C30" stroke-width="10" stroke-linecap="round"/>
+  <path d="M148 290h124" stroke="#1C355E" stroke-width="8" stroke-linecap="round"/>
+  <text x="42" y="418" fill="#1C355E" font-family="Georgia,serif" font-size="20" font-weight="700">1984 TOPPS</text>
+  <text x="42" y="466" fill="#1C355E" font-family="Georgia,serif" font-size="36" font-weight="700">Ryne Sandberg</text>
+  <text x="42" y="502" fill="#CB2C30" font-family="Arial,sans-serif" font-size="18" font-weight="700" letter-spacing="2">CHICAGO CUBS</text>
+</svg>

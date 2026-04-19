@@ -1,0 +1,14 @@
+<svg width="400" height="560" viewBox="0 0 400 560" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="560" rx="28" fill="#F4ECDD"/>
+  <rect x="18" y="18" width="364" height="524" rx="22" fill="#C98F4B"/>
+  <rect x="30" y="30" width="340" height="500" rx="18" fill="#F7F1E6"/>
+  <rect x="48" y="52" width="304" height="292" rx="14" fill="#5A6A49"/>
+  <circle cx="200" cy="178" r="96" fill="#E4D8C8"/>
+  <rect x="140" y="132" width="120" height="130" rx="60" fill="#F0E3D1"/>
+  <rect x="150" y="246" width="100" height="58" rx="18" fill="#E6B55D"/>
+  <path d="M111 324C153 289 251 289 289 324V348H111V324Z" fill="#E0952E"/>
+  <path d="M150 216H250V276H150V216Z" fill="#F7F1E6"/>
+  <text x="48" y="396" fill="#4A593C" font-family="Georgia, serif" font-size="24" letter-spacing="3">1954 Topps</text>
+  <text x="48" y="444" fill="#1D241D" font-family="Georgia, serif" font-size="48">Willie Mays</text>
+  <text x="48" y="482" fill="#63715F" font-family="Arial, sans-serif" font-size="18" letter-spacing="4">GIANTS • #28</text>
+</svg>

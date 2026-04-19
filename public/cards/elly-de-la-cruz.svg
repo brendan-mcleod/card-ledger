@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 560" fill="none">
+  <rect width="420" height="560" rx="26" fill="#1D1F24"/>
+  <rect x="18" y="18" width="384" height="524" rx="18" fill="#ECEFF4"/>
+  <rect x="34" y="34" width="352" height="208" rx="14" fill="#2D3142"/>
+  <circle cx="210" cy="126" r="58" fill="#D5A378"/>
+  <path d="M132 220c24-38 50-57 78-57s54 19 78 57H132Z" fill="#CF3C3C"/>
+  <rect x="52" y="260" width="316" height="118" rx="16" fill="#E4E7EC"/>
+  <path d="M100 336h220" stroke="#CF3C3C" stroke-width="10" stroke-linecap="round"/>
+  <path d="M136 298h148" stroke="#2D3142" stroke-width="8" stroke-linecap="round"/>
+  <text x="42" y="418" fill="#2D3142" font-family="Georgia,serif" font-size="20" font-weight="700">2024 BOWMAN CHROME</text>
+  <text x="42" y="468" fill="#2D3142" font-family="Georgia,serif" font-size="32" font-weight="700">Elly De La Cruz</text>
+  <text x="42" y="504" fill="#CF3C3C" font-family="Arial,sans-serif" font-size="18" font-weight="700" letter-spacing="2">CINCINNATI REDS</text>
+</svg>

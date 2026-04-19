@@ -1,10 +1,15 @@
-import type { Metadata } from "next"
+import type { Metadata } from 'next'
+import Link from 'next/link'
 
-import "./globals.css"
+import { CollectorProvider } from '@/app/components/collector-provider'
+import { HeaderSearch } from '@/app/components/header-search'
+import { PrimaryNav } from '@/app/components/primary-nav'
+
+import './globals.css'
 
 export const metadata: Metadata = {
-  title: "Card Ledger",
-  description: "A baseball card collection home for logging cards, curating collections, and tracking the shelf.",
+  title: 'Slabbed',
+  description: 'A collectible baseball card archive, set directory, and collector log.',
 }
 
 export default function RootLayout({
@@ -14,7 +19,30 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <CollectorProvider>
+          <div className="site-chrome">
+            <header className="site-header">
+              <div className="site-header-inner">
+                <Link className="brand-lockup" href="/">
+                  <span aria-hidden="true" className="brand-mark">
+                    <span className="brand-mark-seam brand-mark-seam-left" />
+                    <span className="brand-mark-seam brand-mark-seam-right" />
+                  </span>
+                  <span className="brand-name">Slabbed</span>
+                </Link>
+
+                <div className="header-actions">
+                  <PrimaryNav />
+                  <HeaderSearch />
+                </div>
+              </div>
+            </header>
+
+            {children}
+          </div>
+        </CollectorProvider>
+      </body>
     </html>
   )
 }
