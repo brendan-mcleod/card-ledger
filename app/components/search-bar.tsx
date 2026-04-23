@@ -12,9 +12,11 @@ type SearchBarProps = {
   placeholder?: string
   onValueChange?: (value: string) => void
   large?: boolean
+  variant?: 'default' | 'command'
   suggestionPrefix?: string
   suggestions?: CardSuggestion[]
   rotatingPlaceholders?: string[]
+  placeholderMode?: 'swap' | 'type'
 }
 
 export function SearchBar({
@@ -22,15 +24,19 @@ export function SearchBar({
   placeholder = 'Search the card library',
   onValueChange,
   large = false,
+  variant = 'default',
   suggestionPrefix,
   suggestions,
   rotatingPlaceholders,
+  placeholderMode = 'swap',
 }: SearchBarProps) {
   const router = useRouter()
   const [value, setValue] = useState(initialValue)
   const [open, setOpen] = useState(false)
   const [placeholderIndex, setPlaceholderIndex] = useState(0)
   const [placeholderFading, setPlaceholderFading] = useState(false)
+  const [typedPlaceholder, setTypedPlaceholder] = useState('')
+  const [placeholderDeleting, setPlaceholderDeleting] = useState(false)
 
   const trimmedValue = useMemo(() => value.trim(), [value])
   const visibleSuggestions = useMemo<CardSuggestion[]>(
@@ -49,11 +55,18 @@ export function SearchBar({
   )
   const activePlaceholder =
     trimmedValue.length === 0 && rotatingPlaceholders && rotatingPlaceholders.length > 0
-      ? rotatingPlaceholders[placeholderIndex % rotatingPlaceholders.length]
+      ? placeholderMode === 'type'
+        ? typedPlaceholder
+        : rotatingPlaceholders[placeholderIndex % rotatingPlaceholders.length]
       : placeholder
 
   useEffect(() => {
-    if (!rotatingPlaceholders || rotatingPlaceholders.length === 0 || trimmedValue.length > 0) {
+    if (
+      placeholderMode !== 'swap' ||
+      !rotatingPlaceholders ||
+      rotatingPlaceholders.length === 0 ||
+      trimmedValue.length > 0
+    ) {
       return
     }
 
@@ -70,7 +83,50 @@ export function SearchBar({
       window.clearTimeout(timeoutId)
       window.clearTimeout(swapId)
     }
-  }, [placeholderIndex, rotatingPlaceholders, trimmedValue.length])
+  }, [placeholderIndex, placeholderMode, rotatingPlaceholders, trimmedValue.length])
+
+  useEffect(() => {
+    if (
+      placeholderMode !== 'type' ||
+      !rotatingPlaceholders ||
+      rotatingPlaceholders.length === 0 ||
+      trimmedValue.length > 0
+    ) {
+      return
+    }
+
+    const target = rotatingPlaceholders[placeholderIndex % rotatingPlaceholders.length] ?? ''
+
+    if (!placeholderDeleting && typedPlaceholder === target) {
+      const holdId = window.setTimeout(() => {
+        setPlaceholderDeleting(true)
+      }, 1800)
+
+      return () => window.clearTimeout(holdId)
+    }
+
+    if (placeholderDeleting) {
+      const deleteId = window.setTimeout(() => {
+        if (typedPlaceholder.length === 0) {
+          setPlaceholderDeleting(false)
+          setPlaceholderIndex((current) => (current + 1) % rotatingPlaceholders.length)
+          return
+        }
+
+        setTypedPlaceholder((current) => current.slice(0, -1))
+      }, 42)
+
+      return () => window.clearTimeout(deleteId)
+    }
+
+    if (typedPlaceholder.length < target.length) {
+      const typeId = window.setTimeout(() => {
+        setTypedPlaceholder(target.slice(0, typedPlaceholder.length + 1))
+      }, typedPlaceholder.length === 0 ? 220 : 78)
+
+      return () => window.clearTimeout(typeId)
+    }
+  }, [placeholderDeleting, placeholderIndex, placeholderMode, rotatingPlaceholders, trimmedValue.length, typedPlaceholder])
 
   return (
     <div className="search-shell">
@@ -83,13 +139,16 @@ export function SearchBar({
         }}
       >
         <input
-          className={`search-input ${large ? 'search-input-large' : ''}`}
+          className={`search-input ${large ? 'search-input-large' : ''} ${variant === 'command' ? 'search-input-command' : ''}`}
           onBlur={() => window.setTimeout(() => setOpen(false), 120)}
           onChange={(event) => {
             const nextValue = event.target.value
             setValue(nextValue)
             if (nextValue.trim().length > 0) {
               setPlaceholderFading(false)
+            } else if (placeholderMode === 'type') {
+              setTypedPlaceholder('')
+              setPlaceholderDeleting(false)
             }
             setOpen(true)
             onValueChange?.(nextValue)

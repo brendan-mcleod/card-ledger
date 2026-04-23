@@ -33,10 +33,13 @@ export type MockUser = {
   bio: string
   favoriteTeam: string
   location?: string
+  imageUrl?: string
+  following?: number
+  followers?: number
   favoriteCardIds: string[]
 }
 
-export type FeedEventType = 'added' | 'favorited'
+export type FeedEventType = 'added' | 'favorited' | 'wishlisted'
 
 export type FeedEvent = {
   id: string
@@ -91,6 +94,8 @@ export type SetSummary = {
 export type CollectorState = {
   collection: Record<string, CollectionEntry>
   favorites: string[]
+  wishlist: string[]
+  trackedSets: string[]
   activity: FeedEvent[]
 }
 

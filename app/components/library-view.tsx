@@ -3,11 +3,13 @@
 import { useEffect, useMemo, useState, useTransition } from 'react'
 
 import { AllCardsTile } from '@/app/components/all-cards-tile'
+import { InventoryTable, type InventoryTableSortState } from '@/app/components/inventory-table'
 import { SearchBar } from '@/app/components/search-bar'
 import { useCollector } from '@/app/components/collector-provider'
 import { persistClientCatalogCards } from '@/lib/catalog/client-cache'
 import { MLB_TEAM_OPTIONS, normalizeCardForCatalog } from '@/lib/catalog/canonical'
 import { getPopularCards } from '@/lib/data'
+import { getCardCallouts, getDisplaySetLabel } from '@/lib/format'
 import type { Card, CardSuggestion, LibraryFilterOptions, LibraryFilterOption } from '@/lib/types'
 
 type LibraryViewProps = {
@@ -208,10 +210,10 @@ function buildDiscoverSections(cards: Card[], fallbackCards: Card[], collection:
   const recentlyAddedCards = pickUniqueCards(sortedByRecent, 10)
 
   return [
-    { key: 'iconic', title: 'Iconic Cards', subtitle: 'Collector touchstones worth clicking first.', cards: iconicCards, featured: true },
-    { key: 'week', title: 'This Week', subtitle: 'Cards collectors keep circling back to right now.', cards: thisWeekCards },
-    { key: 'popular', title: 'Popular Players', subtitle: 'Hall of Famers, anchors, and names that pull people in fast.', cards: popularPlayerCards },
-    { key: 'recent', title: 'Recently Added', subtitle: 'Fresh arrivals to explore while the archive is still growing.', cards: recentlyAddedCards },
+    { key: 'iconic', title: 'Iconic Cards', subtitle: 'Collector touchstones worth opening first.', cards: iconicCards, featured: true },
+    { key: 'week', title: 'Popular Among Collectors', subtitle: 'Cards collectors keep circling back to right now.', cards: thisWeekCards },
+    { key: 'popular', title: 'Players to Know', subtitle: 'Hall of Famers, anchors, and names that pull people in fast.', cards: popularPlayerCards },
+    { key: 'recent', title: 'Fresh to the Archive', subtitle: 'Recent additions to browse while the archive keeps expanding.', cards: recentlyAddedCards },
   ].filter((section) => section.cards.length > 0)
 }
 
@@ -219,10 +221,14 @@ function DiscoverRow({
   section,
   collector,
   onAdd,
+  onFavorite,
+  onWishlist,
 }: {
   section: DiscoverSection
   collector: ReturnType<typeof useCollector>
   onAdd: (card: Card) => void
+  onFavorite: (card: Card) => void
+  onWishlist: (card: Card) => void
 }) {
   return (
     <section className="discover-row">
@@ -241,7 +247,11 @@ function DiscoverRow({
               featured={section.featured}
               href={`/cards/${card.slug}`}
               onAdd={() => onAdd(card)}
+              onFavorite={() => onFavorite(card)}
+              onWishlist={() => onWishlist(card)}
+              favorited={collector.favorites.includes(card.id)}
               owned={Boolean(collector.collection[card.id])}
+              wishlisted={collector.wishlist.includes(card.id)}
             />
           </div>
         ))}
@@ -250,9 +260,20 @@ function DiscoverRow({
   )
 }
 
+function LibraryPageIcon() {
+  return (
+    <svg aria-hidden="true" className="library-page-icon library-page-icon-cards" viewBox="0 0 16 16">
+      <rect x="3.2" y="2.6" width="9.2" height="10.8" rx="1.5" fill="none" stroke="currentColor" strokeWidth="1.2" />
+      <path d="M5.3 5.4h5" fill="none" stroke="currentColor" strokeLinecap="round" strokeWidth="1.2" />
+      <path d="M5.3 8h5" fill="none" stroke="currentColor" strokeLinecap="round" strokeWidth="1.2" />
+    </svg>
+  )
+}
+
 export function LibraryView({ initialQuery = '' }: LibraryViewProps) {
   const collector = useCollector()
   const popularCards = useMemo(() => getPopularCards(), [])
+  const [viewMode, setViewMode] = useState<'grid' | 'large' | 'table'>('grid')
   const [query, setQuery] = useState(initialQuery)
   const [team, setTeam] = useState('All teams')
   const [set, setSet] = useState('All sets')
@@ -267,6 +288,9 @@ export function LibraryView({ initialQuery = '' }: LibraryViewProps) {
   const [isLocalLoading, setIsLocalLoading] = useState(false)
   const [isArchiveLoading, setIsArchiveLoading] = useState(false)
   const [isRemoteLoading, setIsRemoteLoading] = useState(false)
+  const [tableSort, setTableSort] = useState<InventoryTableSortState>(null)
+  const [tablePage, setTablePage] = useState(1)
+  const [rowsPerPage, setRowsPerPage] = useState(25)
 
   const hasQuery = query.trim().length > 0
   const hasFilters = team !== 'All teams' || set !== 'All sets' || year !== 'All years' || player !== 'All players'
@@ -418,6 +442,7 @@ export function LibraryView({ initialQuery = '' }: LibraryViewProps) {
     setSort('recent')
     setQuery('')
     setRemoteCards(null)
+    setTablePage(1)
   }
 
   function handleAddCard(card: Card) {
@@ -425,13 +450,79 @@ export function LibraryView({ initialQuery = '' }: LibraryViewProps) {
     setToast('Added to collection')
   }
 
+  function handleWishlist(card: Card) {
+    const alreadyWishlisted = collector.wishlist.includes(card.id)
+    collector.toggleWishlist(card.id)
+    setToast(alreadyWishlisted ? 'Removed from wishlist' : 'Added to wishlist')
+  }
+
+  function handleFavorite(card: Card) {
+    const alreadyFavorited = collector.favorites.includes(card.id)
+    collector.toggleFavorite(card.id)
+    setToast(alreadyFavorited ? 'Removed from favorites' : 'Added to favorites')
+  }
+
   const emptyCollection = Object.keys(collector.collection).length === 0
+  const tableSortedCards = useMemo(() => {
+    const next = [...filteredCards]
+    if (!tableSort) {
+      return next
+    }
+
+    next.sort((left, right) => {
+      const leftTags = getCardCallouts(left)
+        .map((tag) => tag.label)
+        .join(' ')
+      const rightTags = getCardCallouts(right)
+        .map((tag) => tag.label)
+        .join(' ')
+      const multiplier = tableSort.direction === 'asc' ? 1 : -1
+      const compareText = (leftValue: string, rightValue: string) => multiplier * leftValue.localeCompare(rightValue, undefined, { numeric: true })
+      const compareNumber = (leftValue: number, rightValue: number) => multiplier * (leftValue - rightValue)
+
+      switch (tableSort.key) {
+        case 'player':
+          return compareText(left.player, right.player)
+        case 'year':
+          return compareNumber(left.year, right.year)
+        case 'brand':
+          return compareText(left.brand, right.brand)
+        case 'set':
+          return compareText(getDisplaySetLabel(left), getDisplaySetLabel(right))
+        case 'cardNumber':
+          return compareText(left.cardNumber, right.cardNumber)
+        case 'team':
+          return compareText(left.team, right.team)
+        case 'tags':
+          return compareText(leftTags, rightTags)
+        case 'value':
+          return compareNumber(left.marketValue, right.marketValue)
+        default:
+          return 0
+      }
+    })
+
+    return next
+  }, [filteredCards, tableSort])
+
+  const totalTablePages = Math.max(1, Math.ceil(tableSortedCards.length / rowsPerPage))
+  const currentTablePage = Math.min(tablePage, totalTablePages)
+
+  const paginatedTableCards = useMemo(() => {
+    const start = (currentTablePage - 1) * rowsPerPage
+    return tableSortedCards.slice(start, start + rowsPerPage)
+  }, [currentTablePage, rowsPerPage, tableSortedCards])
 
   return (
     <main className="page-shell library-page all-cards-page">
       <section className="all-cards-header">
         <div className="all-cards-heading">
-          <h1 className="all-cards-title">All Cards</h1>
+          <p className="all-cards-kicker">Archive</p>
+          <h1 className="all-cards-title">
+            <LibraryPageIcon />
+            <span>All Cards</span>
+          </h1>
+          <p className="all-cards-intro">Search players, sets, and years, then drop into a cleaner inventory view when you want to compare details fast.</p>
         </div>
 
         <div className="all-cards-search-panel">
@@ -442,14 +533,15 @@ export function LibraryView({ initialQuery = '' }: LibraryViewProps) {
               startTransition(() => {
                 setQuery(value)
                 setRemoteCards(null)
+                setTablePage(1)
               })
             }
             placeholder="Search players, sets, years..."
-            rotatingPlaceholders={['Ted Williams', '1954 Topps', 'Orioles', 'Mickey Mantle', 'Jackie Robinson', '1952 Bowman', 'Yankees', 'T206']}
+            rotatingPlaceholders={['1954 Bowman Mickey Mantle', 'T206 Ty Cobb', '1989 Upper Deck Griffey Jr.', 'Cubs vintage', 'Jackie Robinson Bowman', 'Orioles rookie cards', 'Paul Skenes flagship']}
             suggestions={searchSuggestions}
             suggestionPrefix="Jump to"
           />
-          <p className="all-cards-helper">Search for a player, set, or year to start your collection</p>
+          <p className="all-cards-helper">Search the archive by player, set, team, or year.</p>
         </div>
 
         <section className="all-cards-filterbar">
@@ -460,6 +552,7 @@ export function LibraryView({ initialQuery = '' }: LibraryViewProps) {
                 onChange={(event) => {
                   setSet(event.target.value)
                   setRemoteCards(null)
+                  setTablePage(1)
                 }}
                 value={set}
               >
@@ -477,6 +570,7 @@ export function LibraryView({ initialQuery = '' }: LibraryViewProps) {
                 onChange={(event) => {
                   setYear(event.target.value)
                   setRemoteCards(null)
+                  setTablePage(1)
                 }}
                 value={year}
               >
@@ -494,6 +588,7 @@ export function LibraryView({ initialQuery = '' }: LibraryViewProps) {
                 onChange={(event) => {
                   setPlayer(event.target.value)
                   setRemoteCards(null)
+                  setTablePage(1)
                 }}
                 value={player}
               >
@@ -511,6 +606,7 @@ export function LibraryView({ initialQuery = '' }: LibraryViewProps) {
                 onChange={(event) => {
                   setTeam(event.target.value)
                   setRemoteCards(null)
+                  setTablePage(1)
                 }}
                 value={team}
               >
@@ -528,6 +624,7 @@ export function LibraryView({ initialQuery = '' }: LibraryViewProps) {
                 onChange={(event) => {
                   setSort(event.target.value)
                   setRemoteCards(null)
+                  setTablePage(1)
                 }}
                 value={sort}
               >
@@ -540,13 +637,20 @@ export function LibraryView({ initialQuery = '' }: LibraryViewProps) {
         </section>
       </section>
 
+      <div className="app-transition-bridge" aria-hidden="true">
+        <span className="app-transition-chip">
+          <span>Search results</span>
+        </span>
+        <span className="app-transition-rule" />
+      </div>
+
       {toast ? <div className="all-cards-toast">{toast}</div> : null}
 
       {mode === 'discover' ? (
         <>
           {emptyCollection ? (
             <section className="all-cards-callout">
-              <p>Add your first card to begin.</p>
+              <p>Add your first card to start shaping your collection and unlock a more personal archive view.</p>
             </section>
           ) : null}
 
@@ -557,6 +661,8 @@ export function LibraryView({ initialQuery = '' }: LibraryViewProps) {
                   collector={collector}
                   key={section.key}
                   onAdd={handleAddCard}
+                  onFavorite={handleFavorite}
+                  onWishlist={handleWishlist}
                   section={section}
                 />
               ))}
@@ -574,11 +680,43 @@ export function LibraryView({ initialQuery = '' }: LibraryViewProps) {
                 {mode === 'search' ? `Showing results for “${query.trim()}”` : 'Explore the archive'}
               </h2>
               <p className="all-cards-mode-copy">
-                {filteredCards.length} cards{activeFilters.length > 0 ? ` · ${activeFilters.length} filters active` : ''}
+                {filteredCards.length} cards{activeFilters.length > 0 ? ` · ${activeFilters.length} filters active` : ''}{viewMode === 'table' ? ' · table view' : ''}
               </p>
             </div>
 
             <div className="all-cards-mode-actions">
+              <div className="collection-toggle-group">
+                <button
+                  className={`collection-toggle ${viewMode === 'grid' ? 'collection-toggle-active' : ''}`}
+                  onClick={() => {
+                    setViewMode('grid')
+                    setTablePage(1)
+                  }}
+                  type="button"
+                >
+                  Grid
+                </button>
+                <button
+                  className={`collection-toggle ${viewMode === 'large' ? 'collection-toggle-active' : ''}`}
+                  onClick={() => {
+                    setViewMode('large')
+                    setTablePage(1)
+                  }}
+                  type="button"
+                >
+                  Large
+                </button>
+                <button
+                  className={`collection-toggle ${viewMode === 'table' ? 'collection-toggle-active' : ''}`}
+                  onClick={() => {
+                    setViewMode('table')
+                    setTablePage(1)
+                  }}
+                  type="button"
+                >
+                  Table
+                </button>
+              </div>
               <button className="library-text-action" onClick={resetAll} type="button">
                 Reset
               </button>
@@ -592,15 +730,44 @@ export function LibraryView({ initialQuery = '' }: LibraryViewProps) {
             <section className="all-cards-empty">Searching the archive…</section>
           ) : filteredCards.length === 0 ? (
             <section className="all-cards-empty">No cards found – try a different search.</section>
+          ) : viewMode === 'table' ? (
+            <div className="all-cards-table-shell">
+              <InventoryTable
+                currentPage={currentTablePage}
+                mode="wishlist"
+                onPageChange={setTablePage}
+                onRowsPerPageChange={(next) => {
+                  setRowsPerPage(next)
+                  setTablePage(1)
+                }}
+                onSortChange={(next) => {
+                  setTableSort(next)
+                  setTablePage(1)
+                }}
+                rows={paginatedTableCards.map((card) => ({
+                  id: card.id,
+                  href: `/cards/${card.slug}`,
+                  card,
+                }))}
+                rowsPerPage={rowsPerPage}
+                sortState={tableSort}
+                totalPages={totalTablePages}
+                totalRows={tableSortedCards.length}
+              />
+            </div>
           ) : (
-            <section className="all-cards-grid">
+            <section className={`all-cards-grid ${viewMode === 'large' ? 'all-cards-grid-large' : ''}`}>
               {filteredCards.map((card) => (
                 <AllCardsTile
                   card={card}
                   href={`/cards/${card.slug}`}
                   key={card.id}
                   onAdd={() => handleAddCard(card)}
+                  onFavorite={() => handleFavorite(card)}
+                  onWishlist={() => handleWishlist(card)}
+                  favorited={collector.favorites.includes(card.id)}
                   owned={Boolean(collector.collection[card.id])}
+                  wishlisted={collector.wishlist.includes(card.id)}
                 />
               ))}
             </section>

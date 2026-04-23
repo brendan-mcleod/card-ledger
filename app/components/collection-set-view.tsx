@@ -14,6 +14,33 @@ type CollectionSetViewProps = {
   setSlug: string
 }
 
+function SetViewSectionIcon({ kind }: { kind: 'overview' | 'checklist' | 'highlights' }) {
+  switch (kind) {
+    case 'overview':
+      return (
+        <svg aria-hidden="true" className="set-view-section-icon set-view-section-icon-overview" viewBox="0 0 16 16">
+          <path d="M3.2 4.2h9.6v7.6H3.2z" fill="none" stroke="currentColor" strokeWidth="1.2" />
+          <path d="M5.1 6.3h5.8" fill="none" stroke="currentColor" strokeLinecap="round" strokeWidth="1.2" />
+          <path d="M5.1 8.8h4" fill="none" stroke="currentColor" strokeLinecap="round" strokeWidth="1.2" />
+        </svg>
+      )
+    case 'checklist':
+      return (
+        <svg aria-hidden="true" className="set-view-section-icon set-view-section-icon-checklist" viewBox="0 0 16 16">
+          <rect x="3.2" y="2.6" width="9.2" height="10.8" rx="1.5" fill="none" stroke="currentColor" strokeWidth="1.2" />
+          <path d="M5.1 5.4h4.9" fill="none" stroke="currentColor" strokeLinecap="round" strokeWidth="1.2" />
+          <path d="M5.1 8h4.9" fill="none" stroke="currentColor" strokeLinecap="round" strokeWidth="1.2" />
+        </svg>
+      )
+    case 'highlights':
+      return (
+        <svg aria-hidden="true" className="set-view-section-icon set-view-section-icon-highlights" viewBox="0 0 16 16">
+          <path d="M8 2.4 9.6 5.6l3.5.5-2.5 2.4.6 3.4L8 10.3 4.8 12l.6-3.4L2.9 6.1l3.5-.5Z" fill="currentColor" />
+        </svg>
+      )
+  }
+}
+
 function sortSetCards(cards: Card[]) {
   return [...cards].sort((left, right) => Number(left.cardNumber) - Number(right.cardNumber) || left.player.localeCompare(right.player))
 }
@@ -97,7 +124,10 @@ export function CollectionSetView({ setSlug }: CollectionSetViewProps) {
         <div className="section-heading">
           <div>
             <p className="eyebrow">Set</p>
-            <h1 className="display-title intro-title">{summary.setLabel}</h1>
+            <h1 className="display-title intro-title set-view-title">
+              <SetViewSectionIcon kind="overview" />
+              <span>{summary.setLabel}</span>
+            </h1>
             <p className="hero-body">
               Work the full checklist, spot the big names, and mark down every card you already have in the run.
             </p>
@@ -122,7 +152,10 @@ export function CollectionSetView({ setSlug }: CollectionSetViewProps) {
         <div className="section-heading">
           <div>
             <p className="eyebrow">Checklist</p>
-            <h2 className="section-title section-title-spaced">Every card in the run</h2>
+            <h2 className="section-title section-title-spaced set-view-heading">
+              <SetViewSectionIcon kind="checklist" />
+              <span>Every card in the run</span>
+            </h2>
           </div>
           <p className="body-copy-sm">
             {summary.ownedCards} owned · {summary.totalCards - summary.ownedCards} still on the hunt
@@ -161,7 +194,10 @@ export function CollectionSetView({ setSlug }: CollectionSetViewProps) {
           <div className="section-heading">
             <div>
               <p className="eyebrow">Highlights</p>
-              <h2 className="section-title section-title-spaced">Hall of Famers and rookies in the set</h2>
+              <h2 className="section-title section-title-spaced set-view-heading">
+                <SetViewSectionIcon kind="highlights" />
+                <span>Hall of Famers and rookies in the set</span>
+              </h2>
             </div>
           </div>
           <div className="rail-grid rail-grid-dense">

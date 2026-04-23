@@ -112,11 +112,11 @@ function hasImageAsset(imageUrl?: string | null) {
     return false
   }
 
-  return /\.(png|jpe?g|webp|avif)$/i.test(imageUrl)
+  return /\.(png|jpe?g|webp|avif|svg)$/i.test(imageUrl)
 }
 
 const playerSeeds: PlayerSeed[] = [
-  { id: 'babe-ruth', name: 'Babe Ruth', team: 'Yankees', era: 'vintage', imageUrl: '/cards/babe-ruth.svg' },
+  { id: 'babe-ruth', name: 'Babe Ruth', team: 'Yankees', era: 'vintage', imageUrl: '/cards/babe-ruth-1933-goudey.jpg' },
   {
     id: 'jackie-robinson',
     name: 'Jackie Robinson',
@@ -194,14 +194,14 @@ const playerSeeds: PlayerSeed[] = [
   { id: 'shota-imanaga', name: 'Shota Imanaga', team: 'Cubs', era: 'modern', imageUrl: '/cards/shota-imanaga.svg' },
 
   { id: 'honus-wagner', name: 'Honus Wagner', team: 'Pirates', era: 'prewar', imageUrl: '/cards/honus-wagner-t206.jpg' },
-  { id: 'ty-cobb', name: 'Ty Cobb', team: 'Tigers', era: 'prewar' },
-  { id: 'walter-johnson', name: 'Walter Johnson', team: 'Senators', era: 'prewar' },
-  { id: 'christy-mathewson', name: 'Christy Mathewson', team: 'Giants', era: 'prewar' },
-  { id: 'lou-gehrig', name: 'Lou Gehrig', team: 'Yankees', era: 'prewar' },
-  { id: 'jimmie-foxx', name: 'Jimmie Foxx', team: 'Athletics', era: 'prewar' },
+  { id: 'ty-cobb', name: 'Ty Cobb', team: 'Tigers', era: 'prewar', imageUrl: '/cards/ty-cobb-t206.jpg' },
+  { id: 'walter-johnson', name: 'Walter Johnson', team: 'Senators', era: 'prewar', imageUrl: '/cards/walter-johnson-t206.jpg' },
+  { id: 'christy-mathewson', name: 'Christy Mathewson', team: 'Giants', era: 'prewar', imageUrl: '/cards/christy-mathewson-t206.jpg' },
+  { id: 'lou-gehrig', name: 'Lou Gehrig', team: 'Yankees', era: 'prewar', imageUrl: '/cards/lou-gehrig-1933-goudey.jpg' },
+  { id: 'jimmie-foxx', name: 'Jimmie Foxx', team: 'Athletics', era: 'prewar', imageUrl: '/cards/jimmie-foxx-1933-goudey.jpg' },
   { id: 'mel-ott', name: 'Mel Ott', team: 'Giants', era: 'prewar' },
-  { id: 'dizzy-dean', name: 'Dizzy Dean', team: 'Cardinals', era: 'prewar' },
-  { id: 'lefty-grove', name: 'Lefty Grove', team: 'Athletics', era: 'prewar' },
+  { id: 'dizzy-dean', name: 'Dizzy Dean', team: 'Cardinals', era: 'prewar', imageUrl: '/cards/dizzy-dean-1933-goudey.jpg' },
+  { id: 'lefty-grove', name: 'Lefty Grove', team: 'Athletics', era: 'prewar', imageUrl: '/cards/lefty-grove-1933-goudey.jpg' },
 
   { id: 'stan-musial', name: 'Stan Musial', team: 'Cardinals', era: 'vintage' },
   { id: 'yogi-berra', name: 'Yogi Berra', team: 'Yankees', era: 'vintage' },
@@ -241,8 +241,29 @@ const playerSeeds: PlayerSeed[] = [
   { id: 'wyatt-langford', name: 'Wyatt Langford', team: 'Rangers', era: 'modern' },
 ]
 
+const playerIdsByEra = {
+  prewar: playerSeeds.filter((player) => player.era === 'prewar').map((player) => player.id),
+  vintage: playerSeeds.filter((player) => player.era === 'vintage').map((player) => player.id),
+  golden: playerSeeds.filter((player) => player.era === 'golden').map((player) => player.id),
+  wax: playerSeeds.filter((player) => player.era === 'wax').map((player) => player.id),
+  modern: playerSeeds.filter((player) => player.era === 'modern').map((player) => player.id),
+} satisfies Record<PlayerSeed['era'], string[]>
+
+function buildSetPlayerIds(era: PlayerSeed['era'], featuredIds: string[] = [], limit?: number) {
+  const extras = playerIdsByEra[era].filter((playerId) => !featuredIds.includes(playerId))
+  return [...featuredIds, ...(typeof limit === 'number' ? extras.slice(0, limit) : extras)]
+}
+
 const setTemplates: SetTemplate[] = [
-  { year: 1909, brand: 'T206', set: 'White Border', era: 'prewar', numberStart: 1, numberStep: 1, playerIds: ['honus-wagner'] },
+  {
+    year: 1909,
+    brand: 'T206',
+    set: 'White Border',
+    era: 'prewar',
+    numberStart: 1,
+    numberStep: 1,
+    playerIds: buildSetPlayerIds('prewar', ['honus-wagner']),
+  },
   {
     year: 1933,
     brand: 'Goudey',
@@ -250,7 +271,7 @@ const setTemplates: SetTemplate[] = [
     era: 'prewar',
     numberStart: 53,
     numberStep: 1,
-    playerIds: ['babe-ruth'],
+    playerIds: buildSetPlayerIds('prewar', ['babe-ruth']),
   },
   {
     year: 1948,
@@ -259,15 +280,161 @@ const setTemplates: SetTemplate[] = [
     era: 'vintage',
     numberStart: 79,
     numberStep: 1,
-    playerIds: ['jackie-robinson'],
+    playerIds: buildSetPlayerIds('vintage', ['jackie-robinson']),
   },
-  { year: 1949, brand: 'Bowman', set: 'Bowman', era: 'vintage', numberStart: 50, numberStep: 1, playerIds: ['jackie-robinson'] },
-  { year: 1952, brand: 'Bowman', set: 'Bowman', era: 'vintage', numberStart: 218, numberStep: 1, playerIds: ['willie-mays'] },
-  { year: 1952, brand: 'Topps', set: 'Base Set', era: 'vintage', numberStart: 311, numberStep: 1, playerIds: ['mickey-mantle'] },
-  { year: 1954, brand: 'Bowman', set: 'Bowman', era: 'vintage', numberStart: 65, numberStep: 1, playerIds: ['mickey-mantle', 'ted-williams'] },
-  { year: 1954, brand: 'Topps', set: 'Base Set', era: 'vintage', numberStart: 1, numberStep: 1, playerIds: ['ted-williams', 'jackie-robinson'] },
-  { year: 1955, brand: 'Bowman', set: 'Bowman', era: 'vintage', numberStart: 22, numberStep: 1, playerIds: ['ernie-banks'] },
-  { year: 1956, brand: 'Topps', set: 'White Back', era: 'golden', numberStart: 5, numberStep: 1, playerIds: ['ted-williams', 'sandy-koufax'] },
+  {
+    year: 1949,
+    brand: 'Bowman',
+    set: 'Bowman',
+    era: 'vintage',
+    numberStart: 50,
+    numberStep: 1,
+    playerIds: buildSetPlayerIds('vintage', ['jackie-robinson']),
+  },
+  {
+    year: 1952,
+    brand: 'Bowman',
+    set: 'Bowman',
+    era: 'vintage',
+    numberStart: 218,
+    numberStep: 1,
+    playerIds: buildSetPlayerIds('vintage', ['willie-mays']),
+  },
+  {
+    year: 1952,
+    brand: 'Topps',
+    set: 'Base Set',
+    era: 'vintage',
+    numberStart: 311,
+    numberStep: 1,
+    playerIds: buildSetPlayerIds('vintage', ['mickey-mantle']),
+  },
+  {
+    year: 1954,
+    brand: 'Bowman',
+    set: 'Bowman',
+    era: 'vintage',
+    numberStart: 65,
+    numberStep: 1,
+    playerIds: buildSetPlayerIds('vintage', ['mickey-mantle', 'ted-williams']),
+  },
+  {
+    year: 1954,
+    brand: 'Topps',
+    set: 'Base Set',
+    era: 'vintage',
+    numberStart: 1,
+    numberStep: 1,
+    playerIds: buildSetPlayerIds('vintage', ['ted-williams', 'jackie-robinson']),
+  },
+  {
+    year: 1955,
+    brand: 'Bowman',
+    set: 'Bowman',
+    era: 'vintage',
+    numberStart: 22,
+    numberStep: 1,
+    playerIds: buildSetPlayerIds('vintage', ['ernie-banks']),
+  },
+  {
+    year: 1956,
+    brand: 'Topps',
+    set: 'White Back',
+    era: 'golden',
+    numberStart: 5,
+    numberStep: 1,
+    playerIds: buildSetPlayerIds('golden', ['ted-williams', 'sandy-koufax']),
+  },
+  {
+    year: 1968,
+    brand: 'Topps',
+    set: 'Base Set',
+    era: 'golden',
+    numberStart: 177,
+    numberStep: 1,
+    playerIds: buildSetPlayerIds('golden', ['johnny-bench', 'rod-carew']),
+  },
+  {
+    year: 1975,
+    brand: 'Topps',
+    set: 'Base Set',
+    era: 'golden',
+    numberStart: 228,
+    numberStep: 1,
+    playerIds: buildSetPlayerIds('golden', ['george-brett', 'nolan-ryan']),
+  },
+  {
+    year: 1987,
+    brand: 'Topps',
+    set: 'Base Set',
+    era: 'wax',
+    numberStart: 70,
+    numberStep: 1,
+    playerIds: buildSetPlayerIds('wax', ['barry-bonds', 'greg-maddux']),
+  },
+  {
+    year: 1989,
+    brand: 'Upper Deck',
+    set: 'Base Set',
+    era: 'wax',
+    numberStart: 1,
+    numberStep: 1,
+    playerIds: buildSetPlayerIds('wax', ['ken-griffey-jr']),
+  },
+  {
+    year: 1991,
+    brand: 'Stadium Club',
+    set: 'Base Set',
+    era: 'wax',
+    numberStart: 94,
+    numberStep: 1,
+    playerIds: buildSetPlayerIds('wax', ['frank-thomas', 'mike-piazza']),
+  },
+  {
+    year: 1993,
+    brand: 'Finest',
+    set: 'Base Set',
+    era: 'wax',
+    numberStart: 102,
+    numberStep: 1,
+    playerIds: buildSetPlayerIds('wax', ['ken-griffey-jr', 'derek-jeter']),
+  },
+  {
+    year: 2001,
+    brand: 'Bowman Chrome',
+    set: 'Base Set',
+    era: 'wax',
+    numberStart: 340,
+    numberStep: 1,
+    playerIds: buildSetPlayerIds('wax', ['ichiro-suzuki', 'albert-pujols']),
+  },
+  {
+    year: 2011,
+    brand: 'Topps Update',
+    set: 'Base Set',
+    era: 'modern',
+    numberStart: 175,
+    numberStep: 1,
+    playerIds: buildSetPlayerIds('modern', ['mike-trout']),
+  },
+  {
+    year: 2018,
+    brand: 'Topps Update',
+    set: 'Base Set',
+    era: 'modern',
+    numberStart: 250,
+    numberStep: 1,
+    playerIds: buildSetPlayerIds('modern', ['juan-soto', 'shohei-ohtani', 'ronald-acuna-jr']),
+  },
+  {
+    year: 2024,
+    brand: 'Topps',
+    set: 'Series 1',
+    era: 'modern',
+    numberStart: 1,
+    numberStep: 1,
+    playerIds: buildSetPlayerIds('modern', ['elly-de-la-cruz', 'paul-skenes', 'jackson-holliday']),
+  },
 ]
 
 export const SEEDED_SET_LABELS = setTemplates.map((template) => `${template.year} ${template.brand} ${template.set}`)
@@ -280,6 +447,9 @@ const baseUsers: MockUser[] = [
     bio: 'Chasing flagship runs, Cubs cardboard, and the kind of cards that still feel good in a binder page.',
     favoriteTeam: 'Cubs',
     location: 'Chicago, IL',
+    imageUrl: '/cards/jackie-robinson-1949-bowman.jpg',
+    following: 128,
+    followers: 214,
     favoriteCardIds: [
       makeCardId(1909, 'T206', 'White Border', 'Honus Wagner', '1'),
       makeCardId(1949, 'Bowman', 'Bowman', 'Jackie Robinson', '50'),
@@ -294,6 +464,9 @@ const baseUsers: MockUser[] = [
     bio: 'Vintage first, rookies second, always looking for clean corners and scorebook stories.',
     favoriteTeam: 'Dodgers',
     location: 'Los Angeles, CA',
+    imageUrl: '/cards/willie-mays-1952-bowman.jpg',
+    following: 82,
+    followers: 167,
     favoriteCardIds: [makeCardId(1948, 'Leaf', 'Leaf', 'Jackie Robinson', '79'), makeCardId(1949, 'Bowman', 'Bowman', 'Jackie Robinson', '50'), makeCardId(1952, 'Bowman', 'Bowman', 'Willie Mays', '218')],
   },
   {
@@ -303,6 +476,9 @@ const baseUsers: MockUser[] = [
     bio: 'Raised on late 80s wax, now building the kind of personal card wall I wanted as a kid.',
     favoriteTeam: 'Mariners',
     location: 'Seattle, WA',
+    imageUrl: '/cards/dizzy-dean-1933-goudey.jpg',
+    following: 61,
+    followers: 98,
     favoriteCardIds: [makeCardId(1933, 'Goudey', 'Goudey', 'Babe Ruth', '53'), makeCardId(1955, 'Bowman', 'Bowman', 'Ernie Banks', '22'), makeCardId(1954, 'Bowman', 'Bowman', 'Mickey Mantle', '65')],
   },
   {
@@ -312,17 +488,77 @@ const baseUsers: MockUser[] = [
     bio: 'Rookie cards, Orioles prospects, and glossy modern runs with just enough chaos.',
     favoriteTeam: 'Orioles',
     location: 'Baltimore, MD',
+    imageUrl: '/cards/ted-williams-1954-bowman.jpg',
+    following: 94,
+    followers: 143,
     favoriteCardIds: [makeCardId(1954, 'Bowman', 'Bowman', 'Ted Williams', '66'), makeCardId(1952, 'Bowman', 'Bowman', 'Willie Mays', '218')],
+  },
+  {
+    id: 'user_5',
+    username: 'nateslab',
+    displayName: 'Nate Slab',
+    bio: 'Mostly postwar stars, clean holders, and the occasional oddball that makes no sense until it does.',
+    favoriteTeam: 'Yankees',
+    location: 'New York, NY',
+    imageUrl: '/cards/mickey-mantle-1954-bowman.jpg',
+    following: 74,
+    followers: 126,
+    favoriteCardIds: [makeCardId(1954, 'Bowman', 'Bowman', 'Mickey Mantle', '65'), makeCardId(1933, 'Goudey', 'Goudey', 'Babe Ruth', '53')],
+  },
+  {
+    id: 'user_6',
+    username: 'ivyvintage',
+    displayName: 'Ivy Vintage',
+    bio: 'Prewar portraits, tobacco legends, and binder pages that feel like tiny museum walls.',
+    favoriteTeam: 'Giants',
+    location: 'San Francisco, CA',
+    imageUrl: '/cards/honus-wagner-t206.jpg',
+    following: 58,
+    followers: 89,
+    favoriteCardIds: [makeCardId(1909, 'T206', 'White Border', 'Honus Wagner', '1'), makeCardId(1909, 'T206', 'White Border', 'Ty Cobb', '2')],
+  },
+  {
+    id: 'user_7',
+    username: 'sunsetwax',
+    displayName: 'Sunset Wax',
+    bio: 'Junk wax with taste, Mariners rookies, and the sort of chase list that keeps getting longer.',
+    favoriteTeam: 'Padres',
+    location: 'San Diego, CA',
+    imageUrl: '/cards/ted-williams-1954-bowman.jpg',
+    following: 67,
+    followers: 101,
+    favoriteCardIds: [makeCardId(1989, 'Upper Deck', 'Base Set', 'Ken Griffey Jr.', '1'), makeCardId(2001, 'Bowman Chrome', 'Base Set', 'Albert Pujols', '341')],
   },
 ]
 
+const seededFollowingByUserId: Record<string, string[]> = {
+  [CURRENT_USER_ID]: ['user_2', 'user_3', 'user_4', 'user_5', 'user_6'],
+  user_2: [CURRENT_USER_ID, 'user_4', 'user_5'],
+  user_3: [CURRENT_USER_ID, 'user_6', 'user_7'],
+  user_4: [CURRENT_USER_ID, 'user_2', 'user_7'],
+  user_5: [CURRENT_USER_ID, 'user_2', 'user_6'],
+  user_6: [CURRENT_USER_ID, 'user_2'],
+  user_7: [CURRENT_USER_ID, 'user_3', 'user_4'],
+}
+
 const seededCollectionEntries: CollectionEntry[] = [
   { cardId: makeCardId(1909, 'T206', 'White Border', 'Honus Wagner', '1'), quantity: 1, addedAt: '2026-04-07T19:10:00.000Z', condition: 'Raw' },
+  { cardId: makeCardId(1933, 'Goudey', 'Goudey', 'Babe Ruth', '53'), quantity: 1, addedAt: '2026-04-06T18:45:00.000Z', condition: 'Raw' },
   { cardId: makeCardId(1948, 'Leaf', 'Leaf', 'Jackie Robinson', '79'), quantity: 1, addedAt: '2026-04-10T18:15:00.000Z', condition: 'Graded', grade: 'PSA 5' },
+  { cardId: makeCardId(1949, 'Bowman', 'Bowman', 'Jackie Robinson', '50'), quantity: 1, addedAt: '2026-04-09T14:40:00.000Z', condition: 'Raw' },
   { cardId: makeCardId(1955, 'Bowman', 'Bowman', 'Ernie Banks', '22'), quantity: 1, addedAt: '2026-04-08T13:30:00.000Z', condition: 'Raw' },
   { cardId: makeCardId(1952, 'Bowman', 'Bowman', 'Willie Mays', '218'), quantity: 2, addedAt: '2026-04-12T15:20:00.000Z', condition: 'Graded', grade: 'SGC 8.5' },
+  { cardId: makeCardId(1952, 'Topps', 'Base Set', 'Mickey Mantle', '311'), quantity: 1, addedAt: '2026-04-12T18:05:00.000Z', condition: 'Raw' },
   { cardId: makeCardId(1954, 'Bowman', 'Bowman', 'Mickey Mantle', '65'), quantity: 1, addedAt: '2026-04-13T16:05:00.000Z', condition: 'Raw' },
   { cardId: makeCardId(1954, 'Bowman', 'Bowman', 'Ted Williams', '66'), quantity: 1, addedAt: '2026-04-15T20:45:00.000Z', condition: 'Raw' },
+  { cardId: makeCardId(1954, 'Topps', 'Base Set', 'Jackie Robinson', '2'), quantity: 1, addedAt: '2026-04-14T17:20:00.000Z', condition: 'Raw' },
+  { cardId: makeCardId(1956, 'Topps', 'White Back', 'Ted Williams', '5'), quantity: 1, addedAt: '2026-04-16T13:05:00.000Z', condition: 'Raw' },
+  { cardId: makeCardId(1975, 'Topps', 'Base Set', 'George Brett', '228'), quantity: 1, addedAt: '2026-04-17T11:05:00.000Z', condition: 'Raw' },
+  { cardId: makeCardId(1989, 'Upper Deck', 'Base Set', 'Ken Griffey Jr.', '1'), quantity: 1, addedAt: '2026-04-18T18:20:00.000Z', condition: 'Raw' },
+  { cardId: makeCardId(1993, 'Finest', 'Base Set', 'Derek Jeter', '103'), quantity: 1, addedAt: '2026-04-19T19:10:00.000Z', condition: 'Raw' },
+  { cardId: makeCardId(2001, 'Bowman Chrome', 'Base Set', 'Albert Pujols', '341'), quantity: 1, addedAt: '2026-04-19T20:25:00.000Z', condition: 'Raw' },
+  { cardId: makeCardId(2018, 'Topps Update', 'Base Set', 'Juan Soto', '250'), quantity: 1, addedAt: '2026-04-20T12:10:00.000Z', condition: 'Raw' },
+  { cardId: makeCardId(2024, 'Topps', 'Series 1', 'Paul Skenes', '2'), quantity: 1, addedAt: '2026-04-20T21:15:00.000Z', condition: 'Raw' },
 ]
 
 const seededFeed: FeedEvent[] = [
@@ -380,6 +616,29 @@ const seededFeed: FeedEvent[] = [
     type: 'favorited',
     createdAt: '2026-04-15T19:10:00.000Z',
   },
+  {
+    id: 'feed_7',
+    userId: 'user_2',
+    cardId: makeCardId(1989, 'Upper Deck', 'Base Set', 'Ken Griffey Jr.', '1'),
+    type: 'added',
+    createdAt: '2026-04-15T18:20:00.000Z',
+    note: 'One of those cards that instantly makes the whole row look better.',
+  },
+  {
+    id: 'feed_8',
+    userId: 'user_3',
+    cardId: makeCardId(2018, 'Topps Update', 'Base Set', 'Shohei Ohtani', '251'),
+    type: 'wishlisted',
+    createdAt: '2026-04-14T14:10:00.000Z',
+  },
+  {
+    id: 'feed_9',
+    userId: 'user_4',
+    cardId: makeCardId(2001, 'Bowman Chrome', 'Base Set', 'Albert Pujols', '341'),
+    type: 'added',
+    createdAt: '2026-04-14T10:45:00.000Z',
+    note: 'Bowman chrome shine never really gets old.',
+  },
 ]
 
 const seededOtherCollections: Record<string, CollectionEntry[]> = {
@@ -388,17 +647,21 @@ const seededOtherCollections: Record<string, CollectionEntry[]> = {
     { cardId: makeCardId(1949, 'Bowman', 'Bowman', 'Jackie Robinson', '50'), quantity: 1, addedAt: '2026-04-03T09:00:00.000Z', condition: 'Raw' },
     { cardId: makeCardId(1952, 'Bowman', 'Bowman', 'Willie Mays', '218'), quantity: 1, addedAt: '2026-04-09T14:10:00.000Z', condition: 'Graded', grade: 'PSA 4' },
     { cardId: makeCardId(1954, 'Bowman', 'Bowman', 'Ted Williams', '66'), quantity: 1, addedAt: '2026-04-11T10:35:00.000Z', condition: 'Raw' },
+    { cardId: makeCardId(1989, 'Upper Deck', 'Base Set', 'Ken Griffey Jr.', '1'), quantity: 1, addedAt: '2026-04-15T18:20:00.000Z', condition: 'Raw' },
+    { cardId: makeCardId(2018, 'Topps Update', 'Base Set', 'Shohei Ohtani', '251'), quantity: 1, addedAt: '2026-04-16T17:40:00.000Z', condition: 'Raw' },
   ],
   user_3: [
     { cardId: makeCardId(1933, 'Goudey', 'Goudey', 'Babe Ruth', '53'), quantity: 1, addedAt: '2026-04-17T15:30:00.000Z', condition: 'Graded', grade: 'SGC 3.5' },
     { cardId: makeCardId(1955, 'Bowman', 'Bowman', 'Ernie Banks', '22'), quantity: 1, addedAt: '2026-04-06T16:40:00.000Z', condition: 'Graded', grade: 'BGS 9' },
     { cardId: makeCardId(1954, 'Bowman', 'Bowman', 'Mickey Mantle', '65'), quantity: 1, addedAt: '2026-04-16T15:20:00.000Z', condition: 'Raw' },
     { cardId: makeCardId(1952, 'Bowman', 'Bowman', 'Willie Mays', '218'), quantity: 1, addedAt: '2026-04-13T18:12:00.000Z', condition: 'Raw' },
+    { cardId: makeCardId(2001, 'Bowman Chrome', 'Base Set', 'Ichiro Suzuki', '340'), quantity: 1, addedAt: '2026-04-12T12:48:00.000Z', condition: 'Raw' },
   ],
   user_4: [
     { cardId: makeCardId(1954, 'Bowman', 'Bowman', 'Ted Williams', '66'), quantity: 1, addedAt: '2026-04-17T11:15:00.000Z', condition: 'Graded', grade: 'PSA 10' },
     { cardId: makeCardId(1948, 'Leaf', 'Leaf', 'Jackie Robinson', '79'), quantity: 1, addedAt: '2026-04-15T18:02:00.000Z', condition: 'Raw' },
     { cardId: makeCardId(1955, 'Bowman', 'Bowman', 'Ernie Banks', '22'), quantity: 1, addedAt: '2026-04-10T12:00:00.000Z', condition: 'Raw' },
+    { cardId: makeCardId(2024, 'Topps', 'Series 1', 'Jackson Holliday', '3'), quantity: 1, addedAt: '2026-04-18T11:32:00.000Z', condition: 'Raw' },
   ],
 }
 
@@ -417,6 +680,23 @@ const cardArtOverrides: Record<string, CardArtOverride> = {
     imageUrl: '/cards/jackie-robinson-1948-leaf.jpg',
     libraryFraming: { scale: 1.24, objectPosition: '53% 49%' },
   },
+}
+
+function getEraPlaceholderImage(era: PlayerSeed['era']) {
+  switch (era) {
+    case 'prewar':
+      return '/cards/placeholder-prewar.svg'
+    case 'vintage':
+      return '/cards/placeholder-vintage.svg'
+    case 'golden':
+      return '/cards/placeholder-golden.svg'
+    case 'wax':
+      return '/cards/placeholder-wax.svg'
+    case 'modern':
+      return '/cards/placeholder-modern.svg'
+    default:
+      return '/cards/placeholder-vintage.svg'
+  }
 }
 
 function createCard(template: SetTemplate, player: PlayerSeed, index: number): Card {
@@ -444,7 +724,7 @@ function createCard(template: SetTemplate, player: PlayerSeed, index: number): C
 
   return {
     ...baseCard,
-    imageUrl: artOverride?.imageUrl ?? player.imageUrl ?? null,
+    imageUrl: artOverride?.imageUrl ?? player.imageUrl ?? getEraPlaceholderImage(template.era),
     source: 'seeded',
   }
 }
@@ -520,6 +800,16 @@ export function getUsers() {
   return baseUsers
 }
 
+export function getFollowingUsers(userId: string) {
+  return (seededFollowingByUserId[userId] ?? [])
+    .map((followedUserId) => getUserById(followedUserId))
+    .filter((user): user is MockUser => Boolean(user))
+}
+
+export function getFollowerUsers(userId: string) {
+  return baseUsers.filter((candidate) => (seededFollowingByUserId[candidate.id] ?? []).includes(userId))
+}
+
 export function getSeedCollectionForUser(userId: string) {
   if (userId === CURRENT_USER_ID) {
     return seededCollectionEntries
@@ -545,7 +835,7 @@ export function getFeaturedCards() {
   ].filter(Boolean) as Card[]
 }
 
-export function getPopularCards() {
+export function getPopularCards(limit = 24) {
   const scoreMap = new Map<string, number>()
 
   for (const event of seededFeed) {
@@ -577,7 +867,7 @@ export function getPopularCards() {
       const scoreDiff = (scoreMap.get(right.id) ?? 0) - (scoreMap.get(left.id) ?? 0)
       return rightRealScan - leftRealScan || scoreDiff || right.marketValue - left.marketValue || right.year - left.year
     })
-    .slice(0, 8)
+    .slice(0, limit)
 }
 
 function uniqueSorted<T>(values: T[], compare?: (left: T, right: T) => number) {
@@ -751,6 +1041,20 @@ export function getRecentAdds(entries: CollectionEntry[], limit = 6) {
 
 export function getCardsForSet(setSlug: string) {
   return getRuntimeCatalog().filter((card) => card.setSlug === setSlug)
+}
+
+export function getCrownCardForSet(setSlug: string) {
+  return [...getCardsForSet(setSlug)]
+    .sort((left, right) => {
+      const leftScore = Number(Boolean(left.hallOfFamer)) + Number(Boolean(left.rookieCard)) + left.marketValue
+      const rightScore = Number(Boolean(right.hallOfFamer)) + Number(Boolean(right.rookieCard)) + right.marketValue
+      return rightScore - leftScore || left.player.localeCompare(right.player)
+    })[0] ?? null
+}
+
+export function getNextMissingCardForSet(setSlug: string, entries: CollectionEntry[] = seededCollectionEntries) {
+  const ownedIds = new Set(entries.map((entry) => entry.cardId))
+  return getCardsForSet(setSlug).find((card) => !ownedIds.has(card.id)) ?? null
 }
 
 export function getSetDirectory(entries: CollectionEntry[] = seededCollectionEntries) {

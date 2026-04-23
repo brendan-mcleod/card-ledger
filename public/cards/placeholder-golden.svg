@@ -1,0 +1,10 @@
+<svg width="400" height="560" viewBox="0 0 400 560" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="560" rx="22" fill="#EEE5D9"/>
+  <rect x="16" y="16" width="368" height="528" rx="16" fill="#F7F0E6" stroke="#D5C4AF" stroke-width="2"/>
+  <rect x="34" y="34" width="332" height="350" rx="10" fill="#2B5A83"/>
+  <circle cx="200" cy="166" r="84" fill="#F2D1AE"/>
+  <path d="M131 292C131 245 163 218 200 218C237 218 269 245 269 292V326H131V292Z" fill="#F2D1AE"/>
+  <rect x="34" y="396" width="332" height="48" rx="8" fill="#F2C14D"/>
+  <text x="200" y="428" text-anchor="middle" fill="#3D2A14" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="800">GOLDEN ERA</text>
+  <text x="200" y="490" text-anchor="middle" fill="#72675D" font-family="Inter, Arial, sans-serif" font-size="16" letter-spacing="3">SLABBED</text>
+</svg>

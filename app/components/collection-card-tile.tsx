@@ -10,6 +10,9 @@ type CollectionCardTileProps = {
   featured: boolean
   onFeature: (cardId: string) => void
   onRemove: (cardId: string) => void
+  onPrimaryAction?: (cardId: string) => void
+  actionLabel?: string
+  removeLabel?: string
   large?: boolean
 }
 
@@ -19,6 +22,9 @@ export function CollectionCardTile({
   featured,
   onFeature,
   onRemove,
+  onPrimaryAction,
+  actionLabel = 'Feature',
+  removeLabel = 'Remove',
   large = false,
 }: CollectionCardTileProps) {
   return (
@@ -67,6 +73,19 @@ export function CollectionCardTile({
             </div>
 
             <div className="collection-card-overlay-actions">
+              {onPrimaryAction && (
+                <button
+                  className="collection-card-action collection-card-action-secondary"
+                  onClick={(event) => {
+                    event.preventDefault()
+                    event.stopPropagation()
+                    onPrimaryAction(card.id)
+                  }}
+                  type="button"
+                >
+                  {actionLabel}
+                </button>
+              )}
               <button
                 className={`collection-card-action ${featured ? 'collection-card-action-active' : ''}`}
                 onClick={(event) => {
@@ -76,7 +95,7 @@ export function CollectionCardTile({
                 }}
                 type="button"
               >
-                {featured ? 'Featured' : 'Feature'}
+                {featured ? 'Featured' : onPrimaryAction ? 'Feature' : actionLabel}
               </button>
               <button
                 className="collection-card-action collection-card-action-destructive"
@@ -87,7 +106,7 @@ export function CollectionCardTile({
                 }}
                 type="button"
               >
-                Remove
+                {removeLabel}
               </button>
               <span className="collection-card-action collection-card-action-secondary">View details</span>
             </div>

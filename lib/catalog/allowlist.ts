@@ -2,6 +2,8 @@ import type { Card, SetSummary } from '@/lib/types'
 import { slugify } from '@/lib/utils'
 
 export type SeededEraSectionId = 'spotlight' | 'prewar' | 'early-vintage' | 'postwar-vintage'
+  | 'wax'
+  | 'modern'
 
 export type SeededEraSection = {
   id: SeededEraSectionId
@@ -22,6 +24,16 @@ const SEEDED_SET_ENTRIES = [
   { setLabel: '1954 Topps Baseball', era: 'spotlight' as const },
   { setLabel: '1955 Bowman Baseball', era: 'postwar-vintage' as const },
   { setLabel: '1956 Topps Baseball', era: 'postwar-vintage' as const },
+  { setLabel: '1968 Topps Baseball', era: 'postwar-vintage' as const },
+  { setLabel: '1975 Topps Baseball', era: 'postwar-vintage' as const },
+  { setLabel: '1987 Topps Baseball', era: 'wax' as const },
+  { setLabel: '1989 Upper Deck Baseball', era: 'wax' as const },
+  { setLabel: '1991 Stadium Club Baseball', era: 'wax' as const },
+  { setLabel: '1993 Finest Baseball', era: 'wax' as const },
+  { setLabel: '2001 Bowman Chrome Baseball', era: 'wax' as const },
+  { setLabel: '2011 Topps Update Baseball', era: 'modern' as const },
+  { setLabel: '2018 Topps Update Baseball', era: 'modern' as const },
+  { setLabel: '2024 Topps Series 1 Baseball', era: 'modern' as const },
 ]
 
 export const SEEDED_SET_LABELS = SEEDED_SET_ENTRIES.map((entry) => entry.setLabel)
@@ -57,7 +69,38 @@ export const SEEDED_ERA_SECTIONS: SeededEraSection[] = [
     label: 'Postwar Vintage',
     title: 'Classic Bowman runs built for the binder.',
     description: 'Short vintage checklists with iconic stars, crisp design, and real chase value.',
-    setSlugs: [slugify('1952 Bowman Baseball'), slugify('1952 Topps Baseball'), slugify('1955 Bowman Baseball'), slugify('1956 Topps Baseball')],
+    setSlugs: [
+      slugify('1952 Bowman Baseball'),
+      slugify('1952 Topps Baseball'),
+      slugify('1955 Bowman Baseball'),
+      slugify('1956 Topps Baseball'),
+      slugify('1968 Topps Baseball'),
+      slugify('1975 Topps Baseball'),
+    ],
+  },
+  {
+    id: 'wax',
+    label: 'Junk Wax',
+    title: 'Fast packs, glossy stock, and stars everywhere.',
+    description: 'Dense, familiar runs from the late 80s and 90s that still make binder browsing addictive.',
+    setSlugs: [
+      slugify('1987 Topps Baseball'),
+      slugify('1989 Upper Deck Baseball'),
+      slugify('1991 Stadium Club Baseball'),
+      slugify('1993 Finest Baseball'),
+      slugify('2001 Bowman Chrome Baseball'),
+    ],
+  },
+  {
+    id: 'modern',
+    label: 'Modern',
+    title: 'The live chase, prospect heat, and flagship shine.',
+    description: 'Recent cards with rookies, chrome, and the runs collectors keep checking back on.',
+    setSlugs: [
+      slugify('2011 Topps Update Baseball'),
+      slugify('2018 Topps Update Baseball'),
+      slugify('2024 Topps Series 1 Baseball'),
+    ],
   },
 ]
 

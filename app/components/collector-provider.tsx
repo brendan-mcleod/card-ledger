@@ -22,6 +22,8 @@ type CollectorAction =
   | { type: 'remove-card'; cardId: string }
   | { type: 'set-quantity'; cardId: string; quantity: number }
   | { type: 'toggle-favorite'; cardId: string }
+  | { type: 'toggle-wishlist'; cardId: string }
+  | { type: 'toggle-tracked-set'; setSlug: string }
 
 type CollectorContextValue = {
   hydrated: boolean
@@ -29,16 +31,22 @@ type CollectorContextValue = {
   catalogVersion: number
   collection: Record<string, CollectionEntry>
   favorites: string[]
+  wishlist: string[]
+  trackedSets: string[]
   activity: FeedEvent[]
   addCard: (cardId: string) => void
   removeCard: (cardId: string) => void
   setQuantity: (cardId: string, quantity: number) => void
   toggleFavorite: (cardId: string) => void
+  toggleWishlist: (cardId: string) => void
+  toggleTrackedSet: (setSlug: string) => void
 }
 
 const defaultState: CollectorState = {
   collection: Object.fromEntries(getSeedCollectionForUser(CURRENT_USER_ID).map((entry) => [entry.cardId, entry])),
   favorites: getCurrentUser().favoriteCardIds,
+  wishlist: [],
+  trackedSets: [],
   activity: [],
 }
 
@@ -70,6 +78,7 @@ function collectorReducer(state: CollectorState, action: CollectorAction): Colle
           ...state.collection,
           [action.cardId]: nextEntry,
         },
+        wishlist: state.wishlist.filter((cardId) => cardId !== action.cardId),
         activity: [createEvent(action.cardId, 'added'), ...state.activity],
       }
     }
@@ -112,6 +121,25 @@ function collectorReducer(state: CollectorState, action: CollectorAction): Colle
         activity: isFavorite ? state.activity : [createEvent(action.cardId, 'favorited'), ...state.activity],
       }
     }
+    case 'toggle-wishlist': {
+      const isWishlisted = state.wishlist.includes(action.cardId)
+      return {
+        ...state,
+        wishlist: isWishlisted
+          ? state.wishlist.filter((cardId) => cardId !== action.cardId)
+          : [action.cardId, ...state.wishlist],
+        activity: isWishlisted ? state.activity : [createEvent(action.cardId, 'wishlisted'), ...state.activity],
+      }
+    }
+    case 'toggle-tracked-set': {
+      const isTracked = state.trackedSets.includes(action.setSlug)
+      return {
+        ...state,
+        trackedSets: isTracked
+          ? state.trackedSets.filter((setSlug) => setSlug !== action.setSlug)
+          : [action.setSlug, ...state.trackedSets],
+      }
+    }
     default:
       return state
   }
@@ -131,8 +159,17 @@ export function CollectorProvider({ children }: { children: ReactNode }) {
     const stored = window.localStorage.getItem(STORAGE_KEY)
     if (stored) {
       try {
-        const parsed = JSON.parse(stored) as CollectorState
-        dispatch({ type: 'hydrate', payload: parsed })
+        const parsed = JSON.parse(stored) as Partial<CollectorState>
+        dispatch({
+          type: 'hydrate',
+          payload: {
+            collection: parsed.collection ?? defaultState.collection,
+            favorites: parsed.favorites ?? defaultState.favorites,
+            wishlist: parsed.wishlist ?? [],
+            trackedSets: parsed.trackedSets ?? [],
+            activity: parsed.activity ?? [],
+          },
+        })
       } catch {
         window.localStorage.removeItem(STORAGE_KEY)
       }
@@ -154,6 +191,8 @@ export function CollectorProvider({ children }: { children: ReactNode }) {
       catalogVersion,
       collection: state.collection,
       favorites: state.favorites,
+      wishlist: state.wishlist,
+      trackedSets: state.trackedSets,
       activity: [...state.activity, ...getSeedFeed()].sort(
         (left, right) => new Date(right.createdAt).getTime() - new Date(left.createdAt).getTime(),
       ),
@@ -161,6 +200,8 @@ export function CollectorProvider({ children }: { children: ReactNode }) {
       removeCard: (cardId) => dispatch({ type: 'remove-card', cardId }),
       setQuantity: (cardId, quantity) => dispatch({ type: 'set-quantity', cardId, quantity }),
       toggleFavorite: (cardId) => dispatch({ type: 'toggle-favorite', cardId }),
+      toggleWishlist: (cardId) => dispatch({ type: 'toggle-wishlist', cardId }),
+      toggleTrackedSet: (setSlug) => dispatch({ type: 'toggle-tracked-set', setSlug }),
     }),
     [catalogVersion, hydrated, state],
   )

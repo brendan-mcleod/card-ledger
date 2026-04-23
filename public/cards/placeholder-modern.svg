@@ -1,0 +1,10 @@
+<svg width="400" height="560" viewBox="0 0 400 560" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="560" rx="22" fill="#DADDE2"/>
+  <rect x="16" y="16" width="368" height="528" rx="16" fill="#EEF1F5" stroke="#C5CBD4" stroke-width="2"/>
+  <rect x="34" y="34" width="332" height="340" rx="10" fill="#18243A"/>
+  <circle cx="200" cy="164" r="84" fill="#D5DDEA"/>
+  <path d="M132 288C132 245 162 218 200 218C238 218 268 245 268 288V324H132V288Z" fill="#D5DDEA"/>
+  <rect x="34" y="390" width="332" height="54" rx="8" fill="#18A05E"/>
+  <text x="200" y="424" text-anchor="middle" fill="#F4FFF9" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="800">MODERN</text>
+  <text x="200" y="490" text-anchor="middle" fill="#66707C" font-family="Inter, Arial, sans-serif" font-size="16" letter-spacing="3">NEXT CHASE</text>
+</svg>

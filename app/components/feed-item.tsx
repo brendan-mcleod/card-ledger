@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-import { CardTile } from '@/app/components/card-tile'
+import { UserAvatar } from '@/app/components/user-avatar'
 import { formatFeedTimestamp } from '@/lib/format'
 import type { Card, FeedEvent, MockUser } from '@/lib/types'
 
@@ -11,31 +11,44 @@ type FeedItemProps = {
 }
 
 const eventCopy = {
-  added: 'added to collection',
-  favorited: 'flagged as a favorite',
+  added: 'added',
+  favorited: 'favorited',
+  wishlisted: 'wishlisted',
 }
 
 export function FeedItem({ user, card, event }: FeedItemProps) {
   return (
     <article className="feed-item">
       <div className="feed-item-copy">
-        <div className="panel-stack-xs">
-          <p className="feed-timestamp">{formatFeedTimestamp(event.createdAt)}</p>
-          <h3 className="feed-title">
-            <Link className="feed-link" href={`/profile/${user.username}`}>
-              {user.displayName}
-            </Link>{' '}
-            <span className="feed-copy">{eventCopy[event.type]}</span>
-          </h3>
-          <p className="body-copy-sm">
-            {card.year} {card.brand} {card.set} #{card.cardNumber} · {card.player}
-          </p>
+        <div className="feed-item-head">
+          <UserAvatar imageUrl={user.imageUrl} name={user.displayName} size="sm" />
+          <div className="feed-item-lines">
+            <h3 className="feed-title">
+              <Link className="feed-link" href={`/profile/${user.username}`}>
+                {user.displayName}
+              </Link>{' '}
+              <span className="feed-copy">{eventCopy[event.type]}</span>
+            </h3>
+            <p className="feed-meta-line">{card.player} · {card.year} · {formatFeedTimestamp(event.createdAt)}</p>
+          </div>
         </div>
-        {event.note ? <p className="body-copy">{event.note}</p> : null}
       </div>
-      <div className="feed-card-rail">
-        <CardTile card={card} compact href={`/cards/${card.slug}`} />
-      </div>
+      <Link className="feed-card-rail" href={`/cards/${card.slug}`}>
+        {card.imageUrl ? (
+          card.imageUrl.startsWith('http') ? (
+            // eslint-disable-next-line @next/next/no-img-element
+            <img alt={`${card.player} ${card.year} ${card.set}`} className="feed-card-thumb" src={card.imageUrl} />
+          ) : (
+            // eslint-disable-next-line @next/next/no-img-element
+            <img alt={`${card.player} ${card.year} ${card.set}`} className="feed-card-thumb" src={card.imageUrl} />
+          )
+        ) : (
+          <div className="feed-card-thumb feed-card-thumb-placeholder">
+            <span>{card.year}</span>
+            <strong>{card.player}</strong>
+          </div>
+        )}
+      </Link>
     </article>
   )
 }

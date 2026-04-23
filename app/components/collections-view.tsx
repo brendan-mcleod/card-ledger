@@ -4,11 +4,10 @@ import Link from 'next/link'
 import { useEffect, useMemo, useState } from 'react'
 
 import { useCollector } from '@/app/components/collector-provider'
-import { getCardById, getSetDirectory } from '@/lib/data'
+import { SetStackVisual } from '@/app/components/set-stack-visual'
+import { getCardById, getCardsForSet, getCrownCardForSet, getSetDirectory } from '@/lib/data'
 import { getDisplaySetLabel } from '@/lib/format'
 import type { Card, SetSummary } from '@/lib/types'
-
-const TRACKED_SETS_KEY = 'slabbed-tracked-sets'
 
 type EraKey = 'prewar' | 'vintage' | 'junk-wax' | 'modern'
 
@@ -31,6 +30,9 @@ type RealSetCard = {
   set: SetSummary
   coverCard: Card | null
   description: string
+  nextMissingCard: Card | null
+  crownCard: Card | null
+  urgencyLabel: string | null
 }
 
 type EraCard = PlaceholderSetCard | RealSetCard
@@ -217,8 +219,13 @@ function getSetDescription(set: SetSummary) {
   )
 }
 
-function getRealSetCard(set: SetSummary): RealSetCard {
+function getRealSetCard(set: SetSummary, ownedCardIds: Set<string>): RealSetCard {
   const coverCard = set.coverCardId ? getCardById(set.coverCardId) : null
+  const setCards = getCardsForSet(set.setSlug)
+  const nextMissingCard = setCards.find((card) => !ownedCardIds.has(card.id)) ?? null
+  const remainingCards = Math.max(set.totalCards - set.ownedCards, 0)
+  const urgencyLabel =
+    remainingCards === 1 ? '1 card left' : set.percent >= 80 && set.percent < 100 ? 'Almost there' : null
   const fallbackCoverCard: Card | null =
     !coverCard && set.coverImageUrl
       ? {
@@ -243,6 +250,9 @@ function getRealSetCard(set: SetSummary): RealSetCard {
     set,
     coverCard: coverCard ?? fallbackCoverCard,
     description: getSetDescription(set),
+    nextMissingCard,
+    crownCard: getCrownCardForSet(set.setSlug),
+    urgencyLabel,
   }
 }
 
@@ -261,27 +271,20 @@ function fillEraCards(era: EraKey, cards: RealSetCard[]) {
   return filled
 }
 
+function SetsPageIcon() {
+  return (
+    <svg aria-hidden="true" className="sets-page-icon sets-page-icon-archive" viewBox="0 0 16 16">
+      <path d="M3.4 4.2h9.2v7.6H3.4z" fill="none" stroke="currentColor" strokeWidth="1.2" />
+      <path d="M5.2 6.3h5.6" fill="none" stroke="currentColor" strokeLinecap="round" strokeWidth="1.2" />
+      <path d="M5.2 8.8h3.8" fill="none" stroke="currentColor" strokeLinecap="round" strokeWidth="1.2" />
+    </svg>
+  )
+}
+
 export function CollectionsView() {
   const collector = useCollector()
   const entries = useMemo(() => Object.values(collector.collection), [collector.collection])
   const [remoteSets, setRemoteSets] = useState<SetSummary[] | null>(null)
-  const [trackedSets, setTrackedSets] = useState<string[]>(() => {
-    if (typeof window === 'undefined') {
-      return []
-    }
-
-    const stored = window.localStorage.getItem(TRACKED_SETS_KEY)
-    if (!stored) {
-      return []
-    }
-
-    try {
-      return JSON.parse(stored) as string[]
-    } catch {
-      window.localStorage.removeItem(TRACKED_SETS_KEY)
-      return []
-    }
-  })
   const [toast, setToast] = useState<string | null>(null)
 
   useEffect(() => {
@@ -345,30 +348,32 @@ export function CollectionsView() {
   }, [entries, remoteSets])
 
   const rows = useMemo(
-    () =>
+    () => {
+      const ownedCardIds = new Set(entries.map((entry) => entry.cardId))
+      return (
       ERA_SECTIONS.map((section) => {
-        const realCards = sets.filter((set) => getEraForSet(set) === section.key).map(getRealSetCard)
+        const realCards = sets.filter((set) => getEraForSet(set) === section.key).map((set) => getRealSetCard(set, ownedCardIds))
         return {
           ...section,
           cards: fillEraCards(section.key, realCards),
         }
-      }),
-    [sets],
+      })
+      )
+    },
+    [entries, sets],
   )
 
   const totalSets = sets.length
-  const activeRuns = sets.filter((set) => set.ownedCards > 0 || trackedSets.includes(set.setSlug)).length
+  const activeRuns = sets.filter((set) => set.ownedCards > 0 || collector.trackedSets.includes(set.setSlug)).length
   const totalCards = sets.reduce((sum, set) => sum + set.totalCards, 0)
 
   function handleStartSet(setSlug: string, setLabel: string) {
-    if (trackedSets.includes(setSlug)) {
+    if (collector.trackedSets.includes(setSlug)) {
       setToast('Already tracking this set')
       return
     }
 
-    const next = [setSlug, ...trackedSets]
-    setTrackedSets(next)
-    window.localStorage.setItem(TRACKED_SETS_KEY, JSON.stringify(next))
+    collector.toggleTrackedSet(setSlug)
     setToast(`Started ${setLabel}`)
   }
 
@@ -376,13 +381,16 @@ export function CollectionsView() {
     <main className="page-shell sets-page">
       <section className="sets-hero">
         <div className="sets-hero-copy">
-          <p className="eyebrow">Sets</p>
-          <h1 className="display-title intro-title">Work the archive, then chase the run card by card.</h1>
-          <p className="body-copy">Browse by era. Start a set. Track your progress.</p>
+          <p className="sets-kicker">Set archive</p>
+          <h1 className="sets-title">
+            <SetsPageIcon />
+            <span>Browse sets and keep the chase moving.</span>
+          </h1>
+          <p className="sets-subtitle">Explore by era, start a run, and track the cards you still need.</p>
         </div>
 
         <div className="sets-hero-actions">
-          <a className="button-primary" href="#sets-eras">
+          <a className="button-secondary sets-hero-link" href="#sets-eras">
             Browse Sets
           </a>
           <div className="sets-hero-stats">
@@ -410,6 +418,13 @@ export function CollectionsView() {
         </section>
       ) : null}
 
+      <div className="app-transition-bridge" aria-hidden="true">
+        <span className="app-transition-chip">
+          <span>Browse by era</span>
+        </span>
+        <span className="app-transition-rule" />
+      </div>
+
       <div className="sets-eras" id="sets-eras">
         {rows.map((section) => (
           <EraSectionRow
@@ -418,7 +433,7 @@ export function CollectionsView() {
             key={section.key}
             onStartSet={handleStartSet}
             title={section.title}
-            trackedSets={trackedSets}
+            trackedSets={collector.trackedSets}
           />
         ))}
       </div>
@@ -479,25 +494,20 @@ function SetCard({
   featured?: boolean
 }) {
   const { set, coverCard, description } = setCard
+  const previewCards = getCardsForSet(set.setSlug)
+    .filter((card) => card.imageUrl)
+    .slice(0, 5)
 
   return (
     <article className={`set-roadmap-card ${featured ? 'set-roadmap-card-featured' : ''}`}>
       <Link className="set-roadmap-link" href={`/sets/${set.setSlug}`}>
         <div className="set-roadmap-visual">
-          {coverCard?.imageUrl ? (
-            coverCard.imageUrl.startsWith('http') ? (
-              // eslint-disable-next-line @next/next/no-img-element
-              <img alt={`${set.setLabel} cover`} className="set-roadmap-image" src={coverCard.imageUrl} />
-            ) : (
-              // eslint-disable-next-line @next/next/no-img-element
-              <img alt={`${set.setLabel} cover`} className="set-roadmap-image" src={coverCard.imageUrl} />
-            )
-          ) : (
-            <div className="set-roadmap-placeholder">
-              <span>{set.year}</span>
-              <strong>{set.setLabel}</strong>
-            </div>
-          )}
+          <SetStackVisual
+            cards={previewCards.length > 0 ? previewCards : coverCard ? [coverCard] : []}
+            className="set-roadmap-stack-visual"
+            label={set.setLabel}
+            year={set.year}
+          />
 
           <div className="set-roadmap-hover">
             <p>{set.totalCards} cards</p>
@@ -511,6 +521,7 @@ function SetCard({
         <p className="set-roadmap-year">{set.year}</p>
         <h3 className="set-roadmap-title">{set.setLabel}</h3>
         <p className="set-roadmap-description">{description}</p>
+        {setCard.urgencyLabel ? <span className="set-roadmap-flag">{setCard.urgencyLabel}</span> : null}
 
         <div className="progress-meter" aria-hidden="true">
           <span className="progress-meter-fill" style={{ width: `${set.percent}%` }} />
@@ -518,6 +529,16 @@ function SetCard({
         <p className="set-roadmap-progress">
           {set.ownedCards > 0 ? `${set.percent}% complete` : started ? 'Started · 0% complete' : 'No cards logged yet'}
         </p>
+        {setCard.nextMissingCard ? (
+          <p className="set-roadmap-detail">
+            Next: <span>{setCard.nextMissingCard.player} #{setCard.nextMissingCard.cardNumber}</span>
+          </p>
+        ) : null}
+        {setCard.crownCard ? (
+          <p className="set-roadmap-detail">
+            Crown: <span>{setCard.crownCard.player} #{setCard.crownCard.cardNumber}</span>
+          </p>
+        ) : null}
 
         <div className="set-roadmap-actions">
           <button

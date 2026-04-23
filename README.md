@@ -1,152 +1,188 @@
-# CardLedger
+# Slabbed
 
-CardLedger is a baseball card collector product built around one complete loop:
+Slabbed is a baseball card collecting product inspired by Letterboxd:
 
-`search -> card page -> add to collection -> see it in collection -> watch it hit the feed`
+- search-first
+- collection-first
+- social, browsable, and sticky
+- built around cards, sets, progress, and collector identity
 
-This version intentionally uses:
+This repo now includes both:
 
-- Next.js App Router
-- TypeScript
-- Tailwind CSS
-- a mocked current user (`user_1`)
-- a seeded local card library and social graph
-
-It does **not** include auth yet. The goal is a cohesive, fully functioning product experience rather than a half-finished backend migration.
+- a polished product shell across the main pages
+- a production-oriented backend foundation for cards, sets, collection, wishlist, follows, and activity
 
 ## Product structure
 
-- `/` home feed
-- `/library` all cards search and browse
+- `/` home
+- `/library` All Cards
 - `/cards/[cardId]` card detail
-- `/collection` full user collection
-- `/profile/[username]` collector profile
+- `/sets` Sets roadmap
+- `/sets/[setSlug]` set checklist
+- `/collection` My Collection
+- `/profile/[username]` profile
 
-## What works
+## Core architecture
 
-- live card search with autocomplete
-- large seeded library with 200+ baseball cards
-- dedicated card detail pages
-- add to collection flow
-- collection quantity controls and filters
-- mock social feed with multiple collectors
-- profile pages with highlights and recent activity
-- session persistence in the browser via local storage
+### Frontend
 
-## Card catalog provider layer
+- Next.js App Router
+- TypeScript
+- shared card tile + search + collection state systems
 
-Card access is now abstracted behind a provider-style service in:
+### Data layers
 
-- `/Users/brendanmcleod/Developer/personal/my-app/lib/catalog/service.ts`
+- `lib/data.ts`
+  - existing local seeded/catalog fallback
+- `lib/catalog/*`
+  - provider, cache, and DB-backed catalog access
+- `lib/domain/repository.ts`
+  - product-facing domain repository for:
+    - catalog cards
+    - sets roadmap
+    - collection
+    - wishlist
+    - tracked sets
+    - profile summary
+    - social feed
 
-The service exposes:
+### Backend / persistence
 
-- `searchCards(query, filters)`
-- `getCardById(id)`
+- Supabase Postgres
+- Supabase Storage
+- row-level security foundation
 
-The UI stays on the app's internal `Card` model and does not need to know raw provider response shapes.
+## Canonical schema
 
-Available provider strategies:
+The Supabase migrations now align the app around these domains:
 
-- `seeded`
-- `cardsight`
-- `cardsight_with_seeded_fallback`
-- `cardsight_with_local_cache`
+- `profiles`
+- `cards`
+- `sets`
+- `user_cards`
+- `wishlists`
+- `favorites`
+- `follows`
+- `activity_feed_events`
+- `user_set_tracks`
+- `reviews`
 
-CardSight configuration:
+Compatibility views also exist for product naming:
 
-```bash
-CARD_CATALOG_PROVIDER=cardsight_with_local_cache
-CARDSIGHTAI_BASE_URL=https://api.cardsight.ai
-CARDSIGHTAI_API_KEY=your-api-key
-CARDSIGHTAI_SEARCH_PATH=/v1/catalog/cards
-CARDSIGHTAI_CARD_PATH_TEMPLATE=/v1/catalog/cards/:id
-CARDSIGHTAI_MARKETPLACE_PATH_TEMPLATE=/v1/marketplace/:id
-```
+- `users`
+- `collections`
+- `activity_events`
 
-The CardSight adapter uses catalog metadata plus cached marketplace `image_url` enrichment for provider-backed cards. Results are cached locally under `.cache/` on the server side and mirrored into browser storage after first fetch so collection, favorites, feed, Library, and Sets can keep working off normalized local card records.
+## Migrations
 
-CardSight usage is budgeted server-side. By default the app caps provider calls per month and only enriches a small front slice of search/set results with marketplace images:
+Key migrations:
 
-- `CARDSIGHTAI_MONTHLY_CALL_LIMIT=750`
-- `CARDSIGHTAI_MONTHLY_IMAGE_SOFT_LIMIT=600`
-- `CARDSIGHTAI_SEARCH_IMAGE_ENRICH_LIMIT=4`
-- `CARDSIGHTAI_SET_IMAGE_ENRICH_LIMIT=8`
+- `20260417_220000_cardledger_auth_foundation.sql`
+  - auth + profiles + initial card/user tables + RLS
+- `20260419_090000_card_ingestion_foundation.sql`
+  - card ingestion support, canonical keys, storage bucket, ingest tables
+- `20260419_140000_normalize_catalog_set_names.sql`
+  - set-label cleanup
+- `20260419_180000_product_domain_alignment.sql`
+  - canonical `sets`, tracked sets, reviews, and product-facing views
 
-## Tiered image sourcing
+## Card ingestion
 
-Provider-backed cards use a lazy, cached image-resolution order:
-
-1. local seeded/public-domain image
-2. cached provider image
-3. CardSight marketplace image
-4. eBay listing image fallback
-
-Image hydration only happens for:
-
-- opened card pages
-- a small visible slice of Library results
-- a small visible slice of Set checklist results
-
-Optional eBay image fallback configuration:
-
-```bash
-EBAY_CLIENT_ID=your-ebay-client-id
-EBAY_CLIENT_SECRET=your-ebay-client-secret
-EBAY_AUTH_BASE_URL=https://api.ebay.com/identity/v1/oauth2/token
-EBAY_API_BASE_URL=https://api.ebay.com/buy/browse/v1
-```
-
-Visible-slice image hydration limits:
-
-- `CATALOG_SEARCH_VISIBLE_IMAGE_HYDRATE_LIMIT=8`
-- `CATALOG_SET_VISIBLE_IMAGE_HYDRATE_LIMIT=12`
-
-## Run locally
-
-```bash
-pnpm install
-pnpm dev
-```
-
-Open [http://localhost:3000](http://localhost:3000).
-
-## Notes
-
-- Card data used by the current UI still flows through `lib/data.ts`, but the external-provider path now lives behind `lib/catalog/service.ts`.
-- Collection state is owned by the app and persisted client-side for now.
-- The current mocked profile is:
-  - username: `brendan`
-  - user id: `user_1`
-
-## Future work
-
-Only once the current product loop is locked:
-
-- real auth
-- server persistence
-- external card APIs
-- marketplace/pricing enrichment
-
-## Production ingest pipeline
-
-A budget-safe ingest script now exists at:
+Budget-safe ingest exists at:
 
 ```bash
 pnpm ingest:core-sets
 ```
 
-What it does:
+The ingest system is designed to:
 
-- seeds canonical checklist rows into Supabase Postgres
-- enriches only the configured first-wave sets with CardSight + eBay fallback
-- uploads cached card images into the `card-images` Supabase Storage bucket
-- tracks progress and failures in `card_ingest_runs` and `card_ingest_failures`
+- seed canonical checklist rows into Postgres
+- enrich only the configured first-wave sets with CardSight
+- use eBay as fallback when available
+- cache images into Supabase Storage
+- track failures for retry
 
-Budget controls:
+### Budget controls
 
 ```bash
 CARDSIGHT_REMAINING_BUDGET=500
 CARDSIGHT_RUN_BUDGET=350
 EBAY_RUN_BUDGET=150
+```
+
+## Environment
+
+Minimum local env:
+
+```bash
+NEXT_PUBLIC_SUPABASE_URL=...
+NEXT_PUBLIC_SUPABASE_ANON_KEY=...
+SUPABASE_SERVICE_ROLE_KEY=...
+APP_URL=http://localhost:3000
+```
+
+Optional provider env:
+
+```bash
+CARD_CATALOG_PROVIDER=cardsight_with_local_cache
+CARDSIGHTAI_BASE_URL=https://api.cardsight.ai
+CARDSIGHTAI_API_KEY=...
+CARDSIGHTAI_SEARCH_PATH=/v1/catalog/cards
+CARDSIGHTAI_CARD_PATH_TEMPLATE=/v1/catalog/cards/:id
+CARDSIGHTAI_MARKETPLACE_PATH_TEMPLATE=/v1/marketplace/:id
+
+EBAY_CLIENT_ID=...
+EBAY_CLIENT_SECRET=...
+EBAY_AUTH_BASE_URL=https://api.ebay.com/identity/v1/oauth2/token
+EBAY_API_BASE_URL=https://api.ebay.com/buy/browse/v1
+```
+
+## Local setup
+
+1. Install dependencies
+
+```bash
+pnpm install
+```
+
+2. Apply Supabase migrations in your local/project Supabase environment
+
+3. Seed or ingest data
+
+```bash
+pnpm ingest:core-sets
+```
+
+4. Run the app
+
+```bash
+pnpm dev
+```
+
+## Current product direction
+
+The major product surfaces are now being shaped around a real collecting workflow:
+
+- `All Cards`
+  - discover mode
+  - search mode
+  - explore mode
+- `Sets`
+  - editorial roadmap by era
+- `My Collection`
+  - image-first binder wall
+
+The remaining work is primarily:
+
+- wiring more pages fully to the canonical DB domain layer
+- real auth flows and session-aware actions
+- richer social/feed interactions
+- fuller ingestion coverage across the target card universe
+
+## Quality checks
+
+```bash
+pnpm exec tsc --noEmit
+pnpm lint
+pnpm build
 ```

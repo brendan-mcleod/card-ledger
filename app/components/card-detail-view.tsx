@@ -6,9 +6,10 @@ import { useEffect, useMemo, useState, useTransition } from 'react'
 import { CardTile } from '@/app/components/card-tile'
 import { FeedItem } from '@/app/components/feed-item'
 import { StatPill } from '@/app/components/stat-pill'
+import { UserAvatar } from '@/app/components/user-avatar'
 import { useCollector } from '@/app/components/collector-provider'
 import { persistClientCatalogCards } from '@/lib/catalog/client-cache'
-import { getCardOwners, getUserById } from '@/lib/data'
+import { getCardOwners, getCurrentUser, getUserById } from '@/lib/data'
 import { formatQuantity, getCardCallouts } from '@/lib/format'
 import type { Card } from '@/lib/types'
 
@@ -18,11 +19,13 @@ type CardDetailViewProps = {
 
 export function CardDetailView({ card }: CardDetailViewProps) {
   const collector = useCollector()
+  const currentUser = getCurrentUser()
   const [isPending, startTransition] = useTransition()
   const [flash, setFlash] = useState('')
   const callouts = getCardCallouts(card)
 
   const collectionEntry = collector.collection[card.id]
+  const isWishlisted = collector.wishlist.includes(card.id)
   const seededOwners = getCardOwners(card.id)
   const relatedFeed = useMemo(
     () =>
@@ -136,6 +139,18 @@ export function CardDetailView({ card }: CardDetailViewProps) {
               >
                 {collector.favorites.includes(card.id) ? 'Favorited' : 'Favorite'}
               </button>
+              <button
+                className={`button-secondary ${isWishlisted ? 'button-secondary-active' : ''}`}
+                onClick={() =>
+                  startTransition(() => {
+                    collector.toggleWishlist(card.id)
+                    setFlash(isWishlisted ? `${card.player} removed from wishlist.` : `${card.player} added to wishlist.`)
+                  })
+                }
+                type="button"
+              >
+                {isWishlisted ? 'Wishlisted' : 'Add to wishlist'}
+              </button>
               <Link className="button-secondary" href="/library">
                 Back to library
               </Link>
@@ -147,6 +162,7 @@ export function CardDetailView({ card }: CardDetailViewProps) {
               <StatPill label="Owners" value={ownerCount} />
               <StatPill label="Your copies" value={collectionEntry ? formatQuantity(collectionEntry.quantity) : 'None yet'} />
               <StatPill label="Favorites" value={collector.favorites.includes(card.id) ? '1 by you' : `${seededOwners.length} community`} />
+              <StatPill label="Wishlist" value={isWishlisted ? 'On your chase list' : 'Not yet'} />
             </div>
           </section>
 
@@ -162,6 +178,21 @@ export function CardDetailView({ card }: CardDetailViewProps) {
               <div className="section-empty">No one has logged this one yet. Be the first.</div>
             ) : (
               <div className="panel-stack-sm">
+                <div className="collector-map-avatars">
+                  {collectionEntry ? (
+                    <div className="collector-map-avatar-item">
+                      <UserAvatar imageUrl={currentUser.imageUrl} name="You" size="sm" />
+                    </div>
+                  ) : null}
+                  {seededOwners.slice(0, 5).map(({ user }) =>
+                    user ? (
+                      <div className="collector-map-avatar-item" key={user.id}>
+                        <UserAvatar imageUrl={user.imageUrl} name={user.displayName} size="sm" />
+                      </div>
+                    ) : null,
+                  )}
+                </div>
+
                 {collectionEntry ? (
                   <div className="owner-row">
                     <div>

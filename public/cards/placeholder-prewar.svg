@@ -1,0 +1,10 @@
+<svg width="400" height="560" viewBox="0 0 400 560" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="560" rx="22" fill="#E5D4B8"/>
+  <rect x="16" y="16" width="368" height="528" rx="16" fill="#D5B98A" stroke="#B18E57" stroke-width="2"/>
+  <rect x="36" y="42" width="328" height="362" rx="10" fill="#8A5A35"/>
+  <circle cx="200" cy="174" r="86" fill="#D8C29B"/>
+  <path d="M139 287C139 245 166 223 200 223C234 223 261 245 261 287V319H139V287Z" fill="#D8C29B"/>
+  <rect x="56" y="430" width="288" height="72" rx="10" fill="#EFE2CB"/>
+  <text x="200" y="461" text-anchor="middle" fill="#614228" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="700">PREWAR</text>
+  <text x="200" y="489" text-anchor="middle" fill="#87694A" font-family="Inter, Arial, sans-serif" font-size="16" letter-spacing="3">SLABBED ARCHIVE</text>
+</svg>
