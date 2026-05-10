@@ -1,0 +1,2316 @@
+{"search":{
+    "field": "number", 
+    "hits": 50, 
+    "sort_order": null, 
+    "do_facets": true, 
+    "focus_item": null, 
+    "query": "\"13163-27\"", 
+    "type": "search", 
+    "sort_by": null
+},
+"focus":null,
+"views":{
+    "current": "grid", 
+    "grid": "https://www.loc.gov/pictures/search/?q=%2213163-27%22&fi=number&c=600&co=bbc&st=grid", 
+    "list": "https://www.loc.gov/pictures/search/?q=%2213163-27%22&fi=number&c=600&co=bbc", 
+    "gallery": "https://www.loc.gov/pictures/search/?q=%2213163-27%22&fi=number&c=600&co=bbc&st=gallery", 
+    "slideshow": "https://www.loc.gov/pictures/search/?q=%2213163-27%22&fi=number&c=600&co=bbc&st=slideshow"
+},
+"facets":[
+    {
+        "type": "displayed", 
+        "filters": [
+            {
+                "count": 50, 
+                "on": "https://www.loc.gov/pictures/search/?c=600&co=bbc&sp=1&st=grid&q=%2213163-27%22&fa=displayed%3Aanywhere&fi=number&fo=json", 
+                "selected": false, 
+                "off": "https://www.loc.gov/pictures/search/?c=600&co=bbc&sp=1&st=grid&q=%2213163-27%22&fi=number&fo=json", 
+                "title": "Larger image available anywhere"
+            }, 
+            {
+                "count": 0, 
+                "on": "https://www.loc.gov/pictures/search/?c=600&co=bbc&sp=1&st=grid&q=%2213163-27%22&fa=displayed%3Alc_only&fi=number&fo=json", 
+                "selected": false, 
+                "off": "https://www.loc.gov/pictures/search/?c=600&co=bbc&sp=1&st=grid&q=%2213163-27%22&fi=number&fo=json", 
+                "title": "Larger image available only at the Library of Congress"
+            }, 
+            {
+                "count": 0, 
+                "on": "https://www.loc.gov/pictures/search/?c=600&co=bbc&sp=1&st=grid&q=%2213163-27%22&fa=displayed%3Anot_digitized&fi=number&fo=json", 
+                "selected": false, 
+                "off": "https://www.loc.gov/pictures/search/?c=600&co=bbc&sp=1&st=grid&q=%2213163-27%22&fi=number&fo=json", 
+                "title": "Not Digitized"
+            }, 
+            {
+                "count": 0, 
+                "on": "https://www.loc.gov/pictures/search/?c=600&co=bbc&sp=1&st=grid&q=%2213163-27%22&fa=displayed%3Asurveys_only&fi=number&fo=json", 
+                "selected": false, 
+                "off": "https://www.loc.gov/pictures/search/?c=600&co=bbc&sp=1&st=grid&q=%2213163-27%22&fi=number&fo=json", 
+                "title": "Surveys only"
+            }
+        ], 
+        "title": "displayed"
+    }
+],
+"links":{
+    "json": "https://www.loc.gov/pictures/search/?co=bbc&st=grid&fi=number&q=%2213163-27%22&c=600&fo=json", 
+    "html": "https://www.loc.gov/pictures/search/?co=bbc&st=grid&fi=number&q=%2213163-27%22&c=600", 
+    "rss": "https://www.loc.gov/pictures/search/?co=bbc&fi=number&q=%2213163-27%22&c=600&fo=rss"
+},
+"suggestions":{
+    "possible": []
+},
+"pages":{
+    "current": 1, 
+    "next": null, 
+    "perpage": 600, 
+    "last": null, 
+    "page_list": [
+        {
+            "url": null, 
+            "number": 1
+        }
+    ], 
+    "previous": null, 
+    "total": 1, 
+    "results": "1 - 50", 
+    "first": null
+},
+"collection":{
+    "digitized": "All", 
+    "code": "bbc", 
+    "display_offsite": "Yes", 
+    "thumb_large_item": "", 
+    "title": "Baseball Cards", 
+    "banner_item": "https://www.loc.gov/pictures/item/2007678538/", 
+    "brief": "Baseball cards representing more than one thousand major and minor league ballplayers (primarily major league), from teams in thirteen identified leagues and seventy-five cities in the United States and Canada.", 
+    "banner_title": "John M. Ward, New York Giants, 1887.", 
+    "thumb_item": "cph.3b38367", 
+    "home_link": "https://www.loc.gov/pictures/collection/bbc/", 
+    "from_date": "1887", 
+    "view_all": "https://www.loc.gov/pictures/search?st=grid&co=bbc", 
+    "link": "https://www.loc.gov/pictures/collection/bbc/", 
+    "to_date": "1914", 
+    "extent": "2,100 baseball cards.", 
+    "thumb_featured": "https://www.loc.gov/pictures/static/data/bbc/featured.png", 
+    "rights": "https://www.loc.gov/rr/print/res/620_base.html", 
+    "thumb_large": "https://www.loc.gov/pictures/static/data/bbc/thumb_large.png", 
+    "banner": "https://www.loc.gov/pictures/static/data/bbc/banner.jpg", 
+    "thumb": "https://www.loc.gov/pictures/static/data/bbc/thumb.png"
+},
+"results":[
+    {
+        "source_created": "2007-09-11T00:00:00Z", 
+        "index": 1, 
+        "medium": "1 print : relief with halftone, color", 
+        "reproduction_number": "LC-DIG-bbc-1555f (digital file from original, front)\nLC-DIG-bbc-1555b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683858/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683858/resource/"
+        }, 
+        "title": "[A. A. Mattern/Geo. F. Graham, Boston Doves, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1550/1555fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1550/1555f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1550/1555f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-27, no. 1 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-09-11T00:00:00Z", 
+        "pk": "2007683858", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Mattern, Al (Team member)", 
+            "Boston Doves", 
+            "Boston", 
+            "National League", 
+            "pitcher", 
+            "Graham, Peaches (Team member)", 
+            "Boston Doves", 
+            "Boston", 
+            "National League", 
+            "catcher", 
+            "Baseball cards--1910-1920.", 
+            "Relief prints--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-11T00:00:00Z", 
+        "index": 2, 
+        "medium": "1 print : relief with halftone, color", 
+        "reproduction_number": "LC-DIG-bbc-1557f (digital file from original, front)\nLC-DIG-bbc-1557b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683860/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683860/resource/"
+        }, 
+        "title": "[G. N. Rucker/Jake Daubert, Brooklyn Superbas, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1550/1557fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1550/1557f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1550/1557f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-27, no. 3 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-09-11T00:00:00Z", 
+        "pk": "2007683860", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Rucker, Nap (Team member)", 
+            "Brooklyn Superbas", 
+            "Brooklyn", 
+            "National League", 
+            "pitcher", 
+            "Daubert, Jake (Team member)", 
+            "Brooklyn Superbas", 
+            "Brooklyn", 
+            "National League", 
+            "first baseman", 
+            "Baseball cards--1910-1920.", 
+            "Relief prints--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-11T00:00:00Z", 
+        "index": 3, 
+        "medium": "1 print : relief with halftone, color", 
+        "reproduction_number": "LC-DIG-bbc-1558f (digital file from original, front)\nLC-DIG-bbc-1558b (digital file from original, back)\nLC-USZC4-6980 (color film copy transparency, front)\nLC-USZC4-6962 (color film copy transparency, back)\nLC-USZC2-1365 (color film copy slide, front)\nLC-USZ62-94248 (b&w film copy neg., front)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683861/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683861/resource/"
+        }, 
+        "title": "[Zack D. Wheat/William Bergen, Brooklyn Dodgers, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1550/1558fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1550/1558f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1550/1558f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-27, no. 4 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-10-15T00:00:00Z", 
+        "pk": "2007683861", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Wheat, Zack (Team member)", 
+            "Brooklyn Dodgers", 
+            "Brooklyn", 
+            "National League", 
+            "left fielder", 
+            "Bergen, Bill (Team member)", 
+            "Brooklyn Dodgers", 
+            "Brooklyn", 
+            "National League", 
+            "catcher", 
+            "Baseball cards--1910-1920.", 
+            "Relief prints--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-11T00:00:00Z", 
+        "index": 4, 
+        "medium": "1 print : relief with halftone, color", 
+        "reproduction_number": "LC-DIG-bbc-1560f (digital file from original, front)\nLC-DIG-bbc-1560b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683863/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683863/resource/"
+        }, 
+        "title": "[John Evers/Frank Chance, Chicago Cubs, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1560/1560fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1560/1560f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1560/1560f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-27, no. 6 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-09-11T00:00:00Z", 
+        "pk": "2007683863", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Evers, Johnny (Team member)", 
+            "Chicago Cubs", 
+            "Chicago", 
+            "National League", 
+            "second baseman", 
+            "Chance, Frank (Team member)", 
+            "Chicago Cubs", 
+            "Chicago", 
+            "National League", 
+            "first baseman", 
+            "Baseball cards--1910-1920.", 
+            "Relief prints--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-11T00:00:00Z", 
+        "index": 5, 
+        "medium": "1 print : relief with halftone, color", 
+        "reproduction_number": "LC-DIG-bbc-1563f (digital file from original, front)\nLC-DIG-bbc-1563b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683866/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683866/resource/"
+        }, 
+        "title": "[Edward Grant/John B. McLean, Cincinnati Reds, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1560/1563fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1560/1563f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1560/1563f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-27, no. 9 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-09-11T00:00:00Z", 
+        "pk": "2007683866", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Grant, Eddie (Team member)", 
+            "Cincinnati Reds", 
+            "Cincinnati", 
+            "National League", 
+            "third baseman", 
+            "McLean, Larry (Team member)", 
+            "Cincinnati Reds", 
+            "Cincinnati", 
+            "National League", 
+            "catcher", 
+            "Baseball cards--1910-1920.", 
+            "Relief prints--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-11T00:00:00Z", 
+        "index": 6, 
+        "medium": "1 print : relief with halftone, color", 
+        "reproduction_number": "LC-DIG-bbc-1564f (digital file from original, front)\nLC-DIG-bbc-1564b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683867/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683867/resource/"
+        }, 
+        "title": "[Larry Doyle/J. T. Meyers, New York Giants, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1560/1564fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1560/1564f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1560/1564f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-27, no. 10 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-09-11T00:00:00Z", 
+        "pk": "2007683867", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Doyle, Larry (Team member)", 
+            "New York Giants", 
+            "New York", 
+            "National League", 
+            "second baseman", 
+            "Meyers, Chief (Team member)", 
+            "New York Giants", 
+            "New York", 
+            "National League", 
+            "catcher", 
+            "Baseball cards--1910-1920.", 
+            "Relief prints--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-11T00:00:00Z", 
+        "index": 7, 
+        "medium": "1 print : relief with halftone, color", 
+        "reproduction_number": "LC-DIG-bbc-1566f (digital file from original, front)\nLC-DIG-bbc-1566b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683869/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683869/resource/"
+        }, 
+        "title": "[George Wiltse/Fred Merkle, New York Giants, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1560/1566fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1560/1566f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1560/1566f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-27, no. 12 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-09-11T00:00:00Z", 
+        "pk": "2007683869", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Wiltse, Hooks (Team member)", 
+            "New York Giants", 
+            "New York", 
+            "National League", 
+            "pitcher", 
+            "Merkle, Fred (Team member)", 
+            "New York Giants", 
+            "New York", 
+            "National League", 
+            "first baseman", 
+            "Baseball cards--1910-1920.", 
+            "Relief prints--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-11T00:00:00Z", 
+        "index": 8, 
+        "medium": "1 print : relief with halftone, color", 
+        "reproduction_number": "LC-DIG-bbc-1570f (digital file from original, front)\nLC-DIG-bbc-1570b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683873/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683873/resource/"
+        }, 
+        "title": "[Thomas Leach/Geo. Gibson, Pittsburgh Pirates, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1570/1570fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1570/1570f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1570/1570f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-27, no. 16 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-09-11T00:00:00Z", 
+        "pk": "2007683873", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Leach, Tommy (Team member)", 
+            "Pittsburgh Pirates", 
+            "Pittsburgh", 
+            "National League", 
+            "outfielder", 
+            "Gibson, George (Team member)", 
+            "Pittsburgh Pirates", 
+            "Pittsburgh", 
+            "National League", 
+            "catcher", 
+            "Baseball cards--1910-1920.", 
+            "Relief prints--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-11T00:00:00Z", 
+        "index": 9, 
+        "medium": "1 print : relief with halftone, color", 
+        "reproduction_number": "LC-DIG-bbc-1571f (digital file from original, front)\nLC-DIG-bbc-1571b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683874/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683874/resource/"
+        }, 
+        "title": "[A. P. Leifield/ M. E. Simon, Pittsburgh Pirates, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1570/1571fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1570/1571f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1570/1571f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-27, no. 17 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-09-11T00:00:00Z", 
+        "pk": "2007683874", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Leifield, Lefty (Team member)", 
+            "Pittsburgh Pirates", 
+            "Pittsburgh", 
+            "National League", 
+            "pitcher", 
+            "Simon, Mike (Team member)", 
+            "Pittsburgh Pirates", 
+            "Pittsburgh", 
+            "National League", 
+            "catcher", 
+            "Baseball cards--1910-1920.", 
+            "Relief prints--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-12T00:00:00Z", 
+        "index": 10, 
+        "medium": "1 print : relief with halftone, color", 
+        "reproduction_number": "LC-DIG-bbc-1573f (digital file from original, front)\nLC-DIG-bbc-1573b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683876/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683876/resource/"
+        }, 
+        "title": "[Ernest Lush/A. J. Hauser, St. Louis Cardinals, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1570/1573fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1570/1573f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1570/1573f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-27, no. 19 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-09-12T00:00:00Z", 
+        "pk": "2007683876", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Lush, Johnny (Team member)", 
+            "St. Louis Cardinals", 
+            "St. Louis", 
+            "National League", 
+            "pitcher", 
+            "Hauser, Arnold (Team member)", 
+            "St. Louis Cardinals", 
+            "St. Louis", 
+            "National League", 
+            "shortstop", 
+            "Baseball cards--1910-1920.", 
+            "Relief prints--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-24T00:00:00Z", 
+        "index": 11, 
+        "medium": "1 print : relief with halftone, color", 
+        "reproduction_number": "LC-DIG-bbc-1576f (digital file from original, front)\nLC-DIG-bbc-1576b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683879/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683879/resource/"
+        }, 
+        "title": "[Harry D. Lord/P. H. Dougherty, Chicago White Sox, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1570/1576fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1570/1576f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1570/1576f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-27, no. 22 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-09-24T00:00:00Z", 
+        "pk": "2007683879", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Lord, Harry (Team member)", 
+            "Chicago White Sox", 
+            "Chicago", 
+            "American League", 
+            "third baseman", 
+            "Dougherty, Patsy (Team member)", 
+            "Chicago White Sox", 
+            "Chicago", 
+            "American League", 
+            "left fielder", 
+            "Baseball cards--1910-1920.", 
+            "Relief prints--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-24T00:00:00Z", 
+        "index": 12, 
+        "medium": "1 print : relief with halftone, color", 
+        "reproduction_number": "LC-DIG-bbc-1578f (digital file from original, front)\nLC-DIG-bbc-1578b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683881/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683881/resource/"
+        }, 
+        "title": "[Napoleon Lajoie/Fred. Falkenberg, Cleveland Naps, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1570/1578fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1570/1578f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1570/1578f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-27, no. 24 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-09-24T00:00:00Z", 
+        "pk": "2007683881", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Lajoie, Nap (Team member)", 
+            "Cleveland Naps", 
+            "Cleveland", 
+            "American League", 
+            "second baseman", 
+            "Falkenberg, Cy (Team member)", 
+            "Cleveland Naps", 
+            "Cleveland", 
+            "American League", 
+            "pitcher", 
+            "Baseball cards--1910-1920.", 
+            "Relief prints--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-26T00:00:00Z", 
+        "index": 13, 
+        "medium": "1 print : relief with halftone, color", 
+        "reproduction_number": "LC-DIG-bbc-1579f (digital file from original, front)\nLC-DIG-bbc-1579b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683882/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683882/resource/"
+        }, 
+        "title": "[Torrence Turner/Geo. Stovall, Cleveland Naps, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1570/1579fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1570/1579f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1570/1579f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-27, no. 25 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-09-26T00:00:00Z", 
+        "pk": "2007683882", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Turner, Terry (Team member)", 
+            "Cleveland Naps", 
+            "Cleveland", 
+            "American League", 
+            "third baseman", 
+            "Stovall, George (Team member)", 
+            "Cleveland Naps", 
+            "Cleveland", 
+            "American League", 
+            "first baseman", 
+            "Baseball cards--1910-1920.", 
+            "Relief prints--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-26T00:00:00Z", 
+        "index": 14, 
+        "medium": "1 print : relief with halftone, color", 
+        "reproduction_number": "LC-DIG-bbc-1580f (digital file from original, front)\nLC-DIG-bbc-1580b (digital file from original, back)\nLC-USZC4-6928 (color film copy transparency, front)\nLC-USZC2-5121 (color film copy slide, front)\nLC-USZC4-6929 (color film copy transparency, back)\nLC-USZC2-5120 (color film copy slide  of folded card)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683883/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683883/resource/"
+        }, 
+        "title": "[Sam. Crawford/Tyrus R. Cobb, Detroit Tigers, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1580/1580fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1580/1580f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1580/1580f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-27, no. 26 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-09-26T00:00:00Z", 
+        "pk": "2007683883", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Crawford, Sam (Team member)", 
+            "Detroit Tigers", 
+            "Detroit", 
+            "American League", 
+            "right fielder", 
+            "Cobb, Ty (Team member)", 
+            "Detroit Tigers", 
+            "Detroit", 
+            "American League", 
+            "center fielder", 
+            "Baseball cards--1910-1920.", 
+            "Relief prints--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-18T00:00:00Z", 
+        "index": 15, 
+        "medium": "1 print : relief with halftone, color", 
+        "reproduction_number": "LC-DIG-bbc-1583f (digital file from original, front)\nLC-DIG-bbc-1583b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683886/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683886/resource/"
+        }, 
+        "title": "[Harold Chase/Edward J. Sweeney, New York Highlanders, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1580/1583fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1580/1583f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1580/1583f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-27, no. 29 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-10-18T00:00:00Z", 
+        "pk": "2007683886", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Chase, Hal (Team member)", 
+            "New York Highlanders", 
+            "New York", 
+            "American League", 
+            "first baseman", 
+            "Sweeney, Jeff (Team member)", 
+            "New York Highlanders", 
+            "New York", 
+            "American League", 
+            "catcher", 
+            "Baseball cards--1910-1920.", 
+            "Relief prints--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-18T00:00:00Z", 
+        "index": 16, 
+        "medium": "1 print : relief with halftone, color", 
+        "reproduction_number": "LC-DIG-bbc-1586f (digital file from original, front)\nLC-DIG-bbc-1586b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683889/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683889/resource/"
+        }, 
+        "title": "[Charles Bender/Reuben Oldring, Philadelphia Athletics, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1580/1586fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1580/1586f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1580/1586f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-27, no. 32 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-10-18T00:00:00Z", 
+        "pk": "2007683889", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Bender, Chief (Team member)", 
+            "Philadelphia Athletics", 
+            "Philadelphia", 
+            "American League", 
+            "pitcher", 
+            "Oldring, Rube (Team member)", 
+            "Philadelphia Athletics", 
+            "Philadelphia", 
+            "American League", 
+            "outfielder", 
+            "Baseball cards--1910-1920.", 
+            "Relief prints--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-18T00:00:00Z", 
+        "index": 17, 
+        "medium": "1 print : relief with halftone, color", 
+        "reproduction_number": "LC-DIG-bbc-1587f (digital file from original, front)\nLC-DIG-bbc-1587b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683890/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683890/resource/"
+        }, 
+        "title": "[Edward T. Collins/Frank Baker, Philadelphia Athletics, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1580/1587fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1580/1587f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1580/1587f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-27, no. 33 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-10-18T00:00:00Z", 
+        "pk": "2007683890", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Collins, Eddie (Team member)", 
+            "Philadelphia Athletics", 
+            "Philadelphia", 
+            "American League", 
+            "second baseman", 
+            "Baker, Frank (Team member)", 
+            "Philadelphia Athletics", 
+            "Philadelphia", 
+            "American League", 
+            "third baseman", 
+            "Baseball cards--1910-1920.", 
+            "Relief prints--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-18T00:00:00Z", 
+        "index": 18, 
+        "medium": "1 print : relief with halftone, color", 
+        "reproduction_number": "LC-DIG-bbc-1588f (digital file from original, front)\nLC-DIG-bbc-1588b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683891/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683891/resource/"
+        }, 
+        "title": "[John Lapp/John Barry, Philadelphia Athletics, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1580/1588fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1580/1588f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1580/1588f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-27, no. 34 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-10-18T00:00:00Z", 
+        "pk": "2007683891", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Lapp, Jack (Team member)", 
+            "Philadelphia Athletics", 
+            "Philadelphia", 
+            "American League", 
+            "catcher", 
+            "Barry, Jack (Team member)", 
+            "Philadelphia Athletics", 
+            "Philadelphia", 
+            "American League", 
+            "shortstop", 
+            "Baseball cards--1910-1920.", 
+            "Relief prints--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-18T00:00:00Z", 
+        "index": 19, 
+        "medium": "1 print : relief with halftone, color", 
+        "reproduction_number": "LC-DIG-bbc-1589f (digital file from original, front)\nLC-DIG-bbc-1589b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683892/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683892/resource/"
+        }, 
+        "title": "[Ira Thomas/John W. Coombs, Philadelphia Athletics, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1580/1589fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1580/1589f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1580/1589f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-27, no. 35 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-10-18T00:00:00Z", 
+        "pk": "2007683892", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Thomas, Ira (Team member)", 
+            "Philadelphia Athletics", 
+            "Philadelphia", 
+            "American League", 
+            "catcher", 
+            "Coombs, Jack (Team member)", 
+            "Philadelphia Athletics", 
+            "Philadelphia", 
+            "American League", 
+            "pitcher", 
+            "Baseball cards--1910-1920.", 
+            "Relief prints--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-18T00:00:00Z", 
+        "index": 20, 
+        "medium": "1 print : relief with halftone, color", 
+        "reproduction_number": "LC-DIG-bbc-1593f (digital file from original, front)\nLC-DIG-bbc-1593b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683896/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683896/resource/"
+        }, 
+        "title": "[George McBride/Norman Elberfeld, Washington Nationals, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1590/1593fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1590/1593f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1590/1593f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-27, no. 39 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-10-18T00:00:00Z", 
+        "pk": "2007683896", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "McBride, George (Team member)", 
+            "Washington Nationals", 
+            "Washington", 
+            "American League", 
+            "shortstop", 
+            "Elberfeld, Kid (Team member)", 
+            "Washington Nationals", 
+            "Washington", 
+            "American League", 
+            "third baseman", 
+            "Baseball cards--1910-1920.", 
+            "Relief prints--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-18T00:00:00Z", 
+        "index": 21, 
+        "medium": "1 print : relief with halftone, color", 
+        "reproduction_number": "LC-DIG-bbc-1595f (digital file from original, front)\nLC-DIG-bbc-1595b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683898/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683898/resource/"
+        }, 
+        "title": "[Orville Woodruff/Otto G. Williams, Indianapolis Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1590/1595fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1590/1595f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1590/1595f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-27, no. 41 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-10-18T00:00:00Z", 
+        "pk": "2007683898", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Woodruff, Orville (Team member)", 
+            "Indianapolis", 
+            "American Association", 
+            "infielder", 
+            "Williams, Otto G. (Team member)", 
+            "Indianapolis", 
+            "American Association", 
+            "second baseman", 
+            "Baseball cards--1910-1920.", 
+            "Relief prints--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-18T00:00:00Z", 
+        "index": 22, 
+        "medium": "1 print : relief with halftone, color", 
+        "reproduction_number": "LC-DIG-bbc-1597f (digital file from original, front)\nLC-DIG-bbc-1597b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685591/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685591/resource/"
+        }, 
+        "title": "[James E. Barrett/Grant McGlynn, Milwaukee Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1590/1597fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1590/1597f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1590/1597f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-27, no. 43 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-10-18T00:00:00Z", 
+        "pk": "2007685591", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Barrett, James E. (Team member)", 
+            "Milwaukee", 
+            "American Association", 
+            "outfielder", 
+            "McGlynn, Grant (Team member)", 
+            "Milwaukee", 
+            "American Association", 
+            "pitcher", 
+            "Baseball cards--1910-1920.", 
+            "Relief prints--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-18T00:00:00Z", 
+        "index": 23, 
+        "medium": "1 print : relief with halftone, color", 
+        "reproduction_number": "LC-DIG-bbc-1598f (digital file from original, front)\nLC-DIG-bbc-1598b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685592/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685592/resource/"
+        }, 
+        "title": "[Charles Hickman/Harry Hinchman, Toledo Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1590/1598fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1590/1598f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1590/1598f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-27, no. 44 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-10-18T00:00:00Z", 
+        "pk": "2007685592", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Hickman, Charles (Team member)", 
+            "Toledo", 
+            "American Association", 
+            "outfielder", 
+            "Hinchman, Harry (Team member)", 
+            "Toledo", 
+            "American Association", 
+            "second baseman", 
+            "Baseball cards--1910-1920.", 
+            "Relief prints--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-18T00:00:00Z", 
+        "index": 24, 
+        "medium": "1 print : relief with halftone, color", 
+        "reproduction_number": "LC-DIG-bbc-1599f (digital file from original, front)\nLC-DIG-bbc-1599b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685593/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685593/resource/"
+        }, 
+        "title": "[J. B. Seymour/James H. Dygert, Baltimore Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1590/1599fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1590/1599f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1590/1599f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-27, no. 45 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-10-18T00:00:00Z", 
+        "pk": "2007685593", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Seymour, J. B. (Team member)", 
+            "Baltimore", 
+            "Eastern League", 
+            "outfielder", 
+            "Dygert, James H. (Team member)", 
+            "Baltimore", 
+            "Eastern League", 
+            "pitcher", 
+            "Baseball cards--1910-1920.", 
+            "Relief prints--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-18T00:00:00Z", 
+        "index": 25, 
+        "medium": "1 print : relief with halftone, color", 
+        "reproduction_number": "LC-DIG-bbc-1601f (digital file from original, front)\nLC-DIG-bbc-1601b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685595/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685595/resource/"
+        }, 
+        "title": "[William Abstein/John A. Butler, Jersey City Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1600/1601fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1600/1601f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1600/1601f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-27, no. 47 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-10-18T00:00:00Z", 
+        "pk": "2007685595", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Abstein, William (Team member)", 
+            "Jersey City", 
+            "Eastern League", 
+            "first baseman", 
+            "Butler, John A. (Team member)", 
+            "Jersey City", 
+            "Eastern League", 
+            "catcher", 
+            "Baseball cards--1910-1920.", 
+            "Relief prints--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-18T00:00:00Z", 
+        "index": 26, 
+        "medium": "1 print : relief with halftone, color", 
+        "reproduction_number": "LC-DIG-bbc-1602f (digital file from original, front)\nLC-DIG-bbc-1602b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685596/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685596/resource/"
+        }, 
+        "title": "[Joseph McGinnity/Lewis McCarty, Newark Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1600/1602fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1600/1602f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1600/1602f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-27, no. 48 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-10-18T00:00:00Z", 
+        "pk": "2007685596", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "McGinnity, Joseph (Team member)", 
+            "Newark", 
+            "Eastern League", 
+            "pitcher", 
+            "manager", 
+            "McCarty, Lewis (Team member)", 
+            "Newark", 
+            "Eastern League", 
+            "catcher", 
+            "Baseball cards--1910-1920.", 
+            "Relief prints--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-18T00:00:00Z", 
+        "index": 27, 
+        "medium": "1 print : relief with halftone, color", 
+        "reproduction_number": "LC-DIG-bbc-1603f (digital file from original, front)\nLC-DIG-bbc-1603b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685597/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685597/resource/"
+        }, 
+        "title": "[Edward C. Foster/Joseph Ward, Rochester Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1600/1603fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1600/1603f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1600/1603f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-27, no. 49 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-10-18T00:00:00Z", 
+        "pk": "2007685597", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Foster, Edward C. (Team member)", 
+            "Rochester", 
+            "Eastern League", 
+            "infielder", 
+            "Ward, Joseph (Team member)", 
+            "Rochester", 
+            "Eastern League", 
+            "third baseman", 
+            "Baseball cards--1910-1920.", 
+            "Relief prints--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-11T00:00:00Z", 
+        "index": 28, 
+        "medium": "1 print : relief with halftone, color", 
+        "reproduction_number": "LC-DIG-bbc-1556f (digital file from original, front)\nLC-DIG-bbc-1556b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683859/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683859/resource/"
+        }, 
+        "title": "[Roy Miller/C. L. Herzog, Boston Doves, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1550/1556fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1550/1556f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1550/1556f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-27, no. 2 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-09-11T00:00:00Z", 
+        "pk": "2007683859", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Miller, Doc (Team member)", 
+            "Boston Doves", 
+            "Boston", 
+            "National League", 
+            "right fielder", 
+            "Herzog, Buck (Team member)", 
+            "Boston Doves", 
+            "Boston", 
+            "National League", 
+            "third baseman", 
+            "Baseball cards--1910-1920.", 
+            "Relief prints--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-11T00:00:00Z", 
+        "index": 29, 
+        "medium": "1 print : relief with halftone, color", 
+        "reproduction_number": "LC-DIG-bbc-1559f (digital file from original, front)\nLC-DIG-bbc-1559b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683862/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683862/resource/"
+        }, 
+        "title": "[Mordecai Brown/Arthur Hofman, Chicago Cubs, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1550/1559fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1550/1559f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1550/1559f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-27, no. 5 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-09-11T00:00:00Z", 
+        "pk": "2007683862", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Brown, Three Finger (Team member)", 
+            "Chicago Cubs", 
+            "Chicago", 
+            "National League", 
+            "pitcher", 
+            "Hofman, Solly (Team member)", 
+            "Chicago Cubs", 
+            "Chicago", 
+            "National League", 
+            "center fielder", 
+            "Baseball cards--1910-1920.", 
+            "Relief prints--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-11T00:00:00Z", 
+        "index": 30, 
+        "medium": "1 print : relief with halftone, color", 
+        "reproduction_number": "LC-DIG-bbc-1561f (digital file from original, front)\nLC-DIG-bbc-1561b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683864/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683864/resource/"
+        }, 
+        "title": "[John Kling/Leonard C. Cole, Chicago Cubs, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1560/1561fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1560/1561f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1560/1561f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-27, no. 7 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-09-11T00:00:00Z", 
+        "pk": "2007683864", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Kling, Johnny (Team member)", 
+            "Chicago Cubs", 
+            "Chicago", 
+            "National League", 
+            "catcher", 
+            "Cole, King (Team member)", 
+            "Chicago Cubs", 
+            "Chicago", 
+            "National League", 
+            "pitcher", 
+            "Baseball cards--1910-1920.", 
+            "Relief prints--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-11T00:00:00Z", 
+        "index": 31, 
+        "medium": "1 print : relief with halftone, color", 
+        "reproduction_number": "LC-DIG-bbc-1562f (digital file from original, front)\nLC-DIG-bbc-1562b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683865/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683865/resource/"
+        }, 
+        "title": "[H. L. Gaspar/Thomas R. Clarke, Cincinnati Reds, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1560/1562fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1560/1562f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1560/1562f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-27, no. 8 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-09-11T00:00:00Z", 
+        "pk": "2007683865", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Gaspar, Harry (Team member)", 
+            "Cincinnati Reds", 
+            "Cincinnati", 
+            "National League", 
+            "pitcher", 
+            "Clarke, Tommy (Team member)", 
+            "Cincinnati Reds", 
+            "Cincinnati", 
+            "National League", 
+            "catcher", 
+            "Baseball cards--1910-1920.", 
+            "Relief prints--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-11T00:00:00Z", 
+        "index": 32, 
+        "medium": "1 print : relief with halftone, color", 
+        "reproduction_number": "LC-DIG-bbc-1568f (digital file from original, front)\nLC-DIG-bbc-1568b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683871/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683871/resource/"
+        }, 
+        "title": "[John Titus/Chas. S. Dooin, Philadelphia Phillies, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1560/1568fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1560/1568f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1560/1568f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-27, no. 14 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-09-11T00:00:00Z", 
+        "pk": "2007683871", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Titus, John (Team member)", 
+            "Philadelphia Phillies", 
+            "Philadelphia", 
+            "National League", 
+            "right fielder", 
+            "Dooin, Red (Team member)", 
+            "Philadelphia Phillies", 
+            "Philadelphia", 
+            "National League", 
+            "catcher", 
+            "Baseball cards--1910-1920.", 
+            "Relief prints--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-11T00:00:00Z", 
+        "index": 33, 
+        "medium": "1 print : relief with halftone, color", 
+        "reproduction_number": "LC-DIG-bbc-1569f (digital file from original, front)\nLC-DIG-bbc-1569b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683872/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683872/resource/"
+        }, 
+        "title": "[Fred Clarke/R. Byrne, Pittsburgh Pirates, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1560/1569fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1560/1569f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1560/1569f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-27, no. 15 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-09-11T00:00:00Z", 
+        "pk": "2007683872", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Clarke, Fred (Team member)", 
+            "Pittsburgh Pirates", 
+            "Pittsburgh", 
+            "National League", 
+            "left fielder", 
+            "Byrne, Bobby (Team member)", 
+            "Pittsburgh Pirates", 
+            "Pittsburgh", 
+            "National League", 
+            "third baseman", 
+            "Baseball cards--1910-1920.", 
+            "Relief prints--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-12T00:00:00Z", 
+        "index": 34, 
+        "medium": "1 print : relief with halftone, color", 
+        "reproduction_number": "LC-DIG-bbc-1572f (digital file from original, front)\nLC-DIG-bbc-1572b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683875/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683875/resource/"
+        }, 
+        "title": "[Miller Huggins/Roger Bresnahan, St. Louis Cardinals, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1570/1572fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1570/1572f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1570/1572f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-27, no. 18 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-09-12T00:00:00Z", 
+        "pk": "2007683875", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Huggins, Miller (Team member)", 
+            "St. Louis Cardinals", 
+            "St. Louis", 
+            "National League", 
+            "second baseman", 
+            "Bresnahan, Roger (Team member)", 
+            "St. Louis Cardinals", 
+            "St. Louis", 
+            "National League", 
+            "catcher", 
+            "Baseball cards--1910-1920.", 
+            "Relief prints--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-24T00:00:00Z", 
+        "index": 35, 
+        "medium": "1 print : relief with halftone, color", 
+        "reproduction_number": "LC-DIG-bbc-1577f (digital file from original, front)\nLC-DIG-bbc-1577b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683880/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683880/resource/"
+        }, 
+        "title": "[Edward A. Walsh/Frederick Payne, Chicago White Sox, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1570/1577fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1570/1577f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1570/1577f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-27, no. 23 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-09-24T00:00:00Z", 
+        "pk": "2007683880", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Walsh, Ed (Team member)", 
+            "Chicago White Sox", 
+            "Chicago", 
+            "American League", 
+            "pitcher", 
+            "Payne, Fred (Team member)", 
+            "Chicago White Sox", 
+            "Chicago", 
+            "American League", 
+            "catcher", 
+            "Baseball cards--1910-1920.", 
+            "Relief prints--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-26T00:00:00Z", 
+        "index": 36, 
+        "medium": "1 print : relief with halftone, color", 
+        "reproduction_number": "LC-DIG-bbc-1581f (digital file from original, front)\nLC-DIG-bbc-1581b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683884/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683884/resource/"
+        }, 
+        "title": "[W. E. Donovan/Ralph V. Stroud, Detroit Tigers, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1580/1581fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1580/1581f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1580/1581f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-27, no. 27 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-09-26T00:00:00Z", 
+        "pk": "2007683884", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Donovan, Wild Bill (Team member)", 
+            "Detroit Tigers", 
+            "Detroit", 
+            "American League", 
+            "pitcher", 
+            "Stroud, Sailor (Team member)", 
+            "Detroit Tigers", 
+            "Detroit", 
+            "American League", 
+            "pitcher", 
+            "Baseball cards--1910-1920.", 
+            "Relief prints--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-26T00:00:00Z", 
+        "index": 37, 
+        "medium": "1 print : relief with halftone, color", 
+        "reproduction_number": "LC-DIG-bbc-1582f (digital file from original, front)\nLC-DIG-bbc-1582b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683885/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683885/resource/"
+        }, 
+        "title": "[Edgar Summers/Hugh Jennings, Detroit Tigers, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1580/1582fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1580/1582f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1580/1582f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-27, no. 28 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-09-26T00:00:00Z", 
+        "pk": "2007683885", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Summers, Ed (Team member)", 
+            "Detroit Tigers", 
+            "Detroit", 
+            "American League", 
+            "pitcher", 
+            "Jennings, Hughie (Team member)", 
+            "Detroit Tigers", 
+            "Detroit", 
+            "American League", 
+            "manager", 
+            "Baseball cards--1910-1920.", 
+            "Relief prints--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-18T00:00:00Z", 
+        "index": 38, 
+        "medium": "1 print : relief with halftone, color", 
+        "reproduction_number": "LC-DIG-bbc-1584f (digital file from original, front)\nLC-DIG-bbc-1584b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683887/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683887/resource/"
+        }, 
+        "title": "[Russell Ford/Otis Johnson, New York Highlanders, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1580/1584fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1580/1584f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1580/1584f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-27, no. 30 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-10-18T00:00:00Z", 
+        "pk": "2007683887", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Ford, Russ (Team member)", 
+            "New York Highlanders", 
+            "New York", 
+            "American League", 
+            "pitcher", 
+            "Johnson, Otis (Team member)", 
+            "New York Highlanders", 
+            "New York", 
+            "American League", 
+            "shortstop", 
+            "Baseball cards--1910-1920.", 
+            "Relief prints--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-18T00:00:00Z", 
+        "index": 39, 
+        "medium": "1 print : relief with halftone, color", 
+        "reproduction_number": "LC-DIG-bbc-1585f (digital file from original, front)\nLC-DIG-bbc-1585b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683888/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683888/resource/"
+        }, 
+        "title": "[Roy A. Hartzell/Walter Blair, New York Highlanders, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1580/1585fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1580/1585f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1580/1585f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-27, no. 31 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-10-18T00:00:00Z", 
+        "pk": "2007683888", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Hartzell, Roy (Team member)", 
+            "New York Highlanders", 
+            "New York", 
+            "American League", 
+            "third baseman", 
+            "Blair, Walter (Team member)", 
+            "New York Highlanders", 
+            "New York", 
+            "American League", 
+            "catcher", 
+            "Baseball cards--1910-1920.", 
+            "Relief prints--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-18T00:00:00Z", 
+        "index": 40, 
+        "medium": "1 print : relief with halftone, color", 
+        "reproduction_number": "LC-DIG-bbc-1590f (digital file from original, front)\nLC-DIG-bbc-1590b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683893/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683893/resource/"
+        }, 
+        "title": "[Joseph Lake/Robert Wallace, St. Louis Browns, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1590/1590fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1590/1590f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1590/1590f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-27, no. 36 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-10-18T00:00:00Z", 
+        "pk": "2007683893", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Lake, Joe (Team member)", 
+            "St. Louis Browns", 
+            "St. Louis", 
+            "American League", 
+            "pitcher", 
+            "Wallace, Bobby (Team member)", 
+            "St. Louis Browns", 
+            "St. Louis", 
+            "American League", 
+            "shortstop", 
+            "Baseball cards--1910-1920.", 
+            "Relief prints--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-18T00:00:00Z", 
+        "index": 41, 
+        "medium": "1 print : relief with halftone, color", 
+        "reproduction_number": "LC-DIG-bbc-1591f (digital file from original, front)\nLC-DIG-bbc-1591b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683894/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683894/resource/"
+        }, 
+        "title": "[Frank B. LaPorte/James Stephens, St. Louis Browns, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1590/1591fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1590/1591f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1590/1591f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-27, no. 37 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-10-18T00:00:00Z", 
+        "pk": "2007683894", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "LaPorte, Frank (Team member)", 
+            "St. Louis Browns", 
+            "St. Louis", 
+            "American League", 
+            "second baseman", 
+            "Stephens, Jim (Team member)", 
+            "St. Louis Browns", 
+            "St. Louis", 
+            "American League", 
+            "catcher", 
+            "Baseball cards--1910-1920.", 
+            "Relief prints--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-18T00:00:00Z", 
+        "index": 42, 
+        "medium": "1 print : relief with halftone, color", 
+        "reproduction_number": "LC-DIG-bbc-1594f (digital file from original, front)\nLC-DIG-bbc-1594b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683897/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683897/resource/"
+        }, 
+        "title": "[Jerry Downs/Fred Odwell, Columbus Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1590/1594fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1590/1594f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1590/1594f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-27, no. 40 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-10-18T00:00:00Z", 
+        "pk": "2007683897", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Downs, Jerry (Team member)", 
+            "Columbus", 
+            "American Association", 
+            "second baseman", 
+            "Odwell, Fred (Team member)", 
+            "Columbus", 
+            "American Association", 
+            "first baseman", 
+            "Baseball cards--1910-1920.", 
+            "Relief prints--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-18T00:00:00Z", 
+        "index": 43, 
+        "medium": "1 print : relief with halftone, color", 
+        "reproduction_number": "LC-DIG-bbc-1600f (digital file from original, front)\nLC-DIG-bbc-1600b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685594/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685594/resource/"
+        }, 
+        "title": "[Arthur McCabe/Charles Starr, Buffalo Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1600/1600fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1600/1600f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1600/1600f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-27, no. 46 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-10-18T00:00:00Z", 
+        "pk": "2007685594", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "McCabe, Arthur (Team member)", 
+            "Buffalo", 
+            "Eastern League", 
+            "outfielder", 
+            "Starr, Charles (Team member)", 
+            "Buffalo", 
+            "Eastern League", 
+            "shortstop", 
+            "Baseball cards--1910-1920.", 
+            "Relief prints--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-18T00:00:00Z", 
+        "index": 44, 
+        "medium": "1 print : relief with halftone, color", 
+        "reproduction_number": "LC-DIG-bbc-1604f (digital file from original, front)\nLC-DIG-bbc-1604b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685598/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685598/resource/"
+        }, 
+        "title": "[E. H. Killian/Edward Fitzpatrick, Toronto Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1600/1604fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1600/1604f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1600/1604f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-27, no. 50 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-10-18T00:00:00Z", 
+        "pk": "2007685598", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Killian, E. H. (Team member)", 
+            "Toronto", 
+            "Eastern League", 
+            "pitcher", 
+            "Fitzpatrick, Edward (Team member)", 
+            "Toronto", 
+            "Eastern League", 
+            "shortstop", 
+            "Baseball cards--1910-1920.", 
+            "Relief prints--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-18T00:00:00Z", 
+        "index": 45, 
+        "medium": "1 print : relief with halftone, color ; sheet 12.1 x 5.4 cm.", 
+        "reproduction_number": "LC-DIG-bbc-1596f (digital file from original, front)\nLC-DIG-bbc-1596b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683899/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683899/resource/"
+        }, 
+        "title": "[Harry Baker/Thomas Downie, Kansas City Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1590/1596fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1590/1596f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1590/1596f_150px.jpg"
+        }, 
+        "created": "2017-10-24T00:00:00Z", 
+        "modified": "2017-10-24T00:00:00Z", 
+        "collection": [
+            "00", 
+            "024", 
+            "06", 
+            "bbc", 
+            "diof", 
+            "exh", 
+            "l4804", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-27, no. 42 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2017-10-19T00:00:00Z", 
+        "pk": "2007683899", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Baker, Harry (Team member)", 
+            "Kansas City", 
+            "American Association", 
+            "infielder", 
+            "Downie, Thomas (Team member)", 
+            "Kansas City", 
+            "American Association", 
+            "third baseman", 
+            "Baseball cards--1910-1920.", 
+            "Relief prints--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-18T00:00:00Z", 
+        "index": 46, 
+        "medium": "1 print : relief with halftone, color ; sheet 11.9 x 5.4 cm.", 
+        "reproduction_number": "LC-DIG-bbc-1592f (digital file from original, front)\nLC-DIG-bbc-1592b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683895/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683895/resource/"
+        }, 
+        "title": "[Walter Johnson/Charles Street, Washington Nationals, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1590/1592fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1590/1592f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1590/1592f_150px.jpg"
+        }, 
+        "created": "2017-12-05T00:00:00Z", 
+        "modified": "2017-12-05T00:00:00Z", 
+        "collection": [
+            "00", 
+            "074", 
+            "bbc", 
+            "diof", 
+            "exh", 
+            "l4804", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-27, no. 38 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2017-11-30T00:00:00Z", 
+        "pk": "2007683895", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Johnson, Walter,--1887-1946.", 
+            "Washington Senators (Baseball team : 1901-1960)--People--1910-1920.", 
+            "Baseball players--Washington (D.C.)--1910-1920.", 
+            "Johnson, Walter (Team member)", 
+            "Washington Nationals", 
+            "Washington", 
+            "American League", 
+            "pitcher", 
+            "Street, Gabby (Team member)", 
+            "Washington Nationals", 
+            "Washington", 
+            "American League", 
+            "catcher", 
+            "Baseball cards--1910-1920.", 
+            "Relief prints--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-11T00:00:00Z", 
+        "index": 47, 
+        "medium": "1 print : relief with halftone, color ; sheet 12 x 5.4 cm.", 
+        "reproduction_number": "LC-DIG-bbc-1567f (digital file from original, front)\nLC-DIG-bbc-1567b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683870/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683870/resource/"
+        }, 
+        "title": "[John Lobert/Earl Moore, Philadelphia Phillies, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1560/1567fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1560/1567f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1560/1567f_150px.jpg"
+        }, 
+        "created": "2018-10-23T00:00:00Z", 
+        "modified": "2018-10-23T00:00:00Z", 
+        "collection": [
+            "01", 
+            "06", 
+            "2", 
+            "24", 
+            "bbc", 
+            "diof", 
+            "exh", 
+            "l4804", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-27, no. 13 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2018-10-18T00:00:00Z", 
+        "pk": "2007683870", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Lobert, John Bernard,--1881-1968.", 
+            "Moore, Earl Alonzo,--1879-1961.", 
+            "National League of Professional Baseball Clubs.", 
+            "Philadelphia Phillies (Baseball team)--1910-1920.", 
+            "Baseball players--1910-1920.", 
+            "Lobert, Hans (Team member)", 
+            "Philadelphia Phillies", 
+            "Philadelphia", 
+            "National League", 
+            "third baseman", 
+            "Moore, Earl (Team member)", 
+            "Philadelphia Phillies", 
+            "Philadelphia", 
+            "National League", 
+            "pitcher", 
+            "Baseball cards--1910-1920.", 
+            "Portrait prints--1910-1920.", 
+            "Relief prints--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-13T00:00:00Z", 
+        "index": 48, 
+        "medium": "1 print : relief with halftone, color ; sheet 12 x 5.4 cm.", 
+        "reproduction_number": "LC-DIG-bbc-1574f (digital file from original, front)\nLC-DIG-bbc-1574b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683877/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683877/resource/"
+        }, 
+        "title": "[Edward V. Cicotte/John Thoney, Boston Red Sox, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1570/1574fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1570/1574f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1570/1574f_150px.jpg"
+        }, 
+        "created": "2018-10-23T00:00:00Z", 
+        "modified": "2018-10-23T00:00:00Z", 
+        "collection": [
+            "02", 
+            "2", 
+            "74", 
+            "bbc", 
+            "diof", 
+            "exh", 
+            "l4804", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-27, no. 20 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2018-10-19T00:00:00Z", 
+        "pk": "2007683877", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Cicotte, Edward Victor,--1884-1969.", 
+            "Thoney, Jack,--1879-1948.", 
+            "American League of Professional Baseball Clubs.", 
+            "Boston Red Sox (Baseball team)--1910-1920.", 
+            "Baseball players--1910-1920.", 
+            "Cicotte, Eddie (Team member)", 
+            "Boston Red Sox", 
+            "Boston", 
+            "American League", 
+            "pitcher", 
+            "Thoney, Jack (Team member)", 
+            "Boston Red Sox", 
+            "Boston", 
+            "American League", 
+            "utility player", 
+            "Baseball cards--1910-1920.", 
+            "Portrait prints--1910-1920.", 
+            "Relief prints--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-11T00:00:00Z", 
+        "index": 49, 
+        "medium": "1 print : relief with halftone, color", 
+        "reproduction_number": "LC-DIG-bbc-1565f (digital file from original, front)\nLC-DIG-bbc-1565b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683868/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683868/resource/"
+        }, 
+        "title": "[Christy Mathewson/Albert Bridwell, New York Giants, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1560/1565fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1560/1565f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1560/1565f_150px.jpg"
+        }, 
+        "created": "2019-09-17T00:00:00Z", 
+        "modified": "2019-09-17T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-27, no. 11 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2019-05-06T00:00:00Z", 
+        "pk": "2007683868", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Mathewson, Christy (Team member)", 
+            "New York Giants", 
+            "New York", 
+            "National League", 
+            "pitcher", 
+            "Bridwell, Al (Team member)", 
+            "New York Giants", 
+            "New York", 
+            "National League", 
+            "shortstop", 
+            "Baseball cards--1910-1920.", 
+            "Relief prints--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-24T00:00:00Z", 
+        "index": 50, 
+        "medium": "1 print : relief with halftone, color", 
+        "reproduction_number": "LC-DIG-bbc-1575f (digital file from original, front)\nLC-DIG-bbc-1575b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683878/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683878/resource/"
+        }, 
+        "title": "[Tris Speaker/Earl Gardner, Boston Red Sox, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1570/1575fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1570/1575f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1570/1575f_150px.jpg"
+        }, 
+        "created": "2023-03-14T06:10:41Z", 
+        "modified": "2023-03-14T06:10:42Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-27, no. 21 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2023-03-13T08:47:03Z", 
+        "pk": "2007683878", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Speaker, Tris (Team member)", 
+            "Boston Red Sox", 
+            "Boston", 
+            "American League", 
+            "center fielder", 
+            "Gardner, Earl (Team member)", 
+            "Boston Red Sox", 
+            "Boston", 
+            "American League", 
+            "second baseman", 
+            "Baseball cards--1910-1920.", 
+            "Relief prints--Color--1910-1920."
+        ]
+    }
+]}

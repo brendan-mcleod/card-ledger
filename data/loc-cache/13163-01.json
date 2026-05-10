@@ -1,0 +1,449 @@
+{"search":{
+    "field": "number", 
+    "hits": 9, 
+    "sort_order": null, 
+    "do_facets": true, 
+    "focus_item": null, 
+    "query": "\"13163-01\"", 
+    "type": "search", 
+    "sort_by": null
+},
+"focus":null,
+"views":{
+    "current": "grid", 
+    "grid": "https://www.loc.gov/pictures/search/?q=%2213163-01%22&fi=number&c=600&co=bbc&st=grid", 
+    "list": "https://www.loc.gov/pictures/search/?q=%2213163-01%22&fi=number&c=600&co=bbc", 
+    "gallery": "https://www.loc.gov/pictures/search/?q=%2213163-01%22&fi=number&c=600&co=bbc&st=gallery", 
+    "slideshow": "https://www.loc.gov/pictures/search/?q=%2213163-01%22&fi=number&c=600&co=bbc&st=slideshow"
+},
+"facets":[
+    {
+        "type": "displayed", 
+        "filters": [
+            {
+                "count": 9, 
+                "on": "https://www.loc.gov/pictures/search/?c=600&co=bbc&sp=1&st=grid&q=%2213163-01%22&fa=displayed%3Aanywhere&fi=number&fo=json", 
+                "selected": false, 
+                "off": "https://www.loc.gov/pictures/search/?c=600&co=bbc&sp=1&st=grid&q=%2213163-01%22&fi=number&fo=json", 
+                "title": "Larger image available anywhere"
+            }, 
+            {
+                "count": 0, 
+                "on": "https://www.loc.gov/pictures/search/?c=600&co=bbc&sp=1&st=grid&q=%2213163-01%22&fa=displayed%3Alc_only&fi=number&fo=json", 
+                "selected": false, 
+                "off": "https://www.loc.gov/pictures/search/?c=600&co=bbc&sp=1&st=grid&q=%2213163-01%22&fi=number&fo=json", 
+                "title": "Larger image available only at the Library of Congress"
+            }, 
+            {
+                "count": 0, 
+                "on": "https://www.loc.gov/pictures/search/?c=600&co=bbc&sp=1&st=grid&q=%2213163-01%22&fa=displayed%3Anot_digitized&fi=number&fo=json", 
+                "selected": false, 
+                "off": "https://www.loc.gov/pictures/search/?c=600&co=bbc&sp=1&st=grid&q=%2213163-01%22&fi=number&fo=json", 
+                "title": "Not Digitized"
+            }, 
+            {
+                "count": 0, 
+                "on": "https://www.loc.gov/pictures/search/?c=600&co=bbc&sp=1&st=grid&q=%2213163-01%22&fa=displayed%3Asurveys_only&fi=number&fo=json", 
+                "selected": false, 
+                "off": "https://www.loc.gov/pictures/search/?c=600&co=bbc&sp=1&st=grid&q=%2213163-01%22&fi=number&fo=json", 
+                "title": "Surveys only"
+            }
+        ], 
+        "title": "displayed"
+    }
+],
+"links":{
+    "json": "https://www.loc.gov/pictures/search/?co=bbc&st=grid&fi=number&q=%2213163-01%22&c=600&fo=json", 
+    "html": "https://www.loc.gov/pictures/search/?co=bbc&st=grid&fi=number&q=%2213163-01%22&c=600", 
+    "rss": "https://www.loc.gov/pictures/search/?co=bbc&fi=number&q=%2213163-01%22&c=600&fo=rss"
+},
+"suggestions":{
+    "possible": []
+},
+"pages":{
+    "current": 1, 
+    "next": null, 
+    "perpage": 600, 
+    "last": null, 
+    "page_list": [
+        {
+            "url": null, 
+            "number": 1
+        }
+    ], 
+    "previous": null, 
+    "total": 1, 
+    "results": "1 - 9", 
+    "first": null
+},
+"collection":{
+    "digitized": "All", 
+    "code": "bbc", 
+    "display_offsite": "Yes", 
+    "thumb_large_item": "", 
+    "title": "Baseball Cards", 
+    "banner_item": "https://www.loc.gov/pictures/item/2007678538/", 
+    "brief": "Baseball cards representing more than one thousand major and minor league ballplayers (primarily major league), from teams in thirteen identified leagues and seventy-five cities in the United States and Canada.", 
+    "banner_title": "John M. Ward, New York Giants, 1887.", 
+    "thumb_item": "cph.3b38367", 
+    "home_link": "https://www.loc.gov/pictures/collection/bbc/", 
+    "from_date": "1887", 
+    "view_all": "https://www.loc.gov/pictures/search?st=grid&co=bbc", 
+    "link": "https://www.loc.gov/pictures/collection/bbc/", 
+    "to_date": "1914", 
+    "extent": "2,100 baseball cards.", 
+    "thumb_featured": "https://www.loc.gov/pictures/static/data/bbc/featured.png", 
+    "rights": "https://www.loc.gov/rr/print/res/620_base.html", 
+    "thumb_large": "https://www.loc.gov/pictures/static/data/bbc/thumb_large.png", 
+    "banner": "https://www.loc.gov/pictures/static/data/bbc/banner.jpg", 
+    "thumb": "https://www.loc.gov/pictures/static/data/bbc/thumb.png"
+},
+"results":[
+    {
+        "source_created": "2007-07-12T00:00:00Z", 
+        "index": 1, 
+        "medium": "1 print : chromolithograph.", 
+        "reproduction_number": "LC-DIG-bbc-0007f (digital file from original, front)\nLC-DIG-bbc-0007b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007677698/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007677698/resource/"
+        }, 
+        "title": "[Joseph Mulvey, Philadelphia Quakers, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/0000/0000/0007fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/0000/0000/0007f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/0000/0000/0007f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "Allen & Ginter", 
+        "call_number": "LOT 13163-01, no. 7 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-07-12T00:00:00Z", 
+        "pk": "2007677698", 
+        "created_published_date": "1887.", 
+        "subjects": [
+            "Mulvey, Joe (Team member)", 
+            "Philadelphia Quakers", 
+            "Philadelphia", 
+            "National League", 
+            "third baseman", 
+            "Baseball cards--1880-1890.", 
+            "Chromolithographs--1880-1890."
+        ]
+    }, 
+    {
+        "source_created": "2007-07-10T00:00:00Z", 
+        "index": 2, 
+        "medium": "1 print : chromolithograph.", 
+        "reproduction_number": "LC-DIG-bbc-0006f (digital file from original, front)\nLC-DIG-bbc-0006b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007678538/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007678538/resource/"
+        }, 
+        "title": "[John M. Ward, New York Giants, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/0000/0000/0006fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/0000/0000/0006f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/0000/0000/0006f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "flickrppoc", 
+            "pp"
+        ], 
+        "creator": "Allen & Ginter", 
+        "call_number": "LOT 13163-01, no. 6 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2013-11-27T00:00:00Z", 
+        "pk": "2007678538", 
+        "created_published_date": "1887.", 
+        "subjects": [
+            "Ward, John Montgomery,--1860-1925.", 
+            "Baseball cards--1880-1890.", 
+            "Chromolithographs--1880-1890."
+        ]
+    }, 
+    {
+        "source_created": "2007-07-06T00:00:00Z", 
+        "index": 3, 
+        "medium": "1 print : chromolithograph.", 
+        "reproduction_number": "LC-DIG-bbc-0001f (digital file from original, front)\nLC-DIG-bbc-0001b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007678540/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007678540/resource/"
+        }, 
+        "title": "[John Clarkson, Boston Beaneaters, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/0000/0000/0001fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/0000/0000/0001f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/0000/0000/0001f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "Allen & Ginter", 
+        "call_number": "LOT 13163-01, no. 1 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-07-06T00:00:00Z", 
+        "pk": "2007678540", 
+        "created_published_date": "1887.", 
+        "subjects": [
+            "Clarkson, John (Team member)", 
+            "Boston Beaneaters", 
+            "Boston", 
+            "National League", 
+            "Baseball cards--1880-1890.", 
+            "Chromolithographs--1880-1890."
+        ]
+    }, 
+    {
+        "source_created": "2007-07-06T00:00:00Z", 
+        "index": 4, 
+        "medium": "1 print : chromolithograph.", 
+        "reproduction_number": "LC-DIG-bbc-0002f (digital file from original, front)\nLC-DIG-bbc-0002b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007678541/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007678541/resource/"
+        }, 
+        "title": "[Adrian C. Anson, Chicago White Stockings, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/0000/0000/0002fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/0000/0000/0002f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/0000/0000/0002f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "Allen & Ginter", 
+        "call_number": "LOT 13163-01, no. 2 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-07-10T00:00:00Z", 
+        "pk": "2007678541", 
+        "created_published_date": "1887.", 
+        "subjects": [
+            "Anson, Cap (Team member)", 
+            "Chicago White Stockings", 
+            "Chicago", 
+            "National League", 
+            "first baseman", 
+            "Baseball cards--1880-1890.", 
+            "Chromolithographs--1880-1890."
+        ]
+    }, 
+    {
+        "source_created": "2007-07-10T00:00:00Z", 
+        "index": 5, 
+        "medium": "1 print : chromolithograph.", 
+        "reproduction_number": "LC-DIG-bbc-0004f (digital file from original, front)\nLC-DIG-bbc-0004b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007678545/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007678545/resource/"
+        }, 
+        "title": "[Capt. Jack Glasscock, Indianapolis Hoosiers, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/0000/0000/0004fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/0000/0000/0004f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/0000/0000/0004f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "Allen & Ginter", 
+        "call_number": "LOT 13163-01, no. 4 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-07-10T00:00:00Z", 
+        "pk": "2007678545", 
+        "created_published_date": "1887.", 
+        "subjects": [
+            "Glasscock, Jack (Team member)", 
+            "Indianapolis Hoosiers", 
+            "Indianapolis", 
+            "National League", 
+            "shortstop", 
+            "Baseball cards--1880-1890.", 
+            "Chromolithographs--1880-1890."
+        ]
+    }, 
+    {
+        "source_created": "2007-07-12T00:00:00Z", 
+        "index": 6, 
+        "medium": "1 print : chromolithograph.", 
+        "reproduction_number": "LC-DIG-bbc-0008f (digital file from original, front)\nLC-DIG-bbc-0008b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007680699/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007680699/resource/"
+        }, 
+        "title": "[R. L. Caruthers, St. Louis Browns, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/0000/0000/0008fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/0000/0000/0008f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/0000/0000/0008f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "Allen & Ginter", 
+        "call_number": "LOT 13163-01, no. 8 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-07-12T00:00:00Z", 
+        "pk": "2007680699", 
+        "created_published_date": "1887.", 
+        "subjects": [
+            "Caruthers, Bob (Team member)", 
+            "St. Louis Browns", 
+            "St. Louis", 
+            "American Association", 
+            "right fielder", 
+            "Baseball cards--1880-1890.", 
+            "Chromolithographs--1880-1890."
+        ]
+    }, 
+    {
+        "source_created": "2007-07-12T00:00:00Z", 
+        "index": 7, 
+        "medium": "1 print : chromolithograph.", 
+        "reproduction_number": "LC-DIG-bbc-0009f (digital file from original, front)\nLC-DIG-bbc-0009b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007677699/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007677699/resource/"
+        }, 
+        "title": "[Charles Comiskey, St. Louis Browns, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/0000/0000/0009fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/0000/0000/0009f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/0000/0000/0009f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "Allen & Ginter", 
+        "call_number": "LOT 13163-01, no. 9 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-07-12T00:00:00Z", 
+        "pk": "2007677699", 
+        "created_published_date": "1887.", 
+        "subjects": [
+            "Comiskey, Charlie (Team member)", 
+            "St. Louis Browns", 
+            "St. Louis", 
+            "American Association", 
+            "first baseman", 
+            "Baseball cards--1880-1890.", 
+            "Chromolithographs--1880-1890."
+        ]
+    }, 
+    {
+        "source_created": "2007-07-10T00:00:00Z", 
+        "index": 8, 
+        "medium": "1 print : chromolithograph.", 
+        "reproduction_number": "LC-DIG-bbc-0005f (digital file from original, front)\nLC-DIG-bbc-0005b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007678537/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007678537/resource/"
+        }, 
+        "title": "[Timothy Keefe, New York Giants, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/0000/0000/0005fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/0000/0000/0005f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/0000/0000/0005f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "Allen & Ginter", 
+        "call_number": "LOT 13163-01, no. 5 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2009-03-30T00:00:00Z", 
+        "pk": "2007678537", 
+        "created_published_date": "1887.", 
+        "subjects": [
+            "Keefe, Tim (Team member)", 
+            "New York Giants", 
+            "New York", 
+            "National League", 
+            "pitcher", 
+            "Baseball cards--1880-1890.", 
+            "Chromolithographs--1880-1890."
+        ]
+    }, 
+    {
+        "source_created": "2007-07-06T00:00:00Z", 
+        "index": 9, 
+        "medium": "1 print : chromolithograph.", 
+        "reproduction_number": "LC-DIG-bbc-0003f (digital file from original, front)\nLC-DIG-bbc-0003b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007678542/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007678542/resource/"
+        }, 
+        "title": "[Chas. W. Bennett, Detroit Wolverines, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/0000/0000/0003fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/0000/0000/0003f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/0000/0000/0003f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "Allen & Ginter", 
+        "call_number": "LOT 13163-01, no. 3 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-07-06T00:00:00Z", 
+        "pk": "2007678542", 
+        "created_published_date": "1887.", 
+        "subjects": [
+            "Bennett, Charlie (Team member)", 
+            "Detroit Wolverines", 
+            "Detroit", 
+            "National League", 
+            "catcher", 
+            "Baseball cards--1880-1890.", 
+            "Chromolithographs--1880-1890."
+        ]
+    }
+]}

@@ -2,7 +2,8 @@
 
 import Link from 'next/link'
 
-import { getCardCallouts, getDisplaySetLabel } from '@/lib/format'
+import { CardVisual } from '@/app/components/card-visual'
+import { getCardCallouts, getCardDisplayTeam, getCardDisplayTitle, getCompactSetLabel, getMeaningfulCardVariation, getSetYearDetail } from '@/lib/format'
 import type { Card } from '@/lib/types'
 
 export type InventoryTableRow = {
@@ -10,6 +11,10 @@ export type InventoryTableRow = {
   href: string
   card: Card
   quantity?: number
+  copyLabel?: string
+  backLabel?: string
+  flippable?: boolean
+  selectedBackId?: string
   estimatedValue?: number
 }
 
@@ -107,14 +112,12 @@ export function InventoryTable({
                 Card
               </th>
               <SortableHeader className="inventory-table-col-player" label="Player" onSortChange={onSortChange} sortKey="player" sortState={sortState} />
-              <SortableHeader className="inventory-table-col-year" label="Year" onSortChange={onSortChange} sortKey="year" sortState={sortState} />
-              <SortableHeader className="inventory-table-col-brand" label="Brand" onSortChange={onSortChange} sortKey="brand" sortState={sortState} />
               <SortableHeader className="inventory-table-col-set" label="Set" onSortChange={onSortChange} sortKey="set" sortState={sortState} />
-              <SortableHeader className="inventory-table-col-card-number" label="#" onSortChange={onSortChange} sortKey="cardNumber" sortState={sortState} />
+              <SortableHeader className="inventory-table-col-card-number" label="Variation" onSortChange={onSortChange} sortKey="cardNumber" sortState={sortState} />
               <SortableHeader className="inventory-table-col-team" label="Team" onSortChange={onSortChange} sortKey="team" sortState={sortState} />
               <SortableHeader className="inventory-table-col-tags" label="Tags" onSortChange={onSortChange} sortKey="tags" sortState={sortState} />
               {showCollectionColumns ? (
-                <SortableHeader className="inventory-table-col-number" label="Qty" onSortChange={onSortChange} sortKey="quantity" sortState={sortState} />
+                <SortableHeader className="inventory-table-col-number" label="Copy" onSortChange={onSortChange} sortKey="quantity" sortState={sortState} />
               ) : null}
               <SortableHeader className="inventory-table-col-number" label="Value" onSortChange={onSortChange} sortKey="value" sortState={sortState} />
             </tr>
@@ -127,25 +130,32 @@ export function InventoryTable({
               return (
                 <tr key={row.id}>
                   <td className="inventory-table-col-thumb">
-                    <Link aria-label={`${row.card.player} ${row.card.year} ${row.card.setLabel}`} className="inventory-table-thumb-link" href={row.href}>
-                      {row.card.imageUrl ? (
-                        // eslint-disable-next-line @next/next/no-img-element
-                        <img alt={`${row.card.player} ${row.card.year} ${row.card.setLabel}`} className="inventory-table-thumb" src={row.card.imageUrl} />
-                      ) : (
-                        <span className="inventory-table-thumb inventory-table-thumb-placeholder">{row.card.year}</span>
-                      )}
+                    <Link aria-label={`${getCardDisplayTitle(row.card)} ${getCompactSetLabel(row.card)}`} className="inventory-table-thumb-link" href={row.href}>
+                      <CardVisual
+                        card={row.card}
+                        className="inventory-table-thumb"
+                        flipOnSurface={false}
+                        flippable={row.flippable}
+                        selectedBackId={row.selectedBackId}
+                      />
                     </Link>
                   </td>
                   <td className="inventory-table-col-player">
                     <Link className="inventory-table-primary-link" href={row.href}>
-                      {row.card.player}
+                      {getCardDisplayTitle(row.card)}
                     </Link>
+                    {showCollectionColumns && (row.copyLabel || row.backLabel) ? (
+                      <span className="inventory-table-muted">
+                        {[row.copyLabel, row.backLabel].filter(Boolean).join(' · ')}
+                      </span>
+                    ) : null}
                   </td>
-                  <td className="inventory-table-col-year">{row.card.year}</td>
-                  <td className="inventory-table-col-brand">{row.card.brand}</td>
-                  <td className="inventory-table-col-set">{getDisplaySetLabel(row.card)}</td>
-                  <td className="inventory-table-col-card-number">#{row.card.cardNumber}</td>
-                  <td className="inventory-table-col-team">{row.card.team}</td>
+                  <td className="inventory-table-col-set">
+                    <span>{getCompactSetLabel(row.card)}</span>
+                    {getSetYearDetail(row.card) ? <span className="inventory-table-muted">{getSetYearDetail(row.card)}</span> : null}
+                  </td>
+                  <td className="inventory-table-col-card-number">{getMeaningfulCardVariation(row.card) || 'Base'}</td>
+                  <td className="inventory-table-col-team">{getCardDisplayTeam(row.card) || '—'}</td>
                   <td className="inventory-table-col-tags">
                     {tags.length > 0 ? (
                       <div className="inventory-table-tags">
@@ -159,7 +169,7 @@ export function InventoryTable({
                       <span className="inventory-table-muted">—</span>
                     )}
                   </td>
-                  {showCollectionColumns ? <td className="inventory-table-col-number">{row.quantity ?? 0}</td> : null}
+                  {showCollectionColumns ? <td className="inventory-table-col-number">{row.copyLabel ?? '—'}</td> : null}
                   <td className="inventory-table-col-number">{displayValue ? `$${displayValue.toLocaleString()}` : '—'}</td>
                 </tr>
               )

@@ -1,7 +1,9 @@
 import Link from 'next/link'
 
+import { CardActionIcon, type CardActionIconKind } from '@/app/components/card-action-icons'
+import { CardVisual } from '@/app/components/card-visual'
 import { UserAvatar } from '@/app/components/user-avatar'
-import { formatFeedTimestamp } from '@/lib/format'
+import { formatFeedTimestamp, getDisplaySetLabel } from '@/lib/format'
 import type { Card, FeedEvent, MockUser } from '@/lib/types'
 
 type FeedItemProps = {
@@ -13,42 +15,40 @@ type FeedItemProps = {
 const eventCopy = {
   added: 'added',
   favorited: 'favorited',
-  wishlisted: 'wishlisted',
+  wishlisted: 'wanted',
 }
 
+const eventMeta = {
+  added: { kind: 'add', label: 'Owned' },
+  favorited: { kind: 'favorite', label: 'Favorite' },
+  wishlisted: { kind: 'watch', label: 'Wanted' },
+} satisfies Record<FeedEvent['type'], { kind: CardActionIconKind; label: string }>
+
 export function FeedItem({ user, card, event }: FeedItemProps) {
+  const meta = eventMeta[event.type]
+
   return (
-    <article className="feed-item">
+    <article className={`feed-item feed-item-${event.type}`}>
+      <UserAvatar imageUrl={user.imageUrl} name={user.displayName} size="sm" />
       <div className="feed-item-copy">
-        <div className="feed-item-head">
-          <UserAvatar imageUrl={user.imageUrl} name={user.displayName} size="sm" />
-          <div className="feed-item-lines">
-            <h3 className="feed-title">
-              <Link className="feed-link" href={`/profile/${user.username}`}>
-                {user.displayName}
-              </Link>{' '}
-              <span className="feed-copy">{eventCopy[event.type]}</span>
-            </h3>
-            <p className="feed-meta-line">{card.player} · {card.year} · {formatFeedTimestamp(event.createdAt)}</p>
-          </div>
-        </div>
+        <p className="feed-title">
+          <Link className="feed-link" href={`/profile/${user.username}`}>
+            @{user.username}
+          </Link>
+          <span className="feed-copy">{eventCopy[event.type]}</span>
+        </p>
+        <Link className="feed-card-title" href={`/cards/${card.slug}`}>
+          {card.displaySubject ?? card.player}
+        </Link>
+        <p className="feed-meta-line">{getDisplaySetLabel(card)} · {formatFeedTimestamp(event.createdAt)}</p>
+        {event.note ? <p className="feed-note-line">{event.note}</p> : null}
       </div>
       <Link className="feed-card-rail" href={`/cards/${card.slug}`}>
-        {card.imageUrl ? (
-          card.imageUrl.startsWith('http') ? (
-            // eslint-disable-next-line @next/next/no-img-element
-            <img alt={`${card.player} ${card.year} ${card.set}`} className="feed-card-thumb" src={card.imageUrl} />
-          ) : (
-            // eslint-disable-next-line @next/next/no-img-element
-            <img alt={`${card.player} ${card.year} ${card.set}`} className="feed-card-thumb" src={card.imageUrl} />
-          )
-        ) : (
-          <div className="feed-card-thumb feed-card-thumb-placeholder">
-            <span>{card.year}</span>
-            <strong>{card.player}</strong>
-          </div>
-        )}
+        <CardVisual card={card} className="feed-card-thumb" />
       </Link>
+      <span className="feed-item-mark" aria-label={meta.label} title={meta.label}>
+        <CardActionIcon kind={meta.kind} />
+      </span>
     </article>
   )
 }

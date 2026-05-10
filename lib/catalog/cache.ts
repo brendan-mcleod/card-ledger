@@ -28,7 +28,9 @@ const EMPTY_STORE: CatalogCacheStore = {
 }
 
 function matchesTerm(value: string, query: string) {
-  return value.toLowerCase().includes(query.toLowerCase())
+  const haystack = value.toLowerCase()
+  const tokens = query.toLowerCase().split(/\s+/).filter(Boolean)
+  return tokens.length === 0 || tokens.every((token) => haystack.includes(token))
 }
 
 function isFresh(timestamp?: string) {
@@ -85,15 +87,23 @@ export function searchCachedCards(cards: Card[], filters: SearchFilters) {
     const matchesQuery =
       !query ||
       [
+        card.collectorTitle,
+        card.displaySubject,
+        card.displayTeam,
         card.player,
         card.team,
         card.brand,
         card.set,
         card.setLabel,
-        card.cardNumber,
+        card.variationName,
+        card.poseVariation,
+        card.sourceTitle,
+        ...(card.searchAliases ?? []),
         `${card.year}`,
-        `${card.year} ${card.brand} ${card.set} ${card.player} ${card.cardNumber}`,
-      ].some((value) => matchesTerm(value, query))
+        `${card.yearRange ?? card.year} ${card.brand} ${card.set} ${card.player} ${card.displayTeam ?? card.team}`,
+      ]
+        .filter((value): value is string => Boolean(value))
+        .some((value) => matchesTerm(value, query))
 
     const matchesTeam = !filters.team || filters.team === 'All teams' || card.team === filters.team
     const matchesSet = !filters.set || filters.set === 'All sets' || card.setLabel === filters.set

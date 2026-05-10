@@ -1,0 +1,156 @@
+{
+  "generatedAt": "2026-04-29T19:08:59.865Z",
+  "summary": {
+    "auditedSets": 17,
+    "highRiskIssueCount": 0,
+    "reviewIssueCount": 1
+  },
+  "perSet": [
+    {
+      "set": "bowman-1948",
+      "totalCards": 48,
+      "attachedFronts": 48,
+      "attachedBacks": 1,
+      "placeholders": 0,
+      "sourceRecords": 22
+    },
+    {
+      "set": "bowman-1949",
+      "totalCards": 240,
+      "attachedFronts": 225,
+      "attachedBacks": 0,
+      "placeholders": 15,
+      "sourceRecords": 240
+    },
+    {
+      "set": "bowman-1950",
+      "totalCards": 252,
+      "attachedFronts": 252,
+      "attachedBacks": 0,
+      "placeholders": 0,
+      "sourceRecords": 252
+    },
+    {
+      "set": "bowman-1951",
+      "totalCards": 324,
+      "attachedFronts": 324,
+      "attachedBacks": 0,
+      "placeholders": 0,
+      "sourceRecords": 324
+    },
+    {
+      "set": "bowman-1952",
+      "totalCards": 252,
+      "attachedFronts": 252,
+      "attachedBacks": 0,
+      "placeholders": 0,
+      "sourceRecords": 252
+    },
+    {
+      "set": "bowman-1953-color",
+      "totalCards": 160,
+      "attachedFronts": 160,
+      "attachedBacks": 0,
+      "placeholders": 0,
+      "sourceRecords": 160
+    },
+    {
+      "set": "bowman-1953-bw",
+      "totalCards": 64,
+      "attachedFronts": 64,
+      "attachedBacks": 0,
+      "placeholders": 0,
+      "sourceRecords": 64
+    },
+    {
+      "set": "bowman-1954",
+      "totalCards": 224,
+      "attachedFronts": 223,
+      "attachedBacks": 0,
+      "placeholders": 1,
+      "sourceRecords": 224
+    },
+    {
+      "set": "bowman-1955",
+      "totalCards": 320,
+      "attachedFronts": 320,
+      "attachedBacks": 0,
+      "placeholders": 0,
+      "sourceRecords": 320
+    },
+    {
+      "set": "goudey-1933",
+      "totalCards": 240,
+      "attachedFronts": 236,
+      "attachedBacks": 0,
+      "placeholders": 4,
+      "sourceRecords": 240
+    },
+    {
+      "set": "goudey-1934",
+      "totalCards": 96,
+      "attachedFronts": 96,
+      "attachedBacks": 0,
+      "placeholders": 0,
+      "sourceRecords": 96
+    },
+    {
+      "set": "topps-1951-red",
+      "totalCards": 52,
+      "attachedFronts": 0,
+      "attachedBacks": 0,
+      "placeholders": 52,
+      "sourceRecords": 0
+    },
+    {
+      "set": "topps-1951-blue",
+      "totalCards": 52,
+      "attachedFronts": 0,
+      "attachedBacks": 0,
+      "placeholders": 52,
+      "sourceRecords": 0
+    },
+    {
+      "set": "topps-1952",
+      "totalCards": 407,
+      "attachedFronts": 0,
+      "attachedBacks": 0,
+      "placeholders": 407,
+      "sourceRecords": 0
+    },
+    {
+      "set": "topps-1953",
+      "totalCards": 274,
+      "attachedFronts": 0,
+      "attachedBacks": 0,
+      "placeholders": 274,
+      "sourceRecords": 0
+    },
+    {
+      "set": "topps-1954",
+      "totalCards": 250,
+      "attachedFronts": 0,
+      "attachedBacks": 0,
+      "placeholders": 250,
+      "sourceRecords": 0
+    },
+    {
+      "set": "topps-1955",
+      "totalCards": 206,
+      "attachedFronts": 0,
+      "attachedBacks": 0,
+      "placeholders": 206,
+      "sourceRecords": 0
+    }
+  ],
+  "highRiskIssues": [],
+  "reviewIssues": [
+    {
+      "set": "bowman-1954",
+      "cardNumber": "66b",
+      "sourcePlayer": "Jim Piersall",
+      "sourceUrl": "https://www.vintagecardprices.com/card/baseball-card-values/1954-Bowman-Jim-Piersall-66b/67964",
+      "issue": "approved_source_without_catalog_record"
+    }
+  ]
+}

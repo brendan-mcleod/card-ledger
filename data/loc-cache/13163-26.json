@@ -1,0 +1,569 @@
+{"search":{
+    "field": "number", 
+    "hits": 12, 
+    "sort_order": null, 
+    "do_facets": true, 
+    "focus_item": null, 
+    "query": "\"13163-26\"", 
+    "type": "search", 
+    "sort_by": null
+},
+"focus":null,
+"views":{
+    "current": "grid", 
+    "grid": "https://www.loc.gov/pictures/search/?q=%2213163-26%22&fi=number&c=600&co=bbc&st=grid", 
+    "list": "https://www.loc.gov/pictures/search/?q=%2213163-26%22&fi=number&c=600&co=bbc", 
+    "gallery": "https://www.loc.gov/pictures/search/?q=%2213163-26%22&fi=number&c=600&co=bbc&st=gallery", 
+    "slideshow": "https://www.loc.gov/pictures/search/?q=%2213163-26%22&fi=number&c=600&co=bbc&st=slideshow"
+},
+"facets":[
+    {
+        "type": "displayed", 
+        "filters": [
+            {
+                "count": 12, 
+                "on": "https://www.loc.gov/pictures/search/?c=600&co=bbc&sp=1&st=grid&q=%2213163-26%22&fa=displayed%3Aanywhere&fi=number&fo=json", 
+                "selected": false, 
+                "off": "https://www.loc.gov/pictures/search/?c=600&co=bbc&sp=1&st=grid&q=%2213163-26%22&fi=number&fo=json", 
+                "title": "Larger image available anywhere"
+            }, 
+            {
+                "count": 0, 
+                "on": "https://www.loc.gov/pictures/search/?c=600&co=bbc&sp=1&st=grid&q=%2213163-26%22&fa=displayed%3Alc_only&fi=number&fo=json", 
+                "selected": false, 
+                "off": "https://www.loc.gov/pictures/search/?c=600&co=bbc&sp=1&st=grid&q=%2213163-26%22&fi=number&fo=json", 
+                "title": "Larger image available only at the Library of Congress"
+            }, 
+            {
+                "count": 0, 
+                "on": "https://www.loc.gov/pictures/search/?c=600&co=bbc&sp=1&st=grid&q=%2213163-26%22&fa=displayed%3Anot_digitized&fi=number&fo=json", 
+                "selected": false, 
+                "off": "https://www.loc.gov/pictures/search/?c=600&co=bbc&sp=1&st=grid&q=%2213163-26%22&fi=number&fo=json", 
+                "title": "Not Digitized"
+            }, 
+            {
+                "count": 0, 
+                "on": "https://www.loc.gov/pictures/search/?c=600&co=bbc&sp=1&st=grid&q=%2213163-26%22&fa=displayed%3Asurveys_only&fi=number&fo=json", 
+                "selected": false, 
+                "off": "https://www.loc.gov/pictures/search/?c=600&co=bbc&sp=1&st=grid&q=%2213163-26%22&fi=number&fo=json", 
+                "title": "Surveys only"
+            }
+        ], 
+        "title": "displayed"
+    }
+],
+"links":{
+    "json": "https://www.loc.gov/pictures/search/?co=bbc&st=grid&fi=number&q=%2213163-26%22&c=600&fo=json", 
+    "html": "https://www.loc.gov/pictures/search/?co=bbc&st=grid&fi=number&q=%2213163-26%22&c=600", 
+    "rss": "https://www.loc.gov/pictures/search/?co=bbc&fi=number&q=%2213163-26%22&c=600&fo=rss"
+},
+"suggestions":{
+    "possible": []
+},
+"pages":{
+    "current": 1, 
+    "next": null, 
+    "perpage": 600, 
+    "last": null, 
+    "page_list": [
+        {
+            "url": null, 
+            "number": 1
+        }
+    ], 
+    "previous": null, 
+    "total": 1, 
+    "results": "1 - 12", 
+    "first": null
+},
+"collection":{
+    "digitized": "All", 
+    "code": "bbc", 
+    "display_offsite": "Yes", 
+    "thumb_large_item": "", 
+    "title": "Baseball Cards", 
+    "banner_item": "https://www.loc.gov/pictures/item/2007678538/", 
+    "brief": "Baseball cards representing more than one thousand major and minor league ballplayers (primarily major league), from teams in thirteen identified leagues and seventy-five cities in the United States and Canada.", 
+    "banner_title": "John M. Ward, New York Giants, 1887.", 
+    "thumb_item": "cph.3b38367", 
+    "home_link": "https://www.loc.gov/pictures/collection/bbc/", 
+    "from_date": "1887", 
+    "view_all": "https://www.loc.gov/pictures/search?st=grid&co=bbc", 
+    "link": "https://www.loc.gov/pictures/collection/bbc/", 
+    "to_date": "1914", 
+    "extent": "2,100 baseball cards.", 
+    "thumb_featured": "https://www.loc.gov/pictures/static/data/bbc/featured.png", 
+    "rights": "https://www.loc.gov/rr/print/res/620_base.html", 
+    "thumb_large": "https://www.loc.gov/pictures/static/data/bbc/thumb_large.png", 
+    "banner": "https://www.loc.gov/pictures/static/data/bbc/banner.jpg", 
+    "thumb": "https://www.loc.gov/pictures/static/data/bbc/thumb.png"
+},
+"results":[
+    {
+        "source_created": "2007-09-11T00:00:00Z", 
+        "index": 1, 
+        "medium": "1 print : relief with halftone, color", 
+        "reproduction_number": "LC-DIG-bbc-1544f (digital file from original, front)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683840/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683840/resource/"
+        }, 
+        "title": "[Art Devlin, New York Giants, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1540/1544fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1540/1544f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1540/1544f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "Helmar Tobacco Company", 
+        "call_number": "LOT 13163-26, no. 2 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-09-11T00:00:00Z", 
+        "pk": "2007683840", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Devlin, Art (Team member)", 
+            "New York Giants", 
+            "New York", 
+            "National League", 
+            "third baseman", 
+            "Baseball cards--1910-1920.", 
+            "Relief prints--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-11T00:00:00Z", 
+        "index": 2, 
+        "medium": "1 print : relief with halftone, color", 
+        "reproduction_number": "LC-DIG-bbc-1545f (digital file from original, front)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683841/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683841/resource/"
+        }, 
+        "title": "[Buck Herzog, New York Giants, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1540/1545fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1540/1545f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1540/1545f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "Helmar Tobacco Company", 
+        "call_number": "LOT 13163-26, no. 3 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-09-11T00:00:00Z", 
+        "pk": "2007683841", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Herzog, Buck (Team member)", 
+            "New York Giants", 
+            "New York", 
+            "National  League", 
+            "shortstop", 
+            "Baseball cards--1910-1920.", 
+            "Relief prints--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-11T00:00:00Z", 
+        "index": 3, 
+        "medium": "1 print : relief with halftone, color", 
+        "reproduction_number": "LC-DIG-bbc-1549f (digital file from original, front)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683845/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683845/resource/"
+        }, 
+        "title": "[Jim Scott, Chicago White Sox, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1540/1549fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1540/1549f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1540/1549f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "Helmar Tobacco Company", 
+        "call_number": "LOT 13163-26, no. 7 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-09-11T00:00:00Z", 
+        "pk": "2007683845", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Scott, Jim (Team member)", 
+            "Chicago White Sox", 
+            "Chicago", 
+            "American League", 
+            "pitcher", 
+            "Baseball cards--1910-1920.", 
+            "Relief prints--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-11T00:00:00Z", 
+        "index": 4, 
+        "medium": "1 print : relief with halftone, color", 
+        "reproduction_number": "LC-DIG-bbc-1550f (digital file from original, front)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683846/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683846/resource/"
+        }, 
+        "title": "[Davis, Cleveland Naps, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1550/1550fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1550/1550f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1550/1550f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "Helmar Tobacco Company", 
+        "call_number": "LOT 13163-26, no. 8 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-09-11T00:00:00Z", 
+        "pk": "2007683846", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Davis (Team member)", 
+            "Cleveland Naps", 
+            "Cleveland", 
+            "American League", 
+            "Baseball cards--1910-1920.", 
+            "Relief prints--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-11T00:00:00Z", 
+        "index": 5, 
+        "medium": "1 print : relief with halftone, color", 
+        "reproduction_number": "LC-DIG-bbc-1551f (digital file from original, front)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683847/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683847/resource/"
+        }, 
+        "title": "[Donie Bush, Detroit Tigers, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1550/1551fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1550/1551f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1550/1551f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "Helmar Tobacco Company", 
+        "call_number": "LOT 13163-26, no. 9 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-09-11T00:00:00Z", 
+        "pk": "2007683847", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Bush, Donie (Team member)", 
+            "Detroit Tigers", 
+            "Detroit", 
+            "American League", 
+            "shortstop", 
+            "Baseball cards--1910-1920.", 
+            "Relief prints--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-11T00:00:00Z", 
+        "index": 6, 
+        "medium": "1 print : relief with halftone, color", 
+        "reproduction_number": "LC-DIG-bbc-1554f (digital file from original, front)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683857/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683857/resource/"
+        }, 
+        "title": "[Dolly Gray, Washington Nationals, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1550/1554fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1550/1554f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1550/1554f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "Helmar Tobacco Company", 
+        "call_number": "LOT 13163-26, no. 12 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-09-11T00:00:00Z", 
+        "pk": "2007683857", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Gray, Dolly (Team member)", 
+            "Washington Nationals", 
+            "Washington", 
+            "American League", 
+            "pitcher", 
+            "Baseball cards--1910-1920.", 
+            "Relief prints--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-11T00:00:00Z", 
+        "index": 7, 
+        "medium": "1 print : relief with halftone, color", 
+        "reproduction_number": "LC-DIG-bbc-1546f (digital file from original, front)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683842/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683842/resource/"
+        }, 
+        "title": "[Fred Luderus, Philadelphia Phillies, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1540/1546fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1540/1546f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1540/1546f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "Helmar Tobacco Company", 
+        "call_number": "LOT 13163-26, no. 4 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-09-11T00:00:00Z", 
+        "pk": "2007683842", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Luderus, Fred (Team member)", 
+            "Philadelphia Phillies", 
+            "Philadelphia", 
+            "National League", 
+            "first baseman", 
+            "Baseball cards--1910-1920.", 
+            "Relief prints--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-11T00:00:00Z", 
+        "index": 8, 
+        "medium": "1 print : relief with halftone, color", 
+        "reproduction_number": "LC-DIG-bbc-1547f (digital file from original, front)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683843/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683843/resource/"
+        }, 
+        "title": "[Sherry Magee, Philadelphia Phillies, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1540/1547fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1540/1547f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1540/1547f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "Helmar Tobacco Company", 
+        "call_number": "LOT 13163-26, no. 5 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-09-11T00:00:00Z", 
+        "pk": "2007683843", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Magee, Sherry (Team member)", 
+            "Philadelphia Phillies", 
+            "Philadelphia", 
+            "National  League", 
+            "left fielder", 
+            "Baseball cards--1910-1920.", 
+            "Relief prints--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-11T00:00:00Z", 
+        "index": 9, 
+        "medium": "1 print : relief with halftone, color", 
+        "reproduction_number": "LC-DIG-bbc-1548f (digital file from original, front)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683844/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683844/resource/"
+        }, 
+        "title": "[Steve Evans, St. Louis Cardinals, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1540/1548fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1540/1548f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1540/1548f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "Helmar Tobacco Company", 
+        "call_number": "LOT 13163-26, no. 6 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-09-11T00:00:00Z", 
+        "pk": "2007683844", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Evans, Steve (Team member)", 
+            "St. Louis Cardinals", 
+            "St. Louis", 
+            "National League", 
+            "right fielder", 
+            "Baseball cards--1910-1920.", 
+            "Relief prints--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-11T00:00:00Z", 
+        "index": 10, 
+        "medium": "1 print : relief with halftone, color", 
+        "reproduction_number": "LC-DIG-bbc-1552f (digital file from original, front)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683848/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683848/resource/"
+        }, 
+        "title": "[Eddie Collins, Philadelphia Athletics, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1550/1552fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1550/1552f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1550/1552f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "Helmar Tobacco Company", 
+        "call_number": "LOT 13163-26, no. 10 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-09-11T00:00:00Z", 
+        "pk": "2007683848", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Collins, Eddie (Team member)", 
+            "Philadelphia Athletics", 
+            "Philadelphia", 
+            "American League", 
+            "second baseman", 
+            "Baseball cards--1910-1920.", 
+            "Relief prints--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-11T00:00:00Z", 
+        "index": 11, 
+        "medium": "1 print : relief with halftone, color", 
+        "reproduction_number": "LC-DIG-bbc-1553f (digital file from original, front)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683849/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683849/resource/"
+        }, 
+        "title": "[Joe Lake, St. Louis Browns, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1550/1553fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1550/1553f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1550/1553f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "Helmar Tobacco Company", 
+        "call_number": "LOT 13163-26, no. 11 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-09-11T00:00:00Z", 
+        "pk": "2007683849", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Lake, Joe (Team member)", 
+            "St. Louis Browns", 
+            "St. Louis", 
+            "American League", 
+            "pitcher", 
+            "Baseball cards--1910-1920.", 
+            "Relief prints--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-07T00:00:00Z", 
+        "index": 12, 
+        "medium": "1 print : relief with halftone, color", 
+        "reproduction_number": "LC-DIG-bbc-1543f (digital file from original, front)\nLC-USZC4-6985 (color film copy transparency, front)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683839/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683839/resource/"
+        }, 
+        "title": "[Tex Erwin, Brooklyn Dodgers, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1540/1543fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1540/1543f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1500/1540/1543f_150px.jpg"
+        }, 
+        "created": "2026-02-10T05:41:53Z", 
+        "modified": "2026-02-10T05:41:56Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "Helmar Tobacco Company", 
+        "call_number": "LOT 13163-26, no. 1 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2026-01-29T16:44:00Z", 
+        "pk": "2007683839", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Erwin, Tex (Team member)", 
+            "Brooklyn Dodgers", 
+            "Brooklyn", 
+            "National League", 
+            "catcher", 
+            "Baseball cards--1910-1920.", 
+            "Relief prints--Color--1910-1920."
+        ]
+    }
+]}

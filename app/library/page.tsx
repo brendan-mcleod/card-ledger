@@ -1,8 +1,10 @@
 import { LibraryView } from '@/app/components/library-view'
+import { brandCopy } from '@/lib/brand-copy'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'All Cards | Slabbed',
+  title: `${brandCopy.pages.discover.title} | Slabbed`,
+  description: brandCopy.pages.discover.subtitle,
 }
 
 type LibraryPageProps = {

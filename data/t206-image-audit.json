@@ -1,0 +1,175 @@
+{
+  "generatedAt": "2026-04-24T20:41:21.137Z",
+  "source": "https://www.loc.gov/pictures/search/?fo=json&co=bbc&st=grid&query=White%20Borders%20%28T206%29",
+  "providerFilter": "all",
+  "auditOnly": false,
+  "missingOnly": true,
+  "expectedLocRecordCount": 519,
+  "expectedCollectorChecklistCount": 524,
+  "locReportedHits": 519,
+  "locCatalogCards": 519,
+  "supplementalCards": 5,
+  "totalT206Cards": 524,
+  "totalPages": 6,
+  "approvedFrontImages": 524,
+  "approvedScannedBacks": 520,
+  "approvedGenericBackImages": 8,
+  "placeholderCards": 0,
+  "missingScannedBacks": 4,
+  "needsReview": 7,
+  "providerSummary": {
+    "loc": {
+      "candidates": 1055,
+      "approved": 1046,
+      "rejected": 0,
+      "needsReview": 0,
+      "needsSource": 9,
+      "downloads": 0,
+      "skipped": 0,
+      "failed": 0
+    },
+    "nypl": {
+      "candidates": 1,
+      "approved": 1,
+      "rejected": 0,
+      "needsReview": 0,
+      "needsSource": 0,
+      "downloads": 0,
+      "skipped": 0,
+      "failed": 0
+    },
+    "cma": {
+      "candidates": 1,
+      "approved": 0,
+      "rejected": 1,
+      "needsReview": 0,
+      "needsSource": 0,
+      "downloads": 0,
+      "skipped": 0,
+      "failed": 0
+    },
+    "met": {
+      "candidates": 1,
+      "approved": 1,
+      "rejected": 0,
+      "needsReview": 0,
+      "needsSource": 0,
+      "downloads": 0,
+      "skipped": 0,
+      "failed": 0
+    },
+    "wikimedia": {
+      "candidates": 4,
+      "approved": 4,
+      "rejected": 0,
+      "needsReview": 0,
+      "needsSource": 0,
+      "downloads": 0,
+      "skipped": 0,
+      "failed": 0
+    }
+  },
+  "rejectedCandidates": [
+    {
+      "candidateId": "cma-no-t206-results",
+      "provider": "cma",
+      "sourceUrl": "https://openaccess-api.clevelandart.org/api/artworks/?q=T206%20baseball%20card&has_image=1&limit=50",
+      "rejectionReason": "CMA Open Access API returned no T206 image records for the query."
+    }
+  ],
+  "remainingFrontPlaceholders": [],
+  "remainingBackPlaceholders": [
+    {
+      "cardId": "t206-eddie-plank-philadelphia-athletics-portrait",
+      "collectorTitle": "T206, Eddie Plank, Philadelphia Athletics, Portrait",
+      "locItemUrl": "https://www.metmuseum.org/art/collection/search/413206"
+    },
+    {
+      "cardId": "t206-honus-wagner-pittsburgh-pirates-portrait",
+      "collectorTitle": "T206, Honus Wagner, Pittsburgh Pirates, Portrait",
+      "locItemUrl": "https://digitalcollections.nypl.org/items/217f8f20-c607-012f-8c61-58d385a7bc34"
+    },
+    {
+      "cardId": "t206-sherry-magie-philadelphia-phillies-error",
+      "collectorTitle": "T206, Sherry Magie, Philadelphia Phillies, Portrait Error",
+      "locItemUrl": "https://commons.wikimedia.org/wiki/File:T206-Sherry-Magie-error.jpg"
+    },
+    {
+      "cardId": "t206-slow-joe-doyle-new-york-nationals-natl-error",
+      "collectorTitle": "T206, Slow Joe Doyle, New York Nationals, N.Y. Nat'l Error",
+      "locItemUrl": "https://www.metmuseum.org/art/collection/search/413476"
+    }
+  ],
+  "failedDownloads": [],
+  "ambiguousMatches": [
+    {
+      "cardId": "t206-frank-chance-chicago-cubs-portrait",
+      "collectorTitle": "T206, Frank Chance, Chicago Cubs, Portrait",
+      "confidence": "medium",
+      "reviewNotes": [
+        "No scanned back reproduction number was available in the LOC result.",
+        "No exact back reproduction number on this LOC record; using related same-subject LOC back from 2008675170."
+      ],
+      "locItemUrl": "https://www.loc.gov/pictures/collection/bbc/item/2008675151/"
+    },
+    {
+      "cardId": "t206-joe-tinker-chicago-cubs-portrait",
+      "collectorTitle": "T206, Joe Tinker, Chicago Cubs, Portrait",
+      "confidence": "medium",
+      "reviewNotes": [
+        "No scanned back reproduction number was available in the LOC result.",
+        "No exact back reproduction number on this LOC record; using related same-subject LOC back from 2008676400."
+      ],
+      "locItemUrl": "https://www.loc.gov/pictures/collection/bbc/item/2008675153/"
+    },
+    {
+      "cardId": "t206-johnny-evers-chicago-cubs-portrait",
+      "collectorTitle": "T206, Johnny Evers, Chicago Cubs, Portrait",
+      "confidence": "medium",
+      "reviewNotes": [
+        "No scanned back reproduction number was available in the LOC result.",
+        "No exact back reproduction number on this LOC record; using related same-subject LOC back from 2008675178."
+      ],
+      "locItemUrl": "https://www.loc.gov/pictures/collection/bbc/item/2008675152/"
+    },
+    {
+      "cardId": "t206-kaiser-wilhelm-brooklyn-superbas-portrait",
+      "collectorTitle": "T206, Kaiser Wilhelm, Brooklyn Superbas, Portrait",
+      "confidence": "medium",
+      "reviewNotes": [
+        "No scanned back reproduction number was available in the LOC result.",
+        "No exact back reproduction number on this LOC record; using related same-subject LOC back from 2008675165."
+      ],
+      "locItemUrl": "https://www.loc.gov/pictures/collection/bbc/item/2008675156/"
+    },
+    {
+      "cardId": "t206-sherry-magie-philadelphia-phillies-error",
+      "collectorTitle": "T206, Sherry Magie, Philadelphia Phillies, Portrait Error",
+      "confidence": "medium",
+      "reviewNotes": [
+        "Supplemental hobby-checklist error card. Wikimedia marks the file public domain, but the uploaded scan source should remain reviewable."
+      ],
+      "locItemUrl": "https://commons.wikimedia.org/wiki/File:T206-Sherry-Magie-error.jpg"
+    },
+    {
+      "cardId": "t206-slow-joe-doyle-new-york-nationals-natl-error",
+      "collectorTitle": "T206, Slow Joe Doyle, New York Nationals, N.Y. Nat'l Error",
+      "confidence": "medium",
+      "reviewNotes": [
+        "Supplemental hobby-checklist error card. No strict public-domain downloadable front image is currently attached."
+      ],
+      "locItemUrl": "https://www.metmuseum.org/art/collection/search/413476"
+    },
+    {
+      "cardId": "t206-ty-cobb-detroit-tigers-red-portrait-ty-cobb-back",
+      "collectorTitle": "T206, Ty Cobb, Detroit Tigers, Red Portrait, Ty Cobb Back",
+      "confidence": "medium",
+      "reviewNotes": [
+        "Debated T206 supplement: many collectors treat the Ty Cobb Back as the next add-on beyond the accepted 524-front checklist.",
+        "Included to reconcile the current LOC 519-card baseline to a 524-card app catalog while preserving review notes."
+      ],
+      "locItemUrl": "https://commons.wikimedia.org/wiki/File:1909-1911_T206_Ty_Cobb_Front.webp"
+    }
+  ],
+  "downloads": []
+}

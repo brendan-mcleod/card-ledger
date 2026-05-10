@@ -1,6 +1,7 @@
 'use client'
 
 import { UserAvatar } from '@/app/components/user-avatar'
+import { toCardImageRouteUrl } from '@/lib/card-asset-url'
 import type { Card } from '@/lib/types'
 
 type SetStackVisualProps = {
@@ -26,7 +27,7 @@ export function SetStackVisual({ cards, label, year, className = '' }: SetStackV
                 <div className="set-stack-card" key={`${card.id}-${index}`} style={{ zIndex: layerIndex }}>
                   {card.imageUrl ? (
                     // eslint-disable-next-line @next/next/no-img-element
-                    <img alt="" className="set-stack-card-image" src={card.imageUrl} />
+                    <img alt="" className="set-stack-card-image" src={toCardImageRouteUrl(card.imageUrl)} />
                   ) : (
                     <div className="set-stack-card-placeholder">
                       <UserAvatar name={card.player} size="sm" />

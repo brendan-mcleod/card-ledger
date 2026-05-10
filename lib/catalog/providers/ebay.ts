@@ -105,7 +105,9 @@ async function getAccessToken(config: EbayConfig) {
 }
 
 function buildQuery(card: Card) {
-  return `${card.year} ${card.brand} ${card.set} ${card.player} #${card.cardNumber} baseball card`
+  return [card.yearRange ?? card.year, card.brand, card.set, card.player, card.displayTeam ?? card.team, card.variationName ?? card.poseVariation, 'baseball card']
+    .filter(Boolean)
+    .join(' ')
 }
 
 function pickImageUrl(payload: unknown) {

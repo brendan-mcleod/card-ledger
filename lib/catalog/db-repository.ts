@@ -50,14 +50,20 @@ function matchesSmartQuery(card: Card, query: string) {
 
   const searchCorpus = normalizeSearchText(
     [
+      card.collectorTitle,
+      card.displaySubject,
+      card.displayTeam,
       card.player,
       card.setLabel,
-      card.cardNumber,
       card.team,
+      card.variationName,
+      card.poseVariation,
+      card.sourceTitle,
+      ...(card.searchAliases ?? []),
       card.year,
       card.brand,
       card.set,
-      `${card.year} ${card.brand} ${card.set} ${card.player} ${card.cardNumber}`,
+      `${card.yearRange ?? card.year} ${card.brand} ${card.set} ${card.player} ${card.displayTeam ?? card.team}`,
       `${card.team} ${card.player}`,
     ]
       .filter(Boolean)
@@ -72,9 +78,14 @@ function getSourceSetSlugsForCanonical(setSlug: string) {
     '1933-goudey-baseball': ['1933-goudey', '1933-goudey-goudey', '1933-goudey-baseball'],
     '1948-leaf-baseball': ['1948-leaf', '1948-leaf-leaf', '1948-leaf-baseball'],
     '1949-bowman-baseball': ['1949-bowman', '1949-bowman-bowman', '1949-bowman-baseball'],
+    '1950-bowman-baseball': ['1950-bowman', '1950-bowman-bowman', '1950-bowman-baseball'],
+    '1951-bowman-baseball': ['1951-bowman', '1951-bowman-bowman', '1951-bowman-baseball'],
     '1952-bowman-baseball': ['1952-bowman', '1952-bowman-bowman', '1952-bowman-baseball'],
+    '1953-bowman-color-baseball': ['1953-bowman-color', '1953-bowman-colour', '1953-bowman-color-baseball', '1953-bowman'],
+    '1953-bowman-black-white-baseball': ['1953-bowman-black-white', '1953-bowman-bw', '1953-bowman-black-and-white', '1953-bowman-black-white-baseball'],
     '1954-bowman-baseball': ['1954-bowman', '1954-bowman-bowman', '1954-bowman-baseball'],
     '1955-bowman-baseball': ['1955-bowman', '1955-bowman-bowman', '1955-bowman-baseball'],
+    '1934-goudey-baseball': ['1934-goudey', '1934-goudey-goudey', '1934-goudey-baseball', '1934-goudey-r320'],
     '1952-topps-baseball': ['1952-topps', '1952-topps-base-set', '1952-topps-baseball'],
     '1954-topps-baseball': ['1954-topps', '1954-topps-base-set', '1954-topps-baseball'],
     '1956-topps-baseball': ['1956-topps', '1956-topps-white-back', '1956-topps-baseball'],

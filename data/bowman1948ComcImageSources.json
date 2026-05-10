@@ -1,0 +1,13 @@
+[
+  {
+    "cardNumber": "12",
+    "player": "Johnny Sain",
+    "comcCardUrl": "https://www.comc.com/Cards/Baseball/1948/Bowman_-_Base/12/Johnny_Sain/1795564",
+    "frontImageUrl": "https://img.comc.com/i/Baseball/1948/Bowman---Base/12/Johnny-Sain.jpg?id=73e4d432-bf70-46fe-b2b1-0d51fbc76cf7&size=original&side=front&.jpg",
+    "backImageUrl": "https://img.comc.com/i/Baseball/1948/Bowman---Base/12/Johnny-Sain.jpg?id=73e4d432-bf70-46fe-b2b1-0d51fbc76cf7&size=original&side=back&.jpg",
+    "attributionText": "Images courtesy of COMC.com",
+    "rightsNote": "Rejected for production card art because the scan has a visible COMC wordmark. Do not cache locally or display as card artwork.",
+    "confidence": "high",
+    "visualReview": "rejected_wordmark"
+  }
+]

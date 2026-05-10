@@ -1,14 +1,14 @@
 'use client'
 
-import { useEffect, useMemo, useState } from 'react'
+import { useDeferredValue, useEffect, useMemo, useRef, useState } from 'react'
 import Link from 'next/link'
 import { useRouter } from 'next/navigation'
 
-import { getAutocompleteSuggestions } from '@/lib/data'
 import type { CardSuggestion } from '@/lib/types'
 
 type SearchBarProps = {
   initialValue?: string
+  value?: string
   placeholder?: string
   onValueChange?: (value: string) => void
   large?: boolean
@@ -17,10 +17,14 @@ type SearchBarProps = {
   suggestions?: CardSuggestion[]
   rotatingPlaceholders?: string[]
   placeholderMode?: 'swap' | 'type'
+  submitPath?: string
+  showSuggestions?: boolean
+  debounceMs?: number
 }
 
 export function SearchBar({
   initialValue = '',
+  value: controlledValue,
   placeholder = 'Search the card library',
   onValueChange,
   large = false,
@@ -29,36 +33,81 @@ export function SearchBar({
   suggestions,
   rotatingPlaceholders,
   placeholderMode = 'swap',
+  submitPath = '/search',
+  showSuggestions = true,
+  debounceMs = 120,
 }: SearchBarProps) {
   const router = useRouter()
-  const [value, setValue] = useState(initialValue)
+  const [draftState, setDraftState] = useState(() => ({
+    controlledValue,
+    value: controlledValue ?? initialValue,
+  }))
   const [open, setOpen] = useState(false)
   const [placeholderIndex, setPlaceholderIndex] = useState(0)
   const [placeholderFading, setPlaceholderFading] = useState(false)
   const [typedPlaceholder, setTypedPlaceholder] = useState('')
   const [placeholderDeleting, setPlaceholderDeleting] = useState(false)
+  const [asyncSuggestions, setAsyncSuggestions] = useState<CardSuggestion[]>([])
+  const didMountRef = useRef(false)
+  const onValueChangeRef = useRef(onValueChange)
 
-  const trimmedValue = useMemo(() => value.trim(), [value])
-  const visibleSuggestions = useMemo<CardSuggestion[]>(
-    () => {
-      if (trimmedValue.length < 2) {
-        return []
-      }
+  if (controlledValue !== undefined && controlledValue !== draftState.controlledValue && controlledValue !== draftState.value) {
+    setDraftState({ controlledValue, value: controlledValue })
+  }
 
-      if (suggestions) {
-        return suggestions
-      }
-
-      return getAutocompleteSuggestions(trimmedValue)
-    },
-    [suggestions, trimmedValue],
-  )
+  const searchValue = draftState.value
+  const trimmedValue = useMemo(() => searchValue.trim(), [searchValue])
+  const deferredSearchValue = useDeferredValue(searchValue)
+  const deferredTrimmedValue = useMemo(() => deferredSearchValue.trim(), [deferredSearchValue])
+  const visibleSuggestions = useMemo<CardSuggestion[]>(() => {
+    if (deferredTrimmedValue.length < 2 || !showSuggestions) return []
+    return (suggestions ?? asyncSuggestions).slice(0, 6)
+  }, [asyncSuggestions, deferredTrimmedValue.length, showSuggestions, suggestions])
   const activePlaceholder =
     trimmedValue.length === 0 && rotatingPlaceholders && rotatingPlaceholders.length > 0
       ? placeholderMode === 'type'
         ? typedPlaceholder
         : rotatingPlaceholders[placeholderIndex % rotatingPlaceholders.length]
       : placeholder
+
+  useEffect(() => {
+    onValueChangeRef.current = onValueChange
+  }, [onValueChange])
+
+  useEffect(() => {
+    if (!showSuggestions || suggestions || deferredTrimmedValue.length < 2) {
+      return
+    }
+
+    let cancelled = false
+    import('@/lib/client-catalog')
+      .then(({ getClientAutocompleteSuggestions }) => getClientAutocompleteSuggestions(deferredTrimmedValue, 6))
+      .then((nextSuggestions) => {
+        if (!cancelled) setAsyncSuggestions(nextSuggestions)
+      })
+      .catch(() => {
+        if (!cancelled) setAsyncSuggestions([])
+      })
+
+    return () => {
+      cancelled = true
+    }
+  }, [deferredTrimmedValue, showSuggestions, suggestions])
+
+  useEffect(() => {
+    if (!onValueChangeRef.current) return
+
+    if (!didMountRef.current) {
+      didMountRef.current = true
+      return
+    }
+
+    const timeoutId = window.setTimeout(() => {
+      onValueChangeRef.current?.(searchValue)
+    }, debounceMs)
+
+    return () => window.clearTimeout(timeoutId)
+  }, [debounceMs, searchValue])
 
   useEffect(() => {
     if (
@@ -134,16 +183,20 @@ export function SearchBar({
         className="search-form"
         onSubmit={(event) => {
           event.preventDefault()
-          router.push(`/library?q=${encodeURIComponent(value.trim())}`)
+          const normalizedValue = searchValue.trim()
+          onValueChangeRef.current?.(searchValue)
+          router.push(normalizedValue ? `${submitPath}?q=${encodeURIComponent(normalizedValue)}` : submitPath)
           setOpen(false)
         }}
       >
         <input
+          autoComplete="off"
           className={`search-input ${large ? 'search-input-large' : ''} ${variant === 'command' ? 'search-input-command' : ''}`}
+          enterKeyHint="search"
           onBlur={() => window.setTimeout(() => setOpen(false), 120)}
           onChange={(event) => {
             const nextValue = event.target.value
-            setValue(nextValue)
+            setDraftState({ controlledValue, value: nextValue })
             if (nextValue.trim().length > 0) {
               setPlaceholderFading(false)
             } else if (placeholderMode === 'type') {
@@ -151,12 +204,11 @@ export function SearchBar({
               setPlaceholderDeleting(false)
             }
             setOpen(true)
-            onValueChange?.(nextValue)
           }}
           onFocus={() => setOpen(true)}
           placeholder={rotatingPlaceholders?.length ? '' : activePlaceholder}
           type="search"
-          value={value}
+          value={searchValue}
         />
         {trimmedValue.length === 0 && rotatingPlaceholders?.length ? (
           <span className={`search-rotating-placeholder ${placeholderFading ? 'search-rotating-placeholder-fading' : ''}`}>
@@ -176,7 +228,7 @@ export function SearchBar({
               <div className="search-suggestion-visual">
                 {suggestion.thumbnailUrl ? (
                   // eslint-disable-next-line @next/next/no-img-element
-                  <img alt="" className="search-suggestion-thumb" src={suggestion.thumbnailUrl} />
+                  <img alt="" className="search-suggestion-thumb" decoding="async" loading="lazy" src={suggestion.thumbnailUrl} />
                 ) : (
                   <span className="search-suggestion-thumb search-suggestion-thumb-placeholder" />
                 )}

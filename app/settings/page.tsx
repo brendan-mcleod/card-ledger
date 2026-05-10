@@ -1,24 +1,18 @@
-import Link from 'next/link'
+import type { Metadata } from 'next'
 
-import { AccountSectionNav } from '@/app/components/account-section-nav'
+import { AuthRequired } from '@/app/components/auth-required'
+import { SettingsView } from '@/app/components/settings-view'
+import { brandCopy } from '@/lib/brand-copy'
+
+export const metadata: Metadata = {
+  title: `${brandCopy.pages.settings.title} | Slabbed`,
+  description: brandCopy.pages.settings.subtitle,
+}
 
 export default function SettingsPage() {
   return (
-    <main className="page-shell">
-      <AccountSectionNav />
-
-      <section className="hero-panel panel-stack-sm">
-        <p className="eyebrow">Settings</p>
-        <h1 className="section-title">Profile settings</h1>
-        <p className="body-copy-sm">
-          Profile editing will live here as the account layer expands. For now, this page anchors the profile flow.
-        </p>
-        <div className="action-row">
-          <Link className="button-secondary" href="/profile/bmcleod">
-            Back to profile
-          </Link>
-        </div>
-      </section>
-    </main>
+    <AuthRequired title="Sign in to manage settings.">
+      <SettingsView />
+    </AuthRequired>
   )
 }

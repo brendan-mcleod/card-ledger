@@ -1,0 +1,6501 @@
+[
+  {
+    "cardNumber": "1",
+    "player": "Dusty Rhodes",
+    "team": "New York Giants",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Series 1",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "searchAliases": [
+      "Dusty Rhodes",
+      "New York Giants",
+      "1955 Topps #1",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "2",
+    "player": "Ted Williams",
+    "team": "Boston Red Sox",
+    "rookieCard": false,
+    "hallOfFamer": true,
+    "series": "Series 1",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Red"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps",
+      "Topps star card",
+      "Hall of Fame subject"
+    ],
+    "searchAliases": [
+      "Ted Williams",
+      "Boston Red Sox",
+      "1955 Topps #2",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Hall of Fame subject",
+      "Early Topps",
+      "Horizontal Topps",
+      "Topps star card"
+    ]
+  },
+  {
+    "cardNumber": "3",
+    "player": "Art Fowler",
+    "team": "Cincinnati Redlegs",
+    "rookieCard": true,
+    "hallOfFamer": false,
+    "series": "Series 1",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ],
+    "searchAliases": [
+      "Art Fowler",
+      "Cincinnati Redlegs",
+      "1955 Topps #3",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "rookie card",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ]
+  },
+  {
+    "cardNumber": "4",
+    "player": "Al Kaline",
+    "team": "Detroit Tigers",
+    "rookieCard": false,
+    "hallOfFamer": true,
+    "series": "Series 1",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Red"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps",
+      "Topps star card",
+      "Hall of Fame subject"
+    ],
+    "searchAliases": [
+      "Al Kaline",
+      "Detroit Tigers",
+      "1955 Topps #4",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Hall of Fame subject",
+      "Early Topps",
+      "Horizontal Topps",
+      "Topps star card"
+    ]
+  },
+  {
+    "cardNumber": "5",
+    "player": "Jim Gilliam",
+    "team": "Brooklyn Dodgers",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Series 1",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "searchAliases": [
+      "Jim Gilliam",
+      "Brooklyn Dodgers",
+      "1955 Topps #5",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "6",
+    "player": "Stan Hack",
+    "team": "Chicago Cubs",
+    "rookieCard": true,
+    "hallOfFamer": false,
+    "series": "Series 1",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ],
+    "searchAliases": [
+      "Stan Hack",
+      "Chicago Cubs",
+      "1955 Topps #6",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "rookie card",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ]
+  },
+  {
+    "cardNumber": "7",
+    "player": "Jim Hegan",
+    "team": "Cleveland Indians",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Series 1",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "searchAliases": [
+      "Jim Hegan",
+      "Cleveland Indians",
+      "1955 Topps #7",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "8",
+    "player": "Hal Smith",
+    "team": "Baltimore Orioles",
+    "rookieCard": true,
+    "hallOfFamer": false,
+    "series": "Series 1",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ],
+    "searchAliases": [
+      "Hal Smith",
+      "Baltimore Orioles",
+      "1955 Topps #8",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "rookie card",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ]
+  },
+  {
+    "cardNumber": "9",
+    "player": "Bob Miller",
+    "team": "Detroit Tigers",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Series 1",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "searchAliases": [
+      "Bob Miller",
+      "Detroit Tigers",
+      "1955 Topps #9",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "10",
+    "player": "Bob Keegan",
+    "team": "Chicago White Sox",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Series 1",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "searchAliases": [
+      "Bob Keegan",
+      "Chicago White Sox",
+      "1955 Topps #10",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "11",
+    "player": "Ferris Fain",
+    "team": "Detroit Tigers",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Series 1",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "searchAliases": [
+      "Ferris Fain",
+      "Detroit Tigers",
+      "1955 Topps #11",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "12",
+    "player": "Jake Thies",
+    "team": "Pittsburgh Pirates",
+    "rookieCard": true,
+    "hallOfFamer": false,
+    "series": "Series 1",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ],
+    "searchAliases": [
+      "Jake Thies",
+      "Pittsburgh Pirates",
+      "1955 Topps #12",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "rookie card",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ]
+  },
+  {
+    "cardNumber": "13",
+    "player": "Fred Marsh",
+    "team": "Baltimore Orioles",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Series 1",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "searchAliases": [
+      "Fred Marsh",
+      "Baltimore Orioles",
+      "1955 Topps #13",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "14",
+    "player": "Jim Finigan",
+    "team": "Kansas City Athletics",
+    "rookieCard": true,
+    "hallOfFamer": false,
+    "series": "Series 1",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ],
+    "searchAliases": [
+      "Jim Finigan",
+      "Kansas City Athletics",
+      "1955 Topps #14",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "rookie card",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ]
+  },
+  {
+    "cardNumber": "15",
+    "player": "Jim Pendleton",
+    "team": "Boston Braves",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Series 1",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "searchAliases": [
+      "Jim Pendleton",
+      "Boston Braves",
+      "1955 Topps #15",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "16",
+    "player": "Roy Sievers",
+    "team": "Cincinnati Redlegs",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Series 1",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "searchAliases": [
+      "Roy Sievers",
+      "Cincinnati Redlegs",
+      "1955 Topps #16",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "17",
+    "player": "Bobby Hofman",
+    "team": "New York Giants",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Series 1",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "searchAliases": [
+      "Bobby Hofman",
+      "New York Giants",
+      "1955 Topps #17",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "18",
+    "player": "Russ Kemmerer",
+    "team": "Boston Red Sox",
+    "rookieCard": true,
+    "hallOfFamer": false,
+    "series": "Series 1",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ],
+    "searchAliases": [
+      "Russ Kemmerer",
+      "Boston Red Sox",
+      "1955 Topps #18",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "rookie card",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ]
+  },
+  {
+    "cardNumber": "19",
+    "player": "Billy Herman",
+    "team": "Brooklyn Dodgers",
+    "rookieCard": false,
+    "hallOfFamer": true,
+    "series": "Series 1",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps",
+      "Hall of Fame subject"
+    ],
+    "searchAliases": [
+      "Billy Herman",
+      "Brooklyn Dodgers",
+      "1955 Topps #19",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Hall of Fame subject",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "20",
+    "player": "Andy Carey",
+    "team": "New York Yankees",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Series 1",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "searchAliases": [
+      "Andy Carey",
+      "New York Yankees",
+      "1955 Topps #20",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "21",
+    "player": "Alex Grammas",
+    "team": "St. Louis Cardinals",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Series 1",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "searchAliases": [
+      "Alex Grammas",
+      "St. Louis Cardinals",
+      "1955 Topps #21",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "22",
+    "player": "Bill Skowron",
+    "team": "New York Yankees",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Series 1",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "searchAliases": [
+      "Bill Skowron",
+      "New York Yankees",
+      "1955 Topps #22",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "23",
+    "player": "Jack Parks",
+    "team": "Boston Braves",
+    "rookieCard": true,
+    "hallOfFamer": false,
+    "series": "Series 1",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ],
+    "searchAliases": [
+      "Jack Parks",
+      "Boston Braves",
+      "1955 Topps #23",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "rookie card",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ]
+  },
+  {
+    "cardNumber": "24",
+    "player": "Hal Newhouser",
+    "team": "Cleveland Indians",
+    "rookieCard": false,
+    "hallOfFamer": true,
+    "series": "Series 1",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps",
+      "Hall of Fame subject"
+    ],
+    "searchAliases": [
+      "Hal Newhouser",
+      "Cleveland Indians",
+      "1955 Topps #24",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Hall of Fame subject",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "25",
+    "player": "Johnny Podres",
+    "team": "Brooklyn Dodgers",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Series 1",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "searchAliases": [
+      "Johnny Podres",
+      "Brooklyn Dodgers",
+      "1955 Topps #25",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "26",
+    "player": "Dick Groat",
+    "team": "Pittsburgh Pirates",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Series 1",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "searchAliases": [
+      "Dick Groat",
+      "Pittsburgh Pirates",
+      "1955 Topps #26",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "27",
+    "player": "Billy Gardner",
+    "team": "New York Giants",
+    "rookieCard": true,
+    "hallOfFamer": false,
+    "series": "Series 1",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ],
+    "searchAliases": [
+      "Billy Gardner",
+      "New York Giants",
+      "1955 Topps #27",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "rookie card",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ]
+  },
+  {
+    "cardNumber": "28",
+    "player": "Ernie Banks",
+    "team": "Chicago Cubs",
+    "rookieCard": false,
+    "hallOfFamer": true,
+    "series": "Series 1",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps",
+      "Topps star card",
+      "Hall of Fame subject"
+    ],
+    "searchAliases": [
+      "Ernie Banks",
+      "Chicago Cubs",
+      "1955 Topps #28",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Hall of Fame subject",
+      "Early Topps",
+      "Horizontal Topps",
+      "Topps star card"
+    ]
+  },
+  {
+    "cardNumber": "29",
+    "player": "Herman Wehmeier",
+    "team": "Philadelphia Phillies",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Series 1",
+    "variationNotes": [
+      "Herman Wehmeier on Card"
+    ],
+    "knownBackVariants": [],
+    "notes": "Herman Wehmeier on Card",
+    "searchAliases": [
+      "Herman Wehmeier",
+      "Philadelphia Phillies",
+      "1955 Topps #29",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Herman Wehmeier on Card",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "30",
+    "player": "Vic Powe",
+    "team": "Kansas City Athletics",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Series 1",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "searchAliases": [
+      "Vic Powe",
+      "Kansas City Athletics",
+      "1955 Topps #30",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "31",
+    "player": "Warren Spahn",
+    "team": "Boston Braves",
+    "rookieCard": false,
+    "hallOfFamer": true,
+    "series": "Series 1",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps",
+      "Topps star card",
+      "Hall of Fame subject"
+    ],
+    "searchAliases": [
+      "Warren Spahn",
+      "Boston Braves",
+      "1955 Topps #31",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Hall of Fame subject",
+      "Early Topps",
+      "Horizontal Topps",
+      "Topps star card"
+    ]
+  },
+  {
+    "cardNumber": "32",
+    "player": "Ed McGhee",
+    "team": "Chicago White Sox",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Series 1",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "searchAliases": [
+      "Ed McGhee",
+      "Chicago White Sox",
+      "1955 Topps #32",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "33",
+    "player": "Tom Qualters",
+    "team": "Philadelphia Phillies",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Series 1",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "searchAliases": [
+      "Tom Qualters",
+      "Philadelphia Phillies",
+      "1955 Topps #33",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "34",
+    "player": "Wayne Terwilliger",
+    "team": "Cincinnati Redlegs",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Series 1",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "searchAliases": [
+      "Wayne Terwilliger",
+      "Cincinnati Redlegs",
+      "1955 Topps #34",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "35",
+    "player": "Dave Jolly",
+    "team": "Boston Braves",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Series 1",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "searchAliases": [
+      "Dave Jolly",
+      "Boston Braves",
+      "1955 Topps #35",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "36",
+    "player": "Leo Kiely",
+    "team": "Boston Red Sox",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Series 1",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "searchAliases": [
+      "Leo Kiely",
+      "Boston Red Sox",
+      "1955 Topps #36",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "37",
+    "player": "Joe Cunningham",
+    "team": "St. Louis Cardinals",
+    "rookieCard": true,
+    "hallOfFamer": false,
+    "series": "Series 1",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ],
+    "searchAliases": [
+      "Joe Cunningham",
+      "St. Louis Cardinals",
+      "1955 Topps #37",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "rookie card",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ]
+  },
+  {
+    "cardNumber": "38",
+    "player": "Bob Turley",
+    "team": "New York Yankees",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Series 1",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "searchAliases": [
+      "Bob Turley",
+      "New York Yankees",
+      "1955 Topps #38",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "39",
+    "player": "Bill Glynn",
+    "team": "Cleveland Indians",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Series 1",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "searchAliases": [
+      "Bill Glynn",
+      "Cleveland Indians",
+      "1955 Topps #39",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "40",
+    "player": "Don Hoak",
+    "team": "Brooklyn Dodgers",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Series 1",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "searchAliases": [
+      "Don Hoak",
+      "Brooklyn Dodgers",
+      "1955 Topps #40",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "41",
+    "player": "Chuck Stobbs",
+    "team": "Cincinnati Redlegs",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Series 2",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "searchAliases": [
+      "Chuck Stobbs",
+      "Cincinnati Redlegs",
+      "1955 Topps #41",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "42",
+    "player": "Windy McCall",
+    "team": "New York Giants",
+    "rookieCard": true,
+    "hallOfFamer": false,
+    "series": "Series 2",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ],
+    "searchAliases": [
+      "Windy McCall",
+      "New York Giants",
+      "1955 Topps #42",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "rookie card",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ]
+  },
+  {
+    "cardNumber": "43",
+    "player": "Harvey Haddix",
+    "team": "St. Louis Cardinals",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Series 2",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "searchAliases": [
+      "Harvey Haddix",
+      "St. Louis Cardinals",
+      "1955 Topps #43",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "44",
+    "player": "Corky Valentine",
+    "team": "Cincinnati Redlegs",
+    "rookieCard": true,
+    "hallOfFamer": false,
+    "series": "Series 2",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ],
+    "searchAliases": [
+      "Corky Valentine",
+      "Cincinnati Redlegs",
+      "1955 Topps #44",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "rookie card",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ]
+  },
+  {
+    "cardNumber": "45",
+    "player": "Hank Sauer",
+    "team": "Chicago Cubs",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Series 2",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "searchAliases": [
+      "Hank Sauer",
+      "Chicago Cubs",
+      "1955 Topps #45",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "46",
+    "player": "Ted Kazanski",
+    "team": "Philadelphia Phillies",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Series 2",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "searchAliases": [
+      "Ted Kazanski",
+      "Philadelphia Phillies",
+      "1955 Topps #46",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "47",
+    "player": "Hank Aaron",
+    "team": "Boston Braves",
+    "rookieCard": false,
+    "hallOfFamer": true,
+    "series": "Series 2",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Red"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps",
+      "Topps star card",
+      "Hall of Fame subject"
+    ],
+    "searchAliases": [
+      "Hank Aaron",
+      "Boston Braves",
+      "1955 Topps #47",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Hall of Fame subject",
+      "Early Topps",
+      "Horizontal Topps",
+      "Topps star card"
+    ]
+  },
+  {
+    "cardNumber": "48",
+    "player": "Bob Kennedy",
+    "team": "Baltimore Orioles",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Series 2",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "searchAliases": [
+      "Bob Kennedy",
+      "Baltimore Orioles",
+      "1955 Topps #48",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "49",
+    "player": "J.W. Porter",
+    "team": "Detroit Tigers",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Series 2",
+    "variationNotes": [
+      "J.W. Porter on Card"
+    ],
+    "knownBackVariants": [],
+    "notes": "J.W. Porter on Card",
+    "searchAliases": [
+      "J.W. Porter",
+      "Detroit Tigers",
+      "1955 Topps #49",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "J.W. Porter on Card",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "50",
+    "player": "Jackie Robinson",
+    "team": "Brooklyn Dodgers",
+    "rookieCard": false,
+    "hallOfFamer": true,
+    "series": "Series 2",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps",
+      "Topps star card",
+      "Hall of Fame subject"
+    ],
+    "searchAliases": [
+      "Jackie Robinson",
+      "Brooklyn Dodgers",
+      "1955 Topps #50",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Hall of Fame subject",
+      "Early Topps",
+      "Horizontal Topps",
+      "Topps star card"
+    ]
+  },
+  {
+    "cardNumber": "51",
+    "player": "Jim Hughes",
+    "team": "Brooklyn Dodgers",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Series 2",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "searchAliases": [
+      "Jim Hughes",
+      "Brooklyn Dodgers",
+      "1955 Topps #51",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "52",
+    "player": "Bill Tremel",
+    "team": "Chicago Cubs",
+    "rookieCard": true,
+    "hallOfFamer": false,
+    "series": "Series 2",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ],
+    "searchAliases": [
+      "Bill Tremel",
+      "Chicago Cubs",
+      "1955 Topps #52",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "rookie card",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ]
+  },
+  {
+    "cardNumber": "53",
+    "player": "Bill Taylor",
+    "team": "New York Giants",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Series 2",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "searchAliases": [
+      "Bill Taylor",
+      "New York Giants",
+      "1955 Topps #53",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "54",
+    "player": "Lou Limmer",
+    "team": "Kansas City Athletics",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Series 2",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "searchAliases": [
+      "Lou Limmer",
+      "Kansas City Athletics",
+      "1955 Topps #54",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "55",
+    "player": "Rip Repulski",
+    "team": "St. Louis Cardinals",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Series 2",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "searchAliases": [
+      "Rip Repulski",
+      "St. Louis Cardinals",
+      "1955 Topps #55",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "56",
+    "player": "Ray Jablonski",
+    "team": "Cincinnati Redlegs",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Series 2",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "searchAliases": [
+      "Ray Jablonski",
+      "Cincinnati Redlegs",
+      "1955 Topps #56",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "57",
+    "player": "Billy O'Dell",
+    "team": "Baltimore Orioles",
+    "rookieCard": true,
+    "hallOfFamer": false,
+    "series": "Series 2",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ],
+    "searchAliases": [
+      "Billy O'Dell",
+      "Baltimore Orioles",
+      "1955 Topps #57",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "rookie card",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ]
+  },
+  {
+    "cardNumber": "58",
+    "player": "Jim Rivera",
+    "team": "Chicago White Sox",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Series 2",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "searchAliases": [
+      "Jim Rivera",
+      "Chicago White Sox",
+      "1955 Topps #58",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "59",
+    "player": "Gair Allie",
+    "team": "Pittsburgh Pirates",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Series 2",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "searchAliases": [
+      "Gair Allie",
+      "Pittsburgh Pirates",
+      "1955 Topps #59",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "60",
+    "player": "Dean Stone",
+    "team": "Cincinnati Redlegs",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Series 2",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "searchAliases": [
+      "Dean Stone",
+      "Cincinnati Redlegs",
+      "1955 Topps #60",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "61",
+    "player": "Spook Jacobs",
+    "team": "Kansas City Athletics",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Series 2",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "searchAliases": [
+      "Spook Jacobs",
+      "Kansas City Athletics",
+      "1955 Topps #61",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "62",
+    "player": "Thornton Kipper",
+    "team": "Philadelphia Phillies",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Series 2",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "searchAliases": [
+      "Thornton Kipper",
+      "Philadelphia Phillies",
+      "1955 Topps #62",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "63",
+    "player": "Joe Collins",
+    "team": "New York Yankees",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Series 2",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "searchAliases": [
+      "Joe Collins",
+      "New York Yankees",
+      "1955 Topps #63",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "64",
+    "player": "Gus Triandos",
+    "team": "Baltimore Orioles",
+    "rookieCard": true,
+    "hallOfFamer": false,
+    "series": "Series 2",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ],
+    "searchAliases": [
+      "Gus Triandos",
+      "Baltimore Orioles",
+      "1955 Topps #64",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "rookie card",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ]
+  },
+  {
+    "cardNumber": "65",
+    "player": "Ray Boone",
+    "team": "Detroit Tigers",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Series 2",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "searchAliases": [
+      "Ray Boone",
+      "Detroit Tigers",
+      "1955 Topps #65",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "66",
+    "player": "Ron Jackson",
+    "team": "Chicago White Sox",
+    "rookieCard": true,
+    "hallOfFamer": false,
+    "series": "Series 2",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ],
+    "searchAliases": [
+      "Ron Jackson",
+      "Chicago White Sox",
+      "1955 Topps #66",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "rookie card",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ]
+  },
+  {
+    "cardNumber": "67",
+    "player": "Wally Moon",
+    "team": "St. Louis Cardinals",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Series 2",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "searchAliases": [
+      "Wally Moon",
+      "St. Louis Cardinals",
+      "1955 Topps #67",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "68",
+    "player": "Jim Davis",
+    "team": "Chicago Cubs",
+    "rookieCard": true,
+    "hallOfFamer": false,
+    "series": "Series 2",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ],
+    "searchAliases": [
+      "Jim Davis",
+      "Chicago Cubs",
+      "1955 Topps #68",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "rookie card",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ]
+  },
+  {
+    "cardNumber": "69",
+    "player": "Ed Bailey",
+    "team": "Cincinnati Redlegs",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Series 2",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "searchAliases": [
+      "Ed Bailey",
+      "Cincinnati Redlegs",
+      "1955 Topps #69",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "70",
+    "player": "Al Rosen",
+    "team": "Cleveland Indians",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Series 2",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "searchAliases": [
+      "Al Rosen",
+      "Cleveland Indians",
+      "1955 Topps #70",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "71",
+    "player": "Ruben Gomez",
+    "team": "New York Giants",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Series 2",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "searchAliases": [
+      "Ruben Gomez",
+      "New York Giants",
+      "1955 Topps #71",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "72",
+    "player": "Karl Olson",
+    "team": "Boston Red Sox",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Series 2",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "searchAliases": [
+      "Karl Olson",
+      "Boston Red Sox",
+      "1955 Topps #72",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "73",
+    "player": "Jack Shepard",
+    "team": "Pittsburgh Pirates",
+    "rookieCard": true,
+    "hallOfFamer": false,
+    "series": "Series 2",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ],
+    "searchAliases": [
+      "Jack Shepard",
+      "Pittsburgh Pirates",
+      "1955 Topps #73",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "rookie card",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ]
+  },
+  {
+    "cardNumber": "74",
+    "player": "Bob Borkowski",
+    "team": "Cincinnati Redlegs",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Series 2",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "searchAliases": [
+      "Bob Borkowski",
+      "Cincinnati Redlegs",
+      "1955 Topps #74",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "75",
+    "player": "Sandy Amoros",
+    "team": "Brooklyn Dodgers",
+    "rookieCard": true,
+    "hallOfFamer": false,
+    "series": "Series 2",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ],
+    "searchAliases": [
+      "Sandy Amoros",
+      "Brooklyn Dodgers",
+      "1955 Topps #75",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "rookie card",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ]
+  },
+  {
+    "cardNumber": "76",
+    "player": "Howie Pollet",
+    "team": "Chicago Cubs",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Series 2",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "searchAliases": [
+      "Howie Pollet",
+      "Chicago Cubs",
+      "1955 Topps #76",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "77",
+    "player": "Arnie Portocarrero",
+    "team": "Kansas City Athletics",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Series 2",
+    "variationNotes": [
+      "Arnold Portocarrero on Card"
+    ],
+    "knownBackVariants": [],
+    "notes": "Arnold Portocarrero on Card",
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "searchAliases": [
+      "Arnie Portocarrero",
+      "Kansas City Athletics",
+      "1955 Topps #77",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Arnold Portocarrero on Card",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "78",
+    "player": "Gordon Jones",
+    "team": "St. Louis Cardinals",
+    "rookieCard": true,
+    "hallOfFamer": false,
+    "series": "Series 2",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ],
+    "searchAliases": [
+      "Gordon Jones",
+      "St. Louis Cardinals",
+      "1955 Topps #78",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "rookie card",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ]
+  },
+  {
+    "cardNumber": "79",
+    "player": "Danny Schell",
+    "team": "Philadelphia Phillies",
+    "rookieCard": true,
+    "hallOfFamer": false,
+    "series": "Series 2",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ],
+    "searchAliases": [
+      "Danny Schell",
+      "Philadelphia Phillies",
+      "1955 Topps #79",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "rookie card",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ]
+  },
+  {
+    "cardNumber": "80",
+    "player": "Bob Grim",
+    "team": "New York Yankees",
+    "rookieCard": true,
+    "hallOfFamer": false,
+    "series": "Series 2",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ],
+    "searchAliases": [
+      "Bob Grim",
+      "New York Yankees",
+      "1955 Topps #80",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "rookie card",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ]
+  },
+  {
+    "cardNumber": "81",
+    "player": "Gene Conley",
+    "team": "Boston Braves",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Series 3",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "searchAliases": [
+      "Gene Conley",
+      "Boston Braves",
+      "1955 Topps #81",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "82",
+    "player": "Chuck Harmon",
+    "team": "Cincinnati Redlegs",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Series 3",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "searchAliases": [
+      "Chuck Harmon",
+      "Cincinnati Redlegs",
+      "1955 Topps #82",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "83",
+    "player": "Tom Brewer",
+    "team": "Boston Red Sox",
+    "rookieCard": true,
+    "hallOfFamer": false,
+    "series": "Series 3",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ],
+    "searchAliases": [
+      "Tom Brewer",
+      "Boston Red Sox",
+      "1955 Topps #83",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "rookie card",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ]
+  },
+  {
+    "cardNumber": "84",
+    "player": "Camilo Pascual",
+    "team": "Cincinnati Redlegs",
+    "rookieCard": true,
+    "hallOfFamer": false,
+    "series": "Series 3",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ],
+    "searchAliases": [
+      "Camilo Pascual",
+      "Cincinnati Redlegs",
+      "1955 Topps #84",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "rookie card",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ]
+  },
+  {
+    "cardNumber": "85",
+    "player": "Don Mossi",
+    "team": "Cleveland Indians",
+    "rookieCard": true,
+    "hallOfFamer": false,
+    "series": "Series 3",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ],
+    "searchAliases": [
+      "Don Mossi",
+      "Cleveland Indians",
+      "1955 Topps #85",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "rookie card",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ]
+  },
+  {
+    "cardNumber": "86",
+    "player": "Bill Wilson",
+    "team": "Kansas City Athletics",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Series 3",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "searchAliases": [
+      "Bill Wilson",
+      "Kansas City Athletics",
+      "1955 Topps #86",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "87",
+    "player": "Frank House",
+    "team": "Detroit Tigers",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Series 3",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "searchAliases": [
+      "Frank House",
+      "Detroit Tigers",
+      "1955 Topps #87",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "88",
+    "player": "Bob Skinner",
+    "team": "Pittsburgh Pirates",
+    "rookieCard": true,
+    "hallOfFamer": false,
+    "series": "Series 3",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ],
+    "searchAliases": [
+      "Bob Skinner",
+      "Pittsburgh Pirates",
+      "1955 Topps #88",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "rookie card",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ]
+  },
+  {
+    "cardNumber": "89",
+    "player": "Joe Frazier",
+    "team": "St. Louis Cardinals",
+    "rookieCard": true,
+    "hallOfFamer": false,
+    "series": "Series 3",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ],
+    "searchAliases": [
+      "Joe Frazier",
+      "St. Louis Cardinals",
+      "1955 Topps #89",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "rookie card",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ]
+  },
+  {
+    "cardNumber": "90",
+    "player": "Karl Spooner",
+    "team": "Brooklyn Dodgers",
+    "rookieCard": true,
+    "hallOfFamer": false,
+    "series": "Series 3",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ],
+    "searchAliases": [
+      "Karl Spooner",
+      "Brooklyn Dodgers",
+      "1955 Topps #90",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "rookie card",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ]
+  },
+  {
+    "cardNumber": "91",
+    "player": "Milt Bolling",
+    "team": "Boston Red Sox",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Series 3",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "searchAliases": [
+      "Milt Bolling",
+      "Boston Red Sox",
+      "1955 Topps #91",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "92",
+    "player": "Don Zimmer",
+    "team": "Brooklyn Dodgers",
+    "rookieCard": true,
+    "hallOfFamer": false,
+    "series": "Series 3",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ],
+    "searchAliases": [
+      "Don Zimmer",
+      "Brooklyn Dodgers",
+      "1955 Topps #92",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "rookie card",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ]
+  },
+  {
+    "cardNumber": "93",
+    "player": "Steve Bilko",
+    "team": "Chicago Cubs",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Series 3",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "searchAliases": [
+      "Steve Bilko",
+      "Chicago Cubs",
+      "1955 Topps #93",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "94",
+    "player": "Reno Bertoia",
+    "team": "Detroit Tigers",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Series 3",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "searchAliases": [
+      "Reno Bertoia",
+      "Detroit Tigers",
+      "1955 Topps #94",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "95",
+    "player": "Preston Ward",
+    "team": "Pittsburgh Pirates",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Series 3",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "searchAliases": [
+      "Preston Ward",
+      "Pittsburgh Pirates",
+      "1955 Topps #95",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "96",
+    "player": "Charlie Bishop",
+    "team": "Kansas City Athletics",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Series 3",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "searchAliases": [
+      "Charlie Bishop",
+      "Kansas City Athletics",
+      "1955 Topps #96",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "97",
+    "player": "Carlos Paula",
+    "team": "Cincinnati Redlegs",
+    "rookieCard": true,
+    "hallOfFamer": false,
+    "series": "Series 3",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ],
+    "searchAliases": [
+      "Carlos Paula",
+      "Cincinnati Redlegs",
+      "1955 Topps #97",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "rookie card",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ]
+  },
+  {
+    "cardNumber": "98",
+    "player": "Johnny Riddle",
+    "team": "St. Louis Cardinals",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Series 3",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "searchAliases": [
+      "Johnny Riddle",
+      "St. Louis Cardinals",
+      "1955 Topps #98",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "99",
+    "player": "Frank Leja",
+    "team": "New York Yankees",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Series 3",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "searchAliases": [
+      "Frank Leja",
+      "New York Yankees",
+      "1955 Topps #99",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "100",
+    "player": "Monte Irvin",
+    "team": "New York Giants",
+    "rookieCard": false,
+    "hallOfFamer": true,
+    "series": "Series 3",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps",
+      "Hall of Fame subject"
+    ],
+    "searchAliases": [
+      "Monte Irvin",
+      "New York Giants",
+      "1955 Topps #100",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Hall of Fame subject",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "101",
+    "player": "Johnny Gray",
+    "team": "Kansas City Athletics",
+    "rookieCard": true,
+    "hallOfFamer": false,
+    "series": "Series 3",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ],
+    "searchAliases": [
+      "Johnny Gray",
+      "Kansas City Athletics",
+      "1955 Topps #101",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "rookie card",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ]
+  },
+  {
+    "cardNumber": "102",
+    "player": "Wally Westlake",
+    "team": "Cleveland Indians",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Series 3",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "searchAliases": [
+      "Wally Westlake",
+      "Cleveland Indians",
+      "1955 Topps #102",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "103",
+    "player": "Charlie White",
+    "team": "Boston Braves",
+    "rookieCard": true,
+    "hallOfFamer": false,
+    "series": "Series 3",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ],
+    "searchAliases": [
+      "Charlie White",
+      "Boston Braves",
+      "1955 Topps #103",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "rookie card",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ]
+  },
+  {
+    "cardNumber": "104",
+    "player": "Jack Harshman",
+    "team": "Chicago White Sox",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Series 3",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "searchAliases": [
+      "Jack Harshman",
+      "Chicago White Sox",
+      "1955 Topps #104",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "105",
+    "player": "Chuck Diering",
+    "team": "Baltimore Orioles",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Series 3",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "searchAliases": [
+      "Chuck Diering",
+      "Baltimore Orioles",
+      "1955 Topps #105",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "106",
+    "player": "Frank Sullivan",
+    "team": "Boston Red Sox",
+    "rookieCard": true,
+    "hallOfFamer": false,
+    "series": "Series 3",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ],
+    "searchAliases": [
+      "Frank Sullivan",
+      "Boston Red Sox",
+      "1955 Topps #106",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "rookie card",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ]
+  },
+  {
+    "cardNumber": "107",
+    "player": "Curt Roberts",
+    "team": "Pittsburgh Pirates",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Series 3",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "searchAliases": [
+      "Curt Roberts",
+      "Pittsburgh Pirates",
+      "1955 Topps #107",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "108",
+    "player": "\"Rube\" Walker",
+    "team": "Brooklyn Dodgers",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Series 3",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "searchAliases": [
+      "\"Rube\" Walker",
+      "Brooklyn Dodgers",
+      "1955 Topps #108",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "109",
+    "player": "Ed Lopat",
+    "team": "New York Yankees",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Series 3",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "searchAliases": [
+      "Ed Lopat",
+      "New York Yankees",
+      "1955 Topps #109",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "110",
+    "player": "Gus Zernial",
+    "team": "Kansas City Athletics",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Series 3",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "searchAliases": [
+      "Gus Zernial",
+      "Kansas City Athletics",
+      "1955 Topps #110",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "111",
+    "player": "Bob Milliken",
+    "team": "Brooklyn Dodgers",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Series 3",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "searchAliases": [
+      "Bob Milliken",
+      "Brooklyn Dodgers",
+      "1955 Topps #111",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "112",
+    "player": "Nelson King",
+    "team": "Pittsburgh Pirates",
+    "rookieCard": true,
+    "hallOfFamer": false,
+    "series": "Series 3",
+    "variationNotes": [
+      "Nelson King on Card"
+    ],
+    "knownBackVariants": [],
+    "notes": "Nelson King on Card",
+    "searchAliases": [
+      "Nelson King",
+      "Pittsburgh Pirates",
+      "1955 Topps #112",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "rookie card",
+      "Nelson King on Card",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ]
+  },
+  {
+    "cardNumber": "113",
+    "player": "Harry Brecheen",
+    "team": "Baltimore Orioles",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Series 3",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "searchAliases": [
+      "Harry Brecheen",
+      "Baltimore Orioles",
+      "1955 Topps #113",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "114",
+    "player": "Lou Ortiz",
+    "team": "Philadelphia Phillies",
+    "rookieCard": true,
+    "hallOfFamer": false,
+    "series": "Series 3",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ],
+    "searchAliases": [
+      "Lou Ortiz",
+      "Philadelphia Phillies",
+      "1955 Topps #114",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "rookie card",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ]
+  },
+  {
+    "cardNumber": "115",
+    "player": "Ellis Kinder",
+    "team": "Boston Red Sox",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Series 3",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "searchAliases": [
+      "Ellis Kinder",
+      "Boston Red Sox",
+      "1955 Topps #115",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "116",
+    "player": "Tom Hurd",
+    "team": "Boston Red Sox",
+    "rookieCard": true,
+    "hallOfFamer": false,
+    "series": "Series 3",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ],
+    "searchAliases": [
+      "Tom Hurd",
+      "Boston Red Sox",
+      "1955 Topps #116",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "rookie card",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ]
+  },
+  {
+    "cardNumber": "117",
+    "player": "Mel Roach",
+    "team": "Boston Braves",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Series 3",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "searchAliases": [
+      "Mel Roach",
+      "Boston Braves",
+      "1955 Topps #117",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "118",
+    "player": "Bob Purkey",
+    "team": "Pittsburgh Pirates",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Series 3",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "searchAliases": [
+      "Bob Purkey",
+      "Pittsburgh Pirates",
+      "1955 Topps #118",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "119",
+    "player": "Bob Lennon",
+    "team": "New York Giants",
+    "rookieCard": true,
+    "hallOfFamer": false,
+    "series": "Series 3",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ],
+    "searchAliases": [
+      "Bob Lennon",
+      "New York Giants",
+      "1955 Topps #119",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "rookie card",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ]
+  },
+  {
+    "cardNumber": "120",
+    "player": "Ted Kluszewski",
+    "team": "Cincinnati Redlegs",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Series 3",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "searchAliases": [
+      "Ted Kluszewski",
+      "Cincinnati Redlegs",
+      "1955 Topps #120",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "121",
+    "player": "Bill Renna",
+    "team": "Kansas City Athletics",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Series 4",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "searchAliases": [
+      "Bill Renna",
+      "Kansas City Athletics",
+      "1955 Topps #121",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "122",
+    "player": "Carl Sawatski",
+    "team": "Chicago White Sox",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Series 4",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "searchAliases": [
+      "Carl Sawatski",
+      "Chicago White Sox",
+      "1955 Topps #122",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "123",
+    "player": "\"Sandy\" Koufax",
+    "team": "Brooklyn Dodgers",
+    "rookieCard": true,
+    "hallOfFamer": true,
+    "series": "Series 4",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "searchAliases": [
+      "\"Sandy\" Koufax",
+      "Brooklyn Dodgers",
+      "1955 Topps #123",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "rookie card",
+      "Hall of Fame subject",
+      "Early Topps",
+      "Horizontal Topps",
+      "Topps star card",
+      "Rookie card"
+    ],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps",
+      "Topps star card",
+      "Rookie card",
+      "Hall of Fame subject"
+    ]
+  },
+  {
+    "cardNumber": "124",
+    "player": "Harmon Killebrew",
+    "team": "Cincinnati Redlegs",
+    "rookieCard": true,
+    "hallOfFamer": true,
+    "series": "Series 4",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps",
+      "Topps star card",
+      "Rookie card",
+      "Hall of Fame subject"
+    ],
+    "searchAliases": [
+      "Harmon Killebrew",
+      "Cincinnati Redlegs",
+      "1955 Topps #124",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "rookie card",
+      "Hall of Fame subject",
+      "Early Topps",
+      "Horizontal Topps",
+      "Topps star card",
+      "Rookie card"
+    ]
+  },
+  {
+    "cardNumber": "125",
+    "player": "Ken Boyer",
+    "team": "St. Louis Cardinals",
+    "rookieCard": true,
+    "hallOfFamer": false,
+    "series": "Series 4",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ],
+    "searchAliases": [
+      "Ken Boyer",
+      "St. Louis Cardinals",
+      "1955 Topps #125",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "rookie card",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ]
+  },
+  {
+    "cardNumber": "126",
+    "player": "Dick Hall",
+    "team": "Pittsburgh Pirates",
+    "rookieCard": true,
+    "hallOfFamer": false,
+    "series": "Series 4",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ],
+    "searchAliases": [
+      "Dick Hall",
+      "Pittsburgh Pirates",
+      "1955 Topps #126",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "rookie card",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ]
+  },
+  {
+    "cardNumber": "127",
+    "player": "Dale Long",
+    "team": "Pittsburgh Pirates",
+    "rookieCard": true,
+    "hallOfFamer": false,
+    "series": "Series 4",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ],
+    "searchAliases": [
+      "Dale Long",
+      "Pittsburgh Pirates",
+      "1955 Topps #127",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "rookie card",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ]
+  },
+  {
+    "cardNumber": "128",
+    "player": "Ted Lepcio",
+    "team": "Boston Red Sox",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Series 4",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "searchAliases": [
+      "Ted Lepcio",
+      "Boston Red Sox",
+      "1955 Topps #128",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "129",
+    "player": "Elvin Tappe",
+    "team": "Chicago Cubs",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Series 4",
+    "variationNotes": [
+      "Elvin Tappe on Card"
+    ],
+    "knownBackVariants": [],
+    "notes": "Elvin Tappe on Card",
+    "searchAliases": [
+      "Elvin Tappe",
+      "Chicago Cubs",
+      "1955 Topps #129",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Elvin Tappe on Card",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "130",
+    "player": "Mayo Smith",
+    "team": "Philadelphia Phillies",
+    "rookieCard": true,
+    "hallOfFamer": false,
+    "series": "Series 4",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ],
+    "searchAliases": [
+      "Mayo Smith",
+      "Philadelphia Phillies",
+      "1955 Topps #130",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "rookie card",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ]
+  },
+  {
+    "cardNumber": "131",
+    "player": "Grady Hatton",
+    "team": "Boston Red Sox",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Series 4",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "searchAliases": [
+      "Grady Hatton",
+      "Boston Red Sox",
+      "1955 Topps #131",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "132",
+    "player": "Bob Trice",
+    "team": "Kansas City Athletics",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Series 4",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "searchAliases": [
+      "Bob Trice",
+      "Kansas City Athletics",
+      "1955 Topps #132",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "133",
+    "player": "Dave Hoskins",
+    "team": "Cleveland Indians",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Series 4",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "searchAliases": [
+      "Dave Hoskins",
+      "Cleveland Indians",
+      "1955 Topps #133",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "134",
+    "player": "Joe Jay",
+    "team": "Boston Braves",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Series 4",
+    "variationNotes": [
+      "Joe Jay on Card"
+    ],
+    "knownBackVariants": [],
+    "notes": "Joe Jay on Card",
+    "searchAliases": [
+      "Joe Jay",
+      "Boston Braves",
+      "1955 Topps #134",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Joe Jay on Card",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "135",
+    "player": "Johnny O'Brien",
+    "team": "Pittsburgh Pirates",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Series 4",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "searchAliases": [
+      "Johnny O'Brien",
+      "Pittsburgh Pirates",
+      "1955 Topps #135",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "136",
+    "player": "Bunky Stewart",
+    "team": "Cincinnati Redlegs",
+    "rookieCard": true,
+    "hallOfFamer": false,
+    "series": "Series 4",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ],
+    "searchAliases": [
+      "Bunky Stewart",
+      "Cincinnati Redlegs",
+      "1955 Topps #136",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "rookie card",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ]
+  },
+  {
+    "cardNumber": "137",
+    "player": "Harry Elliott",
+    "team": "St. Louis Cardinals",
+    "rookieCard": true,
+    "hallOfFamer": false,
+    "series": "Series 4",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ],
+    "searchAliases": [
+      "Harry Elliott",
+      "St. Louis Cardinals",
+      "1955 Topps #137",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "rookie card",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ]
+  },
+  {
+    "cardNumber": "138",
+    "player": "Ray Herbert",
+    "team": "Detroit Tigers",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Series 4",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "searchAliases": [
+      "Ray Herbert",
+      "Detroit Tigers",
+      "1955 Topps #138",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "139",
+    "player": "Steve Kraly",
+    "team": "New York Yankees",
+    "rookieCard": true,
+    "hallOfFamer": false,
+    "series": "Series 4",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ],
+    "searchAliases": [
+      "Steve Kraly",
+      "New York Yankees",
+      "1955 Topps #139",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "rookie card",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ]
+  },
+  {
+    "cardNumber": "140",
+    "player": "Mel Parnell",
+    "team": "Boston Red Sox",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Series 4",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "searchAliases": [
+      "Mel Parnell",
+      "Boston Red Sox",
+      "1955 Topps #140",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "141",
+    "player": "Tom Wright",
+    "team": "Cincinnati Redlegs",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Series 4",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "searchAliases": [
+      "Tom Wright",
+      "Cincinnati Redlegs",
+      "1955 Topps #141",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "142",
+    "player": "Jerry Lynch",
+    "team": "Pittsburgh Pirates",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Series 4",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "searchAliases": [
+      "Jerry Lynch",
+      "Pittsburgh Pirates",
+      "1955 Topps #142",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "143",
+    "player": "Dick Schofield",
+    "team": "St. Louis Cardinals",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Series 4",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "searchAliases": [
+      "Dick Schofield",
+      "St. Louis Cardinals",
+      "1955 Topps #143",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "144",
+    "player": "Joe Amalfitano",
+    "team": "New York Giants",
+    "rookieCard": true,
+    "hallOfFamer": false,
+    "series": "Series 4",
+    "variationNotes": [
+      "Joe Amalfitano on Card"
+    ],
+    "knownBackVariants": [],
+    "notes": "Joe Amalfitano on Card",
+    "searchAliases": [
+      "Joe Amalfitano",
+      "New York Giants",
+      "1955 Topps #144",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "rookie card",
+      "Joe Amalfitano on Card",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ]
+  },
+  {
+    "cardNumber": "145",
+    "player": "Elmer Valo",
+    "team": "Kansas City Athletics",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Series 4",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "searchAliases": [
+      "Elmer Valo",
+      "Kansas City Athletics",
+      "1955 Topps #145",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "146",
+    "player": "Dick Donovan",
+    "team": "Chicago White Sox",
+    "rookieCard": true,
+    "hallOfFamer": false,
+    "series": "Series 4",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ],
+    "searchAliases": [
+      "Dick Donovan",
+      "Chicago White Sox",
+      "1955 Topps #146",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "rookie card",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ]
+  },
+  {
+    "cardNumber": "147",
+    "player": "Laurin Pepper",
+    "team": "Pittsburgh Pirates",
+    "rookieCard": true,
+    "hallOfFamer": false,
+    "series": "Series 4",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ],
+    "searchAliases": [
+      "Laurin Pepper",
+      "Pittsburgh Pirates",
+      "1955 Topps #147",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "rookie card",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ]
+  },
+  {
+    "cardNumber": "148",
+    "player": "Hal Brown",
+    "team": "Boston Red Sox",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Series 4",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "searchAliases": [
+      "Hal Brown",
+      "Boston Red Sox",
+      "1955 Topps #148",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "149",
+    "player": "Ray Crone",
+    "team": "Boston Braves",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Series 4",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "searchAliases": [
+      "Ray Crone",
+      "Boston Braves",
+      "1955 Topps #149",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "150",
+    "player": "Mike Higgins",
+    "team": "Boston Red Sox",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Series 4",
+    "variationNotes": [
+      "Mike Higgins on Card"
+    ],
+    "knownBackVariants": [],
+    "notes": "Mike Higgins on Card",
+    "searchAliases": [
+      "Mike Higgins",
+      "Boston Red Sox",
+      "1955 Topps #150",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Mike Higgins on Card",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "151",
+    "player": "Red Kress",
+    "team": "Cleveland Indians",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Series 4",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "searchAliases": [
+      "Red Kress",
+      "Cleveland Indians",
+      "1955 Topps #151",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "152",
+    "player": "Harry Agganis",
+    "team": "Boston Red Sox",
+    "rookieCard": true,
+    "hallOfFamer": false,
+    "series": "Series 4",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ],
+    "searchAliases": [
+      "Harry Agganis",
+      "Boston Red Sox",
+      "1955 Topps #152",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "rookie card",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ]
+  },
+  {
+    "cardNumber": "153",
+    "player": "Bud Podbielan",
+    "team": "Cincinnati Redlegs",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Series 4",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "searchAliases": [
+      "Bud Podbielan",
+      "Cincinnati Redlegs",
+      "1955 Topps #153",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "154",
+    "player": "Willy Miranda",
+    "team": "Baltimore Orioles",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Series 4",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "searchAliases": [
+      "Willy Miranda",
+      "Baltimore Orioles",
+      "1955 Topps #154",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "155",
+    "player": "Eddie Mathews",
+    "team": "Boston Braves",
+    "rookieCard": false,
+    "hallOfFamer": true,
+    "series": "Series 4",
+    "variationNotes": [
+      "Ed Mathews on Card"
+    ],
+    "knownBackVariants": [],
+    "notes": "Ed Mathews on Card",
+    "dominantColors": [
+      "Red"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps",
+      "Topps star card",
+      "Hall of Fame subject"
+    ],
+    "searchAliases": [
+      "Eddie Mathews",
+      "Boston Braves",
+      "1955 Topps #155",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Hall of Fame subject",
+      "Ed Mathews on Card",
+      "Early Topps",
+      "Horizontal Topps",
+      "Topps star card"
+    ]
+  },
+  {
+    "cardNumber": "156",
+    "player": "Joe Black",
+    "team": "Brooklyn Dodgers",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Series 4",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "searchAliases": [
+      "Joe Black",
+      "Brooklyn Dodgers",
+      "1955 Topps #156",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "157",
+    "player": "Bob Miller",
+    "team": "Philadelphia Phillies",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Series 4",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "searchAliases": [
+      "Bob Miller",
+      "Philadelphia Phillies",
+      "1955 Topps #157",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "158",
+    "player": "Tommy Carroll",
+    "team": "New York Yankees",
+    "rookieCard": true,
+    "hallOfFamer": false,
+    "series": "Series 4",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "searchAliases": [
+      "Tommy Carroll",
+      "New York Yankees",
+      "1955 Topps #158",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "rookie card",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ]
+  },
+  {
+    "cardNumber": "159",
+    "player": "Johnny Schmitz",
+    "team": "Cincinnati Redlegs",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Series 4",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "searchAliases": [
+      "Johnny Schmitz",
+      "Cincinnati Redlegs",
+      "1955 Topps #159",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "160",
+    "player": "Ray Narleski",
+    "team": "Cleveland Indians",
+    "rookieCard": true,
+    "hallOfFamer": false,
+    "series": "Series 4",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ],
+    "searchAliases": [
+      "Ray Narleski",
+      "Cleveland Indians",
+      "1955 Topps #160",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "rookie card",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ]
+  },
+  {
+    "cardNumber": "161",
+    "player": "Chuck Tanner",
+    "team": "Boston Braves",
+    "rookieCard": true,
+    "hallOfFamer": false,
+    "series": "Later-series Topps subject",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ],
+    "searchAliases": [
+      "Chuck Tanner",
+      "Boston Braves",
+      "1955 Topps #161",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "rookie card",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ]
+  },
+  {
+    "cardNumber": "162",
+    "player": "Joe Coleman",
+    "team": "Baltimore Orioles",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Later-series Topps subject",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "searchAliases": [
+      "Joe Coleman",
+      "Baltimore Orioles",
+      "1955 Topps #162",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "163",
+    "player": "Faye Throneberry",
+    "team": "Boston Red Sox",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Later-series Topps subject",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "searchAliases": [
+      "Faye Throneberry",
+      "Boston Red Sox",
+      "1955 Topps #163",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "164",
+    "player": "Roberto Clemente",
+    "team": "Pittsburgh Pirates",
+    "rookieCard": true,
+    "hallOfFamer": true,
+    "series": "Later-series Topps subject",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps",
+      "Topps star card",
+      "Rookie card",
+      "Hall of Fame subject"
+    ],
+    "searchAliases": [
+      "Roberto Clemente",
+      "Pittsburgh Pirates",
+      "1955 Topps #164",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "rookie card",
+      "Hall of Fame subject",
+      "Early Topps",
+      "Horizontal Topps",
+      "Topps star card",
+      "Rookie card"
+    ]
+  },
+  {
+    "cardNumber": "165",
+    "player": "Don Johnson",
+    "team": "Baltimore Orioles",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Later-series Topps subject",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "searchAliases": [
+      "Don Johnson",
+      "Baltimore Orioles",
+      "1955 Topps #165",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "166",
+    "player": "Hank Bauer",
+    "team": "New York Yankees",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Later-series Topps subject",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "searchAliases": [
+      "Hank Bauer",
+      "New York Yankees",
+      "1955 Topps #166",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "167",
+    "player": "Tom Casagrande",
+    "team": "Philadelphia Phillies",
+    "rookieCard": true,
+    "hallOfFamer": false,
+    "series": "Later-series Topps subject",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ],
+    "searchAliases": [
+      "Tom Casagrande",
+      "Philadelphia Phillies",
+      "1955 Topps #167",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "rookie card",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ]
+  },
+  {
+    "cardNumber": "168",
+    "player": "Duane Pillette",
+    "team": "Baltimore Orioles",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Later-series Topps subject",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "searchAliases": [
+      "Duane Pillette",
+      "Baltimore Orioles",
+      "1955 Topps #168",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "169",
+    "player": "Bob Oldis",
+    "team": "Cincinnati Redlegs",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Later-series Topps subject",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "searchAliases": [
+      "Bob Oldis",
+      "Cincinnati Redlegs",
+      "1955 Topps #169",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "170",
+    "player": "Jim Pearce",
+    "team": "Cincinnati Redlegs",
+    "rookieCard": true,
+    "hallOfFamer": false,
+    "series": "Later-series Topps subject",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ],
+    "searchAliases": [
+      "Jim Pearce",
+      "Cincinnati Redlegs",
+      "1955 Topps #170",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "rookie card",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ]
+  },
+  {
+    "cardNumber": "171",
+    "player": "Dick Brodowski",
+    "team": "Boston Red Sox",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Later-series Topps subject",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "searchAliases": [
+      "Dick Brodowski",
+      "Boston Red Sox",
+      "1955 Topps #171",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "172",
+    "player": "Frank Baumholtz",
+    "team": "Chicago Cubs",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Later-series Topps subject",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "searchAliases": [
+      "Frank Baumholtz",
+      "Chicago Cubs",
+      "1955 Topps #172",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "173",
+    "player": "Bob Kline",
+    "team": "Cincinnati Redlegs",
+    "rookieCard": true,
+    "hallOfFamer": false,
+    "series": "Later-series Topps subject",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ],
+    "searchAliases": [
+      "Bob Kline",
+      "Cincinnati Redlegs",
+      "1955 Topps #173",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "rookie card",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ]
+  },
+  {
+    "cardNumber": "174",
+    "player": "Rudy Minarcin",
+    "team": "Cincinnati Redlegs",
+    "rookieCard": true,
+    "hallOfFamer": false,
+    "series": "Later-series Topps subject",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ],
+    "searchAliases": [
+      "Rudy Minarcin",
+      "Cincinnati Redlegs",
+      "1955 Topps #174",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "rookie card",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ]
+  },
+  {
+    "cardNumber": "176",
+    "player": "Norm Zauchin",
+    "team": "Boston Red Sox",
+    "rookieCard": true,
+    "hallOfFamer": false,
+    "series": "Later-series Topps subject",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ],
+    "searchAliases": [
+      "Norm Zauchin",
+      "Boston Red Sox",
+      "1955 Topps #176",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "rookie card",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ]
+  },
+  {
+    "cardNumber": "177",
+    "player": "Jim Robertson",
+    "team": "Kansas City Athletics",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Later-series Topps subject",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "searchAliases": [
+      "Jim Robertson",
+      "Kansas City Athletics",
+      "1955 Topps #177",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "178",
+    "player": "Bobby Adams",
+    "team": "Cincinnati Redlegs",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Later-series Topps subject",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "searchAliases": [
+      "Bobby Adams",
+      "Cincinnati Redlegs",
+      "1955 Topps #178",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "179",
+    "player": "Jim Bolger",
+    "team": "Chicago Cubs",
+    "rookieCard": true,
+    "hallOfFamer": false,
+    "series": "Later-series Topps subject",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ],
+    "searchAliases": [
+      "Jim Bolger",
+      "Chicago Cubs",
+      "1955 Topps #179",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "rookie card",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ]
+  },
+  {
+    "cardNumber": "180",
+    "player": "Clem Labine",
+    "team": "Brooklyn Dodgers",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Later-series Topps subject",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "searchAliases": [
+      "Clem Labine",
+      "Brooklyn Dodgers",
+      "1955 Topps #180",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "181",
+    "player": "Roy McMillan Senators",
+    "team": "Cincinnati Redlegs",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Later-series Topps subject",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "searchAliases": [
+      "Roy McMillan Senators",
+      "Cincinnati Redlegs",
+      "1955 Topps #181",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "182",
+    "player": "Humberto Robinson",
+    "team": "Boston Braves",
+    "rookieCard": true,
+    "hallOfFamer": false,
+    "series": "Later-series Topps subject",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ],
+    "searchAliases": [
+      "Humberto Robinson",
+      "Boston Braves",
+      "1955 Topps #182",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "rookie card",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ]
+  },
+  {
+    "cardNumber": "183",
+    "player": "Tony Jacobs",
+    "team": "St. Louis Cardinals",
+    "rookieCard": true,
+    "hallOfFamer": false,
+    "series": "Later-series Topps subject",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ],
+    "searchAliases": [
+      "Tony Jacobs",
+      "St. Louis Cardinals",
+      "1955 Topps #183",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "rookie card",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ]
+  },
+  {
+    "cardNumber": "184",
+    "player": "Harry Perkowski",
+    "team": "Chicago Cubs",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Later-series Topps subject",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "searchAliases": [
+      "Harry Perkowski",
+      "Chicago Cubs",
+      "1955 Topps #184",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "185",
+    "player": "Don Ferrarese",
+    "team": "Baltimore Orioles",
+    "rookieCard": true,
+    "hallOfFamer": false,
+    "series": "Later-series Topps subject",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ],
+    "searchAliases": [
+      "Don Ferrarese",
+      "Baltimore Orioles",
+      "1955 Topps #185",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "rookie card",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ]
+  },
+  {
+    "cardNumber": "187",
+    "player": "Gil Hodges",
+    "team": "Brooklyn Dodgers",
+    "rookieCard": false,
+    "hallOfFamer": true,
+    "series": "Later-series Topps subject",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps",
+      "Topps star card",
+      "Hall of Fame subject"
+    ],
+    "searchAliases": [
+      "Gil Hodges",
+      "Brooklyn Dodgers",
+      "1955 Topps #187",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Hall of Fame subject",
+      "Early Topps",
+      "Horizontal Topps",
+      "Topps star card"
+    ]
+  },
+  {
+    "cardNumber": "188",
+    "player": "Charlie Silvera",
+    "team": "New York Yankees",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Later-series Topps subject",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "searchAliases": [
+      "Charlie Silvera",
+      "New York Yankees",
+      "1955 Topps #188",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "189",
+    "player": "Phil Rizzuto",
+    "team": "New York Yankees",
+    "rookieCard": false,
+    "hallOfFamer": true,
+    "series": "Later-series Topps subject",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps",
+      "Hall of Fame subject"
+    ],
+    "searchAliases": [
+      "Phil Rizzuto",
+      "New York Yankees",
+      "1955 Topps #189",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Hall of Fame subject",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "190",
+    "player": "Gene Woodling",
+    "team": "Baltimore Orioles",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Later-series Topps subject",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "searchAliases": [
+      "Gene Woodling",
+      "Baltimore Orioles",
+      "1955 Topps #190",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "191",
+    "player": "Eddie Stanky",
+    "team": "St. Louis Cardinals",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Later-series Topps subject",
+    "variationNotes": [
+      "Ed Stanky on Card"
+    ],
+    "knownBackVariants": [],
+    "notes": "Ed Stanky on Card",
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "searchAliases": [
+      "Eddie Stanky",
+      "St. Louis Cardinals",
+      "1955 Topps #191",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Ed Stanky on Card",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "192",
+    "player": "Jim Delsing",
+    "team": "Detroit Tigers",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Later-series Topps subject",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "searchAliases": [
+      "Jim Delsing",
+      "Detroit Tigers",
+      "1955 Topps #192",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "193",
+    "player": "Johnny Sain",
+    "team": "New York Yankees",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Later-series Topps subject",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "searchAliases": [
+      "Johnny Sain",
+      "New York Yankees",
+      "1955 Topps #193",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "194",
+    "player": "Willie Mays",
+    "team": "New York Giants",
+    "rookieCard": false,
+    "hallOfFamer": true,
+    "series": "Later-series Topps subject",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Yellow"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps",
+      "Topps star card",
+      "Hall of Fame subject"
+    ],
+    "searchAliases": [
+      "Willie Mays",
+      "New York Giants",
+      "1955 Topps #194",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Hall of Fame subject",
+      "Early Topps",
+      "Horizontal Topps",
+      "Topps star card"
+    ]
+  },
+  {
+    "cardNumber": "195",
+    "player": "Ed Roebuck",
+    "team": "Brooklyn Dodgers",
+    "rookieCard": true,
+    "hallOfFamer": false,
+    "series": "Later-series Topps subject",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ],
+    "searchAliases": [
+      "Ed Roebuck",
+      "Brooklyn Dodgers",
+      "1955 Topps #195",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "rookie card",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ]
+  },
+  {
+    "cardNumber": "196",
+    "player": "Gale Wade",
+    "team": "Chicago Cubs",
+    "rookieCard": true,
+    "hallOfFamer": false,
+    "series": "Later-series Topps subject",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ],
+    "searchAliases": [
+      "Gale Wade",
+      "Chicago Cubs",
+      "1955 Topps #196",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "rookie card",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ]
+  },
+  {
+    "cardNumber": "197",
+    "player": "Al Smith",
+    "team": "Cleveland Indians",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Later-series Topps subject",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "searchAliases": [
+      "Al Smith",
+      "Cleveland Indians",
+      "1955 Topps #197",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "198",
+    "player": "Yogi Berra",
+    "team": "New York Yankees",
+    "rookieCard": false,
+    "hallOfFamer": true,
+    "series": "Later-series Topps subject",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Yellow"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps",
+      "Topps star card",
+      "Hall of Fame subject"
+    ],
+    "searchAliases": [
+      "Yogi Berra",
+      "New York Yankees",
+      "1955 Topps #198",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Hall of Fame subject",
+      "Early Topps",
+      "Horizontal Topps",
+      "Topps star card"
+    ]
+  },
+  {
+    "cardNumber": "199",
+    "player": "Bert Hamric",
+    "team": "Brooklyn Dodgers",
+    "rookieCard": true,
+    "hallOfFamer": false,
+    "series": "Later-series Topps subject",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ],
+    "searchAliases": [
+      "Bert Hamric",
+      "Brooklyn Dodgers",
+      "1955 Topps #199",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "rookie card",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ]
+  },
+  {
+    "cardNumber": "200",
+    "player": "Jackie Jensen",
+    "team": "Boston Red Sox",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Later-series Topps subject",
+    "variationNotes": [
+      "Jack Jensen on Card"
+    ],
+    "knownBackVariants": [],
+    "notes": "Jack Jensen on Card",
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "searchAliases": [
+      "Jackie Jensen",
+      "Boston Red Sox",
+      "1955 Topps #200",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Jack Jensen on Card",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "201",
+    "player": "Sherm Lollar",
+    "team": "Chicago White Sox",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Later-series Topps subject",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "searchAliases": [
+      "Sherm Lollar",
+      "Chicago White Sox",
+      "1955 Topps #201",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "202",
+    "player": "Jim Owens",
+    "team": "Philadelphia Phillies",
+    "rookieCard": true,
+    "hallOfFamer": false,
+    "series": "Later-series Topps subject",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ],
+    "searchAliases": [
+      "Jim Owens",
+      "Philadelphia Phillies",
+      "1955 Topps #202",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "rookie card",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ]
+  },
+  {
+    "cardNumber": "204",
+    "player": "Frank Smith",
+    "team": "St. Louis Cardinals",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Later-series Topps subject",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "searchAliases": [
+      "Frank Smith",
+      "St. Louis Cardinals",
+      "1955 Topps #204",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "205",
+    "player": "Gene Freese",
+    "team": "Pittsburgh Pirates",
+    "rookieCard": true,
+    "hallOfFamer": false,
+    "series": "Later-series Topps subject",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ],
+    "searchAliases": [
+      "Gene Freese",
+      "Pittsburgh Pirates",
+      "1955 Topps #205",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "rookie card",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ]
+  },
+  {
+    "cardNumber": "206",
+    "player": "Pete Daley",
+    "team": "Boston Red Sox",
+    "rookieCard": true,
+    "hallOfFamer": false,
+    "series": "Later-series Topps subject",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ],
+    "searchAliases": [
+      "Pete Daley",
+      "Boston Red Sox",
+      "1955 Topps #206",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "rookie card",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ]
+  },
+  {
+    "cardNumber": "207",
+    "player": "Billy Consolo Redlegs",
+    "team": "Boston Red Sox",
+    "rookieCard": false,
+    "hallOfFamer": false,
+    "series": "Later-series Topps subject",
+    "variationNotes": [
+      "Bill Consolo on Card"
+    ],
+    "knownBackVariants": [],
+    "notes": "Bill Consolo on Card",
+    "searchAliases": [
+      "Billy Consolo Redlegs",
+      "Boston Red Sox",
+      "1955 Topps #207",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Bill Consolo on Card",
+      "Early Topps",
+      "Horizontal Topps"
+    ],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps"
+    ]
+  },
+  {
+    "cardNumber": "208",
+    "player": "Ray Moore",
+    "team": "Baltimore Orioles",
+    "rookieCard": true,
+    "hallOfFamer": false,
+    "series": "Later-series Topps subject",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Neutral"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ],
+    "searchAliases": [
+      "Ray Moore",
+      "Baltimore Orioles",
+      "1955 Topps #208",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "rookie card",
+      "Early Topps",
+      "Horizontal Topps",
+      "Rookie card"
+    ]
+  },
+  {
+    "cardNumber": "210",
+    "player": "Duke Snider",
+    "team": "Brooklyn Dodgers",
+    "rookieCard": false,
+    "hallOfFamer": true,
+    "series": "Later-series Topps subject",
+    "variationNotes": [],
+    "knownBackVariants": [],
+    "dominantColors": [
+      "Red"
+    ],
+    "runTags": [
+      "Post-War Foundations",
+      "1955 Topps",
+      "Early Topps",
+      "Horizontal Topps",
+      "Topps star card",
+      "Hall of Fame subject"
+    ],
+    "searchAliases": [
+      "Duke Snider",
+      "Brooklyn Dodgers",
+      "1955 Topps #210",
+      "1955 Topps",
+      "1955 Topps Baseball",
+      "Topps",
+      "Post-War Foundations",
+      "Hall of Fame subject",
+      "Early Topps",
+      "Horizontal Topps",
+      "Topps star card"
+    ]
+  }
+]

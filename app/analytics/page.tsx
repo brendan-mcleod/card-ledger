@@ -1,43 +1,48 @@
-import Link from 'next/link'
+'use client'
 
 import { AccountSectionNav } from '@/app/components/account-section-nav'
+import { AuthRequired } from '@/app/components/auth-required'
+import { useCollector } from '@/app/components/collector-provider'
 
 export default function AnalyticsPage() {
+  const collector = useCollector()
+  const currentUser = collector.currentUser
+
   return (
-    <main className="page-shell analytics-page">
-      <AccountSectionNav />
+    <AuthRequired title="Sign in to view analytics.">
+      <main className="page-shell analytics-page">
+        <AccountSectionNav />
 
-      <section className="analytics-hero">
-        <div className="analytics-hero-copy">
-          <div className="analytics-title-row">
-            <h1 className="section-title">Analytics</h1>
-            <span className="analytics-beta-pill">Beta</span>
+        <section className="analytics-hero">
+          <div className="analytics-hero-copy">
+            <div className="analytics-title-row">
+              <h1 className="section-title">Analytics</h1>
+              <span className="analytics-beta-pill">Beta</span>
+            </div>
+            <p className="body-copy-sm">Values, set progress, and collecting trends will live here.</p>
           </div>
-          <p className="body-copy-sm">
-            Collection analytics will keep expanding here as the collector layer matures. For now, this page anchors the analytics flow from your account menu.
-          </p>
-        </div>
 
-        <div className="action-row">
-          <Link className="button-secondary" href="/profile/bmcleod">
-            Back to profile
-          </Link>
-        </div>
-      </section>
+          <div className="action-row">
+            <a className="button-secondary" href={`/profile/${currentUser.username}`}>
+              Back to profile
+            </a>
+          </div>
+        </section>
 
-      <section className="analytics-preview-grid">
-        <article className="analytics-preview-card">
-          <p className="eyebrow">Collection value</p>
-          <strong className="analytics-preview-value">$18,420</strong>
-          <p className="body-copy-sm">A calmer home for trendlines, market snapshots, and portfolio movement is coming next.</p>
-        </article>
+        <section className="analytics-preview-grid">
+          <article className="analytics-preview-card">
+            <p className="eyebrow">Collection value</p>
+            <strong className="analytics-preview-value">$18,420</strong>
+            <p className="body-copy-sm">Trendlines, values, and portfolio movement.</p>
+          </article>
 
-        <article className="analytics-preview-card">
-          <p className="eyebrow">Set momentum</p>
-          <strong className="analytics-preview-value">6 active runs</strong>
-          <p className="body-copy-sm">Track where you are closest to completion and which key cards still stand between you and the finish line.</p>
-        </article>
-      </section>
-    </main>
+          <article className="analytics-preview-card">
+            <p className="eyebrow">Set momentum</p>
+            <strong className="analytics-preview-value">6 active sets</strong>
+            <p className="body-copy-sm">See which sets are closest and which cards are still open.</p>
+          </article>
+        </section>
+      </main>
+    </AuthRequired>
   )
 }

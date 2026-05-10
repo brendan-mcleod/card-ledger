@@ -83,6 +83,10 @@ export function getCanonicalSetIdentity(card: Pick<Card, 'year' | 'brand' | 'set
     return { setLabel: '1909 T206 White Border', setSlug: '1909-t206-white-border' }
   }
 
+  if (card.brand === 'T205' && card.set === 'Gold Border') {
+    return { setLabel: '1911 T205 Gold Border', setSlug: '1911-t205-gold-border' }
+  }
+
   if (card.brand === 'Goudey') {
     return { setLabel: '1933 Goudey Baseball', setSlug: '1933-goudey-baseball' }
   }

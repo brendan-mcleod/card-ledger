@@ -1,0 +1,1134 @@
+{"search":{
+    "field": "number", 
+    "hits": 26, 
+    "sort_order": null, 
+    "do_facets": true, 
+    "focus_item": null, 
+    "query": "\"13163-13\"", 
+    "type": "search", 
+    "sort_by": null
+},
+"focus":null,
+"views":{
+    "current": "grid", 
+    "grid": "https://www.loc.gov/pictures/search/?q=%2213163-13%22&fi=number&c=600&co=bbc&st=grid", 
+    "list": "https://www.loc.gov/pictures/search/?q=%2213163-13%22&fi=number&c=600&co=bbc", 
+    "gallery": "https://www.loc.gov/pictures/search/?q=%2213163-13%22&fi=number&c=600&co=bbc&st=gallery", 
+    "slideshow": "https://www.loc.gov/pictures/search/?q=%2213163-13%22&fi=number&c=600&co=bbc&st=slideshow"
+},
+"facets":[
+    {
+        "type": "displayed", 
+        "filters": [
+            {
+                "count": 26, 
+                "on": "https://www.loc.gov/pictures/search/?c=600&co=bbc&sp=1&st=grid&q=%2213163-13%22&fa=displayed%3Aanywhere&fi=number&fo=json", 
+                "selected": false, 
+                "off": "https://www.loc.gov/pictures/search/?c=600&co=bbc&sp=1&st=grid&q=%2213163-13%22&fi=number&fo=json", 
+                "title": "Larger image available anywhere"
+            }, 
+            {
+                "count": 0, 
+                "on": "https://www.loc.gov/pictures/search/?c=600&co=bbc&sp=1&st=grid&q=%2213163-13%22&fa=displayed%3Alc_only&fi=number&fo=json", 
+                "selected": false, 
+                "off": "https://www.loc.gov/pictures/search/?c=600&co=bbc&sp=1&st=grid&q=%2213163-13%22&fi=number&fo=json", 
+                "title": "Larger image available only at the Library of Congress"
+            }, 
+            {
+                "count": 0, 
+                "on": "https://www.loc.gov/pictures/search/?c=600&co=bbc&sp=1&st=grid&q=%2213163-13%22&fa=displayed%3Anot_digitized&fi=number&fo=json", 
+                "selected": false, 
+                "off": "https://www.loc.gov/pictures/search/?c=600&co=bbc&sp=1&st=grid&q=%2213163-13%22&fi=number&fo=json", 
+                "title": "Not Digitized"
+            }
+        ], 
+        "title": "displayed"
+    }
+],
+"links":{
+    "json": "https://www.loc.gov/pictures/search/?co=bbc&st=grid&fi=number&q=%2213163-13%22&c=600&fo=json", 
+    "html": "https://www.loc.gov/pictures/search/?co=bbc&st=grid&fi=number&q=%2213163-13%22&c=600", 
+    "rss": "https://www.loc.gov/pictures/search/?co=bbc&fi=number&q=%2213163-13%22&c=600&fo=rss"
+},
+"suggestions":{
+    "possible": []
+},
+"pages":{
+    "current": 1, 
+    "next": null, 
+    "perpage": 600, 
+    "last": null, 
+    "page_list": [
+        {
+            "url": null, 
+            "number": 1
+        }
+    ], 
+    "previous": null, 
+    "total": 1, 
+    "results": "1 - 26", 
+    "first": null
+},
+"collection":{
+    "digitized": "All", 
+    "code": "bbc", 
+    "display_offsite": "Yes", 
+    "thumb_large_item": "", 
+    "title": "Baseball Cards", 
+    "banner_item": "https://www.loc.gov/pictures/item/2007678538/", 
+    "brief": "Baseball cards representing more than one thousand major and minor league ballplayers (primarily major league), from teams in thirteen identified leagues and seventy-five cities in the United States and Canada.", 
+    "banner_title": "John M. Ward, New York Giants, 1887.", 
+    "thumb_item": "cph.3b38367", 
+    "home_link": "https://www.loc.gov/pictures/collection/bbc/", 
+    "from_date": "1887", 
+    "view_all": "https://www.loc.gov/pictures/search?st=grid&co=bbc", 
+    "link": "https://www.loc.gov/pictures/collection/bbc/", 
+    "to_date": "1914", 
+    "extent": "2,100 baseball cards.", 
+    "thumb_featured": "https://www.loc.gov/pictures/static/data/bbc/featured.png", 
+    "rights": "https://www.loc.gov/rr/print/res/620_base.html", 
+    "thumb_large": "https://www.loc.gov/pictures/static/data/bbc/thumb_large.png", 
+    "banner": "https://www.loc.gov/pictures/static/data/bbc/banner.jpg", 
+    "thumb": "https://www.loc.gov/pictures/static/data/bbc/thumb.png"
+},
+"results":[
+    {
+        "source_created": "2007-08-14T00:00:00Z", 
+        "index": 1, 
+        "medium": "1 photographic print on cabinet card mount : albumen.", 
+        "reproduction_number": "LC-DIG-bbc-0569f (digital file from original, front)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683750/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683750/resource/"
+        }, 
+        "title": "[Roger Connor, New York Giants, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/0500/0560/0569fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/0500/0560/0569f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/0500/0560/0569f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "Goodwin & Co.", 
+        "call_number": "LOT 13163-13, no. 1 [P&P]", 
+        "medium_brief": "1 photographic print on cabinet card mount :", 
+        "source_modified": "2008-05-22T00:00:00Z", 
+        "pk": "2007683750", 
+        "created_published_date": "1888-1889.", 
+        "subjects": [
+            "Connor, Roger (Team member)", 
+            "New York Giants", 
+            "New York", 
+            "National League", 
+            "first baseman", 
+            "Albumen prints--1880-1890.", 
+            "Baseball cards--1880-1890.", 
+            "Cabinet photographs--1880-1890."
+        ]
+    }, 
+    {
+        "source_created": "2007-08-14T00:00:00Z", 
+        "index": 2, 
+        "medium": "1 photographic print on cabinet card mount : albumen.", 
+        "reproduction_number": "LC-DIG-bbc-0570f (digital file from original, front)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683751/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683751/resource/"
+        }, 
+        "title": "[Buck Ewing, New York Giants, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/0500/0570/0570fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/0500/0570/0570f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/0500/0570/0570f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "Goodwin & Co.", 
+        "call_number": "LOT 13163-13, no. 2 [P&P]", 
+        "medium_brief": "1 photographic print on cabinet card mount :", 
+        "source_modified": "2008-05-22T00:00:00Z", 
+        "pk": "2007683751", 
+        "created_published_date": "1888-1889.", 
+        "subjects": [
+            "Ewing, Buck (Team member)", 
+            "New York Giants", 
+            "New York", 
+            "National League", 
+            "catcher", 
+            "Albumen prints--1880-1890.", 
+            "Baseball cards--1880-1890.", 
+            "Cabinet photographs--1880-1890."
+        ]
+    }, 
+    {
+        "source_created": "2007-08-20T00:00:00Z", 
+        "index": 3, 
+        "medium": "1 photographic print on cabinet card mount : albumen.", 
+        "reproduction_number": "LC-DIG-bbc-0572f (digital file from original, front)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683753/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683753/resource/"
+        }, 
+        "title": "[Tim Keefe, New York Giants, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/0500/0570/0572fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/0500/0570/0572f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/0500/0570/0572f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "Goodwin & Co.", 
+        "call_number": "LOT 13163-13, no. 4 [P&P]", 
+        "medium_brief": "1 photographic print on cabinet card mount :", 
+        "source_modified": "2008-05-22T00:00:00Z", 
+        "pk": "2007683753", 
+        "created_published_date": "1888-1889.", 
+        "subjects": [
+            "Keefe, Tim (Team member)", 
+            "New York Giants", 
+            "New York", 
+            "National League", 
+            "pitcher", 
+            "Albumen prints--1880-1890.", 
+            "Baseball cards--1880-1890.", 
+            "Cabinet photographs--1880-1890."
+        ]
+    }, 
+    {
+        "source_created": "2007-08-21T00:00:00Z", 
+        "index": 4, 
+        "medium": "1 photographic print on cabinet card mount : albumen.", 
+        "reproduction_number": "LC-DIG-bbc-0573f (digital file from original, front)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683754/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683754/resource/"
+        }, 
+        "title": "[Jim O'Rourke, New York Giants, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/0500/0570/0573fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/0500/0570/0573f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/0500/0570/0573f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "Goodwin & Co.", 
+        "call_number": "LOT 13163-13, no. 5 [P&P]", 
+        "medium_brief": "1 photographic print on cabinet card mount :", 
+        "source_modified": "2008-05-22T00:00:00Z", 
+        "pk": "2007683754", 
+        "created_published_date": "1888-1889.", 
+        "subjects": [
+            "O'Rourke, Jim (Team member)", 
+            "New York Giants", 
+            "New York", 
+            "National League", 
+            "right fielder", 
+            "Albumen prints--1880-1890.", 
+            "Baseball cards--1880-1890.", 
+            "Cabinet photographs--1880-1890."
+        ]
+    }, 
+    {
+        "source_created": "2007-08-21T00:00:00Z", 
+        "index": 5, 
+        "medium": "1 photographic print on cabinet card mount : albumen.", 
+        "reproduction_number": "LC-DIG-bbc-0574f (digital file from original, front)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683755/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683755/resource/"
+        }, 
+        "title": "[Danny Richardson, New York Giants, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/0500/0570/0574fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/0500/0570/0574f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/0500/0570/0574f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "Goodwin & Co.", 
+        "call_number": "LOT 13163-13, no. 6 [P&P]", 
+        "medium_brief": "1 photographic print on cabinet card mount :", 
+        "source_modified": "2008-05-22T00:00:00Z", 
+        "pk": "2007683755", 
+        "created_published_date": "1888-1889.", 
+        "subjects": [
+            "Richardson, Danny (Team member)", 
+            "New York Giants", 
+            "New York", 
+            "National League", 
+            "second baseman", 
+            "Albumen prints--1880-1890.", 
+            "Baseball cards--1880-1890.", 
+            "Cabinet photographs--1880-1890."
+        ]
+    }, 
+    {
+        "source_created": "2007-08-21T00:00:00Z", 
+        "index": 6, 
+        "medium": "1 photographic print on cabinet card mount : albumen.", 
+        "reproduction_number": "LC-DIG-bbc-0575f (digital file from original, front)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683756/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683756/resource/"
+        }, 
+        "title": "[Mike Slattery, New York Giants, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/0500/0570/0575fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/0500/0570/0575f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/0500/0570/0575f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "Goodwin & Co.", 
+        "call_number": "LOT 13163-13, no. 7 [P&P]", 
+        "medium_brief": "1 photographic print on cabinet card mount :", 
+        "source_modified": "2008-05-22T00:00:00Z", 
+        "pk": "2007683756", 
+        "created_published_date": "1888-1889.", 
+        "subjects": [
+            "Slattery, Mike (Team member)", 
+            "New York Giants", 
+            "New York", 
+            "National League", 
+            "left fielder", 
+            "Albumen prints--1880-1890.", 
+            "Baseball cards--1880-1890.", 
+            "Cabinet photographs--1880-1890."
+        ]
+    }, 
+    {
+        "source_created": "2007-08-21T00:00:00Z", 
+        "index": 7, 
+        "medium": "1 photographic print on cabinet card mount : albumen.", 
+        "reproduction_number": "LC-DIG-bbc-0576f (digital file from original, front)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683757/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683757/resource/"
+        }, 
+        "title": "[Monte Ward, New York Giants, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/0500/0570/0576fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/0500/0570/0576f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/0500/0570/0576f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "flickrba", 
+            "pp"
+        ], 
+        "creator": "Goodwin & Co.", 
+        "call_number": "LOT 13163-13, no. 8 [P&P]", 
+        "medium_brief": "1 photographic print on cabinet card mount :", 
+        "source_modified": "2010-03-27T00:00:00Z", 
+        "pk": "2007683757", 
+        "created_published_date": "1888-1889.", 
+        "subjects": [
+            "Ward, John Montgomery,--1860-1925.", 
+            "Albumen prints--1880-1890.", 
+            "Baseball cards--1880-1890.", 
+            "Cabinet photographs--1880-1890."
+        ]
+    }, 
+    {
+        "source_created": "2007-08-21T00:00:00Z", 
+        "index": 8, 
+        "medium": "1 photographic print on cabinet card mount : albumen.", 
+        "reproduction_number": "LC-DIG-bbc-0580f (digital file from original, front)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683761/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683761/resource/"
+        }, 
+        "title": "[Pete Browning, Louisville Colonels, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/0500/0580/0580fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/0500/0580/0580f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/0500/0580/0580f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "Goodwin & Co.", 
+        "call_number": "LOT 13163-13, no. 12 [P&P]", 
+        "medium_brief": "1 photographic print on cabinet card mount :", 
+        "source_modified": "2008-05-22T00:00:00Z", 
+        "pk": "2007683761", 
+        "created_published_date": "1888-1889.", 
+        "subjects": [
+            "Browning, Pete (Team member)", 
+            "Louisville Colonels", 
+            "Louisville", 
+            "American Association", 
+            "center fielder", 
+            "Albumen prints--1880-1890.", 
+            "Baseball cards--1880-1890.", 
+            "Cabinet photographs--1880-1890."
+        ]
+    }, 
+    {
+        "source_created": "2007-08-21T00:00:00Z", 
+        "index": 9, 
+        "medium": "1 photographic print on cabinet card mount : albumen.", 
+        "reproduction_number": "LC-DIG-bbc-0584f (digital file from original, front)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683765/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683765/resource/"
+        }, 
+        "title": "[Phil Tomney, Louisville Colonels, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/0500/0580/0584fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/0500/0580/0584f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/0500/0580/0584f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "Goodwin & Co.", 
+        "call_number": "LOT 13163-13, no. 16 [P&P]", 
+        "medium_brief": "1 photographic print on cabinet card mount :", 
+        "source_modified": "2008-05-22T00:00:00Z", 
+        "pk": "2007683765", 
+        "created_published_date": "1888-1889.", 
+        "subjects": [
+            "Tomney, Phil (Team member)", 
+            "Louisville Colonels", 
+            "Louisville", 
+            "American Association", 
+            "shortstop", 
+            "Albumen prints--1880-1890.", 
+            "Baseball cards--1880-1890.", 
+            "Cabinet photographs--1880-1890."
+        ]
+    }, 
+    {
+        "source_created": "2007-08-21T00:00:00Z", 
+        "index": 10, 
+        "medium": "1 photographic print on cabinet card mount : albumen.", 
+        "reproduction_number": "LC-DIG-bbc-0585f (digital file from original, front)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683766/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683766/resource/"
+        }, 
+        "title": "[Jack Boyle, St. Louis Browns, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/0500/0580/0585fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/0500/0580/0585f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/0500/0580/0585f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "Goodwin & Co.", 
+        "call_number": "LOT 13163-13, no. 17 [P&P]", 
+        "medium_brief": "1 photographic print on cabinet card mount :", 
+        "source_modified": "2008-05-22T00:00:00Z", 
+        "pk": "2007683766", 
+        "created_published_date": "1888-1889.", 
+        "subjects": [
+            "Boyle, Jack (Team member)", 
+            "St. Louis Browns", 
+            "St. Louis", 
+            "American Association", 
+            "catcher", 
+            "Albumen prints--1880-1890.", 
+            "Baseball cards--1880-1890.", 
+            "Cabinet photographs--1880-1890."
+        ]
+    }, 
+    {
+        "source_created": "2007-08-21T00:00:00Z", 
+        "index": 11, 
+        "medium": "1 photographic print on cabinet card mount : albumen.", 
+        "reproduction_number": "LC-DIG-bbc-0586f (digital file from original, front)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683767/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683767/resource/"
+        }, 
+        "title": "[Icebox Chamberlain, St. Louis Browns, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/0500/0580/0586fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/0500/0580/0586f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/0500/0580/0586f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "Goodwin & Co.", 
+        "call_number": "LOT 13163-13, no. 18 [P&P]", 
+        "medium_brief": "1 photographic print on cabinet card mount :", 
+        "source_modified": "2008-05-22T00:00:00Z", 
+        "pk": "2007683767", 
+        "created_published_date": "1888-1889.", 
+        "subjects": [
+            "Chamberlain, Icebox (Team member)", 
+            "St. Louis Browns", 
+            "St. Louis", 
+            "American Association", 
+            "pitcher", 
+            "Albumen prints--1880-1890.", 
+            "Baseball cards--1880-1890.", 
+            "Cabinet photographs--1880-1890."
+        ]
+    }, 
+    {
+        "source_created": "2007-08-21T00:00:00Z", 
+        "index": 12, 
+        "medium": "1 photographic print on cabinet card mount : albumen.", 
+        "reproduction_number": "LC-DIG-bbc-0587f (digital file from original, front)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683768/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683768/resource/"
+        }, 
+        "title": "[Charlie Duffee, St. Louis Browns, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/0500/0580/0587fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/0500/0580/0587f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/0500/0580/0587f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "Goodwin & Co.", 
+        "call_number": "LOT 13163-13, no. 19 [P&P]", 
+        "medium_brief": "1 photographic print on cabinet card mount :", 
+        "source_modified": "2008-05-22T00:00:00Z", 
+        "pk": "2007683768", 
+        "created_published_date": "1888-1889.", 
+        "subjects": [
+            "Duffee, Charlie (Team member)", 
+            "St. Louis Browns", 
+            "St. Louis", 
+            "American Association", 
+            "second baseman", 
+            "Albumen prints--1880-1890.", 
+            "Baseball cards--1880-1890.", 
+            "Cabinet photographs--1880-1890."
+        ]
+    }, 
+    {
+        "source_created": "2007-08-21T00:00:00Z", 
+        "index": 13, 
+        "medium": "1 photographic print on cabinet card mount : albumen.", 
+        "reproduction_number": "LC-DIG-bbc-0588f (digital file from original, front)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683769/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683769/resource/"
+        }, 
+        "title": "[Shorty Fuller, St. Louis Browns, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/0500/0580/0588fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/0500/0580/0588f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/0500/0580/0588f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "Goodwin & Co.", 
+        "call_number": "LOT 13163-13, no. 20 [P&P]", 
+        "medium_brief": "1 photographic print on cabinet card mount :", 
+        "source_modified": "2008-05-22T00:00:00Z", 
+        "pk": "2007683769", 
+        "created_published_date": "1888-1889.", 
+        "subjects": [
+            "Fuller, Shorty (Team member)", 
+            "St. Louis Browns", 
+            "St. Louis", 
+            "American Association", 
+            "shortstop", 
+            "Albumen prints--1880-1890.", 
+            "Baseball cards--1880-1890.", 
+            "Cabinet photographs--1880-1890."
+        ]
+    }, 
+    {
+        "source_created": "2007-08-22T00:00:00Z", 
+        "index": 14, 
+        "medium": "1 photographic print on cabinet card mount : albumen.", 
+        "reproduction_number": "LC-DIG-bbc-0589f (digital file from original, front)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683770/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683770/resource/"
+        }, 
+        "title": "[Silver King, St. Louis Browns, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/0500/0580/0589fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/0500/0580/0589f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/0500/0580/0589f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "Goodwin & Co.", 
+        "call_number": "LOT 13163-13, no. 21 [P&P]", 
+        "medium_brief": "1 photographic print on cabinet card mount :", 
+        "source_modified": "2008-05-22T00:00:00Z", 
+        "pk": "2007683770", 
+        "created_published_date": "1888-1889.", 
+        "subjects": [
+            "King, Silver (Team member)", 
+            "St. Louis Browns", 
+            "St. Louis", 
+            "American Association", 
+            "pitcher", 
+            "Albumen prints--1880-1890.", 
+            "Baseball cards--1880-1890.", 
+            "Cabinet photographs--1880-1890."
+        ]
+    }, 
+    {
+        "source_created": "2007-08-22T00:00:00Z", 
+        "index": 15, 
+        "medium": "1 photographic print on cabinet card mount : albumen.", 
+        "reproduction_number": "LC-DIG-bbc-0591f (digital file from original, front)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683772/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683772/resource/"
+        }, 
+        "title": "[Tommy McCarthy, St. Louis Browns, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/0500/0590/0591fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/0500/0590/0591f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/0500/0590/0591f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "Goodwin & Co.", 
+        "call_number": "LOT 13163-13, no. 23 [P&P]", 
+        "medium_brief": "1 photographic print on cabinet card mount :", 
+        "source_modified": "2008-05-22T00:00:00Z", 
+        "pk": "2007683772", 
+        "created_published_date": "1888-1889.", 
+        "subjects": [
+            "McCarthy, Tommy (Team member)", 
+            "St. Louis Browns", 
+            "St. Louis", 
+            "American Association", 
+            "center fielder", 
+            "Albumen prints--1880-1890.", 
+            "Baseball cards--1880-1890.", 
+            "Cabinet photographs--1880-1890."
+        ]
+    }, 
+    {
+        "source_created": "2007-08-22T00:00:00Z", 
+        "index": 16, 
+        "medium": "1 photographic print on cabinet card mount : albumen.", 
+        "reproduction_number": "LC-DIG-bbc-0592f (digital file from original, front)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683773/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683773/resource/"
+        }, 
+        "title": "[Jocko Milligan, St. Louis Browns, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/0500/0590/0592fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/0500/0590/0592f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/0500/0590/0592f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "Goodwin & Co.", 
+        "call_number": "LOT 13163-13, no. 24 [P&P]", 
+        "medium_brief": "1 photographic print on cabinet card mount :", 
+        "source_modified": "2008-05-22T00:00:00Z", 
+        "pk": "2007683773", 
+        "created_published_date": "1888-1889.", 
+        "subjects": [
+            "Milligan, Jocko (Team member)", 
+            "St. Louis Browns", 
+            "St. Louis", 
+            "American Association", 
+            "catcher", 
+            "Albumen prints--1880-1890.", 
+            "Baseball cards--1880-1890.", 
+            "Cabinet photographs--1880-1890."
+        ]
+    }, 
+    {
+        "source_created": "2007-08-22T00:00:00Z", 
+        "index": 17, 
+        "medium": "1 photographic print on cabinet card mount : albumen.", 
+        "reproduction_number": "LC-DIG-bbc-0593f (digital file from original, front)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683774/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683774/resource/"
+        }, 
+        "title": "[Tip O'Neill, St. Louis Browns, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/0500/0590/0593fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/0500/0590/0593f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/0500/0590/0593f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "Goodwin & Co.", 
+        "call_number": "LOT 13163-13, no. 25 [P&P]", 
+        "medium_brief": "1 photographic print on cabinet card mount :", 
+        "source_modified": "2008-05-22T00:00:00Z", 
+        "pk": "2007683774", 
+        "created_published_date": "1888-1889.", 
+        "subjects": [
+            "O'Neill, Tip (Team member)", 
+            "St. Louis Browns", 
+            "St. Louis", 
+            "American Association", 
+            "left fielder", 
+            "Albumen prints--1880-1890.", 
+            "Baseball cards--1880-1890.", 
+            "Cabinet photographs--1880-1890."
+        ]
+    }, 
+    {
+        "source_created": "2007-08-14T00:00:00Z", 
+        "index": 18, 
+        "medium": "1 photographic print on cabinet card mount : albumen.", 
+        "reproduction_number": "LC-DIG-bbc-0571f (digital file from original, front)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683752/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683752/resource/"
+        }, 
+        "title": "[George Gore, New York Giants, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/0500/0570/0571fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/0500/0570/0571f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/0500/0570/0571f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "Goodwin & Co.", 
+        "call_number": "LOT 13163-13, no. 3 [P&P]", 
+        "medium_brief": "1 photographic print on cabinet card mount :", 
+        "source_modified": "2008-05-22T00:00:00Z", 
+        "pk": "2007683752", 
+        "created_published_date": "1888-1889.", 
+        "subjects": [
+            "Gore, George (Team member)", 
+            "New York Giants", 
+            "New York", 
+            "National League", 
+            "outfielder", 
+            "Albumen prints--1880-1890.", 
+            "Baseball cards--1880-1890.", 
+            "Cabinet photographs--1880-1890."
+        ]
+    }, 
+    {
+        "source_created": "2007-08-21T00:00:00Z", 
+        "index": 19, 
+        "medium": "1 photographic print on cabinet card mount : albumen.", 
+        "reproduction_number": "LC-DIG-bbc-0577f (digital file from original, front)\nLC-USZC4-6935 (color film copy transparency, front)\nLC-USZ62-123652 (b&w film copy neg., front)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683758/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683758/resource/"
+        }, 
+        "title": "[Art Whitney, New York Giants, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/0500/0570/0577fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/0500/0570/0577f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/0500/0570/0577f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "Goodwin & Co.", 
+        "call_number": "LOT 13163-13, no. 9 [P&P]", 
+        "medium_brief": "1 photographic print on cabinet card mount :", 
+        "source_modified": "2008-05-22T00:00:00Z", 
+        "pk": "2007683758", 
+        "created_published_date": "1888-1889.", 
+        "subjects": [
+            "Whitney, Art (Team member)", 
+            "New York Giants", 
+            "New York", 
+            "National League", 
+            "third baseman", 
+            "Albumen prints--1880-1890.", 
+            "Baseball cards--1880-1890.", 
+            "Cabinet photographs--1880-1890."
+        ]
+    }, 
+    {
+        "source_created": "2007-08-21T00:00:00Z", 
+        "index": 20, 
+        "medium": "1 photographic print on cabinet card mount : albumen.", 
+        "reproduction_number": "LC-DIG-bbc-0581f (digital file from original, front)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683762/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683762/resource/"
+        }, 
+        "title": "[Paul Cook, Louisville Colonels, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/0500/0580/0581fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/0500/0580/0581f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/0500/0580/0581f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "Goodwin & Co.", 
+        "call_number": "LOT 13163-13, no. 13 [P&P]", 
+        "medium_brief": "1 photographic print on cabinet card mount :", 
+        "source_modified": "2008-05-22T00:00:00Z", 
+        "pk": "2007683762", 
+        "created_published_date": "1888-1889.", 
+        "subjects": [
+            "Cook, Paul (Team member)", 
+            "Louisville Colonels", 
+            "Louisville", 
+            "American Association", 
+            "catcher", 
+            "Albumen prints--1880-1890.", 
+            "Baseball cards--1880-1890.", 
+            "Cabinet photographs--1880-1890."
+        ]
+    }, 
+    {
+        "source_created": "2007-08-21T00:00:00Z", 
+        "index": 21, 
+        "medium": "1 photographic print on cabinet card mount : albumen.", 
+        "reproduction_number": "LC-DIG-bbc-0582f (digital file from original, front)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683763/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683763/resource/"
+        }, 
+        "title": "[Red Ehret, Louisville Colonels, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/0500/0580/0582fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/0500/0580/0582f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/0500/0580/0582f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "Goodwin & Co.", 
+        "call_number": "LOT 13163-13, no. 14 [P&P]", 
+        "medium_brief": "1 photographic print on cabinet card mount :", 
+        "source_modified": "2008-05-22T00:00:00Z", 
+        "pk": "2007683763", 
+        "created_published_date": "1888-1889.", 
+        "subjects": [
+            "Ehret, Red (Team member)", 
+            "Louisville Colonels", 
+            "Louisville", 
+            "American Association", 
+            "pitcher", 
+            "Albumen prints--1880-1890.", 
+            "Baseball cards--1880-1890.", 
+            "Cabinet photographs--1880-1890."
+        ]
+    }, 
+    {
+        "source_created": "2007-08-21T00:00:00Z", 
+        "index": 22, 
+        "medium": "1 photographic print on cabinet card mount : albumen.", 
+        "reproduction_number": "LC-DIG-bbc-0583f (digital file from original, front)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683764/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683764/resource/"
+        }, 
+        "title": "[Scott Stratton, Louisville Colonels, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/0500/0580/0583fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/0500/0580/0583f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/0500/0580/0583f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "Goodwin & Co.", 
+        "call_number": "LOT 13163-13, no. 15 [P&P]", 
+        "medium_brief": "1 photographic print on cabinet card mount :", 
+        "source_modified": "2008-05-22T00:00:00Z", 
+        "pk": "2007683764", 
+        "created_published_date": "1888-1889.", 
+        "subjects": [
+            "Stratton, Scott (Team member)", 
+            "Louisville Colonels", 
+            "Louisville", 
+            "American Association", 
+            "pitcher", 
+            "Albumen prints--1880-1890.", 
+            "Baseball cards--1880-1890.", 
+            "Cabinet photographs--1880-1890."
+        ]
+    }, 
+    {
+        "source_created": "2007-08-22T00:00:00Z", 
+        "index": 23, 
+        "medium": "1 photographic print on cabinet card mount : albumen.", 
+        "reproduction_number": "LC-DIG-bbc-0594f (digital file from original, front)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683775/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683775/resource/"
+        }, 
+        "title": "[Yank Robinson, St. Louis Browns, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/0500/0590/0594fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/0500/0590/0594f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/0500/0590/0594f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "Goodwin & Co.", 
+        "call_number": "LOT 13163-13, no. 26 [P&P]", 
+        "medium_brief": "1 photographic print on cabinet card mount :", 
+        "source_modified": "2008-05-22T00:00:00Z", 
+        "pk": "2007683775", 
+        "created_published_date": "1888-1889.", 
+        "subjects": [
+            "Robinson, Yank (Team member)", 
+            "St. Louis Browns", 
+            "St. Louis", 
+            "American Association", 
+            "shortstop", 
+            "Albumen prints--1880-1890.", 
+            "Baseball cards--1880-1890.", 
+            "Cabinet photographs--1880-1890."
+        ]
+    }, 
+    {
+        "source_created": "2007-08-22T00:00:00Z", 
+        "index": 24, 
+        "medium": "1 photographic print on cabinet card mount : albumen.", 
+        "reproduction_number": "LC-DIG-bbc-0590f (digital file from original, front)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683771/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683771/resource/"
+        }, 
+        "title": "[Harry Lyons, St. Louis Browns, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/0500/0590/0590fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/0500/0590/0590f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/0500/0590/0590f_150px.jpg"
+        }, 
+        "created": "2025-02-04T05:50:15Z", 
+        "modified": "2025-02-04T05:50:16Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "Goodwin & Co.", 
+        "call_number": "LOT 13163-13, no. 22 [P&P]", 
+        "medium_brief": "1 photographic print on cabinet card mount :", 
+        "source_modified": "2025-02-03T11:30:08Z", 
+        "pk": "2007683771", 
+        "created_published_date": "[between 1888 and 1889]", 
+        "subjects": [
+            "Lyons, Harry,--1866-1912.", 
+            "St. Louis Browns (Baseball team : 1883-1898)", 
+            "American Association (Baseball league : 1882-1891)", 
+            "Baseball players--Missouri--St. Louis--1880-1890.", 
+            "Albumen prints--1880-1890.", 
+            "Baseball cards--1880-1890.", 
+            "Cabinet photographs--1880-1890."
+        ]
+    }, 
+    {
+        "source_created": "2007-08-21T00:00:00Z", 
+        "index": 25, 
+        "medium": "1 photographic print on cabinet card mount : albumen.", 
+        "reproduction_number": "LC-DIG-bbc-0578f (digital file from original, front)\nLC-USZC4-7028 (color film copy transparency, front)\nLC-USZ62-94247 (b&w film copy neg., front)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683759/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683759/resource/"
+        }, 
+        "title": "[Doc Bushong, Brooklyn Bridegrooms, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/0500/0570/0578fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/0500/0570/0578f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/0500/0570/0578f_150px.jpg"
+        }, 
+        "created": "2025-06-03T05:39:32Z", 
+        "modified": "2025-06-03T05:39:35Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "Goodwin & Co.", 
+        "call_number": "LOT 13163-13, no. 10 [P&P]", 
+        "medium_brief": "1 photographic print on cabinet card mount :", 
+        "source_modified": "2025-04-08T16:56:44Z", 
+        "pk": "2007683759", 
+        "created_published_date": "1888-1889.", 
+        "subjects": [
+            "Bushong, Doc (Team member)", 
+            "Brooklyn Bridegrooms", 
+            "Brooklyn", 
+            "American Association", 
+            "National League", 
+            "catcher", 
+            "Albumen prints--1880-1890.", 
+            "Baseball cards--1880-1890.", 
+            "Cabinet photographs--1880-1890."
+        ]
+    }, 
+    {
+        "source_created": "2007-08-21T00:00:00Z", 
+        "index": 26, 
+        "medium": "1 photographic print on cabinet card mount : albumen.", 
+        "reproduction_number": "LC-DIG-bbc-0579f (digital file from original, front)\nLC-USZC4-7029 (color film copy transparency, front)\nLC-USZ62-94246 (b&w film copy neg., front)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683760/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683760/resource/"
+        }, 
+        "title": "[Bob Caruthers, Brooklyn Bridegrooms, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/0500/0570/0579fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/0500/0570/0579f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/0500/0570/0579f_150px.jpg"
+        }, 
+        "created": "2025-06-03T06:43:26Z", 
+        "modified": "2025-06-03T06:43:28Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "Goodwin & Co.", 
+        "call_number": "LOT 13163-13, no. 11 [P&P]", 
+        "medium_brief": "1 photographic print on cabinet card mount :", 
+        "source_modified": "2025-04-08T16:55:06Z", 
+        "pk": "2007683760", 
+        "created_published_date": "1888-89.", 
+        "subjects": [
+            "Caruthers, Bob (Team member)", 
+            "Brooklyn Bridegrooms", 
+            "Brooklyn", 
+            "American Association", 
+            "National League", 
+            "outfielder", 
+            "pitcher", 
+            "Albumen prints--1880-1890.", 
+            "Baseball cards--1880-1890.", 
+            "Cabinet photographs--1880-1890."
+        ]
+    }
+]}

@@ -1,0 +1,1658 @@
+{"search":{
+    "field": "number", 
+    "hits": 41, 
+    "sort_order": null, 
+    "do_facets": true, 
+    "focus_item": null, 
+    "query": "\"13163-28\"", 
+    "type": "search", 
+    "sort_by": null
+},
+"focus":null,
+"views":{
+    "current": "grid", 
+    "grid": "https://www.loc.gov/pictures/search/?q=%2213163-28%22&fi=number&c=600&co=bbc&st=grid", 
+    "list": "https://www.loc.gov/pictures/search/?q=%2213163-28%22&fi=number&c=600&co=bbc", 
+    "gallery": "https://www.loc.gov/pictures/search/?q=%2213163-28%22&fi=number&c=600&co=bbc&st=gallery", 
+    "slideshow": "https://www.loc.gov/pictures/search/?q=%2213163-28%22&fi=number&c=600&co=bbc&st=slideshow"
+},
+"facets":[
+    {
+        "type": "displayed", 
+        "filters": [
+            {
+                "count": 41, 
+                "on": "https://www.loc.gov/pictures/search/?c=600&co=bbc&sp=1&st=grid&q=%2213163-28%22&fa=displayed%3Aanywhere&fi=number&fo=json", 
+                "selected": false, 
+                "off": "https://www.loc.gov/pictures/search/?c=600&co=bbc&sp=1&st=grid&q=%2213163-28%22&fi=number&fo=json", 
+                "title": "Larger image available anywhere"
+            }, 
+            {
+                "count": 0, 
+                "on": "https://www.loc.gov/pictures/search/?c=600&co=bbc&sp=1&st=grid&q=%2213163-28%22&fa=displayed%3Alc_only&fi=number&fo=json", 
+                "selected": false, 
+                "off": "https://www.loc.gov/pictures/search/?c=600&co=bbc&sp=1&st=grid&q=%2213163-28%22&fi=number&fo=json", 
+                "title": "Larger image available only at the Library of Congress"
+            }, 
+            {
+                "count": 0, 
+                "on": "https://www.loc.gov/pictures/search/?c=600&co=bbc&sp=1&st=grid&q=%2213163-28%22&fa=displayed%3Anot_digitized&fi=number&fo=json", 
+                "selected": false, 
+                "off": "https://www.loc.gov/pictures/search/?c=600&co=bbc&sp=1&st=grid&q=%2213163-28%22&fi=number&fo=json", 
+                "title": "Not Digitized"
+            }, 
+            {
+                "count": 0, 
+                "on": "https://www.loc.gov/pictures/search/?c=600&co=bbc&sp=1&st=grid&q=%2213163-28%22&fa=displayed%3Asurveys_only&fi=number&fo=json", 
+                "selected": false, 
+                "off": "https://www.loc.gov/pictures/search/?c=600&co=bbc&sp=1&st=grid&q=%2213163-28%22&fi=number&fo=json", 
+                "title": "Surveys only"
+            }
+        ], 
+        "title": "displayed"
+    }
+],
+"links":{
+    "json": "https://www.loc.gov/pictures/search/?co=bbc&st=grid&fi=number&q=%2213163-28%22&c=600&fo=json", 
+    "html": "https://www.loc.gov/pictures/search/?co=bbc&st=grid&fi=number&q=%2213163-28%22&c=600", 
+    "rss": "https://www.loc.gov/pictures/search/?co=bbc&fi=number&q=%2213163-28%22&c=600&fo=rss"
+},
+"suggestions":{
+    "possible": []
+},
+"pages":{
+    "current": 1, 
+    "next": null, 
+    "perpage": 600, 
+    "last": null, 
+    "page_list": [
+        {
+            "url": null, 
+            "number": 1
+        }
+    ], 
+    "previous": null, 
+    "total": 1, 
+    "results": "1 - 41", 
+    "first": null
+},
+"collection":{
+    "digitized": "All", 
+    "code": "bbc", 
+    "display_offsite": "Yes", 
+    "thumb_large_item": "", 
+    "title": "Baseball Cards", 
+    "banner_item": "https://www.loc.gov/pictures/item/2007678538/", 
+    "brief": "Baseball cards representing more than one thousand major and minor league ballplayers (primarily major league), from teams in thirteen identified leagues and seventy-five cities in the United States and Canada.", 
+    "banner_title": "John M. Ward, New York Giants, 1887.", 
+    "thumb_item": "cph.3b38367", 
+    "home_link": "https://www.loc.gov/pictures/collection/bbc/", 
+    "from_date": "1887", 
+    "view_all": "https://www.loc.gov/pictures/search?st=grid&co=bbc", 
+    "link": "https://www.loc.gov/pictures/collection/bbc/", 
+    "to_date": "1914", 
+    "extent": "2,100 baseball cards.", 
+    "thumb_featured": "https://www.loc.gov/pictures/static/data/bbc/featured.png", 
+    "rights": "https://www.loc.gov/rr/print/res/620_base.html", 
+    "thumb_large": "https://www.loc.gov/pictures/static/data/bbc/thumb_large.png", 
+    "banner": "https://www.loc.gov/pictures/static/data/bbc/banner.jpg", 
+    "thumb": "https://www.loc.gov/pictures/static/data/bbc/thumb.png"
+},
+"results":[
+    {
+        "source_created": "2007-09-28T00:00:00Z", 
+        "index": 1, 
+        "medium": "1 print : lithograph with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1609f (digital file from original, front)\nLC-DIG-bbc-1609b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685554/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685554/resource/"
+        }, 
+        "title": "[Spencer, Seattle Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1600/1609fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1600/1609f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1600/1609f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-28, no. 5 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-11-06T00:00:00Z", 
+        "pk": "2007685554", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Spencer (Team member)", 
+            "Seattle", 
+            "Northwestern League", 
+            "Baseball cards--1910-1920.", 
+            "Lithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-28T00:00:00Z", 
+        "index": 2, 
+        "medium": "1 print : lithograph with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1610f (digital file from original, front)\nLC-DIG-bbc-1610b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685555/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685555/resource/"
+        }, 
+        "title": "[Kippert, Spokane Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1610/1610fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1610/1610f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1610/1610f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-28, no. 6 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-11-06T00:00:00Z", 
+        "pk": "2007685555", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Kippert (Team member)", 
+            "Spokane", 
+            "Northwestern League", 
+            "center fielder", 
+            "Baseball cards--1910-1920.", 
+            "Lithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-28T00:00:00Z", 
+        "index": 3, 
+        "medium": "1 print : lithograph with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1611f (digital file from original, front)\nLC-DIG-bbc-1611b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685556/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685556/resource/"
+        }, 
+        "title": "[Nordyke, Spokane Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1610/1611fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1610/1611f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1610/1611f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-28, no. 7 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-11-06T00:00:00Z", 
+        "pk": "2007685556", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Nordyke (Team member)", 
+            "Spokane", 
+            "Northwestern League", 
+            "first baseman", 
+            "Baseball cards--1910-1920.", 
+            "Lithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-28T00:00:00Z", 
+        "index": 4, 
+        "medium": "1 print : lithograph with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1613f (digital file from original, front)\nLC-DIG-bbc-1613b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685558/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685558/resource/"
+        }, 
+        "title": "[Zimmerman, Spokane Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1610/1613fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1610/1613f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1610/1613f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-28, no. 9 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2013-05-13T00:00:00Z", 
+        "pk": "2007685558", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Zimmerman (Team member)", 
+            "Spokane", 
+            "Northwestern League", 
+            "utility player", 
+            "Baseball cards--1910-1920.", 
+            "Lithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-28T00:00:00Z", 
+        "index": 5, 
+        "medium": "1 print : lithograph with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1614f (digital file from original, front)\nLC-DIG-bbc-1614b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685559/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685559/resource/"
+        }, 
+        "title": "[Morse, Tacoma Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1610/1614fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1610/1614f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1610/1614f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-28, no. 10 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-11-06T00:00:00Z", 
+        "pk": "2007685559", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Morse (Team member)", 
+            "Tacoma", 
+            "Northwestern League", 
+            "shortstop", 
+            "Baseball cards--1910-1920.", 
+            "Lithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-28T00:00:00Z", 
+        "index": 6, 
+        "medium": "1 print : lithograph with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1615f (digital file from original, front)\nLC-DIG-bbc-1615b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685560/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685560/resource/"
+        }, 
+        "title": "[Schmutz, Tacoma Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1610/1615fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1610/1615f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1610/1615f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-28, no. 11 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-11-06T00:00:00Z", 
+        "pk": "2007685560", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Schmutz (Team member)", 
+            "Tacoma", 
+            "Northwestern League", 
+            "pitcher", 
+            "Baseball cards--1910-1920.", 
+            "Lithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-28T00:00:00Z", 
+        "index": 7, 
+        "medium": "1 print : lithograph with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1619f (digital file from original, front)\nLC-DIG-bbc-1619b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685564/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685564/resource/"
+        }, 
+        "title": "[Lewis, Vancouver Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1610/1619fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1610/1619f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1610/1619f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-28, no. 15 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-11-06T00:00:00Z", 
+        "pk": "2007685564", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Lewis (Team member)", 
+            "Vancouver", 
+            "Northwestern League", 
+            "catcher", 
+            "Baseball cards--1910-1920.", 
+            "Lithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-28T00:00:00Z", 
+        "index": 8, 
+        "medium": "1 print : lithograph with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1622f (digital file from original, front)\nLC-DIG-bbc-1622b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685567/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685567/resource/"
+        }, 
+        "title": "[Ten Million, Victoria Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1620/1622fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1620/1622f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1620/1622f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-28, no. 18 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-11-06T00:00:00Z", 
+        "pk": "2007685567", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Million, Ten (Team member)", 
+            "Victoria", 
+            "Northwestern League", 
+            "outfielder", 
+            "Baseball cards--1910-1920.", 
+            "Lithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-28T00:00:00Z", 
+        "index": 9, 
+        "medium": "1 print : lithograph with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1636f (digital file from original, front)\nLC-DIG-bbc-1636b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685581/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685581/resource/"
+        }, 
+        "title": "[Danzig, Sacramento Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1630/1636fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1630/1636f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1630/1636f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-28, no. 32 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-11-06T00:00:00Z", 
+        "pk": "2007685581", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Danzig (Team member)", 
+            "Sacramento", 
+            "Pacific Coast League", 
+            "first baseman", 
+            "Baseball cards--1910-1920.", 
+            "Lithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-28T00:00:00Z", 
+        "index": 10, 
+        "medium": "1 print : lithograph with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1638f (digital file from original, front)\nLC-DIG-bbc-1638b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685583/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685583/resource/"
+        }, 
+        "title": "[Shinn, Sacramento Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1630/1638fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1630/1638f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1630/1638f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-28, no. 34 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-11-06T00:00:00Z", 
+        "pk": "2007685583", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Shinn (Team member)", 
+            "Sacramento", 
+            "Pacific Coast League", 
+            "third baseman", 
+            "Baseball cards--1910-1920.", 
+            "Lithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-28T00:00:00Z", 
+        "index": 11, 
+        "medium": "1 print : lithograph with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1640f (digital file from original, front)\nLC-DIG-bbc-1640b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685585/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685585/resource/"
+        }, 
+        "title": "[Mohler, San Francisco Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1640/1640fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1640/1640f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1640/1640f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-28, no. 36 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-11-06T00:00:00Z", 
+        "pk": "2007685585", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Mohler (Team member)", 
+            "San Francisco", 
+            "Pacific Coast League", 
+            "second baseman", 
+            "Baseball cards--1910-1920.", 
+            "Lithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-28T00:00:00Z", 
+        "index": 12, 
+        "medium": "1 print : lithograph with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1641f (digital file from original, front)\nLC-DIG-bbc-1641b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685586/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685586/resource/"
+        }, 
+        "title": "[Shaw, San Francisco Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1640/1641fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1640/1641f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1640/1641f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-28, no. 37 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-11-06T00:00:00Z", 
+        "pk": "2007685586", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Shaw (Team member)", 
+            "San Francisco", 
+            "Pacific Coast League", 
+            "outfielder", 
+            "Baseball cards--1910-1920.", 
+            "Lithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-28T00:00:00Z", 
+        "index": 13, 
+        "medium": "1 print : lithograph with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1644f (digital file from original, front)\nLC-DIG-bbc-1644b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685589/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685589/resource/"
+        }, 
+        "title": "[Ross, Vernon Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1640/1644fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1640/1644f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1640/1644f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-28, no. 40 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-11-06T00:00:00Z", 
+        "pk": "2007685589", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Ross (Team member)", 
+            "Vernon", 
+            "Pacific Coast League", 
+            "outfielder", 
+            "Baseball cards--1910-1920.", 
+            "Lithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-28T00:00:00Z", 
+        "index": 14, 
+        "medium": "1 print : lithograph with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1612f (digital file from original, front)\nLC-DIG-bbc-1612b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685557/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685557/resource/"
+        }, 
+        "title": "[Ostdiek, Spokane Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1610/1612fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1610/1612f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1610/1612f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-28, no. 8 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-11-06T00:00:00Z", 
+        "pk": "2007685557", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Ostdiek (Team member)", 
+            "Spokane", 
+            "Northwestern League", 
+            "manager", 
+            "Baseball cards--1910-1920.", 
+            "Lithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-28T00:00:00Z", 
+        "index": 15, 
+        "medium": "1 print : lithograph with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1616f (digital file from original, front)\nLC-DIG-bbc-1616b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685561/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685561/resource/"
+        }, 
+        "title": "[Bennett, Vancouver Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1610/1616fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1610/1616f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1610/1616f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-28, no. 12 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-11-06T00:00:00Z", 
+        "pk": "2007685561", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Bennett (Team member)", 
+            "Vancouver", 
+            "Northwestern League", 
+            "second baseman", 
+            "Baseball cards--1910-1920.", 
+            "Lithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-28T00:00:00Z", 
+        "index": 16, 
+        "medium": "1 print : lithograph with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1617f (digital file from original, front)\nLC-DIG-bbc-1617b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685562/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685562/resource/"
+        }, 
+        "title": "[Brashear, Vancouver Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1610/1617fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1610/1617f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1610/1617f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-28, no. 13 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-11-06T00:00:00Z", 
+        "pk": "2007685562", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Brashear (Team member)", 
+            "Vancouver", 
+            "Northwestern League", 
+            "utility player", 
+            "Baseball cards--1910-1920.", 
+            "Lithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-28T00:00:00Z", 
+        "index": 17, 
+        "medium": "1 print : lithograph with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1618f (digital file from original, front)\nLC-DIG-bbc-1618b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685563/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685563/resource/"
+        }, 
+        "title": "[Brinker, Vancouver Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1610/1618fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1610/1618f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1610/1618f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-28, no. 14 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-11-06T00:00:00Z", 
+        "pk": "2007685563", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Brinker (Team member)", 
+            "Vancouver", 
+            "Northwestern League", 
+            "pitcher", 
+            "Baseball cards--1910-1920.", 
+            "Lithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-28T00:00:00Z", 
+        "index": 18, 
+        "medium": "1 print : lithograph with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1635f (digital file from original, front)\nLC-DIG-bbc-1635b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685580/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685580/resource/"
+        }, 
+        "title": "[Baum, Sacramento Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1630/1635fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1630/1635f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1630/1635f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-28, no. 31 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-11-06T00:00:00Z", 
+        "pk": "2007685580", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Baum (Team member)", 
+            "Sacramento", 
+            "Pacific Coast League", 
+            "pitcher", 
+            "Baseball cards--1910-1920.", 
+            "Lithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-28T00:00:00Z", 
+        "index": 19, 
+        "medium": "1 print : lithograph with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1637f (digital file from original, front)\nLC-DIG-bbc-1637b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685582/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685582/resource/"
+        }, 
+        "title": "[Nourse, Sacramento Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1630/1637fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1630/1637f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1630/1637f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-28, no. 33 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-11-06T00:00:00Z", 
+        "pk": "2007685582", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Nourse (Team member)", 
+            "Sacramento", 
+            "Pacific Coast League", 
+            "pitcher", 
+            "Baseball cards--1910-1920.", 
+            "Lithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-28T00:00:00Z", 
+        "index": 20, 
+        "medium": "1 print : lithograph with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1639f (digital file from original, front)\nLC-DIG-bbc-1639b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685584/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685584/resource/"
+        }, 
+        "title": "[Thornton, Sacramento Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1630/1639fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1630/1639f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1630/1639f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-28, no. 35 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-11-06T00:00:00Z", 
+        "pk": "2007685584", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Thornton (Team member)", 
+            "Sacramento", 
+            "Pacific Coast League", 
+            "utility player", 
+            "Baseball cards--1910-1920.", 
+            "Lithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-28T00:00:00Z", 
+        "index": 21, 
+        "medium": "1 print : lithograph with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1642f (digital file from original, front)\nLC-DIG-bbc-1642b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685587/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685587/resource/"
+        }, 
+        "title": "[Zamlock, San Francisco Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1640/1642fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1640/1642f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1640/1642f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-28, no. 38 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-11-06T00:00:00Z", 
+        "pk": "2007685587", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Zamlock (Team member)", 
+            "San Francisco", 
+            "Pacific Coast League", 
+            "pitcher", 
+            "Baseball cards--1910-1920.", 
+            "Lithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-28T00:00:00Z", 
+        "index": 22, 
+        "medium": "1 print : lithograph with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1643f (digital file from original, front)\nLC-DIG-bbc-1643b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685588/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685588/resource/"
+        }, 
+        "title": "[Brown, Vernon Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1640/1643fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1640/1643f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1640/1643f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-28, no. 39 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-11-06T00:00:00Z", 
+        "pk": "2007685588", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Brown (Team member)", 
+            "Vernon", 
+            "Pacific Coast League", 
+            "catcher", 
+            "Baseball cards--1910-1920.", 
+            "Lithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-28T00:00:00Z", 
+        "index": 23, 
+        "medium": "1 print : lithograph with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1645f (digital file from original, front)\nLC-DIG-bbc-1645b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685590/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685590/resource/"
+        }, 
+        "title": "[Stinson, Vernon Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1640/1645fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1640/1645f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1640/1645f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-28, no. 41 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-11-06T00:00:00Z", 
+        "pk": "2007685590", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Stinson (Team member)", 
+            "Vernon", 
+            "Pacific Coast League", 
+            "outfielder", 
+            "Baseball cards--1910-1920.", 
+            "Lithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-28T00:00:00Z", 
+        "index": 24, 
+        "medium": "1 print : lithograph with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1605f (digital file from original, front)\nLC-DIG-bbc-1605b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685550/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685550/resource/"
+        }, 
+        "title": "[Bill Harris, Portland Pippins, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1600/1605fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1600/1605f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1600/1605f_150px.jpg"
+        }, 
+        "created": "2024-01-16T05:55:53Z", 
+        "modified": "2024-01-16T05:55:55Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-28, no. 1 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2024-01-12T07:46:58Z", 
+        "pk": "2007685550", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Harris, Bill (Team member)", 
+            "Portland", 
+            "Northwestern League", 
+            "catcher", 
+            "Baseball cards--1910-1920.", 
+            "Lithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-28T00:00:00Z", 
+        "index": 25, 
+        "medium": "1 print : lithograph with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1606f (digital file from original, front)\nLC-DIG-bbc-1606b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685551/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685551/resource/"
+        }, 
+        "title": "[Fred Lamlein, Portland Pippins, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1600/1606fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1600/1606f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1600/1606f_150px.jpg"
+        }, 
+        "created": "2024-01-16T08:08:38Z", 
+        "modified": "2024-01-16T08:08:40Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-28, no. 2 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2024-01-12T07:49:28Z", 
+        "pk": "2007685551", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Lamlein, Fred (Team member)", 
+            "Portland", 
+            "Northwestern League", 
+            "pitcher", 
+            "Baseball cards--1910-1920.", 
+            "Lithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-28T00:00:00Z", 
+        "index": 26, 
+        "medium": "1 print : lithograph with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1607f (digital file from original, front)\nLC-DIG-bbc-1607b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685552/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685552/resource/"
+        }, 
+        "title": "[Howard Mundorff, Portland Pippins, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1600/1607fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1600/1607f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1600/1607f_150px.jpg"
+        }, 
+        "created": "2024-01-16T06:43:31Z", 
+        "modified": "2024-01-16T06:43:33Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-28, no. 3 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2024-01-12T08:03:07Z", 
+        "pk": "2007685552", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Mundorff, Howard (Team member)", 
+            "Portland", 
+            "Northwestern League", 
+            "Baseball cards--1910-1920.", 
+            "Lithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-28T00:00:00Z", 
+        "index": 27, 
+        "medium": "1 print : lithograph with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1608f (digital file from original, front)\nLC-DIG-bbc-1608b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685553/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685553/resource/"
+        }, 
+        "title": "[Bill Speas, Portland Pippins, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1600/1608fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1600/1608f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1600/1608f_150px.jpg"
+        }, 
+        "created": "2024-01-16T06:30:10Z", 
+        "modified": "2024-01-16T06:30:12Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-28, no. 4 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2024-01-12T07:45:35Z", 
+        "pk": "2007685553", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Speas, Bill (Team member)", 
+            "Portland", 
+            "Northwestern League", 
+            "left fielder", 
+            "Baseball cards--1910-1920.", 
+            "Lithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-28T00:00:00Z", 
+        "index": 28, 
+        "medium": "1 print : lithograph with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1620f (digital file from original, front)\nLC-DIG-bbc-1620b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685565/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685565/resource/"
+        }, 
+        "title": "[Ed Householder, Victoria Bees, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1620/1620fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1620/1620f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1620/1620f_150px.jpg"
+        }, 
+        "created": "2024-01-16T07:41:39Z", 
+        "modified": "2024-01-16T07:41:41Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-28, no. 16 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2024-01-12T08:04:46Z", 
+        "pk": "2007685565", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Householder, Ed (Team member)", 
+            "Victoria", 
+            "Northwestern League", 
+            "outfielder", 
+            "Baseball cards--1910-1920.", 
+            "Lithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-28T00:00:00Z", 
+        "index": 29, 
+        "medium": "1 print : lithograph with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1621f (digital file from original, front)\nLC-DIG-bbc-1621b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685566/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685566/resource/"
+        }, 
+        "title": "[Fred Raymer, Victoria Bees, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1620/1621fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1620/1621f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1620/1621f_150px.jpg"
+        }, 
+        "created": "2024-01-16T05:34:17Z", 
+        "modified": "2024-01-16T05:34:19Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-28, no. 17 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2024-01-12T08:07:56Z", 
+        "pk": "2007685566", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Raymer, Fred (Team member)", 
+            "Victoria", 
+            "Northwestern League", 
+            "second baseman", 
+            "Baseball cards--1910-1920.", 
+            "Lithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-28T00:00:00Z", 
+        "index": 30, 
+        "medium": "1 print : lithograph with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1623f (digital file from original, front)\nLC-DIG-bbc-1623b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685568/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685568/resource/"
+        }, 
+        "title": "[Vincent Ward, Victoria Bees, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1620/1623fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1620/1623f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1620/1623f_150px.jpg"
+        }, 
+        "created": "2024-01-16T05:34:19Z", 
+        "modified": "2024-01-16T05:34:21Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-28, no. 19 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2024-01-12T08:18:18Z", 
+        "pk": "2007685568", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Ward, Vincent (Team member)", 
+            "Victoria", 
+            "Northwestern League", 
+            "shortstop", 
+            "Baseball cards--1910-1920.", 
+            "Lithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-28T00:00:00Z", 
+        "index": 31, 
+        "medium": "1 print : lithograph with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1624f (digital file from original, front)\nLC-DIG-bbc-1624b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685569/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685569/resource/"
+        }, 
+        "title": "[George Wheeler, Los Angeles Angels, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1620/1624fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1620/1624f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1620/1624f_150px.jpg"
+        }, 
+        "created": "2024-01-16T05:34:21Z", 
+        "modified": "2024-01-16T05:34:23Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-28, no. 20 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2024-01-12T08:19:36Z", 
+        "pk": "2007685569", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Wheeler, George (Team member)", 
+            "Los Angeles", 
+            "Pacific Coast League", 
+            "utility player", 
+            "Baseball cards--1910-1920.", 
+            "Lithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-28T00:00:00Z", 
+        "index": 32, 
+        "medium": "1 print : lithograph with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1625f (digital file from original, front)\nLC-DIG-bbc-1625b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685570/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685570/resource/"
+        }, 
+        "title": "[Harl Maggert, Oakland Oaks, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1620/1625fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1620/1625f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1620/1625f_150px.jpg"
+        }, 
+        "created": "2024-01-16T06:23:20Z", 
+        "modified": "2024-01-16T06:23:22Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-28, no. 21 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2024-01-12T08:28:21Z", 
+        "pk": "2007685570", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Maggert, Harl (Team member)", 
+            "Oakland", 
+            "Pacific Coast League", 
+            "outfielder", 
+            "Baseball cards--1910-1920.", 
+            "Lithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-28T00:00:00Z", 
+        "index": 33, 
+        "medium": "1 print : lithograph with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1626f (digital file from original, front)\nLC-DIG-bbc-1626b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685571/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685571/resource/"
+        }, 
+        "title": "[Fred \"Lefty\" Miller, Oakland Oaks, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1620/1626fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1620/1626f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1620/1626f_150px.jpg"
+        }, 
+        "created": "2024-01-16T06:23:22Z", 
+        "modified": "2024-01-16T06:23:24Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-28, no. 22 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2024-01-12T08:38:05Z", 
+        "pk": "2007685571", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Miller, Fred \"Lefty\" (Team member)", 
+            "Oakland", 
+            "Pacific Coast League", 
+            "pitcher", 
+            "Baseball cards--1910-1920.", 
+            "Lithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-28T00:00:00Z", 
+        "index": 34, 
+        "medium": "1 print : lithograph with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1627f (digital file from original, front)\nLC-DIG-bbc-1627b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685572/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685572/resource/"
+        }, 
+        "title": "[Bunny Pearce, Oakland Oaks, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1620/1627fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1620/1627f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1620/1627f_150px.jpg"
+        }, 
+        "created": "2024-01-16T05:42:11Z", 
+        "modified": "2024-01-16T05:42:13Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-28, no. 23 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2024-01-12T08:52:20Z", 
+        "pk": "2007685572", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Pearce, Bunny (Team member)", 
+            "Oakland", 
+            "Pacific Coast League", 
+            "catcher", 
+            "Baseball cards--1910-1920.", 
+            "Lithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-28T00:00:00Z", 
+        "index": 35, 
+        "medium": "1 print : lithograph with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1629f (digital file from original, front)\nLC-DIG-bbc-1629b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685574/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685574/resource/"
+        }, 
+        "title": "[Art Krueger, Portland Beavers, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1620/1629fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1620/1629f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1620/1629f_150px.jpg"
+        }, 
+        "created": "2024-01-16T05:55:55Z", 
+        "modified": "2024-01-16T05:55:57Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-28, no. 25 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2024-01-12T11:33:43Z", 
+        "pk": "2007685574", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Krueger, Art (Team member)", 
+            "Portland", 
+            "Pacific Coast League", 
+            "outfielder", 
+            "Baseball cards--1910-1920.", 
+            "Lithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-28T00:00:00Z", 
+        "index": 36, 
+        "medium": "1 print : lithograph with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1630f (digital file from original, front)\nLC-DIG-bbc-1630b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685575/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685575/resource/"
+        }, 
+        "title": "[Walt Kuhn, Portland Beavers, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1630/1630fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1630/1630f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1630/1630f_150px.jpg"
+        }, 
+        "created": "2024-01-16T07:41:41Z", 
+        "modified": "2024-01-16T07:41:43Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-28, no. 26 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2024-01-12T13:21:45Z", 
+        "pk": "2007685575", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Kuhn, Walt (Team member)", 
+            "Portland", 
+            "Pacific Coast League", 
+            "catcher", 
+            "Baseball cards--1910-1920.", 
+            "Lithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-28T00:00:00Z", 
+        "index": 37, 
+        "medium": "1 print : lithograph with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1632f (digital file from original, front)\nLC-DIG-bbc-1632b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685577/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685577/resource/"
+        }, 
+        "title": "[Tommy Murray, Portland Beavers, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1630/1632fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1630/1632f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1630/1632f_150px.jpg"
+        }, 
+        "created": "2024-01-16T07:54:52Z", 
+        "modified": "2024-01-16T07:54:55Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-28, no. 28 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2024-01-12T13:22:53Z", 
+        "pk": "2007685577", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Murray, Tommy (Team member)", 
+            "Portland", 
+            "Pacific Coast League", 
+            "catcher", 
+            "Baseball cards--1910-1920.", 
+            "Lithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-28T00:00:00Z", 
+        "index": 38, 
+        "medium": "1 print : lithograph with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1633f (digital file from original, front)\nLC-DIG-bbc-1633b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685578/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685578/resource/"
+        }, 
+        "title": "[Bill Rodgers, Portland Beavers, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1630/1633fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1630/1633f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1630/1633f_150px.jpg"
+        }, 
+        "created": "2024-01-16T06:43:33Z", 
+        "modified": "2024-01-16T06:43:34Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-28, no. 29 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2024-01-12T14:20:16Z", 
+        "pk": "2007685578", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Rodgers, Bill (Team member)", 
+            "Portland", 
+            "Pacific Coast League", 
+            "second baseman", 
+            "Baseball cards--1910-1920.", 
+            "Lithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-28T00:00:00Z", 
+        "index": 39, 
+        "medium": "1 print : lithograph with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1634f (digital file from original, front)\nLC-DIG-bbc-1634b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685579/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685579/resource/"
+        }, 
+        "title": "[Tommy Sheehan, Portland Beavers, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1630/1634fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1630/1634f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1630/1634f_150px.jpg"
+        }, 
+        "created": "2024-01-16T07:15:27Z", 
+        "modified": "2024-01-16T07:15:29Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-28, no. 30 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2024-01-12T14:21:13Z", 
+        "pk": "2007685579", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Sheehan, Tommy (Team member)", 
+            "Portland", 
+            "Pacific Coast League", 
+            "third baseman", 
+            "Baseball cards--1910-1920.", 
+            "Lithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-28T00:00:00Z", 
+        "index": 40, 
+        "medium": "1 print : lithograph with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1630f (digital file from original, front)\nLC-DIG-bbc-1630b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685576/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685576/resource/"
+        }, 
+        "title": "[Judge McCredie, Portland Beavers, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1630/1631fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1630/1631f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1630/1631f_150px.jpg"
+        }, 
+        "created": "2024-01-23T07:43:36Z", 
+        "modified": "2024-01-23T07:43:37Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-28, no. 27 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2024-01-16T09:18:07Z", 
+        "pk": "2007685576", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "McCredie, Judge (Team member)", 
+            "Portland", 
+            "Pacific Coast League", 
+            "manager", 
+            "Baseball cards--1910-1920.", 
+            "Lithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-28T00:00:00Z", 
+        "index": 41, 
+        "medium": "1 print : lithograph with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1628f (digital file from original, front)\nLC-DIG-bbc-1628b (digital file from original, back)\nLC-USZC4-6981 (color film copy transparency, front)\nLC-USZC4-6946 (color film copy transparency, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685573/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685573/resource/"
+        }, 
+        "title": "[Elmer Zacher, Oakland Oaks, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1620/1628fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1620/1628f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1620/1628f_150px.jpg"
+        }, 
+        "created": "2026-02-10T05:34:05Z", 
+        "modified": "2026-02-10T05:34:10Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-28, no. 24 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2026-01-29T16:59:40Z", 
+        "pk": "2007685573", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Zacher, Elmer (Team member)", 
+            "Oakland", 
+            "Pacific Coast League", 
+            "outfielder", 
+            "Baseball cards--1910-1920.", 
+            "Lithographs--Color--1910-1920."
+        ]
+    }
+]}

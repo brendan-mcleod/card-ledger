@@ -1,0 +1,339 @@
+{
+  "generatedAt": "2026-04-24T15:09:13.177Z",
+  "source": "Local LOC-backed T206 scanned back cache, OCR via tesseract.js",
+  "totalBacksScanned": 520,
+  "brands": {
+    "piedmont": {
+      "backName": "Piedmont",
+      "matches": 0,
+      "candidates": []
+    },
+    "sweet-caporal": {
+      "backName": "Sweet Caporal",
+      "matches": 35,
+      "candidates": [
+        {
+          "cardId": "t206-art-fromme-cincinnati-reds-portrait",
+          "collectorTitle": "T206, Art Fromme, Cincinnati Reds, Portrait",
+          "backLocalPath": "/cards/t206/backs/t206-art-fromme-cincinnati-reds-portrait-back.jpg",
+          "sourceUrl": "https://www.loc.gov/pictures/collection/bbc/item/2008676455/",
+          "ocrExcerpt": "sg 0 @y ® sm jeet | § caporal & cigarettes the zan | for base ball series subjects | 49 | £8 £9 |"
+        },
+        {
+          "cardId": "t206-bill-bradley-cleveland-naps-portrait",
+          "collectorTitle": "T206, Bill Bradley, Cleveland Naps, Portrait",
+          "backLocalPath": "/cards/t206/backs/t206-bill-bradley-cleveland-naps-portrait-back.jpg",
+          "sourceUrl": "https://www.loc.gov/pictures/collection/bbc/item/2008676556/",
+          "ocrExcerpt": "isx] 0 sweet | | | caporal | 4 i i 4 ny | the standard | | for ls 9 ™n 8 base ball series subjects ee 49 28 bq"
+        },
+        {
+          "cardId": "t206-bill-clymer-columbus-team-portrait",
+          "collectorTitle": "T206, Bill Clymer, Columbus Team, Portrait",
+          "backLocalPath": "/cards/t206/backs/t206-bill-clymer-columbus-team-portrait-back.jpg",
+          "sourceUrl": "https://www.loc.gov/pictures/collection/bbc/item/2008676931/",
+          "ocrExcerpt": "2 0, <q sweet caporal [i cigarettes the, standard for ears | resin s eries: i sdh ele 5 iz"
+        },
+        {
+          "cardId": "t206-billy-maloney-rochester-team-portrait",
+          "collectorTitle": "T206, Billy Maloney, Rochester Team, Portrait",
+          "backLocalPath": "/cards/t206/backs/t206-billy-maloney-rochester-team-portrait-back.jpg",
+          "sourceUrl": "https://www.loc.gov/pictures/collection/bbc/item/2008677029/",
+          "ocrExcerpt": "= oy > tns 7 © sweet ‘ { ceporal i | cigarettes, | ee standard | ears base ball series su bjects (or 8 sen et ox) p2"
+        },
+        {
+          "cardId": "t206-charley-o-leary-detroit-tigers-portrait",
+          "collectorTitle": "T206, Charley O'leary, Detroit Tigers, Portrait",
+          "backLocalPath": "/cards/t206/backs/t206-charley-o-leary-detroit-tigers-portrait-back.jpg",
+          "sourceUrl": "https://www.loc.gov/pictures/collection/bbc/item/2008676597/",
+          "ocrExcerpt": "og or mam sr ts key 957 02% hl f] sweet | caporal | cigarettes dhe standard + : “fr v ears see base bars senies ol ubjueets bq ie, »\\ pe = 9 4% ¢"
+        },
+        {
+          "cardId": "t206-charley-o-leary-detroit-tigers-portrait-2008676598",
+          "collectorTitle": "T206, Charley O'leary, Detroit Tigers, Portrait",
+          "backLocalPath": "/cards/t206/backs/t206-charley-o-leary-detroit-tigers-portrait-2008676598-back.jpg",
+          "sourceUrl": "https://www.loc.gov/pictures/collection/bbc/item/2008676598/",
+          "ocrExcerpt": "= =5¢ sweet | caporal cigarettes | the arn | for 9 | base ball series | ee et tpq { =f 2 4m rit"
+        },
+        {
+          "cardId": "t206-chick-gandil-chicago-white-sox-portrait",
+          "collectorTitle": "T206, Chick Gandil, Chicago White Sox, Portrait",
+          "backLocalPath": "/cards/t206/backs/t206-chick-gandil-chicago-white-sox-portrait-back.jpg",
+          "sourceUrl": "https://www.loc.gov/pictures/collection/bbc/item/2008676447/",
+          "ocrExcerpt": "oy @y, 0 <q i sweet 0 nc po al | cli if (nd ette 1] ar = the standard | | for ears or base ball series | i | ee (cn sy 29 7"
+        },
+        {
+          "cardId": "t206-claude-rossman-detroit-tigers-portrait",
+          "collectorTitle": "T206, Claude Rossman, Detroit Tigers, Portrait",
+          "backLocalPath": "/cards/t206/backs/t206-claude-rossman-detroit-tigers-portrait-back.jpg",
+          "sourceUrl": "https://www.loc.gov/pictures/collection/bbc/item/2008676599/",
+          "ocrExcerpt": "3% 3% sows \\ caporal cigarettes) @he standard | for pears base ball series n i subjects ll pe cpm)"
+        },
+        {
+          "cardId": "t206-davy-jones-detroit-tigers-portrait",
+          "collectorTitle": "T206, Davy Jones, Detroit Tigers, Portrait",
+          "backLocalPath": "/cards/t206/backs/t206-davy-jones-detroit-tigers-portrait-back.jpg",
+          "sourceUrl": "https://www.loc.gov/pictures/collection/bbc/item/2008676589/",
+          "ocrExcerpt": "5) a wrmmm— ra o8f sweet | n ) 7 caporal | — cigarettes | dhe standard | for pears © er re ea base ball series h subjects ee"
+        },
+        {
+          "cardId": "t206-dick-hoblitzell-cincinnati-reds-portrait",
+          "collectorTitle": "T206, Dick Hoblitzell, Cincinnati Reds, Portrait",
+          "backLocalPath": "/cards/t206/backs/t206-dick-hoblitzell-cincinnati-reds-portrait-back.jpg",
+          "sourceUrl": "https://www.loc.gov/pictures/collection/bbc/item/2008676459/",
+          "ocrExcerpt": "or sores nn) / <q fo sv eet \\ caporal 7 cigarett ies, oi standard file base ball: serres. sus bj etre (ow 2 4%) b& ic 2s) a oe er i"
+        },
+        {
+          "cardId": "t206-f-clarke-pittsburgh-pirates-portrait",
+          "collectorTitle": "T206, F. Clarke, Pittsburgh Pirates, Portrait",
+          "backLocalPath": "/cards/t206/backs/t206-f-clarke-pittsburgh-pirates-portrait-back.jpg",
+          "sourceUrl": "https://www.loc.gov/pictures/collection/bbc/item/2008676541/",
+          "ocrExcerpt": "5 @y so) sweet n caporal 7 cigarettes es ? base ball series n 150 2 oe 5 re by! po [on] 2s j"
+        },
+        {
+          "cardId": "t206-fred-burchell-buffalo-team-portrait",
+          "collectorTitle": "T206, Fred Burchell, Buffalo Team, Portrait",
+          "backLocalPath": "/cards/t206/backs/t206-fred-burchell-buffalo-team-portrait-back.jpg",
+          "sourceUrl": "https://www.loc.gov/pictures/collection/bbc/item/2008676920/",
+          "ocrExcerpt": "— oy re ©y =a © sweet ) | | ja \"ur ral i gin or io dears base ball series { | subjects pea ee cy = 55 2"
+        }
+      ]
+    },
+    "polar-bear": {
+      "backName": "Polar Bear",
+      "matches": 46,
+      "candidates": [
+        {
+          "cardId": "t206-bill-lattimore-toledo-team-portrait",
+          "collectorTitle": "T206, Bill Lattimore, Toledo Team, Portrait",
+          "backLocalPath": "/cards/t206/backs/t206-bill-lattimore-toledo-team-portrait-back.jpg",
+          "sourceUrl": "https://www.loc.gov/pictures/collection/bbc/item/2008677035/",
+          "ocrExcerpt": "polar bear s now has been always will be the best scrap tobacco base ball series assorted designs factory n° 6-1 dist. o"
+        },
+        {
+          "cardId": "t206-bill-o-hara-st-louis-cardinals-portrait",
+          "collectorTitle": "T206, Bill O'hara, St. Louis Cardinals, Portrait",
+          "backLocalPath": "/cards/t206/backs/t206-bill-o-hara-st-louis-cardinals-portrait-back.jpg",
+          "sourceUrl": "https://www.loc.gov/pictures/collection/bbc/item/2008676420/",
+          "ocrExcerpt": "es ss polar bear always has been always will be t 2 taba i sera i base ball series | assorted designs dasa"
+        },
+        {
+          "cardId": "t206-bob-groom-washington-nationals-portrait",
+          "collectorTitle": "T206, Bob Groom, Washington Nationals, Portrait",
+          "backLocalPath": "/cards/t206/backs/t206-bob-groom-washington-nationals-portrait-back.jpg",
+          "sourceUrl": "https://www.loc.gov/pictures/collection/bbc/item/2008676854/",
+          "ocrExcerpt": "dolar bear i always has been always will be the best scrap tobacco. base ball series assorted designs eac fory nog =hst dist, o."
+        },
+        {
+          "cardId": "t206-buck-herzog-boston-doves-portrait",
+          "collectorTitle": "T206, Buck Herzog, Boston Doves, Portrait",
+          "backLocalPath": "/cards/t206/backs/t206-buck-herzog-boston-doves-portrait-back.jpg",
+          "sourceUrl": "https://www.loc.gov/pictures/collection/bbc/item/2008675234/",
+          "ocrExcerpt": "i 4 polar bear ~ always has been always will be : the best scrap tobacco base i series sl lote se noe —"
+        },
+        {
+          "cardId": "t206-bunk-congalton-columbus-team-portrait",
+          "collectorTitle": "T206, Bunk Congalton, Columbus Team, Portrait",
+          "backLocalPath": "/cards/t206/backs/t206-bunk-congalton-columbus-team-portrait-back.jpg",
+          "sourceUrl": "https://www.loc.gov/pictures/collection/bbc/item/2008676932/",
+          "ocrExcerpt": "polar bear always has been always will be the best scrap tobacco base ball series. sk bl factory n¢ 6-137 dist. o."
+        },
+        {
+          "cardId": "t206-chief-bender-philadelphia-athletics-portrait-2008676833",
+          "collectorTitle": "T206, Chief Bender, Philadelphia Athletics, Portrait",
+          "backLocalPath": "/cards/t206/backs/t206-chief-bender-philadelphia-athletics-portrait-2008676833-back.jpg",
+          "sourceUrl": "https://www.loc.gov/pictures/collection/bbc/item/2008676833/",
+          "ocrExcerpt": "ee polar bear always has been. always willbe ‘the best sc rapto bacco, base ball series . : assorted oar"
+        },
+        {
+          "cardId": "t206-clarke-columbus-team-portrait",
+          "collectorTitle": "T206, Clarke, Columbus Team, Portrait",
+          "backLocalPath": "/cards/t206/backs/t206-clarke-columbus-team-portrait-back.jpg",
+          "sourceUrl": "https://www.loc.gov/pictures/collection/bbc/item/2008676930/",
+          "ocrExcerpt": "polar bear always has been & always will be the best scrap tobacco. base bult nies assorted designs pactory n? 6-13t dist. 2 :"
+        },
+        {
+          "cardId": "t206-cy-barger-rochester-team-portrait",
+          "collectorTitle": "T206, Cy Barger, Rochester Team, Portrait",
+          "backLocalPath": "/cards/t206/backs/t206-cy-barger-rochester-team-portrait-back.jpg",
+          "sourceUrl": "https://www.loc.gov/pictures/collection/bbc/item/2008677024/",
+          "ocrExcerpt": "fe polar bear -always has been always will be the best | | scrap tobacco. | base.ball series i designs factory n° 6-tst oy"
+        },
+        {
+          "cardId": "t206-cy-seymour-new-york-giants-portrait-2008676513",
+          "collectorTitle": "T206, Cy Seymour, New York Giants, Portrait",
+          "backLocalPath": "/cards/t206/backs/t206-cy-seymour-new-york-giants-portrait-2008676513-back.jpg",
+          "sourceUrl": "https://www.loc.gov/pictures/collection/bbc/item/2008676513/",
+          "ocrExcerpt": "polar bear iwi 1 ge always willb the best | scraptobacco | | ll base ball series assorted designs actory no-6-4 dis it"
+        },
+        {
+          "cardId": "t206-doc-adkins-baltimore-team-portrait",
+          "collectorTitle": "T206, Doc Adkins, Baltimore Team, Portrait",
+          "backLocalPath": "/cards/t206/backs/t206-doc-adkins-baltimore-team-portrait-back.jpg",
+          "sourceUrl": "https://www.loc.gov/pictures/collection/bbc/item/2008676910/",
+          "ocrExcerpt": "olr bea oh ay been always will be the scrap tobacco base ball series assorted designs factory n° 6-1 dist. o. g a"
+        },
+        {
+          "cardId": "t206-doc-white-chicago-white-sox-portrait",
+          "collectorTitle": "T206, Doc White, Chicago White Sox, Portrait",
+          "backLocalPath": "/cards/t206/backs/t206-doc-white-chicago-white-sox-portrait-back.jpg",
+          "sourceUrl": "https://www.loc.gov/pictures/collection/bbc/item/2008676551/",
+          "ocrExcerpt": "polar bear ., always has been ~ always wi ll be tha best scrap tobacco base ball series assorts ed designs fact tory. n° ~isl diseq, »l"
+        },
+        {
+          "cardId": "t206-ed-reulbach-chicago-cubs-portrait-2008675192",
+          "collectorTitle": "T206, Ed Reulbach, Chicago Cubs, Portrait",
+          "backLocalPath": "/cards/t206/backs/t206-ed-reulbach-chicago-cubs-portrait-2008675192-back.jpg",
+          "sourceUrl": "https://www.loc.gov/pictures/collection/bbc/item/2008675192/",
+          "ocrExcerpt": "polar bear is now always has been always will be the best scrap lobacco: base ball series assorted lk eacto . ne 6-4"
+        }
+      ]
+    },
+    "old-mill": {
+      "backName": "Old Mill",
+      "matches": 0,
+      "candidates": []
+    },
+    "sovereign": {
+      "backName": "Sovereign",
+      "matches": 7,
+      "candidates": [
+        {
+          "cardId": "t206-billy-sullivan-chicago-white-sox-portrait",
+          "collectorTitle": "T206, Billy Sullivan, Chicago White Sox, Portrait",
+          "backLocalPath": "/cards/t206/backs/t206-billy-sullivan-chicago-white-sox-portrait-back.jpg",
+          "sourceUrl": "https://www.loc.gov/pictures/collection/bbc/item/2008676610/",
+          "ocrExcerpt": "< er mn 2 ) overean . fit for a king, cigarettes c base ball series ac gal 0 [s35] subjects shee ee ds es"
+        },
+        {
+          "cardId": "t206-george-merritt-jersey-city-team-portrait",
+          "collectorTitle": "T206, George Merritt, Jersey City Team, Portrait",
+          "backLocalPath": "/cards/t206/backs/t206-george-merritt-jersey-city-team-portrait-back.jpg",
+          "sourceUrl": "https://www.loc.gov/pictures/collection/bbc/item/2008676942/",
+          "ocrExcerpt": ": sovereign cigarettes es a gs base ball oy “350 ss"
+        },
+        {
+          "cardId": "t206-harry-arndt-providence-team-portrait",
+          "collectorTitle": "T206, Harry Arndt, Providence Team, Portrait",
+          "backLocalPath": "/cards/t206/backs/t206-harry-arndt-providence-team-portrait-back.jpg",
+          "sourceUrl": "https://www.loc.gov/pictures/collection/bbc/item/2008677017/",
+          "ocrExcerpt": "5 sern fit for a king cigarettes || a ni + base ball serlis subjects | )"
+        },
+        {
+          "cardId": "t206-john-frill-new-york-highlanders-portrait",
+          "collectorTitle": "T206, John Frill, New York Highlanders, Portrait",
+          "backLocalPath": "/cards/t206/backs/t206-john-frill-new-york-highlanders-portrait-back.jpg",
+          "sourceUrl": "https://www.loc.gov/pictures/collection/bbc/item/2008676815/",
+          "ocrExcerpt": "fre fit for a king, cigarettes c 8, a s)> base ball series “460 >. il gse ee"
+        },
+        {
+          "cardId": "t206-pfiester-chicago-cubs-portrait-2008675191",
+          "collectorTitle": "T206, Pfiester, Chicago Cubs, Portrait",
+          "backLocalPath": "/cards/t206/backs/t206-pfiester-chicago-cubs-portrait-2008675191-back.jpg",
+          "sourceUrl": "https://www.loc.gov/pictures/collection/bbc/item/2008675191/",
+          "ocrExcerpt": "ee — sovereign cigarettes fit for a king, c d> base ball series “350° subjects"
+        },
+        {
+          "cardId": "t206-rhoads-cleveland-naps-portrait",
+          "collectorTitle": "T206, Rhoads, Cleveland Naps, Portrait",
+          "backLocalPath": "/cards/t206/backs/t206-rhoads-cleveland-naps-portrait-back.jpg",
+          "sourceUrl": "https://www.loc.gov/pictures/collection/bbc/item/2008676570/",
+          "ocrExcerpt": "sovereign fit for a king | cigarettes base bol series &) subjects"
+        },
+        {
+          "cardId": "t206-sam-crawford-detroit-tigers-portrait",
+          "collectorTitle": "T206, Sam Crawford, Detroit Tigers, Portrait",
+          "backLocalPath": "/cards/t206/backs/t206-sam-crawford-detroit-tigers-portrait-back.jpg",
+          "sourceUrl": "https://www.loc.gov/pictures/collection/bbc/item/2008676582/",
+          "ocrExcerpt": "| et) { om\" sovereign cigarettes fit for a king c r base ball series © 350 > subjects factory no.25,"
+        }
+      ]
+    },
+    "tolstoi": {
+      "backName": "Tolstoi",
+      "matches": 0,
+      "candidates": []
+    },
+    "hindu": {
+      "backName": "Hindu",
+      "matches": 0,
+      "candidates": []
+    },
+    "cycle": {
+      "backName": "Cycle",
+      "matches": 0,
+      "candidates": []
+    },
+    "american-beauty": {
+      "backName": "American Beauty",
+      "matches": 3,
+      "candidates": [
+        {
+          "cardId": "t206-bob-bescher-cincinnati-reds-portrait",
+          "collectorTitle": "T206, Bob Bescher, Cincinnati Reds, Portrait",
+          "backLocalPath": "/cards/t206/backs/t206-bob-bescher-cincinnati-reds-portrait-back.jpg",
+          "sourceUrl": "https://www.loc.gov/pictures/collection/bbc/item/2008676404/",
+          "ocrExcerpt": "phe 7% amerigy is beauty ¢ cigarettes cb ec ca) base ball series 358 subjects"
+        },
+        {
+          "cardId": "t206-jack-hayden-indianapolis-team-portrait",
+          "collectorTitle": "T206, Jack Hayden, Indianapolis Team, Portrait",
+          "backLocalPath": "/cards/t206/backs/t206-jack-hayden-indianapolis-team-portrait-back.jpg",
+          "sourceUrl": "https://www.loc.gov/pictures/collection/bbc/item/2008676940/",
+          "ocrExcerpt": "amerigay beauty ® cigarettes base ball series 350 subjects"
+        },
+        {
+          "cardId": "t206-john-knight-new-york-highlanders-portrait",
+          "collectorTitle": "T206, John Knight, New York Highlanders, Portrait",
+          "backLocalPath": "/cards/t206/backs/t206-john-knight-new-york-highlanders-portrait-back.jpg",
+          "sourceUrl": "https://www.loc.gov/pictures/collection/bbc/item/2008676821/",
+          "ocrExcerpt": "a 5 amerigy s beauty ¢ cigarettes base ball series l 880 subjects i 2s foi = 8]"
+        }
+      ]
+    },
+    "broad-leaf": {
+      "backName": "Broad Leaf",
+      "matches": 0,
+      "candidates": []
+    },
+    "drum": {
+      "backName": "Drum",
+      "matches": 0,
+      "candidates": []
+    },
+    "uzit": {
+      "backName": "Uzit",
+      "matches": 0,
+      "candidates": []
+    },
+    "lenox": {
+      "backName": "Lenox",
+      "matches": 0,
+      "candidates": []
+    },
+    "carolina-brights": {
+      "backName": "Carolina Brights",
+      "matches": 0,
+      "candidates": []
+    },
+    "el-principe-de-gales": {
+      "backName": "El Principe de Gales",
+      "matches": 2,
+      "candidates": [
+        {
+          "cardId": "t206-ginger-beaumont-boston-doves-portrait",
+          "collectorTitle": "T206, Ginger Beaumont, Boston Doves, Portrait",
+          "backLocalPath": "/cards/t206/backs/t206-ginger-beaumont-boston-doves-portrait-back.jpg",
+          "sourceUrl": "https://www.loc.gov/pictures/collection/bbc/item/2008675228/",
+          "ocrExcerpt": "el principe de gales cork tip havana cigarettes rice paper pectoral paper base e ball series"
+        },
+        {
+          "cardId": "t206-nap-rucker-brooklyn-superbas-portrait",
+          "collectorTitle": "T206, Nap Rucker, Brooklyn Superbas, Portrait",
+          "backLocalPath": "/cards/t206/backs/t206-nap-rucker-brooklyn-superbas-portrait-back.jpg",
+          "sourceUrl": "https://www.loc.gov/pictures/collection/bbc/item/2008675162/",
+          "ocrExcerpt": "fl principe de gales cork tip havana cigarettes de rice paper pegiors ral paper “base bal ball l series"
+        }
+      ]
+    }
+  }
+}

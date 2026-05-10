@@ -1,8 +1,10 @@
+'use client'
+
 import Link from 'next/link'
 
 import { CardTile } from '@/app/components/card-tile'
-import { getCardById } from '@/lib/data'
-import { formatSetProgress } from '@/lib/format'
+import { useClientCatalog } from '@/lib/client-catalog'
+import { formatSetProgress, getCardDisplayTitle } from '@/lib/format'
 import type { SetProgress } from '@/lib/types'
 
 type SetProgressCardProps = {
@@ -11,8 +13,9 @@ type SetProgressCardProps = {
 }
 
 export function SetProgressCard({ progress, compact = false }: SetProgressCardProps) {
-  const keyCard = getCardById(progress.keyCardIds[0])
-  const missingCard = getCardById(progress.missingCardIds[0])
+  const catalog = useClientCatalog()
+  const keyCard = catalog.cardById.get(progress.keyCardIds[0])
+  const missingCard = catalog.cardById.get(progress.missingCardIds[0])
   const remaining = progress.totalCards - progress.ownedCards
   const urgencyLabel =
     remaining === 1 ? '1 card left' : progress.percent >= 80 ? 'Almost there' : null
@@ -21,7 +24,7 @@ export function SetProgressCard({ progress, compact = false }: SetProgressCardPr
     <article className={`set-progress-card ${compact ? 'set-progress-card-compact' : ''}`}>
       <div className="set-progress-copy panel-stack-sm">
         <div className="panel-stack-xs">
-          <p className="eyebrow">Set run</p>
+          <p className="eyebrow">Set</p>
           <h3 className="set-progress-title">{progress.setLabel}</h3>
           <p className="body-copy-sm">{formatSetProgress(progress)}</p>
           {urgencyLabel ? <span className="set-progress-flag">{urgencyLabel}</span> : null}
@@ -33,15 +36,15 @@ export function SetProgressCard({ progress, compact = false }: SetProgressCardPr
 
         {missingCard ? (
           <p className="body-copy-sm">
-            Next missing card: <span className="text-[var(--ink-strong)]">{missingCard.player}</span> #{missingCard.cardNumber}
+            Next missing card: <span className="text-[var(--ink-strong)]">{getCardDisplayTitle(missingCard)}</span>
           </p>
         ) : (
-          <p className="body-copy-sm">Checklist complete. Time to admire the run.</p>
+          <p className="body-copy-sm">Checklist complete. Time to admire the set.</p>
         )}
 
         {keyCard ? (
           <p className="body-copy-sm">
-            Crown card: <span className="text-[var(--ink-strong)]">{keyCard.player}</span> #{keyCard.cardNumber}
+            Crown card: <span className="text-[var(--ink-strong)]">{getCardDisplayTitle(keyCard)}</span>
           </p>
         ) : null}
 

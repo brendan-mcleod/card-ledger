@@ -1,0 +1,2238 @@
+{"search":{
+    "field": "number", 
+    "hits": 55, 
+    "sort_order": null, 
+    "do_facets": true, 
+    "focus_item": null, 
+    "query": "\"13163-17\"", 
+    "type": "search", 
+    "sort_by": null
+},
+"focus":null,
+"views":{
+    "current": "grid", 
+    "grid": "https://www.loc.gov/pictures/search/?q=%2213163-17%22&fi=number&c=600&co=bbc&st=grid", 
+    "list": "https://www.loc.gov/pictures/search/?q=%2213163-17%22&fi=number&c=600&co=bbc", 
+    "gallery": "https://www.loc.gov/pictures/search/?q=%2213163-17%22&fi=number&c=600&co=bbc&st=gallery", 
+    "slideshow": "https://www.loc.gov/pictures/search/?q=%2213163-17%22&fi=number&c=600&co=bbc&st=slideshow"
+},
+"facets":[
+    {
+        "type": "displayed", 
+        "filters": [
+            {
+                "count": 55, 
+                "on": "https://www.loc.gov/pictures/search/?c=600&co=bbc&sp=1&st=grid&q=%2213163-17%22&fa=displayed%3Aanywhere&fi=number&fo=json", 
+                "selected": false, 
+                "off": "https://www.loc.gov/pictures/search/?c=600&co=bbc&sp=1&st=grid&q=%2213163-17%22&fi=number&fo=json", 
+                "title": "Larger image available anywhere"
+            }, 
+            {
+                "count": 0, 
+                "on": "https://www.loc.gov/pictures/search/?c=600&co=bbc&sp=1&st=grid&q=%2213163-17%22&fa=displayed%3Alc_only&fi=number&fo=json", 
+                "selected": false, 
+                "off": "https://www.loc.gov/pictures/search/?c=600&co=bbc&sp=1&st=grid&q=%2213163-17%22&fi=number&fo=json", 
+                "title": "Larger image available only at the Library of Congress"
+            }, 
+            {
+                "count": 0, 
+                "on": "https://www.loc.gov/pictures/search/?c=600&co=bbc&sp=1&st=grid&q=%2213163-17%22&fa=displayed%3Anot_digitized&fi=number&fo=json", 
+                "selected": false, 
+                "off": "https://www.loc.gov/pictures/search/?c=600&co=bbc&sp=1&st=grid&q=%2213163-17%22&fi=number&fo=json", 
+                "title": "Not Digitized"
+            }
+        ], 
+        "title": "displayed"
+    }
+],
+"links":{
+    "json": "https://www.loc.gov/pictures/search/?co=bbc&st=grid&fi=number&q=%2213163-17%22&c=600&fo=json", 
+    "html": "https://www.loc.gov/pictures/search/?co=bbc&st=grid&fi=number&q=%2213163-17%22&c=600", 
+    "rss": "https://www.loc.gov/pictures/search/?co=bbc&fi=number&q=%2213163-17%22&c=600&fo=rss"
+},
+"suggestions":{
+    "possible": []
+},
+"pages":{
+    "current": 1, 
+    "next": null, 
+    "perpage": 600, 
+    "last": null, 
+    "page_list": [
+        {
+            "url": null, 
+            "number": 1
+        }
+    ], 
+    "previous": null, 
+    "total": 1, 
+    "results": "1 - 55", 
+    "first": null
+},
+"collection":{
+    "digitized": "All", 
+    "code": "bbc", 
+    "display_offsite": "Yes", 
+    "thumb_large_item": "", 
+    "title": "Baseball Cards", 
+    "banner_item": "https://www.loc.gov/pictures/item/2007678538/", 
+    "brief": "Baseball cards representing more than one thousand major and minor league ballplayers (primarily major league), from teams in thirteen identified leagues and seventy-five cities in the United States and Canada.", 
+    "banner_title": "John M. Ward, New York Giants, 1887.", 
+    "thumb_item": "cph.3b38367", 
+    "home_link": "https://www.loc.gov/pictures/collection/bbc/", 
+    "from_date": "1887", 
+    "view_all": "https://www.loc.gov/pictures/search?st=grid&co=bbc", 
+    "link": "https://www.loc.gov/pictures/collection/bbc/", 
+    "to_date": "1914", 
+    "extent": "2,100 baseball cards.", 
+    "thumb_featured": "https://www.loc.gov/pictures/static/data/bbc/featured.png", 
+    "rights": "https://www.loc.gov/rr/print/res/620_base.html", 
+    "thumb_large": "https://www.loc.gov/pictures/static/data/bbc/thumb_large.png", 
+    "banner": "https://www.loc.gov/pictures/static/data/bbc/banner.jpg", 
+    "thumb": "https://www.loc.gov/pictures/static/data/bbc/thumb.png"
+},
+"results":[
+    {
+        "source_created": "2007-08-24T00:00:00Z", 
+        "index": 1, 
+        "medium": "1 photomechanical print : halftone and stencil.", 
+        "reproduction_number": "LC-DIG-bbc-0615f (digital file from original, front)\nLC-DIG-bbc-0615b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683726/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683726/resource/"
+        }, 
+        "title": "[Gus Dorner, Boston Doves, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0610/0615fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0610/0615f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0610/0615f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-17, no. 3 [P&P]", 
+        "medium_brief": "1 photomechanical print :", 
+        "source_modified": "2007-12-10T00:00:00Z", 
+        "pk": "2007683726", 
+        "created_published_date": "1909.", 
+        "subjects": [
+            "Dorner, Gus (Team member)", 
+            "Boston Doves", 
+            "Boston", 
+            "National League", 
+            "pitcher", 
+            "Baseball cards--1900-1910.", 
+            "Halftone photomechanical prints--1900-1910."
+        ]
+    }, 
+    {
+        "source_created": "2007-08-24T00:00:00Z", 
+        "index": 2, 
+        "medium": "1 photomechanical print : halftone and stencil.", 
+        "reproduction_number": "LC-DIG-bbc-0616f (digital file from original, front)\nLC-DIG-bbc-0616b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683727/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683727/resource/"
+        }, 
+        "title": "[George Ferguson, Boston Doves, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0610/0616fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0610/0616f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0610/0616f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-17, no. 4 [P&P]", 
+        "medium_brief": "1 photomechanical print :", 
+        "source_modified": "2007-12-10T00:00:00Z", 
+        "pk": "2007683727", 
+        "created_published_date": "1909.", 
+        "subjects": [
+            "Ferguson, George (Team member)", 
+            "Boston Doves", 
+            "Boston", 
+            "National League", 
+            "pitcher", 
+            "Baseball cards--1900-1910.", 
+            "Halftone photomechanical prints--1900-1910."
+        ]
+    }, 
+    {
+        "source_created": "2007-08-24T00:00:00Z", 
+        "index": 3, 
+        "medium": "1 photomechanical print : halftone and stencil.", 
+        "reproduction_number": "LC-DIG-bbc-0617f (digital file from original, front)\nLC-DIG-bbc-0617b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683728/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683728/resource/"
+        }, 
+        "title": "[Peaches Graham, Boston Doves, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0610/0617fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0610/0617f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0610/0617f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-17, no. 5 [P&P]", 
+        "medium_brief": "1 photomechanical print :", 
+        "source_modified": "2007-12-10T00:00:00Z", 
+        "pk": "2007683728", 
+        "created_published_date": "1909.", 
+        "subjects": [
+            "Graham, Peaches (Team member)", 
+            "Boston Doves", 
+            "Boston", 
+            "National League", 
+            "catcher", 
+            "Baseball cards--1900-1910.", 
+            "Halftone photomechanical prints--1900-1910."
+        ]
+    }, 
+    {
+        "source_created": "2007-08-24T00:00:00Z", 
+        "index": 4, 
+        "medium": "1 photomechanical print : halftone and stencil.", 
+        "reproduction_number": "LC-DIG-bbc-0619f (digital file from original, front)\nLC-DIG-bbc-0619b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683730/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683730/resource/"
+        }, 
+        "title": "[Claude Ritchey, Boston Doves, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0610/0619fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0610/0619f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0610/0619f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-17, no. 7 [P&P]", 
+        "medium_brief": "1 photomechanical print :", 
+        "source_modified": "2007-12-10T00:00:00Z", 
+        "pk": "2007683730", 
+        "created_published_date": "1909.", 
+        "subjects": [
+            "Ritchey, Claude (Team member)", 
+            "Boston Doves", 
+            "Boston", 
+            "National League", 
+            "second baseman", 
+            "Baseball cards--1900-1910.", 
+            "Halftone photomechanical prints--1900-1910."
+        ]
+    }, 
+    {
+        "source_created": "2007-08-24T00:00:00Z", 
+        "index": 5, 
+        "medium": "1 photomechanical print : halftone and stencil.", 
+        "reproduction_number": "LC-DIG-bbc-0620f (digital file from original, front)\nLC-DIG-bbc-0620b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683731/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683731/resource/"
+        }, 
+        "title": "[Whitey Alperman, Brooklyn Superbas, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0620/0620fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0620/0620f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0620/0620f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-17, no. 8 [P&P]", 
+        "medium_brief": "1 photomechanical print :", 
+        "source_modified": "2007-12-10T00:00:00Z", 
+        "pk": "2007683731", 
+        "created_published_date": "1909.", 
+        "subjects": [
+            "Alperman, Whitey (Team member)", 
+            "Brooklyn Superbas", 
+            "Brooklyn", 
+            "National League", 
+            "second baseman", 
+            "Baseball cards--1900-1910.", 
+            "Halftone photomechanical prints--1900-1910."
+        ]
+    }, 
+    {
+        "source_created": "2007-08-24T00:00:00Z", 
+        "index": 6, 
+        "medium": "1 photomechanical print : halftone and stencil.", 
+        "reproduction_number": "LC-DIG-bbc-0623f (digital file from original, front)\nLC-DIG-bbc-0623b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683734/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683734/resource/"
+        }, 
+        "title": "[Jimmy Archer, Chicago Cubs, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0620/0623fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0620/0623f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0620/0623f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-17, no. 11 [P&P]", 
+        "medium_brief": "1 photomechanical print :", 
+        "source_modified": "2007-12-10T00:00:00Z", 
+        "pk": "2007683734", 
+        "created_published_date": "1909.", 
+        "subjects": [
+            "Archer, Jimmy (Team member)", 
+            "Chicago Cubs", 
+            "Chicago", 
+            "National League", 
+            "catcher", 
+            "Baseball cards--1900-1910.", 
+            "Halftone photomechanical prints--1900-1910."
+        ]
+    }, 
+    {
+        "source_created": "2007-08-24T00:00:00Z", 
+        "index": 7, 
+        "medium": "1 photomechanical print : halftone and stencil.", 
+        "reproduction_number": "LC-DIG-bbc-0625f (digital file from original, front)\nLC-DIG-bbc-0625b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683736/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683736/resource/"
+        }, 
+        "title": "[Geo. Howard, Chicago Cubs, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0620/0625fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0620/0625f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0620/0625f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-17, no. 13 [P&P]", 
+        "medium_brief": "1 photomechanical print :", 
+        "source_modified": "2007-12-10T00:00:00Z", 
+        "pk": "2007683736", 
+        "created_published_date": "1909.", 
+        "subjects": [
+            "Howard, George (Team member)", 
+            "Chicago Cubs", 
+            "Chicago", 
+            "National League", 
+            "right fielder", 
+            "Baseball cards--1900-1910.", 
+            "Halftone photomechanical prints--1900-1910."
+        ]
+    }, 
+    {
+        "source_created": "2007-08-24T00:00:00Z", 
+        "index": 8, 
+        "medium": "1 photomechanical print : halftone and stencil.", 
+        "reproduction_number": "LC-DIG-bbc-0627f (digital file from original, front)\nLC-DIG-bbc-0627b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683738/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683738/resource/"
+        }, 
+        "title": "[Joe Tinker, Chicago Cubs, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0620/0627fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0620/0627f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0620/0627f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-17, no. 15 [P&P]", 
+        "medium_brief": "1 photomechanical print :", 
+        "source_modified": "2007-12-10T00:00:00Z", 
+        "pk": "2007683738", 
+        "created_published_date": "1909.", 
+        "subjects": [
+            "Tinker, Joe (Team member)", 
+            "Chicago Cubs", 
+            "Chicago", 
+            "National League", 
+            "shortstop", 
+            "Baseball cards--1900-1910.", 
+            "Halftone photomechanical prints--1900-1910."
+        ]
+    }, 
+    {
+        "source_created": "2007-08-24T00:00:00Z", 
+        "index": 9, 
+        "medium": "1 photomechanical print : halftone and stencil.", 
+        "reproduction_number": "LC-DIG-bbc-0628f (digital file from original, front)\nLC-DIG-bbc-0628b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683739/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683739/resource/"
+        }, 
+        "title": "[Frank C. Bancroft, Cincinnati Reds, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0620/0628fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0620/0628f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0620/0628f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-17, no. 16 [P&P]", 
+        "medium_brief": "1 photomechanical print :", 
+        "source_modified": "2007-12-10T00:00:00Z", 
+        "pk": "2007683739", 
+        "created_published_date": "1909.", 
+        "subjects": [
+            "Bancroft, Frank C. (Team member)", 
+            "Cincinnati Reds", 
+            "Cincinnati", 
+            "National League", 
+            "manager", 
+            "Baseball cards--1900-1910.", 
+            "Halftone photomechanical prints--1900-1910."
+        ]
+    }, 
+    {
+        "source_created": "2007-08-24T00:00:00Z", 
+        "index": 10, 
+        "medium": "1 photomechanical print : halftone and stencil.", 
+        "reproduction_number": "LC-DIG-bbc-0631f (digital file from original, front)\nLC-DIG-bbc-0631b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683742/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683742/resource/"
+        }, 
+        "title": "[Dick Hoblitzell, Cincinnati Reds, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0630/0631fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0630/0631f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0630/0631f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-17, no. 19 [P&P]", 
+        "medium_brief": "1 photomechanical print :", 
+        "source_modified": "2007-12-10T00:00:00Z", 
+        "pk": "2007683742", 
+        "created_published_date": "1909.", 
+        "subjects": [
+            "Hoblitzell, Dick (Team member)", 
+            "Cincinnati Reds", 
+            "Cincinnati", 
+            "National League", 
+            "first baseman", 
+            "Baseball cards--1900-1910.", 
+            "Halftone photomechanical prints--1900-1910."
+        ]
+    }, 
+    {
+        "source_created": "2007-08-24T00:00:00Z", 
+        "index": 11, 
+        "medium": "1 photomechanical print : halftone and stencil.", 
+        "reproduction_number": "LC-DIG-bbc-0633 (digital file from original, front)\nLC-DIG-bbc-0633b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683744/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683744/resource/"
+        }, 
+        "title": "[Ed Kargar, Cincinnati Reds, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0630/0633fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0630/0633f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0630/0633f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-17, no. 21 [P&P]", 
+        "medium_brief": "1 photomechanical print :", 
+        "source_modified": "2007-12-10T00:00:00Z", 
+        "pk": "2007683744", 
+        "created_published_date": "1909.", 
+        "subjects": [
+            "Kargar, Ed (Team member)", 
+            "Cincinnati Reds", 
+            "Cincinnati", 
+            "National League", 
+            "pitcher", 
+            "Baseball cards--1900-1910.", 
+            "Halftone photomechanical prints--1900-1910."
+        ]
+    }, 
+    {
+        "source_created": "2007-08-24T00:00:00Z", 
+        "index": 12, 
+        "medium": "1 photomechanical print : halftone and stencil.", 
+        "reproduction_number": "LC-DIG-bbc-0634f (digital file from original, front)\nLC-DIG-bbc-0634b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683745/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683745/resource/"
+        }, 
+        "title": "[Art Devlin, New York Giants, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0630/0634fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0630/0634f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0630/0634f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-17, no. 22 [P&P]", 
+        "medium_brief": "1 photomechanical print :", 
+        "source_modified": "2007-12-10T00:00:00Z", 
+        "pk": "2007683745", 
+        "created_published_date": "1909.", 
+        "subjects": [
+            "Devlin, Art (Team member)", 
+            "New York Giants", 
+            "New York", 
+            "National League", 
+            "third baseman", 
+            "Baseball cards--1900-1910.", 
+            "Halftone photomechanical prints--1900-1910."
+        ]
+    }, 
+    {
+        "source_created": "2007-08-24T00:00:00Z", 
+        "index": 13, 
+        "medium": "1 photomechanical print : halftone and stencil.", 
+        "reproduction_number": "LC-DIG-bbc-0635f (digital file from original, front)\nLC-DIG-bbc-0635b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683746/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683746/resource/"
+        }, 
+        "title": "[Moose McCormick, New York Giants, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0630/0635fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0630/0635f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0630/0635f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-17, no. 23 [P&P]", 
+        "medium_brief": "1 photomechanical print :", 
+        "source_modified": "2007-12-10T00:00:00Z", 
+        "pk": "2007683746", 
+        "created_published_date": "1909.", 
+        "subjects": [
+            "McCormick, Moose (Team member)", 
+            "New York Giants", 
+            "New York", 
+            "National League", 
+            "right fielder", 
+            "Baseball cards--1900-1910.", 
+            "Halftone photomechanical prints--1900-1910."
+        ]
+    }, 
+    {
+        "source_created": "2007-08-24T00:00:00Z", 
+        "index": 14, 
+        "medium": "1 photomechanical print : halftone and stencil.", 
+        "reproduction_number": "LC-DIG-bbc-0636f (digital file from original, front)\nLC-DIG-bbc-0636b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683747/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683747/resource/"
+        }, 
+        "title": "[O'Hara, New York Giants, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0630/0636fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0630/0636f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0630/0636f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-17, no. 24 [P&P]", 
+        "medium_brief": "1 photomechanical print :", 
+        "source_modified": "2007-12-10T00:00:00Z", 
+        "pk": "2007683747", 
+        "created_published_date": "1909.", 
+        "subjects": [
+            "Ohara, Bill (Team member)", 
+            "New York Giants", 
+            "New York", 
+            "National League", 
+            "center fielder", 
+            "Baseball cards--1900-1910.", 
+            "Halftone photomechanical prints--1900-1910."
+        ]
+    }, 
+    {
+        "source_created": "2007-08-28T00:00:00Z", 
+        "index": 15, 
+        "medium": "1 photomechanical print : halftone and stencil.", 
+        "reproduction_number": "LC-DIG-bbc-0640f (digital file from original, front)\nLC-DIG-bbc-0640b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683779/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683779/resource/"
+        }, 
+        "title": "[Tom Reilly, St. Louis Cardinals, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0640/0640fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0640/0640f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0640/0640f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-17, no. 28 [P&P]", 
+        "medium_brief": "1 photomechanical print :", 
+        "source_modified": "2007-12-10T00:00:00Z", 
+        "pk": "2007683779", 
+        "created_published_date": "1909.", 
+        "subjects": [
+            "Reilly, Tom (Team member)", 
+            "St. Louis Cardinals", 
+            "St. Louis", 
+            "National League", 
+            "shortstop", 
+            "Baseball cards--1900-1910.", 
+            "Halftone photomechanical prints--1900-1910."
+        ]
+    }, 
+    {
+        "source_created": "2007-08-28T00:00:00Z", 
+        "index": 16, 
+        "medium": "1 photomechanical print : halftone and stencil.", 
+        "reproduction_number": "LC-DIG-bbc-0641f (digital file from original, front)\nLC-DIG-bbc-0641b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683780/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683780/resource/"
+        }, 
+        "title": "[Arellanes, Boston Red Sox, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0640/0641fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0640/0641f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0640/0641f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-17, no. 29 [P&P]", 
+        "medium_brief": "1 photomechanical print :", 
+        "source_modified": "2007-12-10T00:00:00Z", 
+        "pk": "2007683780", 
+        "created_published_date": "1909.", 
+        "subjects": [
+            "Arellanes, Frank (Team member)", 
+            "Boston Red Sox", 
+            "Boston", 
+            "American  League", 
+            "pitcher", 
+            "Baseball cards--1900-1910.", 
+            "Halftone photomechanical prints--1900-1910."
+        ]
+    }, 
+    {
+        "source_created": "2007-08-28T00:00:00Z", 
+        "index": 17, 
+        "medium": "1 photomechanical print : halftone and stencil.", 
+        "reproduction_number": "LC-DIG-bbc-0642f (digital file from original, front)\nLC-DIG-bbc-0642b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683781/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683781/resource/"
+        }, 
+        "title": "[Cicotte, Boston Red Sox, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0640/0642fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0640/0642f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0640/0642f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-17, no. 30 [P&P]", 
+        "medium_brief": "1 photomechanical print :", 
+        "source_modified": "2007-12-10T00:00:00Z", 
+        "pk": "2007683781", 
+        "created_published_date": "1909.", 
+        "subjects": [
+            "Cicotte, Eddie (Team member)", 
+            "Boston Red Sox", 
+            "Boston", 
+            "American  League", 
+            "pitcher", 
+            "Baseball cards--1900-1910.", 
+            "Halftone photomechanical prints--1900-1910."
+        ]
+    }, 
+    {
+        "source_created": "2007-08-28T00:00:00Z", 
+        "index": 18, 
+        "medium": "1 photomechanical print : halftone and stencil.", 
+        "reproduction_number": "LC-DIG-bbc-0643f (digital file from original, front)\nLC-DIG-bbc-0643b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683782/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683782/resource/"
+        }, 
+        "title": "[Doc Gessler, Boston Red Sox, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0640/0643fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0640/0643f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0640/0643f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-17, no. 31 [P&P]", 
+        "medium_brief": "1 photomechanical print :", 
+        "source_modified": "2007-12-10T00:00:00Z", 
+        "pk": "2007683782", 
+        "created_published_date": "1909.", 
+        "subjects": [
+            "Gessler, Doc (Team member)", 
+            "Boston Red Sox", 
+            "Boston", 
+            "American  League", 
+            "right fielder", 
+            "Baseball cards--1900-1910.", 
+            "Halftone photomechanical prints--1900-1910."
+        ]
+    }, 
+    {
+        "source_created": "2007-08-28T00:00:00Z", 
+        "index": 19, 
+        "medium": "1 photomechanical print : halftone and stencil.", 
+        "reproduction_number": "LC-DIG-bbc-0646f (digital file from original, front)\nLC-DIG-bbc-0646b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683785/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683785/resource/"
+        }, 
+        "title": "[Heinie Wagner, Boston Red Sox, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0640/0646fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0640/0646f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0640/0646f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-17, no. 34 [P&P]", 
+        "medium_brief": "1 photomechanical print :", 
+        "source_modified": "2007-12-10T00:00:00Z", 
+        "pk": "2007683785", 
+        "created_published_date": "1909.", 
+        "subjects": [
+            "Wagner, Heinie (Team member)", 
+            "Boston Red Sox", 
+            "Boston", 
+            "American  League", 
+            "shortstop", 
+            "Baseball cards--1900-1910.", 
+            "Halftone photomechanical prints--1900-1910."
+        ]
+    }, 
+    {
+        "source_created": "2007-08-28T00:00:00Z", 
+        "index": 20, 
+        "medium": "1 photomechanical print : halftone and stencil.", 
+        "reproduction_number": "LC-DIG-bbc-0648f (digital file from original, front)\nLC-DIG-bbc-0648b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683787/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683787/resource/"
+        }, 
+        "title": "[Germany Schaefer, Detroit Tigers, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0640/0648fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0640/0648f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0640/0648f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-17, no. 36 [P&P]", 
+        "medium_brief": "1 photomechanical print :", 
+        "source_modified": "2007-12-10T00:00:00Z", 
+        "pk": "2007683787", 
+        "created_published_date": "1909.", 
+        "subjects": [
+            "Schaefer, Germany (Team member)", 
+            "Detroit Tigers", 
+            "Detroit", 
+            "American  League", 
+            "second baseman", 
+            "Baseball cards--1900-1910.", 
+            "Halftone photomechanical prints--1900-1910."
+        ]
+    }, 
+    {
+        "source_created": "2007-08-28T00:00:00Z", 
+        "index": 21, 
+        "medium": "1 photomechanical print : halftone and stencil.", 
+        "reproduction_number": "LC-DIG-bbc-0651f (digital file from original, front)\nLC-DIG-bbc-0651b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683790/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683790/resource/"
+        }, 
+        "title": "[Charlie Hemphill, New York Highlanders, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0650/0651fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0650/0651f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0650/0651f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-17, no. 39 [P&P]", 
+        "medium_brief": "1 photomechanical print :", 
+        "source_modified": "2007-12-10T00:00:00Z", 
+        "pk": "2007683790", 
+        "created_published_date": "1909.", 
+        "subjects": [
+            "Hemphill, Charlie (Team member)", 
+            "New York Highlanders", 
+            "New York", 
+            "American  League", 
+            "center fielder", 
+            "Baseball cards--1900-1910.", 
+            "Halftone photomechanical prints--1900-1910."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-04T00:00:00Z", 
+        "index": 22, 
+        "medium": "1 photomechanical print : halftone and stencil.", 
+        "reproduction_number": "LC-DIG-bbc-0654f (digital file from original, front)\nLC-DIG-bbc-0654b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683793/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683793/resource/"
+        }, 
+        "title": "[Eddie Plank, Philadelphia Athletics, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0650/0654fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0650/0654f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0650/0654f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-17, no. 42 [P&P]", 
+        "medium_brief": "1 photomechanical print :", 
+        "source_modified": "2007-12-10T00:00:00Z", 
+        "pk": "2007683793", 
+        "created_published_date": "1909.", 
+        "subjects": [
+            "Plank, Eddie (Team member)", 
+            "Philadelphia Athletics", 
+            "Philadelphia", 
+            "American League", 
+            "pitcher", 
+            "Baseball cards--1900-1910.", 
+            "Halftone photomechanical prints--1900-1910."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-04T00:00:00Z", 
+        "index": 23, 
+        "medium": "1 photomechanical print : halftone and stencil.", 
+        "reproduction_number": "LC-DIG-bbc-0656f (digital file from original, front)\nLC-DIG-bbc-0656b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683795/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683795/resource/"
+        }, 
+        "title": "[Roy Hartzell, St. Louis Browns, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0650/0656fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0650/0656f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0650/0656f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-17, no. 44 [P&P]", 
+        "medium_brief": "1 photomechanical print :", 
+        "source_modified": "2007-12-10T00:00:00Z", 
+        "pk": "2007683795", 
+        "created_published_date": "1909.", 
+        "subjects": [
+            "Hartzell, Roy (Team member)", 
+            "St. Louis Browns", 
+            "St. Louis", 
+            "American League", 
+            "center fielder", 
+            "Baseball cards--1900-1910.", 
+            "Halftone photomechanical prints--1900-1910."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-04T00:00:00Z", 
+        "index": 24, 
+        "medium": "1 photomechanical print : halftone and stencil.", 
+        "reproduction_number": "LC-DIG-bbc-0657f (digital file from original, front)\nLC-DIG-bbc-0657b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683796/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683796/resource/"
+        }, 
+        "title": "[Barney Pelty, St. Louis Browns, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0650/0657fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0650/0657f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0650/0657f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-17, no. 45 [P&P]", 
+        "medium_brief": "1 photomechanical print :", 
+        "source_modified": "2007-12-10T00:00:00Z", 
+        "pk": "2007683796", 
+        "created_published_date": "1909.", 
+        "subjects": [
+            "Pelty, Barney (Team member)", 
+            "St. Louis Browns", 
+            "St. Louis", 
+            "American League", 
+            "pitcher", 
+            "Baseball cards--1900-1910.", 
+            "Halftone photomechanical prints--1900-1910."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-04T00:00:00Z", 
+        "index": 25, 
+        "medium": "1 photomechanical print : halftone and stencil.", 
+        "reproduction_number": "LC-DIG-bbc-0658f (digital file from original, front)\nLC-DIG-bbc-0658b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683797/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683797/resource/"
+        }, 
+        "title": "[Jack Powell, St. Louis Browns, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0650/0658fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0650/0658f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0650/0658f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-17, no. 46 [P&P]", 
+        "medium_brief": "1 photomechanical print :", 
+        "source_modified": "2007-12-10T00:00:00Z", 
+        "pk": "2007683797", 
+        "created_published_date": "1909.", 
+        "subjects": [
+            "Powell, Jack (Team member)", 
+            "St. Louis Browns", 
+            "St. Louis", 
+            "American League", 
+            "pitcher", 
+            "Baseball cards--1900-1910.", 
+            "Halftone photomechanical prints--1900-1910."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-04T00:00:00Z", 
+        "index": 26, 
+        "medium": "1 photomechanical print : halftone and stencil.", 
+        "reproduction_number": "LC-DIG-bbc-0660f (digital file from original, front)\nLC-DIG-bbc-0660b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683799/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683799/resource/"
+        }, 
+        "title": "[Wid Conroy, Washington Nationals, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0660/0660fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0660/0660f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0660/0660f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-17, no. 48 [P&P]", 
+        "medium_brief": "1 photomechanical print :", 
+        "source_modified": "2007-12-10T00:00:00Z", 
+        "pk": "2007683799", 
+        "created_published_date": "1909.", 
+        "subjects": [
+            "Conroy, Wid (Team member)", 
+            "Washington Nationals", 
+            "Washington", 
+            "American League", 
+            "third baseman", 
+            "Baseball cards--1900-1910.", 
+            "Halftone photomechanical prints--1900-1910."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-05T00:00:00Z", 
+        "index": 27, 
+        "medium": "1 photomechanical print : halftone and stencil.", 
+        "reproduction_number": "LC-DIG-bbc-0663f (digital file from original, front)\nLC-DIG-bbc-06623 (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683852/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683852/resource/"
+        }, 
+        "title": "[Clyde Milan, Washington Nationals, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0660/0663fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0660/0663f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0660/0663f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-17, no. 51 [P&P]", 
+        "medium_brief": "1 photomechanical print :", 
+        "source_modified": "2007-12-10T00:00:00Z", 
+        "pk": "2007683852", 
+        "created_published_date": "1909.", 
+        "subjects": [
+            "Milan, Clyde (Team member)", 
+            "Washington Nationals", 
+            "Washington", 
+            "American League", 
+            "center fielder", 
+            "Baseball cards--1900-1910.", 
+            "Halftone photomechanical prints--1900-1910."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-11T00:00:00Z", 
+        "index": 28, 
+        "medium": "1 photomechanical print : halftone and stencil.", 
+        "reproduction_number": "LC-DIG-bbc-0666f (digital file from original, front)\nLC-DIG-bbc-0666b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683855/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683855/resource/"
+        }, 
+        "title": "[T. H. Murnane, New England League, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0660/0666fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0660/0666f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0660/0666f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-17, no. 54 [P&P]", 
+        "medium_brief": "1 photomechanical print :", 
+        "source_modified": "2007-12-10T00:00:00Z", 
+        "pk": "2007683855", 
+        "created_published_date": "1909.", 
+        "subjects": [
+            "Murnane, Tim H. (Team member)", 
+            "New England League", 
+            "president", 
+            "Baseball cards--1900-1910.", 
+            "Halftone and stencil photomechanical prints--1900-1910."
+        ]
+    }, 
+    {
+        "source_created": "2007-08-24T00:00:00Z", 
+        "index": 29, 
+        "medium": "1 photomechanical print : halftone and stencil.", 
+        "reproduction_number": "LC-DIG-bbc-0613f (digital file from original, front)\nLC-DIG-bbc-0613b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683724/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683724/resource/"
+        }, 
+        "title": "[Jim Ball, Boston Doves, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0610/0613fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0610/0613f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0610/0613f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-17, no. 1 [P&P]", 
+        "medium_brief": "1 photomechanical print :", 
+        "source_modified": "2007-12-10T00:00:00Z", 
+        "pk": "2007683724", 
+        "created_published_date": "1909.", 
+        "subjects": [
+            "Ball, Jim (Team member)", 
+            "Boston Doves", 
+            "Boston", 
+            "National League", 
+            "catcher", 
+            "Baseball cards--1900-1910.", 
+            "Halftone photomechanical prints--1900-1910."
+        ]
+    }, 
+    {
+        "source_created": "2007-08-24T00:00:00Z", 
+        "index": 30, 
+        "medium": "1 photomechanical print : halftone and stencil.", 
+        "reproduction_number": "LC-DIG-bbc-0618f (digital file from original, front)\nLC-DIG-bbc-0618b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683729/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683729/resource/"
+        }, 
+        "title": "[Vive Lindaman, Boston Doves, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0610/0618fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0610/0618f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0610/0618f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-17, no. 6 [P&P]", 
+        "medium_brief": "1 photomechanical print :", 
+        "source_modified": "2007-12-10T00:00:00Z", 
+        "pk": "2007683729", 
+        "created_published_date": "1909.", 
+        "subjects": [
+            "Lindaman, Vive (Team member)", 
+            "Boston Doves", 
+            "Boston", 
+            "National League", 
+            "pitcher", 
+            "Baseball cards--1900-1910.", 
+            "Halftone photomechanical prints--1900-1910."
+        ]
+    }, 
+    {
+        "source_created": "2007-08-24T00:00:00Z", 
+        "index": 31, 
+        "medium": "1 photomechanical print : halftone and stencil.", 
+        "reproduction_number": "LC-DIG-bbc-0621f (digital file from original, front)\nLC-DIG-bbc-0621b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683732/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683732/resource/"
+        }, 
+        "title": "[John Hummel, Brooklyn Superbas, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0620/0621fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0620/0621f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0620/0621f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-17, no. 9 [P&P]", 
+        "medium_brief": "1 photomechanical print :", 
+        "source_modified": "2007-12-10T00:00:00Z", 
+        "pk": "2007683732", 
+        "created_published_date": "1909.", 
+        "subjects": [
+            "Hummel, John (Team member)", 
+            "Brooklyn Superbas", 
+            "Brooklyn", 
+            "National League", 
+            "shortstop", 
+            "Baseball cards--1900-1910.", 
+            "Halftone photomechanical prints--1900-1910."
+        ]
+    }, 
+    {
+        "source_created": "2007-08-24T00:00:00Z", 
+        "index": 32, 
+        "medium": "1 photomechanical print : halftone and stencil.", 
+        "reproduction_number": "LC-DIG-bbc-0622f (digital file from original, front)\nLC-DIG-bbc-0622b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683733/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683733/resource/"
+        }, 
+        "title": "[Harry Lumley, Brooklyn Superbas, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0620/0622fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0620/0622f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0620/0622f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-17, no. 10 [P&P]", 
+        "medium_brief": "1 photomechanical print :", 
+        "source_modified": "2007-12-10T00:00:00Z", 
+        "pk": "2007683733", 
+        "created_published_date": "1909.", 
+        "subjects": [
+            "Lumley, Harry (Team member)", 
+            "Brooklyn Superbas", 
+            "Brooklyn", 
+            "National League", 
+            "right fielder", 
+            "Baseball cards--1900-1910.", 
+            "Halftone photomechanical prints--1900-1910."
+        ]
+    }, 
+    {
+        "source_created": "2007-08-24T00:00:00Z", 
+        "index": 33, 
+        "medium": "1 photomechanical print : halftone and stencil.", 
+        "reproduction_number": "LC-DIG-bbc-0624f (digital file from original, front)\nLC-DIG-bbc-0624b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683735/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683735/resource/"
+        }, 
+        "title": "[Three Finger Brown, Chicago Cubs, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0620/0624fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0620/0624f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0620/0624f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-17, no. 12 [P&P]", 
+        "medium_brief": "1 photomechanical print :", 
+        "source_modified": "2007-12-10T00:00:00Z", 
+        "pk": "2007683735", 
+        "created_published_date": "1909.", 
+        "subjects": [
+            "Brown, Three Finger (Team member)", 
+            "Chicago Cubs", 
+            "Chicago", 
+            "National League", 
+            "pitcher", 
+            "Baseball cards--1900-1910.", 
+            "Halftone photomechanical prints--1900-1910."
+        ]
+    }, 
+    {
+        "source_created": "2007-08-24T00:00:00Z", 
+        "index": 34, 
+        "medium": "1 photomechanical print : halftone and stencil.", 
+        "reproduction_number": "LC-DIG-bbc-0626f (digital file from original, front)\nLC-DIG-bbc-0626b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683737/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683737/resource/"
+        }, 
+        "title": "[Sheckard, Chicago Cubs, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0620/0626fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0620/0626f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0620/0626f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-17, no. 14 [P&P]", 
+        "medium_brief": "1 photomechanical print :", 
+        "source_modified": "2007-12-10T00:00:00Z", 
+        "pk": "2007683737", 
+        "created_published_date": "1909.", 
+        "subjects": [
+            "Sheckard, Jimmy (Team member)", 
+            "Chicago Cubs", 
+            "Chicago", 
+            "National League", 
+            "left fielder", 
+            "Baseball cards--1900-1910.", 
+            "Halftone photomechanical prints--1900-1910."
+        ]
+    }, 
+    {
+        "source_created": "2007-08-24T00:00:00Z", 
+        "index": 35, 
+        "medium": "1 photomechanical print : halftone and stencil.", 
+        "reproduction_number": "LC-DIG-bbc-0629f (digital file from original, front)\nLC-DIG-bbc-0629b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683740/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683740/resource/"
+        }, 
+        "title": "[Bob Ewing, Cincinnati Reds, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0620/0629fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0620/0629f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0620/0629f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-17, no. 17 [P&P]", 
+        "medium_brief": "1 photomechanical print :", 
+        "source_modified": "2007-12-10T00:00:00Z", 
+        "pk": "2007683740", 
+        "created_published_date": "1909.", 
+        "subjects": [
+            "Ewing, Bob (Team member)", 
+            "Cincinnati Reds", 
+            "Cincinnati", 
+            "National League", 
+            "pitcher", 
+            "Baseball cards--1900-1910.", 
+            "Halftone photomechanical prints--1900-1910."
+        ]
+    }, 
+    {
+        "source_created": "2007-08-24T00:00:00Z", 
+        "index": 36, 
+        "medium": "1 photomechanical print : halftone and stencil.", 
+        "reproduction_number": "LC-DIG-bbc-0630f (digital file from original, front)\nLC-DIG-bbc-0630b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683741/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683741/resource/"
+        }, 
+        "title": "[Art Fromme, Cincinnati Reds, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0630/0630fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0630/0630f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0630/0630f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-17, no. 18 [P&P]", 
+        "medium_brief": "1 photomechanical print :", 
+        "source_modified": "2007-12-10T00:00:00Z", 
+        "pk": "2007683741", 
+        "created_published_date": "1909.", 
+        "subjects": [
+            "Fromme, Art (Team member)", 
+            "Cincinnati Reds", 
+            "Cincinnati", 
+            "National League", 
+            "pitcher", 
+            "Baseball cards--1900-1910.", 
+            "Halftone photomechanical prints--1900-1910."
+        ]
+    }, 
+    {
+        "source_created": "2007-08-24T00:00:00Z", 
+        "index": 37, 
+        "medium": "1 photomechanical print : halftone and stencil.", 
+        "reproduction_number": "LC-DIG-bbc-0632f (digital file from original, front)\nLC-DIG-bbc-0632b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683743/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683743/resource/"
+        }, 
+        "title": "[Miller Huggins, Cincinnati Reds, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0630/0632fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0630/0632f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0630/0632f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-17, no. 20 [P&P]", 
+        "medium_brief": "1 photomechanical print :", 
+        "source_modified": "2007-12-10T00:00:00Z", 
+        "pk": "2007683743", 
+        "created_published_date": "1909.", 
+        "subjects": [
+            "Huggins, Miller (Team member)", 
+            "Cincinnati Reds", 
+            "Cincinnati", 
+            "National League", 
+            "second baseman", 
+            "Baseball cards--1900-1910.", 
+            "Halftone photomechanical prints--1900-1910."
+        ]
+    }, 
+    {
+        "source_created": "2007-08-24T00:00:00Z", 
+        "index": 38, 
+        "medium": "1 photomechanical print : halftone and stencil.", 
+        "reproduction_number": "LC-DIG-bbc-0637f (digital file from original, front)\nLC-DIG-bbc-0637b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683748/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683748/resource/"
+        }, 
+        "title": "[Fred Beebe, St. Louis Cardinals, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0630/0637fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0630/0637f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0630/0637f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-17, no. 25 [P&P]", 
+        "medium_brief": "1 photomechanical print :", 
+        "source_modified": "2007-12-10T00:00:00Z", 
+        "pk": "2007683748", 
+        "created_published_date": "1909.", 
+        "subjects": [
+            "Beebe, Fred (Team member)", 
+            "St. Louis Cardinals", 
+            "St. Louis", 
+            "National League", 
+            "pitcher", 
+            "Baseball cards--1900-1910.", 
+            "Halftone photomechanical prints--1900-1910."
+        ]
+    }, 
+    {
+        "source_created": "2007-08-27T00:00:00Z", 
+        "index": 39, 
+        "medium": "1 photomechanical print : halftone and stencil.", 
+        "reproduction_number": "LC-DIG-bbc-0639f (digital file from original, front)\nLC-DIG-bbc-0639b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683778/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683778/resource/"
+        }, 
+        "title": "[Konetchey, St. Louis Cardinals, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0630/0639fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0630/0639f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0630/0639f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-17, no. 27 [P&P]", 
+        "medium_brief": "1 photomechanical print :", 
+        "source_modified": "2007-12-10T00:00:00Z", 
+        "pk": "2007683778", 
+        "created_published_date": "1909.", 
+        "subjects": [
+            "Konetchey, Ed (Team member)", 
+            "St. Louis Cardinals", 
+            "St. Louis", 
+            "National League", 
+            "first baseman", 
+            "Baseball cards--1900-1910.", 
+            "Halftone photomechanical prints--1900-1910."
+        ]
+    }, 
+    {
+        "source_created": "2007-08-28T00:00:00Z", 
+        "index": 40, 
+        "medium": "1 photomechanical print : halftone and stencil.", 
+        "reproduction_number": "LC-DIG-bbc-0644f (digital file from original, front)\nLC-DIG-bbc-0644b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683783/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683783/resource/"
+        }, 
+        "title": "[Harry Lord, Boston Red Sox, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0640/0644fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0640/0644f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0640/0644f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-17, no. 32 [P&P]", 
+        "medium_brief": "1 photomechanical print :", 
+        "source_modified": "2007-12-10T00:00:00Z", 
+        "pk": "2007683783", 
+        "created_published_date": "1909.", 
+        "subjects": [
+            "Lord, Harry (Team member)", 
+            "Boston Red Sox", 
+            "Boston", 
+            "American  League", 
+            "third baseman", 
+            "Baseball cards--1900-1910.", 
+            "Halftone photomechanical prints--1900-1910."
+        ]
+    }, 
+    {
+        "source_created": "2007-08-28T00:00:00Z", 
+        "index": 41, 
+        "medium": "1 photomechanical print : halftone and stencil.", 
+        "reproduction_number": "LC-DIG-bbc-0645f (digital file from original, front)\nLC-DIG-bbc-0645b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683784/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683784/resource/"
+        }, 
+        "title": "[Tubby Spencer, Boston Red Sox, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0640/0645fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0640/0645f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0640/0645f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-17, no. 33 [P&P]", 
+        "medium_brief": "1 photomechanical print :", 
+        "source_modified": "2007-12-10T00:00:00Z", 
+        "pk": "2007683784", 
+        "created_published_date": "1909.", 
+        "subjects": [
+            "Spencer, Tubby (Team member)", 
+            "Boston Red Sox", 
+            "Boston", 
+            "American  League", 
+            "catcher", 
+            "Baseball cards--1900-1910.", 
+            "Halftone photomechanical prints--1900-1910."
+        ]
+    }, 
+    {
+        "source_created": "2007-08-28T00:00:00Z", 
+        "index": 42, 
+        "medium": "1 photomechanical print : halftone and stencil.", 
+        "reproduction_number": "LC-DIG-bbc-0647f (digital file from original, front)\nLC-DIG-bbc-0647b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683786/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683786/resource/"
+        }, 
+        "title": "[John Anderson, Chicago White Sox, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0640/0647fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0640/0647f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0640/0647f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-17, no. 35 [P&P]", 
+        "medium_brief": "1 photomechanical print :", 
+        "source_modified": "2007-12-10T00:00:00Z", 
+        "pk": "2007683786", 
+        "created_published_date": "1909.", 
+        "subjects": [
+            "Anderson, John (Team member)", 
+            "Chicago White Sox", 
+            "Chicago", 
+            "American  League", 
+            "outfielder", 
+            "Baseball cards--1900-1910.", 
+            "Halftone photomechanical prints--1900-1910."
+        ]
+    }, 
+    {
+        "source_created": "2007-08-28T00:00:00Z", 
+        "index": 43, 
+        "medium": "1 photomechanical print : halftone and stencil.", 
+        "reproduction_number": "LC-DIG-bbc-0649f (digital file from original, front)\nLC-DIG-bbc-0649b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683788/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683788/resource/"
+        }, 
+        "title": "[Walter Blair, New York Highlanders, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0640/0649fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0640/0649f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0640/0649f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-17, no. 37 [P&P]", 
+        "medium_brief": "1 photomechanical print :", 
+        "source_modified": "2007-12-10T00:00:00Z", 
+        "pk": "2007683788", 
+        "created_published_date": "1909.", 
+        "subjects": [
+            "Blair, Walter (Team member)", 
+            "New York Highlanders", 
+            "New York", 
+            "American  League", 
+            "catcher", 
+            "Baseball cards--1900-1910.", 
+            "Halftone photomechanical prints--1900-1910."
+        ]
+    }, 
+    {
+        "source_created": "2007-08-28T00:00:00Z", 
+        "index": 44, 
+        "medium": "1 photomechanical print : halftone and stencil.", 
+        "reproduction_number": "LC-DIG-bbc-0650f (digital file from original, front)\nLC-DIG-bbc-0650b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683789/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683789/resource/"
+        }, 
+        "title": "[Kid Elberfeld, New York Highlanders, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0650/0650fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0650/0650f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0650/0650f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-17, no. 38 [P&P]", 
+        "medium_brief": "1 photomechanical print :", 
+        "source_modified": "2007-12-10T00:00:00Z", 
+        "pk": "2007683789", 
+        "created_published_date": "1909.", 
+        "subjects": [
+            "Elberfeld, Kid (Team member)", 
+            "New York Highlanders", 
+            "New York", 
+            "American  League", 
+            "third baseman", 
+            "Baseball cards--1900-1910.", 
+            "Halftone photomechanical prints--1900-1910."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-04T00:00:00Z", 
+        "index": 45, 
+        "medium": "1 photomechanical print : halftone and stencil.", 
+        "reproduction_number": "LC-DIG-bbc-0652f (digital file from original, front)\nLC-DIG-bbc-0652b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683791/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683791/resource/"
+        }, 
+        "title": "[John Knight, New York Highlanders, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0650/0652fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0650/0652f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0650/0652f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-17, no. 40 [P&P]", 
+        "medium_brief": "1 photomechanical print :", 
+        "source_modified": "2007-12-10T00:00:00Z", 
+        "pk": "2007683791", 
+        "created_published_date": "1909.", 
+        "subjects": [
+            "Knight, John (Team member)", 
+            "New York Highlanders", 
+            "New York", 
+            "American  League", 
+            "shortstop", 
+            "Baseball cards--1900-1910.", 
+            "Halftone photomechanical prints--1900-1910."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-04T00:00:00Z", 
+        "index": 46, 
+        "medium": "1 photomechanical print : halftone and stencil.", 
+        "reproduction_number": "LC-DIG-bbc-0653f (digital file from original, front)\nLC-DIG-bbc-0653b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683792/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683792/resource/"
+        }, 
+        "title": "[Harry Davis, Philadelphia Athletics, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0650/0653fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0650/0653f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0650/0653f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-17, no. 41 [P&P]", 
+        "medium_brief": "1 photomechanical print :", 
+        "source_modified": "2007-12-10T00:00:00Z", 
+        "pk": "2007683792", 
+        "created_published_date": "1909.", 
+        "subjects": [
+            "Davis, Harry (Team member)", 
+            "Philadelphia Athletics", 
+            "Philadelphia", 
+            "American  League", 
+            "first baseman", 
+            "Baseball cards--1900-1910.", 
+            "Halftone photomechanical prints--1900-1910."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-04T00:00:00Z", 
+        "index": 47, 
+        "medium": "1 photomechanical print : halftone and stencil.", 
+        "reproduction_number": "LC-DIG-bbc-0655f (digital file from original, front)\nLC-DIG-bbc-0655b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683794/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683794/resource/"
+        }, 
+        "title": "[Lou Criger, St. Louis Browns, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0650/0655fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0650/0655f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0650/0655f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-17, no. 43 [P&P]", 
+        "medium_brief": "1 photomechanical print :", 
+        "source_modified": "2007-12-10T00:00:00Z", 
+        "pk": "2007683794", 
+        "created_published_date": "1909.", 
+        "subjects": [
+            "Criger, Lou (Team member)", 
+            "St. Louis Browns", 
+            "St. Louis", 
+            "American League", 
+            "catcher", 
+            "Baseball cards--1900-1910.", 
+            "Halftone photomechanical prints--1900-1910."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-04T00:00:00Z", 
+        "index": 48, 
+        "medium": "1 photomechanical print : halftone and stencil.", 
+        "reproduction_number": "LC-DIG-bbc-0659f (digital file from original, front)\nLC-DIG-bbc-0659b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683798/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683798/resource/"
+        }, 
+        "title": "[Cliff Blankenship, Washington Nationals, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0650/0659fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0650/0659f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0650/0659f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-17, no. 47 [P&P]", 
+        "medium_brief": "1 photomechanical print :", 
+        "source_modified": "2007-12-10T00:00:00Z", 
+        "pk": "2007683798", 
+        "created_published_date": "1909.", 
+        "subjects": [
+            "Blankenship, Cliff (Team member)", 
+            "Washington Nationals", 
+            "Washington", 
+            "American League", 
+            "catcher", 
+            "Baseball cards--1900-1910.", 
+            "Halftone photomechanical prints--1900-1910."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-05T00:00:00Z", 
+        "index": 49, 
+        "medium": "1 photomechanical print : halftone and stencil.", 
+        "reproduction_number": "LC-DIG-bbc-0661f (digital file from original, front)\nLC-DIG-bbc-0661b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683850/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683850/resource/"
+        }, 
+        "title": "[Bob Ganley, Washington Nationals, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0660/0661fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0660/0661f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0660/0661f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-17, no. 49 [P&P]", 
+        "medium_brief": "1 photomechanical print :", 
+        "source_modified": "2007-12-10T00:00:00Z", 
+        "pk": "2007683850", 
+        "created_published_date": "1909.", 
+        "subjects": [
+            "Ganley, Bob (Team member)", 
+            "Washington Nationals", 
+            "Washington", 
+            "American League", 
+            "left fielder", 
+            "Baseball cards--1900-1910.", 
+            "Halftone photomechanical prints--1900-1910."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-05T00:00:00Z", 
+        "index": 50, 
+        "medium": "1 photomechanical print : halftone and stencil.", 
+        "reproduction_number": "LC-DIG-bbc-0662f (digital file from original, front)\nLC-DIG-bbc-0662b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683851/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683851/resource/"
+        }, 
+        "title": "[Mike Kahoe, Washington Nationals, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0660/0662fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0660/0662f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0660/0662f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-17, no. 50 [P&P]", 
+        "medium_brief": "1 photomechanical print :", 
+        "source_modified": "2007-12-10T00:00:00Z", 
+        "pk": "2007683851", 
+        "created_published_date": "1909.", 
+        "subjects": [
+            "Kahoe, Mike (Team member)", 
+            "Washington Nationals", 
+            "Washington", 
+            "American League", 
+            "catcher", 
+            "Baseball cards--1900-1910.", 
+            "Halftone photomechanical prints--1900-1910."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-05T00:00:00Z", 
+        "index": 51, 
+        "medium": "1 photomechanical print : halftone and stencil.", 
+        "reproduction_number": "LC-DIG-bbc-0664f (digital file from original, front)\nLC-DIG-bbc-0664b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683853/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683853/resource/"
+        }, 
+        "title": "[Charlie Smith, Washington Nationals, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0660/0664fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0660/0664f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0660/0664f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-17, no. 52 [P&P]", 
+        "medium_brief": "1 photomechanical print :", 
+        "source_modified": "2007-12-10T00:00:00Z", 
+        "pk": "2007683853", 
+        "created_published_date": "1909.", 
+        "subjects": [
+            "Smith, Charlie (Team member)", 
+            "Washington Nationals", 
+            "Washington", 
+            "American League", 
+            "pitcher", 
+            "Baseball cards--1900-1910.", 
+            "Halftone photomechanical prints--1900-1910."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-05T00:00:00Z", 
+        "index": 52, 
+        "medium": "1 photomechanical print : halftone and stencil.", 
+        "reproduction_number": "LC-DIG-bbc-0665f (digital file from original, front)\nLC-DIG-bbc-0665b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683854/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683854/resource/"
+        }, 
+        "title": "[Unglaub, Washington Nationals, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0660/0665fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0660/0665f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0660/0665f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-17, no. 53 [P&P]", 
+        "medium_brief": "1 photomechanical print :", 
+        "source_modified": "2007-12-10T00:00:00Z", 
+        "pk": "2007683854", 
+        "created_published_date": "1909.", 
+        "subjects": [
+            "Unglaub, Bob (Team member)", 
+            "Washington Nationals", 
+            "Washington", 
+            "American League", 
+            "first baseman", 
+            "Baseball cards--1900-1910.", 
+            "Halftone photomechanical prints--1900-1910."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-11T00:00:00Z", 
+        "index": 53, 
+        "medium": "1 photomechanical print : halftone and stencil.", 
+        "reproduction_number": "LC-DIG-bbc-0667f (digital file from original, front)\nLC-DIG-bbc-0667b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683856/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683856/resource/"
+        }, 
+        "title": "[Jesse C. Burkett, Worcester Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0660/0667fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0660/0667f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0660/0667f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-17, no. 55 [P&P]", 
+        "medium_brief": "1 photomechanical print :", 
+        "source_modified": "2007-12-10T00:00:00Z", 
+        "pk": "2007683856", 
+        "created_published_date": "1909.", 
+        "subjects": [
+            "Burkett, Jesse C. (Team member)", 
+            "Worcester", 
+            "Minor League", 
+            "manager", 
+            "Baseball cards--1900-1910.", 
+            "Halftone photomechanical prints--1900-1910."
+        ]
+    }, 
+    {
+        "source_created": "2007-08-24T00:00:00Z", 
+        "index": 54, 
+        "medium": "1 photomechanical print : halftone and stencil.", 
+        "reproduction_number": "LC-DIG-bbc-0614f (digital file from original, front)\nLC-DIG-bbc-0614b (digital file from original, back)\nLC-USZ62-132892 (b&w film copy neg., front)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683725/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683725/resource/"
+        }, 
+        "title": "[Frank Bowerman, Boston Doves, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0610/0614fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0610/0614f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0610/0614f_150px.jpg"
+        }, 
+        "created": "2025-09-29T17:39:52Z", 
+        "modified": "2025-09-29T17:39:56Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-17, no. 2 [P&P]", 
+        "medium_brief": "1 photomechanical print :", 
+        "source_modified": "2025-09-16T20:15:23Z", 
+        "pk": "2007683725", 
+        "created_published_date": "1909.", 
+        "subjects": [
+            "Bowerman, Frank (Team member)", 
+            "Boston Doves", 
+            "Boston", 
+            "National League", 
+            "manager", 
+            "catcher", 
+            "Baseball cards--1900-1910.", 
+            "Halftone photomechanical prints--1900-1910."
+        ]
+    }, 
+    {
+        "source_created": "2007-08-24T00:00:00Z", 
+        "index": 55, 
+        "medium": "1 photomechanical print : halfton and stencil.", 
+        "reproduction_number": "LC-DIG-bbc-0638f (digital file from original, front)\nLC-DIG-bbc-0638b (digital file from original, back)\nLC-USZC4-6931 (color film copy transparency, front)\nLC-USZC4-6970 (color film copy transparency, back)\nLC-USZ62-123654 (b&w film copy neg., front)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683749/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683749/resource/"
+        }, 
+        "title": "[Roger Bresnahan, St. Louis Cardinals, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0630/0638fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0630/0638f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/0600/0630/0638f_150px.jpg"
+        }, 
+        "created": "2025-09-29T16:24:08Z", 
+        "modified": "2025-09-29T16:24:15Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-17, no. 26 [P&P]", 
+        "medium_brief": "1 photomechanical print :", 
+        "source_modified": "2025-09-18T20:43:10Z", 
+        "pk": "2007683749", 
+        "created_published_date": "1909.", 
+        "subjects": [
+            "Bresnahan, Roger (Team member)", 
+            "St. Louis Cardinals", 
+            "St. Louis", 
+            "National League", 
+            "catcher", 
+            "Baseball cards--1900-1910.", 
+            "Halftone photomechanical prints--1900-1910."
+        ]
+    }
+]}

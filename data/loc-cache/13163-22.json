@@ -1,0 +1,797 @@
+{"search":{
+    "field": "number", 
+    "hits": 18, 
+    "sort_order": null, 
+    "do_facets": true, 
+    "focus_item": null, 
+    "query": "\"13163-22\"", 
+    "type": "search", 
+    "sort_by": null
+},
+"focus":null,
+"views":{
+    "current": "grid", 
+    "grid": "https://www.loc.gov/pictures/search/?q=%2213163-22%22&fi=number&c=600&co=bbc&st=grid", 
+    "list": "https://www.loc.gov/pictures/search/?q=%2213163-22%22&fi=number&c=600&co=bbc", 
+    "gallery": "https://www.loc.gov/pictures/search/?q=%2213163-22%22&fi=number&c=600&co=bbc&st=gallery", 
+    "slideshow": "https://www.loc.gov/pictures/search/?q=%2213163-22%22&fi=number&c=600&co=bbc&st=slideshow"
+},
+"facets":[
+    {
+        "type": "displayed", 
+        "filters": [
+            {
+                "count": 18, 
+                "on": "https://www.loc.gov/pictures/search/?c=600&co=bbc&sp=1&st=grid&q=%2213163-22%22&fa=displayed%3Aanywhere&fi=number&fo=json", 
+                "selected": false, 
+                "off": "https://www.loc.gov/pictures/search/?c=600&co=bbc&sp=1&st=grid&q=%2213163-22%22&fi=number&fo=json", 
+                "title": "Larger image available anywhere"
+            }, 
+            {
+                "count": 0, 
+                "on": "https://www.loc.gov/pictures/search/?c=600&co=bbc&sp=1&st=grid&q=%2213163-22%22&fa=displayed%3Alc_only&fi=number&fo=json", 
+                "selected": false, 
+                "off": "https://www.loc.gov/pictures/search/?c=600&co=bbc&sp=1&st=grid&q=%2213163-22%22&fi=number&fo=json", 
+                "title": "Larger image available only at the Library of Congress"
+            }, 
+            {
+                "count": 0, 
+                "on": "https://www.loc.gov/pictures/search/?c=600&co=bbc&sp=1&st=grid&q=%2213163-22%22&fa=displayed%3Anot_digitized&fi=number&fo=json", 
+                "selected": false, 
+                "off": "https://www.loc.gov/pictures/search/?c=600&co=bbc&sp=1&st=grid&q=%2213163-22%22&fi=number&fo=json", 
+                "title": "Not Digitized"
+            }
+        ], 
+        "title": "displayed"
+    }
+],
+"links":{
+    "json": "https://www.loc.gov/pictures/search/?co=bbc&st=grid&fi=number&q=%2213163-22%22&c=600&fo=json", 
+    "html": "https://www.loc.gov/pictures/search/?co=bbc&st=grid&fi=number&q=%2213163-22%22&c=600", 
+    "rss": "https://www.loc.gov/pictures/search/?co=bbc&fi=number&q=%2213163-22%22&c=600&fo=rss"
+},
+"suggestions":{
+    "possible": []
+},
+"pages":{
+    "current": 1, 
+    "next": null, 
+    "perpage": 600, 
+    "last": null, 
+    "page_list": [
+        {
+            "url": null, 
+            "number": 1
+        }
+    ], 
+    "previous": null, 
+    "total": 1, 
+    "results": "1 - 18", 
+    "first": null
+},
+"collection":{
+    "digitized": "All", 
+    "code": "bbc", 
+    "display_offsite": "Yes", 
+    "thumb_large_item": "", 
+    "title": "Baseball Cards", 
+    "banner_item": "https://www.loc.gov/pictures/item/2007678538/", 
+    "brief": "Baseball cards representing more than one thousand major and minor league ballplayers (primarily major league), from teams in thirteen identified leagues and seventy-five cities in the United States and Canada.", 
+    "banner_title": "John M. Ward, New York Giants, 1887.", 
+    "thumb_item": "cph.3b38367", 
+    "home_link": "https://www.loc.gov/pictures/collection/bbc/", 
+    "from_date": "1887", 
+    "view_all": "https://www.loc.gov/pictures/search?st=grid&co=bbc", 
+    "link": "https://www.loc.gov/pictures/collection/bbc/", 
+    "to_date": "1914", 
+    "extent": "2,100 baseball cards.", 
+    "thumb_featured": "https://www.loc.gov/pictures/static/data/bbc/featured.png", 
+    "rights": "https://www.loc.gov/rr/print/res/620_base.html", 
+    "thumb_large": "https://www.loc.gov/pictures/static/data/bbc/thumb_large.png", 
+    "banner": "https://www.loc.gov/pictures/static/data/bbc/banner.jpg", 
+    "thumb": "https://www.loc.gov/pictures/static/data/bbc/thumb.png"
+},
+"results":[
+    {
+        "source_created": "2007-09-07T00:00:00Z", 
+        "index": 1, 
+        "medium": "1 print : relief with halftone, color", 
+        "reproduction_number": "LC-DIG-bbc-1201f (digital file from original, front)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683813/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683813/resource/"
+        }, 
+        "title": "[Frank Baker, Philadelphia Athletics, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1200/1201fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1200/1201f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1200/1201f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "Nadja Caramel Company", 
+        "call_number": "LOT 13163-22, no. 1 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-09-07T00:00:00Z", 
+        "pk": "2007683813", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Baker, Frank (Team member)", 
+            "Philadelphia Athletics", 
+            "Philadelphia", 
+            "American League", 
+            "third baseman", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-07T00:00:00Z", 
+        "index": 2, 
+        "medium": "1 print : relief with halftone, color", 
+        "reproduction_number": "LC-DIG-bbc-1203f (digital file from original, front)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683815/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683815/resource/"
+        }, 
+        "title": "[Chief Bender, Philadelphia Athletics, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1200/1203fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1200/1203f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1200/1203f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "Nadja Caramel Company", 
+        "call_number": "LOT 13163-22, no. 3 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-09-07T00:00:00Z", 
+        "pk": "2007683815", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Bender, Chief (Team member)", 
+            "Philadelphia Athletics", 
+            "Philadelphia", 
+            "American League", 
+            "pitcher", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-07T00:00:00Z", 
+        "index": 3, 
+        "medium": "1 print : relief with halftone, color", 
+        "reproduction_number": "LC-DIG-bbc-1206f (digital file from original, front)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683818/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683818/resource/"
+        }, 
+        "title": "[Jimmy Dygert, Philadelphia Athletics, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1200/1206fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1200/1206f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1200/1206f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "Nadja Caramel Company", 
+        "call_number": "LOT 13163-22, no. 6 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-09-07T00:00:00Z", 
+        "pk": "2007683818", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Dygert, Jimmy (Team member)", 
+            "Philadelphia Athletics", 
+            "Philadelphia", 
+            "American League", 
+            "pitcher", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-07T00:00:00Z", 
+        "index": 4, 
+        "medium": "1 print : relief with halftone, color", 
+        "reproduction_number": "LC-DIG-bbc-1207f (digital file from original, front)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683819/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683819/resource/"
+        }, 
+        "title": "[Topsy Hartsel, Philadelphia Athletics, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1200/1207fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1200/1207f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1200/1207f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "Nadja Caramel Company", 
+        "call_number": "LOT 13163-22, no. 7 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-09-07T00:00:00Z", 
+        "pk": "2007683819", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Hartsel, Topsy (Team member)", 
+            "Philadelphia Athletics", 
+            "Philadelphia", 
+            "American League", 
+            "outfielder", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-07T00:00:00Z", 
+        "index": 5, 
+        "medium": "1 print : relief with halftone, color", 
+        "reproduction_number": "LC-DIG-bbc-1208f (digital file from original, front)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683820/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683820/resource/"
+        }, 
+        "title": "[Harry Krause, Philadelphia Athletics, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1200/1208fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1200/1208f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1200/1208f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "Nadja Caramel Company", 
+        "call_number": "LOT 13163-22, no. 8 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-09-07T00:00:00Z", 
+        "pk": "2007683820", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Krause, Harry (Team member)", 
+            "Philadelphia Athletics", 
+            "Philadelphia", 
+            "American League", 
+            "pitcher", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-07T00:00:00Z", 
+        "index": 6, 
+        "medium": "1 print : relief with halftone, color", 
+        "reproduction_number": "LC-DIG-bbc-1209f (digital file from original, front)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683821/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683821/resource/"
+        }, 
+        "title": "[Jack Lapp, Philadelphia Athletics, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1200/1209fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1200/1209f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1200/1209f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "Nadja Caramel Company", 
+        "call_number": "LOT 13163-22, no. 9 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-09-07T00:00:00Z", 
+        "pk": "2007683821", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Lapp, Jack (Team member)", 
+            "Philadelphia Athletics", 
+            "Philadelphia", 
+            "American League", 
+            "catcher", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-07T00:00:00Z", 
+        "index": 7, 
+        "medium": "1 print : relief with halftone, color", 
+        "reproduction_number": "LC-DIG-bbc-1210f (digital file from original, front)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683822/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683822/resource/"
+        }, 
+        "title": "[Paddy Livingston, Philadelphia Athletics, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1210/1210fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1210/1210f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1210/1210f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "Nadja Caramel Company", 
+        "call_number": "LOT 13163-22, no. 10 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-09-07T00:00:00Z", 
+        "pk": "2007683822", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Livingston, Paddy (Team member)", 
+            "Philadelphia Athletics", 
+            "Philadelphia", 
+            "American League", 
+            "catcher", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-07T00:00:00Z", 
+        "index": 8, 
+        "medium": "1 print : relief with halftone, color", 
+        "reproduction_number": "LC-DIG-bbc-1214f (digital file from original, front)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683826/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683826/resource/"
+        }, 
+        "title": "[Danny Murphy, Philadelphia Athletics, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1210/1214fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1210/1214f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1210/1214f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "Nadja Caramel Company", 
+        "call_number": "LOT 13163-22, no. 14 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-09-07T00:00:00Z", 
+        "pk": "2007683826", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Murphy, Danny (Team member)", 
+            "Philadelphia Athletics", 
+            "Philadelphia", 
+            "American League", 
+            "right fielder", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-07T00:00:00Z", 
+        "index": 9, 
+        "medium": "1 print : relief with halftone, color", 
+        "reproduction_number": "LC-DIG-bbc-1215f (digital file from original, front)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683827/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683827/resource/"
+        }, 
+        "title": "[Rube Oldring, Philadelphia Athletics, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1210/1215fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1210/1215f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1210/1215f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "Nadja Caramel Company", 
+        "call_number": "LOT 13163-22, no. 15 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-09-11T00:00:00Z", 
+        "pk": "2007683827", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Oldring, Rube (Team member)", 
+            "Philadelphia Athletics", 
+            "Philadelphia", 
+            "American League", 
+            "outfielder", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-07T00:00:00Z", 
+        "index": 10, 
+        "medium": "1 print : relief with halftone, color", 
+        "reproduction_number": "LC-DIG-bbc-1217f (digital file from original, front)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683829/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683829/resource/"
+        }, 
+        "title": "[Amos Strunk, Philadelphia Athletics, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1210/1217fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1210/1217f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1210/1217f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "Nadja Caramel Company", 
+        "call_number": "LOT 13163-22, no. 17 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-09-07T00:00:00Z", 
+        "pk": "2007683829", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Strunk, Amos (Team member)", 
+            "Philadelphia Athletics", 
+            "Philadelphia", 
+            "American League", 
+            "outfielder", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-07T00:00:00Z", 
+        "index": 11, 
+        "medium": "1 print : relief with halftone, color", 
+        "reproduction_number": "LC-DIG-bbc-1218f (digital file from original, front)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683830/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683830/resource/"
+        }, 
+        "title": "[Ira Thomas, Philadelphia Athletics, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1210/1218fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1210/1218f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1210/1218f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "Nadja Caramel Company", 
+        "call_number": "LOT 13163-22, no. 18 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-09-07T00:00:00Z", 
+        "pk": "2007683830", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Thomas, Ira (Team member)", 
+            "Philadelphia Athletics", 
+            "Philadelphia", 
+            "American League", 
+            "catcher", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-07T00:00:00Z", 
+        "index": 12, 
+        "medium": "1 print : relief with halftone, color", 
+        "reproduction_number": "LC-DIG-bbc-1202f (digital file from original, front)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683814/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683814/resource/"
+        }, 
+        "title": "[Jack Barry, Philadelphia Athletics, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1200/1202fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1200/1202f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1200/1202f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "Nadja Caramel Company", 
+        "call_number": "LOT 13163-22, no. 2 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-09-07T00:00:00Z", 
+        "pk": "2007683814", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Barry, Jack (Team member)", 
+            "Philadelphia Athletics", 
+            "Philadelphia", 
+            "American League", 
+            "shortstop", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-07T00:00:00Z", 
+        "index": 13, 
+        "medium": "1 print : relief with halftone, color", 
+        "reproduction_number": "LC-DIG-bbc-1205f (digital file from original, front)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683817/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683817/resource/"
+        }, 
+        "title": "[Harry Davis, Philadelphia Athletics, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1200/1205fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1200/1205f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1200/1205f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "Nadja Caramel Company", 
+        "call_number": "LOT 13163-22, no. 5 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-09-07T00:00:00Z", 
+        "pk": "2007683817", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Davis, Harry (Team member)", 
+            "Philadelphia Athletics", 
+            "Philadelphia", 
+            "American League", 
+            "first baseman", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-07T00:00:00Z", 
+        "index": 14, 
+        "medium": "1 print : relief with halftone, color", 
+        "reproduction_number": "LC-DIG-bbc-1211f (digital file from original, front)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683823/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683823/resource/"
+        }, 
+        "title": "[Bris Lord, Philadelphia Athletics, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1210/1211fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1210/1211f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1210/1211f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "Nadja Caramel Company", 
+        "call_number": "LOT 13163-22, no. 11 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-09-07T00:00:00Z", 
+        "pk": "2007683823", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Lord, Bris (Team member)", 
+            "Philadelphia Athletics", 
+            "Philadelphia", 
+            "American League", 
+            "outfielder", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-07T00:00:00Z", 
+        "index": 15, 
+        "medium": "1 print : relief with halftone, color", 
+        "reproduction_number": "LC-DIG-bbc-1213f (digital file from original, front)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683825/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683825/resource/"
+        }, 
+        "title": "[Cy Morgan, Philadelphia Athletics, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1210/1213fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1210/1213f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1210/1213f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "Nadja Caramel Company", 
+        "call_number": "LOT 13163-22, no. 13 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-09-07T00:00:00Z", 
+        "pk": "2007683825", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Morgan, Cy (Team member)", 
+            "Philadelphia Athletics", 
+            "Philadelphia", 
+            "American League", 
+            "pitcher", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-07T00:00:00Z", 
+        "index": 16, 
+        "medium": "1 print : relief with halftone, color", 
+        "reproduction_number": "LC-DIG-bbc-1216f (digital file from original, front)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683828/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683828/resource/"
+        }, 
+        "title": "[Eddie Plank, Philadelphia Athletics, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1210/1216fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1210/1216f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1210/1216f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "Nadja Caramel Company", 
+        "call_number": "LOT 13163-22, no. 16 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-09-07T00:00:00Z", 
+        "pk": "2007683828", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Plank, Eddie (Team member)", 
+            "Philadelphia Athletics", 
+            "Philadelphia", 
+            "American League", 
+            "pitcher", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-07T00:00:00Z", 
+        "index": 17, 
+        "medium": "1 print : relief with halftone, color", 
+        "reproduction_number": "LC-DIG-bbc-1212f (digital file from original, front)\nLC-USZ62-127346 (b&w film copy neg., front)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683824/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683824/resource/"
+        }, 
+        "title": "[Connie Mack, Philadelphia Athletics, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1210/1212fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1210/1212f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1210/1212f_150px.jpg"
+        }, 
+        "created": "2025-09-29T16:21:14Z", 
+        "modified": "2025-09-29T16:21:16Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "Nadja Caramel Company", 
+        "call_number": "LOT 13163-22, no. 12 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2025-09-16T17:15:05Z", 
+        "pk": "2007683824", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Mack, Connie (Team member)", 
+            "Philadelphia Athletics", 
+            "Philadelphia", 
+            "American League", 
+            "manager", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-07T00:00:00Z", 
+        "index": 18, 
+        "medium": "1 print : relief with halftone, color", 
+        "reproduction_number": "LC-DIG-bbc-1204f (digital file from original, front)\nLC-USZC4-6986 (color film copy transparency, front)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683816/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683816/resource/"
+        }, 
+        "title": "[Eddie Collins, Philadelphia Athletics, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1200/1204fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1200/1204f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1200/1204f_150px.jpg"
+        }, 
+        "created": "2026-02-10T05:36:48Z", 
+        "modified": "2026-02-10T05:36:50Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "Nadja Caramel Company", 
+        "call_number": "LOT 13163-22, no. 4 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2026-01-29T16:43:00Z", 
+        "pk": "2007683816", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Collins, Eddie (Team member)", 
+            "Philadelphia Athletics", 
+            "Philadelphia", 
+            "American League", 
+            "second baseman", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }
+]}

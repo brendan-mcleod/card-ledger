@@ -1,0 +1,4400 @@
+{"search":{
+    "field": "number", 
+    "hits": 116, 
+    "sort_order": null, 
+    "do_facets": true, 
+    "focus_item": null, 
+    "query": "\"13163-23\"", 
+    "type": "search", 
+    "sort_by": null
+},
+"focus":null,
+"views":{
+    "current": "grid", 
+    "grid": "https://www.loc.gov/pictures/search/?q=%2213163-23%22&fi=number&c=600&co=bbc&st=grid", 
+    "list": "https://www.loc.gov/pictures/search/?q=%2213163-23%22&fi=number&c=600&co=bbc", 
+    "gallery": "https://www.loc.gov/pictures/search/?q=%2213163-23%22&fi=number&c=600&co=bbc&st=gallery", 
+    "slideshow": "https://www.loc.gov/pictures/search/?q=%2213163-23%22&fi=number&c=600&co=bbc&st=slideshow"
+},
+"facets":[
+    {
+        "type": "displayed", 
+        "filters": [
+            {
+                "count": 116, 
+                "on": "https://www.loc.gov/pictures/search/?c=600&co=bbc&sp=1&st=grid&q=%2213163-23%22&fa=displayed%3Aanywhere&fi=number&fo=json", 
+                "selected": false, 
+                "off": "https://www.loc.gov/pictures/search/?c=600&co=bbc&sp=1&st=grid&q=%2213163-23%22&fi=number&fo=json", 
+                "title": "Larger image available anywhere"
+            }, 
+            {
+                "count": 0, 
+                "on": "https://www.loc.gov/pictures/search/?c=600&co=bbc&sp=1&st=grid&q=%2213163-23%22&fa=displayed%3Alc_only&fi=number&fo=json", 
+                "selected": false, 
+                "off": "https://www.loc.gov/pictures/search/?c=600&co=bbc&sp=1&st=grid&q=%2213163-23%22&fi=number&fo=json", 
+                "title": "Larger image available only at the Library of Congress"
+            }, 
+            {
+                "count": 0, 
+                "on": "https://www.loc.gov/pictures/search/?c=600&co=bbc&sp=1&st=grid&q=%2213163-23%22&fa=displayed%3Anot_digitized&fi=number&fo=json", 
+                "selected": false, 
+                "off": "https://www.loc.gov/pictures/search/?c=600&co=bbc&sp=1&st=grid&q=%2213163-23%22&fi=number&fo=json", 
+                "title": "Not Digitized"
+            }
+        ], 
+        "title": "displayed"
+    }
+],
+"links":{
+    "json": "https://www.loc.gov/pictures/search/?co=bbc&st=grid&fi=number&q=%2213163-23%22&c=600&fo=json", 
+    "html": "https://www.loc.gov/pictures/search/?co=bbc&st=grid&fi=number&q=%2213163-23%22&c=600", 
+    "rss": "https://www.loc.gov/pictures/search/?co=bbc&fi=number&q=%2213163-23%22&c=600&fo=rss"
+},
+"suggestions":{
+    "possible": []
+},
+"pages":{
+    "current": 1, 
+    "next": null, 
+    "perpage": 600, 
+    "last": null, 
+    "page_list": [
+        {
+            "url": null, 
+            "number": 1
+        }
+    ], 
+    "previous": null, 
+    "total": 1, 
+    "results": "1 - 116", 
+    "first": null
+},
+"collection":{
+    "digitized": "All", 
+    "code": "bbc", 
+    "display_offsite": "Yes", 
+    "thumb_large_item": "", 
+    "title": "Baseball Cards", 
+    "banner_item": "https://www.loc.gov/pictures/item/2007678538/", 
+    "brief": "Baseball cards representing more than one thousand major and minor league ballplayers (primarily major league), from teams in thirteen identified leagues and seventy-five cities in the United States and Canada.", 
+    "banner_title": "John M. Ward, New York Giants, 1887.", 
+    "thumb_item": "cph.3b38367", 
+    "home_link": "https://www.loc.gov/pictures/collection/bbc/", 
+    "from_date": "1887", 
+    "view_all": "https://www.loc.gov/pictures/search?st=grid&co=bbc", 
+    "link": "https://www.loc.gov/pictures/collection/bbc/", 
+    "to_date": "1914", 
+    "extent": "2,100 baseball cards.", 
+    "thumb_featured": "https://www.loc.gov/pictures/static/data/bbc/featured.png", 
+    "rights": "https://www.loc.gov/rr/print/res/620_base.html", 
+    "thumb_large": "https://www.loc.gov/pictures/static/data/bbc/thumb_large.png", 
+    "banner": "https://www.loc.gov/pictures/static/data/bbc/banner.jpg", 
+    "thumb": "https://www.loc.gov/pictures/static/data/bbc/thumb.png"
+},
+"results":[
+    {
+        "source_created": "2008-02-29T00:00:00Z", 
+        "index": 1, 
+        "medium": "1 print : relief with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1221f (digital file from original, front)\nLC-DIG-bbc-1221b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2008676951/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2008676951/resource/"
+        }, 
+        "title": "[Dretchko, Seattle Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1220/1221fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1220/1221f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1220/1221f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-23, no. 3 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2008-02-29T00:00:00Z", 
+        "pk": "2008676951", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Dretchko (Team member)", 
+            "Seattle", 
+            "Northwestern League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2008-02-29T00:00:00Z", 
+        "index": 2, 
+        "medium": "1 print : relief with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1222f (digital file from original, front)\nLC-DIG-bbc-1222b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2008676952/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2008676952/resource/"
+        }, 
+        "title": "[Frisk, Seattle Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1220/1222fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1220/1222f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1220/1222f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-23, no. 4 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2008-02-29T00:00:00Z", 
+        "pk": "2008676952", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Frisk (Team member)", 
+            "Seattle", 
+            "Northwestern League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2008-02-29T00:00:00Z", 
+        "index": 3, 
+        "medium": "1 print : relief with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1225f (digital file from original, front)\nLC-DIG-bbc-1225b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2008676955/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2008676955/resource/"
+        }, 
+        "title": "[Pennington, Seattle Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1220/1225fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1220/1225f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1220/1225f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-23, no. 7 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2008-02-29T00:00:00Z", 
+        "pk": "2008676955", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Pennington (Team member)", 
+            "Seattle", 
+            "Northwestern League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2008-02-29T00:00:00Z", 
+        "index": 4, 
+        "medium": "1 print : relief with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1226f (digital file from original, front)\nLC-DIG-bbc-1226b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2008676956/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2008676956/resource/"
+        }, 
+        "title": "[Raymond, Seattle Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1220/1226fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1220/1226f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1220/1226f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-23, no. 8 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2008-02-29T00:00:00Z", 
+        "pk": "2008676956", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Raymond (Team member)", 
+            "Seattle", 
+            "Northwestern League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2008-02-29T00:00:00Z", 
+        "index": 5, 
+        "medium": "1 print : relief with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1228f (digital file from original, front)\nLC-DIG-bbc-1228b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2008676957/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2008676957/resource/"
+        }, 
+        "title": "[Shea, Seattle Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1220/1228fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1220/1228f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1220/1228f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-23, no. 10 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2008-02-29T00:00:00Z", 
+        "pk": "2008676957", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Shea (Team member)", 
+            "Seattle", 
+            "Northwestern League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2008-02-29T00:00:00Z", 
+        "index": 6, 
+        "medium": "1 print : relief with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1229f (digital file from original, front)\nLC-DIG-bbc-1229b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2008676958/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2008676958/resource/"
+        }, 
+        "title": "[Bonner, Spokane Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1220/1229fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1220/1229f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1220/1229f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-23, no. 11 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2008-02-29T00:00:00Z", 
+        "pk": "2008676958", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Bonner (Team member)", 
+            "Spokane", 
+            "Northwestern League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2008-02-29T00:00:00Z", 
+        "index": 7, 
+        "medium": "1 print : relief with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1233f (digital file from original, front)\nLC-DIG-bbc-1233b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2008676962/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2008676962/resource/"
+        }, 
+        "title": "[Hickey, Spokane Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1230/1233fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1230/1233f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1230/1233f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-23, no. 15 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2008-02-29T00:00:00Z", 
+        "pk": "2008676962", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Hickey (Team member)", 
+            "Spokane", 
+            "Northwestern League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2008-02-29T00:00:00Z", 
+        "index": 8, 
+        "medium": "1 print : relief with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1234f (digital file from original, front)\nLC-DIG-bbc-1234b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2008676963/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2008676963/resource/"
+        }, 
+        "title": "[Holm, Spokane Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1230/1234fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1230/1234f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1230/1234f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-23, no. 16 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2008-02-29T00:00:00Z", 
+        "pk": "2008676963", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Holm (Team member)", 
+            "Spokane", 
+            "Northwestern League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2008-02-29T00:00:00Z", 
+        "index": 9, 
+        "medium": "1 print : relief with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1235f (digital file from original, front)\nLC-DIG-bbc-1235b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2008676964/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2008676964/resource/"
+        }, 
+        "title": "[Keener, Spokane Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1230/1235fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1230/1235f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1230/1235f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-23, no. 17 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2008-02-29T00:00:00Z", 
+        "pk": "2008676964", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Keener (Team member)", 
+            "Spokane", 
+            "Northwestern League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2008-02-29T00:00:00Z", 
+        "index": 10, 
+        "medium": "1 print : relief with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1237f (digital file from original, front)\nLC-DIG-bbc-1237b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2008676966/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2008676966/resource/"
+        }, 
+        "title": "[Weed, Spokane Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1230/1237fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1230/1237f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1230/1237f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-23, no. 19 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2008-02-29T00:00:00Z", 
+        "pk": "2008676966", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Weed (Team member)", 
+            "Spokane", 
+            "Northwestern League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2008-02-29T00:00:00Z", 
+        "index": 11, 
+        "medium": "1 print : relief with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1238f (digital file from original, front)\nLC-DIG-bbc-1238b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2008676967/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2008676967/resource/"
+        }, 
+        "title": "[Conrad \"Con\" Starkel, Tacoma Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1230/1238fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1230/1238f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1230/1238f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-23, no. 20 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2015-03-03T00:00:00Z", 
+        "pk": "2008676967", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Starkel (Team member)", 
+            "Tacoma", 
+            "Northwestern League", 
+            "pitcher", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2008-02-29T00:00:00Z", 
+        "index": 12, 
+        "medium": "1 print : relief with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1241f (digital file from original, front)\nLC-DIG-bbc-1241b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2008676970/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2008676970/resource/"
+        }, 
+        "title": "[Coleman, Tacoma Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1240/1241fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1240/1241f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1240/1241f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-23, no. 23 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2008-02-29T00:00:00Z", 
+        "pk": "2008676970", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Coleman (Team member)", 
+            "Tacoma", 
+            "Northwestern League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2008-02-29T00:00:00Z", 
+        "index": 13, 
+        "medium": "1 print : relief with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1242f (digital file from original, front)\nLC-DIG-bbc-1242b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2008676971/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2008676971/resource/"
+        }, 
+        "title": "[Gaddy, Tacoma Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1240/1242fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1240/1242f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1240/1242f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-23, no. 24 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2008-02-29T00:00:00Z", 
+        "pk": "2008676971", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Gaddy (Team member)", 
+            "Tacoma", 
+            "Northwestern League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2008-02-29T00:00:00Z", 
+        "index": 14, 
+        "medium": "1 print : relief with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1243f (digital file from original, front)\nLC-DIG-bbc-1243b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2008676972/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2008676972/resource/"
+        }, 
+        "title": "[Hall, Tacoma Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1240/1243fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1240/1243f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1240/1243f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-23, no. 25 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2008-02-29T00:00:00Z", 
+        "pk": "2008676972", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Hall (Team member)", 
+            "Tacoma", 
+            "Northwestern League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2008-02-29T00:00:00Z", 
+        "index": 15, 
+        "medium": "1 print : relief with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1244f (digital file from original, front)\nLC-DIG-bbc-1244b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2008676973/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2008676973/resource/"
+        }, 
+        "title": "[Hartman, Tacoma Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1240/1244fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1240/1244f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1240/1244f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-23, no. 26 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2008-02-29T00:00:00Z", 
+        "pk": "2008676973", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Hartman (Team member)", 
+            "Tacoma", 
+            "Northwestern League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2008-02-29T00:00:00Z", 
+        "index": 16, 
+        "medium": "1 print : relief with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1245f (digital file from original, front)\nLC-DIG-bbc-1245b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2008676974/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2008676974/resource/"
+        }, 
+        "title": "[Rockenfield, Tacoma Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1240/1245fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1240/1245f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1240/1245f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-23, no. 27 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2008-02-29T00:00:00Z", 
+        "pk": "2008676974", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Rockenfield (Team member)", 
+            "Tacoma", 
+            "Northwestern League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2008-02-29T00:00:00Z", 
+        "index": 17, 
+        "medium": "1 print : relief with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1246f (digital file from original, front)\nLC-DIG-bbc-1246b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2008676975/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2008676975/resource/"
+        }, 
+        "title": "[Breen, Vancouver Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1240/1246fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1240/1246f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1240/1246f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-23, no. 28 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2008-02-29T00:00:00Z", 
+        "pk": "2008676975", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Breen (Team member)", 
+            "Vancouver", 
+            "Northwestern League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2008-02-29T00:00:00Z", 
+        "index": 18, 
+        "medium": "1 print : relief with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1247f (digital file from original, front)\nLC-DIG-bbc-1247b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2008676976/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2008676976/resource/"
+        }, 
+        "title": "[Brinker, Vancouver Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1240/1247fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1240/1247f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1240/1247f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-23, no. 29 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2008-02-29T00:00:00Z", 
+        "pk": "2008676976", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Brinker (Team member)", 
+            "Vancouver", 
+            "Northwestern League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2008-02-29T00:00:00Z", 
+        "index": 19, 
+        "medium": "1 print : relief with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1249f (digital file from original, front)\nLC-DIG-bbc-1249b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2008676978/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2008676978/resource/"
+        }, 
+        "title": "[Chenault, Vancouver Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1240/1249fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1240/1249f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1240/1249f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-23, no. 31 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2008-02-29T00:00:00Z", 
+        "pk": "2008676978", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Chenault (Team member)", 
+            "Vancouver", 
+            "Northwestern League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2008-02-29T00:00:00Z", 
+        "index": 20, 
+        "medium": "1 print : relief with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1250f (digital file from original, front)\nLC-DIG-bbc-1250b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2008676979/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2008676979/resource/"
+        }, 
+        "title": "[James, Vancouver Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1250/1250fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1250/1250f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1250/1250f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-23, no. 32 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2008-02-29T00:00:00Z", 
+        "pk": "2008676979", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "James (Team member)", 
+            "Vancouver", 
+            "Northwestern League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2008-02-29T00:00:00Z", 
+        "index": 21, 
+        "medium": "1 print : relief with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1251f (digital file from original, front)\nLC-DIG-bbc-1251b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2008676980/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2008676980/resource/"
+        }, 
+        "title": "[Jenson, Vancouver Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1250/1251fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1250/1251f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1250/1251f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-23, no. 33 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2008-02-29T00:00:00Z", 
+        "pk": "2008676980", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Jenson (Team member)", 
+            "Vancouver", 
+            "Northwestern League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2008-02-29T00:00:00Z", 
+        "index": 22, 
+        "medium": "1 print : relief with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1254f (digital file from original, front)\nLC-DIG-bbc-1254b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2008676983/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2008676983/resource/"
+        }, 
+        "title": "[Scharnweber, Vancouver Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1250/1254fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1250/1254f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1250/1254f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-23, no. 36 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2008-02-29T00:00:00Z", 
+        "pk": "2008676983", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Scharnweber (Team member)", 
+            "Vancouver", 
+            "Northwestern League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2008-02-29T00:00:00Z", 
+        "index": 23, 
+        "medium": "1 print : relief with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1256f (digital file from original, front)\nLC-DIG-bbc-1256b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2008676985/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2008676985/resource/"
+        }, 
+        "title": "[Swain, Vancouver Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1250/1256fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1250/1256f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1250/1256f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-23, no. 38 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2008-02-29T00:00:00Z", 
+        "pk": "2008676985", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Swain (Team member)", 
+            "Vancouver", 
+            "Northwestern League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2008-03-03T00:00:00Z", 
+        "index": 24, 
+        "medium": "1 print : relief with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1272f (digital file from original, front)\nLC-DIG-bbc-1272b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2008677043/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2008677043/resource/"
+        }, 
+        "title": "[Hogan, Oakland Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1270/1272fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1270/1272f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1270/1272f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-23, no. 54 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2008-03-03T00:00:00Z", 
+        "pk": "2008677043", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Hogan (Team member)", 
+            "Oakland", 
+            "Pacific Coast League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2008-03-03T00:00:00Z", 
+        "index": 25, 
+        "medium": "1 print : relief with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1295f (digital file from original, front)\nLC-DIG-bbc-1295b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2008677317/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2008677317/resource/"
+        }, 
+        "title": "[Boardman, Sacramento Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1290/1295fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1290/1295f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1290/1295f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-23, no. 77 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2008-03-03T00:00:00Z", 
+        "pk": "2008677317", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Boardman (Team member)", 
+            "Sacramento", 
+            "Pacific Coast League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2008-03-03T00:00:00Z", 
+        "index": 26, 
+        "medium": "1 print : relief with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1296f (digital file from original, front)\nLC-DIG-bbc-1296b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2008677318/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2008677318/resource/"
+        }, 
+        "title": "[Briggs, Sacramento Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1290/1296fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1290/1296f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1290/1296f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-23, no. 78 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2008-03-03T00:00:00Z", 
+        "pk": "2008677318", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Briggs (Team member)", 
+            "Sacramento", 
+            "Pacific Coast League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2008-03-03T00:00:00Z", 
+        "index": 27, 
+        "medium": "1 print : relief with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1297f (digital file from original, front)\nLC-DIG-bbc-1297b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2008677319/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2008677319/resource/"
+        }, 
+        "title": "[Brown, Sacramento Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1290/1297fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1290/1297f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1290/1297f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-23, no. 79 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2008-03-03T00:00:00Z", 
+        "pk": "2008677319", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Brown (Team member)", 
+            "Sacramento", 
+            "Pacific Coast League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2008-03-03T00:00:00Z", 
+        "index": 28, 
+        "medium": "1 print : relief with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1298f (digital file from original, front)\nLC-DIG-bbc-1298b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2008677320/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2008677320/resource/"
+        }, 
+        "title": "[Fitzgerald, Sacramento Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1290/1298fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1290/1298f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1290/1298f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-23, no. 80 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2008-03-03T00:00:00Z", 
+        "pk": "2008677320", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Fitzgerald (Team member)", 
+            "Sacramento", 
+            "Pacific Coast League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2008-03-03T00:00:00Z", 
+        "index": 29, 
+        "medium": "1 print : relief with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1299f (digital file from original, front)\nLC-DIG-bbc-1299b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2008677321/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2008677321/resource/"
+        }, 
+        "title": "[Fournier, Sacramento Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1290/1299fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1290/1299f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1290/1299f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-23, no. 81 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2008-03-03T00:00:00Z", 
+        "pk": "2008677321", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Fournier (Team member)", 
+            "Sacramento", 
+            "Pacific Coast League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2008-03-03T00:00:00Z", 
+        "index": 30, 
+        "medium": "1 print : relief with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1300f (digital file from original, front)\nLC-DIG-bbc-1300b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2008677322/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2008677322/resource/"
+        }, 
+        "title": "[Hiester, Sacramento Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1300/1300fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1300/1300f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1300/1300f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-23, no. 82 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2008-03-03T00:00:00Z", 
+        "pk": "2008677322", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Hiester (Team member)", 
+            "Sacramento", 
+            "Pacific Coast League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2008-03-03T00:00:00Z", 
+        "index": 31, 
+        "medium": "1 print : relief with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1302f (digital file from original, front)\nLC-DIG-bbc-1302b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2008677324/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2008677324/resource/"
+        }, 
+        "title": "[Hunt, Sacramento Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1300/1302fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1300/1302f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1300/1302f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-23, no. 84 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2008-03-03T00:00:00Z", 
+        "pk": "2008677324", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Hunt (Team member)", 
+            "Sacramento", 
+            "Pacific Coast League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2008-03-04T00:00:00Z", 
+        "index": 32, 
+        "medium": "1 print : relief with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1306f (digital file from original, front)\nLC-DIG-bbc-1306b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2008677328/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2008677328/resource/"
+        }, 
+        "title": "[Shinn, Sacramento Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1300/1306fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1300/1306f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1300/1306f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-23, no. 88 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2008-03-04T00:00:00Z", 
+        "pk": "2008677328", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Shinn (Team member)", 
+            "Sacramento", 
+            "Pacific Coast League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2008-03-04T00:00:00Z", 
+        "index": 33, 
+        "medium": "1 print : relief with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1307f (digital file from original, front)\nLC-DIG-bbc-1307b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2008677329/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2008677329/resource/"
+        }, 
+        "title": "[Ames, San Francisco Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1300/1307fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1300/1307f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1300/1307f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-23, no. 89 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2008-03-04T00:00:00Z", 
+        "pk": "2008677329", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Ames (Team member)", 
+            "San Francisco", 
+            "Pacific Coast League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2008-03-04T00:00:00Z", 
+        "index": 34, 
+        "medium": "1 print : relief with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1308f (digital file from original, front)\nLC-DIG-bbc-1308b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2008677330/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2008677330/resource/"
+        }, 
+        "title": "[Berry, San Francisco Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1300/1308fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1300/1308f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1300/1308f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-23, no. 90 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2008-03-04T00:00:00Z", 
+        "pk": "2008677330", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Berry (Team member)", 
+            "San Francisco", 
+            "Pacific Coast League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2008-03-04T00:00:00Z", 
+        "index": 35, 
+        "medium": "1 print : relief with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1309f (digital file from original, front)\nLC-DIG-bbc-1309b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2008677331/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2008677331/resource/"
+        }, 
+        "title": "[Bodie, San Francisco Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1300/1309fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1300/1309f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1300/1309f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-23, no. 91 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2008-03-04T00:00:00Z", 
+        "pk": "2008677331", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Bodie (Team member)", 
+            "San Francisco", 
+            "Pacific Coast League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2008-03-04T00:00:00Z", 
+        "index": 36, 
+        "medium": "1 print : relief with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1311f (digital file from original, front)\nLC-DIG-bbc-1311b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2008677333/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2008677333/resource/"
+        }, 
+        "title": "[Byrd, San Francisco Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1310/1311fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1310/1311f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1310/1311f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-23, no. 93 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2008-03-04T00:00:00Z", 
+        "pk": "2008677333", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Byrd (Team member)", 
+            "San Francisco", 
+            "Pacific Coast League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2008-03-04T00:00:00Z", 
+        "index": 37, 
+        "medium": "1 print : relief with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1312f (digital file from original, front)\nLC-DIG-bbc-1312b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2008677334/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2008677334/resource/"
+        }, 
+        "title": "[Eastley, San Francisco Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1310/1312fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1310/1312f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1310/1312f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-23, no. 94 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2008-03-04T00:00:00Z", 
+        "pk": "2008677334", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Eastley (Team member)", 
+            "San Francisco", 
+            "Pacific Coast League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2008-03-04T00:00:00Z", 
+        "index": 38, 
+        "medium": "1 print : relief with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1314f (digital file from original, front)\nLC-DIG-bbc-1314b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2008677336/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2008677336/resource/"
+        }, 
+        "title": "[Lewis, San Francisco Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1310/1314fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1310/1314f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1310/1314f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-23, no. 96 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2008-03-04T00:00:00Z", 
+        "pk": "2008677336", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Lewis (Team member)", 
+            "San Francisco", 
+            "Pacific Coast League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2008-03-04T00:00:00Z", 
+        "index": 39, 
+        "medium": "1 print : relief with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1315f (digital file from original, front)\nLC-DIG-bbc-1315b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2008677337/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2008677337/resource/"
+        }, 
+        "title": "[Melchior, San Francisco Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1310/1315fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1310/1315f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1310/1315f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-23, no. 97 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2008-03-04T00:00:00Z", 
+        "pk": "2008677337", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Melchior (Team member)", 
+            "San Francisco", 
+            "Pacific Coast League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2008-03-04T00:00:00Z", 
+        "index": 40, 
+        "medium": "1 print : relief with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1316f (digital file from original, front)\nLC-DIG-bbc-1316b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2008677338/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2008677338/resource/"
+        }, 
+        "title": "[Miller, San Francisco Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1310/1316fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1310/1316f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1310/1316f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-23, no. 98 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2008-03-04T00:00:00Z", 
+        "pk": "2008677338", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Miller (Team member)", 
+            "San Francisco", 
+            "Pacific Coast League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2008-03-04T00:00:00Z", 
+        "index": 41, 
+        "medium": "1 print : relief with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1317f (digital file from original, front)\nLC-DIG-bbc-1317b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2008677339/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2008677339/resource/"
+        }, 
+        "title": "[Mundorff, San Francisco Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1310/1317fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1310/1317f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1310/1317f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-23, no. 99 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2008-03-04T00:00:00Z", 
+        "pk": "2008677339", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Mundorff (Team member)", 
+            "San Francisco", 
+            "Pacific Coast League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2008-03-04T00:00:00Z", 
+        "index": 42, 
+        "medium": "1 print : relief with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1318f (digital file from original, front)\nLC-DIG-bbc-1318b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2008677340/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2008677340/resource/"
+        }, 
+        "title": "[Stewart, San Francisco Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1310/1318fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1310/1318f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1310/1318f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-23, no. 100 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2008-03-04T00:00:00Z", 
+        "pk": "2008677340", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Stewart (Team member)", 
+            "San Francisco", 
+            "Pacific Coast League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2008-03-04T00:00:00Z", 
+        "index": 43, 
+        "medium": "1 print : relief with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1320f (digital file from original, front)\nLC-DIG-bbc-1320b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2008677342/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2008677342/resource/"
+        }, 
+        "title": "[Vitt, San Francisco Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1320/1320fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1320/1320f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1320/1320f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-23, no. 102 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2008-03-04T00:00:00Z", 
+        "pk": "2008677342", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Vitt (Team member)", 
+            "San Francisco", 
+            "Pacific Coast League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2008-03-04T00:00:00Z", 
+        "index": 44, 
+        "medium": "1 print : relief with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1321f (digital file from original, front)\nLC-DIG-bbc-1321b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2008677343/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2008677343/resource/"
+        }, 
+        "title": "[Williams, San Francisco Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1320/1321fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1320/1321f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1320/1321f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-23, no. 103 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2008-03-04T00:00:00Z", 
+        "pk": "2008677343", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Williams (Team member)", 
+            "San Francisco", 
+            "Pacific Coast League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2008-03-04T00:00:00Z", 
+        "index": 45, 
+        "medium": "1 print : relief with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1322f (digital file from original, front)\nLC-DIG-bbc-1322b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2008677344/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2008677344/resource/"
+        }, 
+        "title": "[Willis, San Francisco Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1320/1322fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1320/1322f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1320/1322f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-23, no. 104 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2008-03-04T00:00:00Z", 
+        "pk": "2008677344", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Willis (Team member)", 
+            "San Francisco", 
+            "Pacific Coast League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2008-03-04T00:00:00Z", 
+        "index": 46, 
+        "medium": "1 print : relief with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1324f (digital file from original, front)\nLC-DIG-bbc-1324b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2008677346/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2008677346/resource/"
+        }, 
+        "title": "[Brashear, Vernon Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1320/1324fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1320/1324f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1320/1324f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-23, no. 106 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2008-03-04T00:00:00Z", 
+        "pk": "2008677346", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Brashear (Team member)", 
+            "Vernon", 
+            "Pacific Coast League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2008-03-04T00:00:00Z", 
+        "index": 47, 
+        "medium": "1 print : relief with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1325f (digital file from original, front)\nLC-DIG-bbc-1325b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2008677347/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2008677347/resource/"
+        }, 
+        "title": "[R. Brashear, Vernon Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1320/1325fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1320/1325f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1320/1325f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-23, no. 107 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2008-03-04T00:00:00Z", 
+        "pk": "2008677347", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Brashear, R. (Team member)", 
+            "Vernon", 
+            "Pacific Coast League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2008-03-04T00:00:00Z", 
+        "index": 48, 
+        "medium": "1 print : relief with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1326f (digital file from original, front)\nLC-DIG-bbc-1326b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2008677348/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2008677348/resource/"
+        }, 
+        "title": "[Coy, Vernon Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1320/1326fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1320/1326f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1320/1326f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-23, no. 108 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2008-03-04T00:00:00Z", 
+        "pk": "2008677348", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Coy (Team member)", 
+            "Vernon", 
+            "Pacific Coast League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2008-03-04T00:00:00Z", 
+        "index": 49, 
+        "medium": "1 print : relief with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1329f (digital file from original, front)\nLC-DIG-bbc-1329b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2008677351/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2008677351/resource/"
+        }, 
+        "title": "[Hitt, Vernon Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1320/1329fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1320/1329f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1320/1329f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-23, no. 111 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2008-03-04T00:00:00Z", 
+        "pk": "2008677351", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Hitt (Team member)", 
+            "Vernon", 
+            "Pacific Coast League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2008-03-04T00:00:00Z", 
+        "index": 50, 
+        "medium": "1 print : relief with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1331f (digital file from original, front)\nLC-DIG-bbc-1331b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2008677353/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2008677353/resource/"
+        }, 
+        "title": "[Martinke, Vernon Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1330/1331fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1330/1331f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1330/1331f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-23, no. 113 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2008-03-04T00:00:00Z", 
+        "pk": "2008677353", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Martinke (Team member)", 
+            "Vernon", 
+            "Pacific Coast League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2008-03-04T00:00:00Z", 
+        "index": 51, 
+        "medium": "1 print : relief with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1332f (digital file from original, front)\nLC-DIG-bbc-1332b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2008677354/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2008677354/resource/"
+        }, 
+        "title": "[Shafer, Vernon Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1330/1332fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1330/1332f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1330/1332f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-23, no. 114 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2008-03-04T00:00:00Z", 
+        "pk": "2008677354", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Shafer (Team member)", 
+            "Vernon", 
+            "Pacific Coast League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2008-03-04T00:00:00Z", 
+        "index": 52, 
+        "medium": "1 print : relief with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1334f (digital file from original, front)\nLC-DIG-bbc-1334b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2008677356/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2008677356/resource/"
+        }, 
+        "title": "[Willett, Vernon Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1330/1334fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1330/1334f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1330/1334f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-23, no. 116 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2008-03-04T00:00:00Z", 
+        "pk": "2008677356", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Willett (Team member)", 
+            "Vernon", 
+            "Pacific Coast League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2008-02-27T00:00:00Z", 
+        "index": 53, 
+        "medium": "1 print : relief with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1219f (digital file from original, front)\nLC-DIG-bbc-1219b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2008676643/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2008676643/resource/"
+        }, 
+        "title": "[Akin, Seattle Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1210/1219fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1210/1219f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1210/1219f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-23, no. 1 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2008-02-27T00:00:00Z", 
+        "pk": "2008676643", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Akin (Team member)", 
+            "Seattle", 
+            "Northwestern League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2008-02-27T00:00:00Z", 
+        "index": 54, 
+        "medium": "1 print : relief with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1227f (digital file from original, front)\nLC-DIG-bbc-1227b (digital file from original, back)\nLC-USZC4-6967 (color film copy transparency, front)\nLC-USZC4-6948 (color film copy transparency, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2008676644/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2008676644/resource/"
+        }, 
+        "title": "[Seaton, Seattle Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1220/1227fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1220/1227f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1220/1227f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-23, no. 9 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2008-02-27T00:00:00Z", 
+        "pk": "2008676644", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Seaton (Team member)", 
+            "Seattle", 
+            "Northwestern League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2008-02-29T00:00:00Z", 
+        "index": 55, 
+        "medium": "1 print : relief with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1220f (digital file from original, front)\nLC-DIG-bbc-1220b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2008676950/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2008676950/resource/"
+        }, 
+        "title": "[Bennett, Seattle Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1220/1220fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1220/1220f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1220/1220f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-23, no. 2 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2008-02-29T00:00:00Z", 
+        "pk": "2008676950", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Bennett (Team member)", 
+            "Seattle", 
+            "Northwestern League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2008-02-29T00:00:00Z", 
+        "index": 56, 
+        "medium": "1 print : relief with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1223f (digital file from original, front)\nLC-DIG-bbc-1223b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2008676953/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2008676953/resource/"
+        }, 
+        "title": "[Hall, Seattle Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1220/1223fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1220/1223f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1220/1223f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-23, no. 5 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2008-02-29T00:00:00Z", 
+        "pk": "2008676953", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Hall (Team member)", 
+            "Seattle", 
+            "Northwestern League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2008-02-29T00:00:00Z", 
+        "index": 57, 
+        "medium": "1 print : relief with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1230f (digital file from original, front)\nLC-DIG-bbc-1230b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2008676959/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2008676959/resource/"
+        }, 
+        "title": "[Brooks, Spokane Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1230/1230fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1230/1230f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1230/1230f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-23, no. 12 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2008-02-29T00:00:00Z", 
+        "pk": "2008676959", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Brooks (Team member)", 
+            "Spokane", 
+            "Northwestern League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2008-02-29T00:00:00Z", 
+        "index": 58, 
+        "medium": "1 print : relief with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1231f (digital file from original, front)\nLC-DIG-bbc-1231b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2008676960/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2008676960/resource/"
+        }, 
+        "title": "[Davis, Spokane Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1230/1231fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1230/1231f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1230/1231f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-23, no. 13 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2008-02-29T00:00:00Z", 
+        "pk": "2008676960", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Davis (Team member)", 
+            "Spokane", 
+            "Northwestern League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2008-02-29T00:00:00Z", 
+        "index": 59, 
+        "medium": "1 print : relief with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1232f (digital file from original, front)\nLC-DIG-bbc-1232b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2008676961/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2008676961/resource/"
+        }, 
+        "title": "[Flood, Spokane Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1230/1232fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1230/1232f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1230/1232f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-23, no. 14 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2008-02-29T00:00:00Z", 
+        "pk": "2008676961", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Flood (Team member)", 
+            "Spokane", 
+            "Northwestern League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2008-02-29T00:00:00Z", 
+        "index": 60, 
+        "medium": "1 print : relief with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1236f (digital file from original, front)\nLC-DIG-bbc-1236b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2008676965/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2008676965/resource/"
+        }, 
+        "title": "[Ostdiek, Spokane Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1230/1236fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1230/1236f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1230/1236f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-23, no. 18 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2008-02-29T00:00:00Z", 
+        "pk": "2008676965", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Ostdiek (Team member)", 
+            "Spokane", 
+            "Northwestern League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2008-02-29T00:00:00Z", 
+        "index": 61, 
+        "medium": "1 print : relief with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1239f (digital file from original, front)\nLC-DIG-bbc-1239b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2008676968/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2008676968/resource/"
+        }, 
+        "title": "[Annis, Tacoma Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1230/1239fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1230/1239f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1230/1239f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-23, no. 21 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2008-02-29T00:00:00Z", 
+        "pk": "2008676968", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Annis (Team member)", 
+            "Tacoma", 
+            "Northwestern League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2008-02-29T00:00:00Z", 
+        "index": 62, 
+        "medium": "1 print : relief with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1240f (digital file from original, front)\nLC-DIG-bbc-1240b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2008676969/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2008676969/resource/"
+        }, 
+        "title": "[Bassey, Tacoma Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1240/1240fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1240/1240f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1240/1240f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-23, no. 22 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2008-02-29T00:00:00Z", 
+        "pk": "2008676969", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Bassey (Team member)", 
+            "Tacoma", 
+            "Northwestern League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2008-02-29T00:00:00Z", 
+        "index": 63, 
+        "medium": "1 print : relief with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1248f (digital file from original, front)\nLC-DIG-bbc-1248b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2008676977/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2008676977/resource/"
+        }, 
+        "title": "[Brown, Vancouver Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1240/1248fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1240/1248f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1240/1248f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-23, no. 30 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2008-02-29T00:00:00Z", 
+        "pk": "2008676977", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Brown (Team member)", 
+            "Vancouver", 
+            "Northwestern League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2008-02-29T00:00:00Z", 
+        "index": 64, 
+        "medium": "1 print : relief with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1252f (digital file from original, front)\nLC-DIG-bbc-1252b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2008676981/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2008676981/resource/"
+        }, 
+        "title": "[Kusel, Vancouver Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1250/1252fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1250/1252f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1250/1252f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-23, no. 34 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2008-02-29T00:00:00Z", 
+        "pk": "2008676981", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Kusel (Team member)", 
+            "Vancouver", 
+            "Northwestern League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2008-02-29T00:00:00Z", 
+        "index": 65, 
+        "medium": "1 print : relief with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1253f (digital file from original, front)\nLC-DIG-bbc-1253b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2008676982/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2008676982/resource/"
+        }, 
+        "title": "[Lewis, Vancouver Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1250/1253fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1250/1253f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1250/1253f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-23, no. 35 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2008-02-29T00:00:00Z", 
+        "pk": "2008676982", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Lewis (Team member)", 
+            "Vancouver", 
+            "Northwestern League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2008-02-29T00:00:00Z", 
+        "index": 66, 
+        "medium": "1 print : relief with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1255f (digital file from original, front)\nLC-DIG-bbc-1255b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2008676984/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2008676984/resource/"
+        }, 
+        "title": "[Sugden, Vancouver Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1250/1255fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1250/1255f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1250/1255f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-23, no. 37 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2008-02-29T00:00:00Z", 
+        "pk": "2008676984", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Sugden (Team member)", 
+            "Vancouver", 
+            "Northwestern League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2008-03-03T00:00:00Z", 
+        "index": 67, 
+        "medium": "1 print : relief with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1276f (digital file from original, front)\nLC-DIG-bbc-1276b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2008677047/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2008677047/resource/"
+        }, 
+        "title": "[Nelson, Oakland Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1270/1276fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1270/1276f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1270/1276f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-23, no. 58 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2008-03-03T00:00:00Z", 
+        "pk": "2008677047", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Nelson (Team member)", 
+            "Oakland", 
+            "Pacific Coast League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2008-03-03T00:00:00Z", 
+        "index": 68, 
+        "medium": "1 print : relief with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1282f (digital file from original, front)\nLC-DIG-bbc-1282b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2008677304/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2008677304/resource/"
+        }, 
+        "title": "[Armbruster, Portland Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1280/1282fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1280/1282f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1280/1282f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-23, no. 64 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2008-03-03T00:00:00Z", 
+        "pk": "2008677304", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Armbruster, Herman (Team member)", 
+            "Portland", 
+            "Pacific Coast League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2008-03-03T00:00:00Z", 
+        "index": 69, 
+        "medium": "1 print : relief with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1301f (digital file from original, front)\nLC-DIG-bbc-1301b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2008677323/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2008677323/resource/"
+        }, 
+        "title": "[Hollis, Sacramento Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1300/1301fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1300/1301f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1300/1301f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-23, no. 83 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2008-03-03T00:00:00Z", 
+        "pk": "2008677323", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Hollis (Team member)", 
+            "Sacramento", 
+            "Pacific Coast League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2008-03-03T00:00:00Z", 
+        "index": 70, 
+        "medium": "1 print : relief with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1303f (digital file from original, front)\nLC-DIG-bbc-1303b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2008677325/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2008677325/resource/"
+        }, 
+        "title": "[Perry, Sacramento Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1300/1303fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1300/1303f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1300/1303f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-23, no. 85 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2008-03-03T00:00:00Z", 
+        "pk": "2008677325", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Perry (Team member)", 
+            "Sacramento", 
+            "Pacific Coast League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2008-03-04T00:00:00Z", 
+        "index": 71, 
+        "medium": "1 print : relief with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1304f (digital file from original, front)\nLC-DIG-bbc-1304b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2008677326/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2008677326/resource/"
+        }, 
+        "title": "[Persons, Sacramento Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1300/1304fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1300/1304f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1300/1304f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-23, no. 86 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2008-03-04T00:00:00Z", 
+        "pk": "2008677326", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Persons (Team member)", 
+            "Sacramento", 
+            "Pacific Coast League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2008-03-04T00:00:00Z", 
+        "index": 72, 
+        "medium": "1 print : relief with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1310f (digital file from original, front)\nLC-DIG-bbc-1310b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2008677332/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2008677332/resource/"
+        }, 
+        "title": "[Browning, San Francisco Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1310/1310fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1310/1310f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1310/1310f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-23, no. 92 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2008-03-04T00:00:00Z", 
+        "pk": "2008677332", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Browning (Team member)", 
+            "San Francisco", 
+            "Pacific Coast League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2008-03-04T00:00:00Z", 
+        "index": 73, 
+        "medium": "1 print : relief with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1313f (digital file from original, front)\nLC-DIG-bbc-1313b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2008677335/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2008677335/resource/"
+        }, 
+        "title": "[Henley, San Francisco Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1310/1313fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1310/1313f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1310/1313f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-23, no. 95 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2008-03-04T00:00:00Z", 
+        "pk": "2008677335", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Henley (Team member)", 
+            "San Francisco", 
+            "Pacific Coast League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2008-03-04T00:00:00Z", 
+        "index": 74, 
+        "medium": "1 print : relief with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1319f (digital file from original, front)\nLC-DIG-bbc-1319b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2008677341/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2008677341/resource/"
+        }, 
+        "title": "[Sutor, San Francisco Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1310/1319fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1310/1319f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1310/1319f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-23, no. 101 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2008-03-04T00:00:00Z", 
+        "pk": "2008677341", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Sutor (Team member)", 
+            "San Francisco", 
+            "Pacific Coast League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2008-03-04T00:00:00Z", 
+        "index": 75, 
+        "medium": "1 print : relief with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1323f (digital file from original, front)\nLC-DIG-bbc-1323b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2008677345/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2008677345/resource/"
+        }, 
+        "title": "[Brackenridge, Vernon Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1320/1323fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1320/1323f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1320/1323f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-23, no. 105 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2008-03-04T00:00:00Z", 
+        "pk": "2008677345", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Brackenridge (Team member)", 
+            "Vernon", 
+            "Pacific Coast League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2008-03-04T00:00:00Z", 
+        "index": 76, 
+        "medium": "1 print : relief with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1327f (digital file from original, front)\nLC-DIG-bbc-1327b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2008677349/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2008677349/resource/"
+        }, 
+        "title": "[Fisher, Vernon Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1320/1327fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1320/1327f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1320/1327f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-23, no. 109 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2008-03-04T00:00:00Z", 
+        "pk": "2008677349", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Fisher (Team member)", 
+            "Vernon", 
+            "Pacific Coast League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2008-03-04T00:00:00Z", 
+        "index": 77, 
+        "medium": "1 print : relief with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1328f (digital file from original, front)\nLC-DIG-bbc-1328b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2008677350/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2008677350/resource/"
+        }, 
+        "title": "[Hensling, Vernon Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1320/1328fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1320/1328f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1320/1328f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-23, no. 110 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2008-03-04T00:00:00Z", 
+        "pk": "2008677350", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Hensling (Team member)", 
+            "Vernon", 
+            "Pacific Coast League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2008-03-04T00:00:00Z", 
+        "index": 78, 
+        "medium": "1 print : relief with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1330f (digital file from original, front)\nLC-DIG-bbc-1330b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2008677352/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2008677352/resource/"
+        }, 
+        "title": "[Lindsay, Vernon Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1330/1330fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1330/1330f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1330/1330f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-23, no. 112 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2008-03-04T00:00:00Z", 
+        "pk": "2008677352", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Lindsay (Team member)", 
+            "Vernon", 
+            "Pacific Coast League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2008-03-04T00:00:00Z", 
+        "index": 79, 
+        "medium": "1 print : relief with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1333f (digital file from original, front)\nLC-DIG-bbc-1333b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2008677355/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2008677355/resource/"
+        }, 
+        "title": "[Stovall, Vernon Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1330/1333fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1330/1333f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1330/1333f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-23, no. 115 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2008-03-04T00:00:00Z", 
+        "pk": "2008677355", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Stovall (Team member)", 
+            "Vernon", 
+            "Pacific Coast League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2008-03-03T00:00:00Z", 
+        "index": 80, 
+        "medium": "1 print : relief with halftone, color ; sheet 6.2 x 3.6 cm.", 
+        "reproduction_number": "LC-DIG-bbc-1271f (digital file from original, front)\nLC-DIG-bbc-1271b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2008677042/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2008677042/resource/"
+        }, 
+        "title": "[Cutshaw, Oakland Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1270/1271fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1270/1271f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1270/1271f_150px.jpg"
+        }, 
+        "created": "2018-10-23T00:00:00Z", 
+        "modified": "2018-10-23T00:00:00Z", 
+        "collection": [
+            "01", 
+            "04", 
+            "2", 
+            "24", 
+            "bbc", 
+            "diof", 
+            "exh", 
+            "l4804", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-23, no. 53 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2018-10-18T00:00:00Z", 
+        "pk": "2008677042", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Cutshaw, George,--1887-1973.", 
+            "Pacific Coast League.", 
+            "Oakland Oaks (Baseball team)--1910.", 
+            "Baseball players--1910.", 
+            "Cutshaw (Team member)", 
+            "Oakland", 
+            "Pacific Coast League", 
+            "Baseball cards--1910.", 
+            "Portrait prints--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2008-02-29T00:00:00Z", 
+        "index": 81, 
+        "medium": "1 print : relief with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1257f (digital file from original, front)\nLC-DIG-bbc-1257b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2008676986/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2008676986/resource/"
+        }, 
+        "title": "[Jimmy Agnew, Los Angeles Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1250/1257fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1250/1257f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1250/1257f_150px.jpg"
+        }, 
+        "created": "2023-12-19T05:53:26Z", 
+        "modified": "2023-12-19T05:53:28Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-23, no. 39 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2023-12-12T14:53:55Z", 
+        "pk": "2008676986", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Agnew, Jimmy (Team member)", 
+            "Los Angeles", 
+            "Pacific Coast League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2008-02-29T00:00:00Z", 
+        "index": 82, 
+        "medium": "1 print : relief with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1258f (digital file from original, front)\nLC-DIG-bbc-1258b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2008676987/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2008676987/resource/"
+        }, 
+        "title": "[Roy Castleton, Los Angeles Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1250/1258fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1250/1258f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1250/1258f_150px.jpg"
+        }, 
+        "created": "2023-12-19T06:17:18Z", 
+        "modified": "2023-12-19T06:17:21Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-23, no. 40 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2023-12-12T14:56:21Z", 
+        "pk": "2008676987", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Castleton, Roy (Team member)", 
+            "Los Angeles", 
+            "Pacific Coast League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2008-03-03T00:00:00Z", 
+        "index": 83, 
+        "medium": "1 print : relief with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1273f (digital file from original, front)\nLC-DIG-bbc-1273b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2008677044/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2008677044/resource/"
+        }, 
+        "title": "[Jack Lively, Oakland Oaks, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1270/1273fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1270/1273f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1270/1273f_150px.jpg"
+        }, 
+        "created": "2024-01-02T17:16:07Z", 
+        "modified": "2024-01-02T17:16:09Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-23, no. 55 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2023-12-28T15:31:15Z", 
+        "pk": "2008677044", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Lively, Jack", 
+            "Oakland", 
+            "Pacific Coast League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2008-03-03T00:00:00Z", 
+        "index": 84, 
+        "medium": "1 print : relief with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1274f (digital file from original, front)\nLC-DIG-bbc-1274b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2008677045/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2008677045/resource/"
+        }, 
+        "title": "[George Manush, Oakland Oaks, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1270/1274fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1270/1274f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1270/1274f_150px.jpg"
+        }, 
+        "created": "2024-01-02T16:15:22Z", 
+        "modified": "2024-01-02T16:15:23Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-23, no. 56 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2023-12-28T15:31:27Z", 
+        "pk": "2008677045", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Manush, George", 
+            "Oakland", 
+            "Pacific Coast League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2008-03-03T00:00:00Z", 
+        "index": 85, 
+        "medium": "1 print : relief with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1275f (digital file from original, front)\nLC-DIG-bbc-1275b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2008677046/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2008677046/resource/"
+        }, 
+        "title": "[Walter Moser, Oakland Oaks, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1270/1275fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1270/1275f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1270/1275f_150px.jpg"
+        }, 
+        "created": "2024-01-02T16:31:09Z", 
+        "modified": "2024-01-02T16:31:11Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-23, no. 57 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2023-12-19T17:13:31Z", 
+        "pk": "2008677046", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Moser (Team member)", 
+            "Oakland", 
+            "Pacific Coast League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2008-03-03T00:00:00Z", 
+        "index": 86, 
+        "medium": "1 print : relief with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1277f (digital file from original, front)\nLC-DIG-bbc-1277b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2008677048/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2008677048/resource/"
+        }, 
+        "title": "[Pinky Swander, Oakland Oaks, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1270/1277fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1270/1277f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1270/1277f_150px.jpg"
+        }, 
+        "created": "2024-01-02T17:34:51Z", 
+        "modified": "2024-01-02T17:34:53Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-23, no. 59 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2023-12-19T17:13:42Z", 
+        "pk": "2008677048", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Swander (Team member)", 
+            "Oakland", 
+            "Pacific Coast League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2008-03-03T00:00:00Z", 
+        "index": 87, 
+        "medium": "1 print : relief with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1278f (digital file from original, front)\nLC-DIG-bbc-1278b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2008677049/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2008677049/resource/"
+        }, 
+        "title": "[Pinch Thomas, Oakland Oaks, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1270/1278fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1270/1278f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1270/1278f_150px.jpg"
+        }, 
+        "created": "2024-01-02T16:31:11Z", 
+        "modified": "2024-01-02T16:31:13Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-23, no. 60 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2023-12-19T17:09:49Z", 
+        "pk": "2008677049", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Thomas (Team member)", 
+            "Oakland", 
+            "Pacific Coast League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2008-03-03T00:00:00Z", 
+        "index": 88, 
+        "medium": "1 print : relief with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1279f (digital file from original, front)\nLC-DIG-bbc-1279b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2008677301/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2008677301/resource/"
+        }, 
+        "title": "[Lefty Tonnesen, Oakland Oaks Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1270/1279fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1270/1279f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1270/1279f_150px.jpg"
+        }, 
+        "created": "2024-01-02T16:18:52Z", 
+        "modified": "2024-01-02T16:18:54Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-23, no. 61 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2023-12-22T13:34:44Z", 
+        "pk": "2008677301", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Tonnesen (Team member)", 
+            "Oakland", 
+            "Pacific Coast League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2008-03-03T00:00:00Z", 
+        "index": 89, 
+        "medium": "1 print : relief with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1280f (digital file from original, front)\nLC-DIG-bbc-1280b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2008677302/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2008677302/resource/"
+        }, 
+        "title": "[Buzzy Wares, Oakland Oaks, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1280/1280fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1280/1280f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1280/1280f_150px.jpg"
+        }, 
+        "created": "2024-01-02T16:40:43Z", 
+        "modified": "2024-01-02T16:40:45Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-23, no. 62 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2023-12-19T17:08:51Z", 
+        "pk": "2008677302", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Wares (Team member)", 
+            "Oakland", 
+            "Pacific Coast League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2008-02-29T00:00:00Z", 
+        "index": 90, 
+        "medium": "1 print : relief with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1224f (digital file from original, front)\nLC-DIG-bbc-1224b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2008676954/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2008676954/resource/"
+        }, 
+        "title": "[Fred \"Lefty\" Miller, Seattle Giants, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1220/1224fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1220/1224f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1220/1224f_150px.jpg"
+        }, 
+        "created": "2024-01-16T06:03:24Z", 
+        "modified": "2024-01-16T06:03:26Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-23, no. 6 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2024-01-12T08:47:14Z", 
+        "pk": "2008676954", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Miller, Fred \"Lefty\" (Team member)", 
+            "Seattle", 
+            "Northwestern League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2008-02-29T00:00:00Z", 
+        "index": 91, 
+        "medium": "1 print : relief with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1264f (digital file from original, front)\nLC-DIG-bbc-1264b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2008676993/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2008676993/resource/"
+        }, 
+        "title": "[Judge Nagle, Los Angeles Angels, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1260/1264fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1260/1264f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1260/1264f_150px.jpg"
+        }, 
+        "created": "2024-01-16T06:03:27Z", 
+        "modified": "2024-01-16T06:03:29Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-23, no. 46 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2024-01-09T12:14:01Z", 
+        "pk": "2008676993", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Nagle, Walter Harold.", 
+            "Pacific Coast League.", 
+            "Los Angeles Angels (Baseball team)", 
+            "Baseball players--California--Los Angeles--1910.", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2008-03-04T00:00:00Z", 
+        "index": 92, 
+        "medium": "1 print : relief with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1305f (digital file from original, front)\nLC-DIG-bbc-1305b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2008677327/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2008677327/resource/"
+        }, 
+        "title": "[Fred Raymer, Sacramento Sacts, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1300/1305fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1300/1305f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1300/1305f_150px.jpg"
+        }, 
+        "created": "2024-01-16T05:55:51Z", 
+        "modified": "2024-01-16T05:55:53Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-23, no. 87 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2024-01-12T08:10:45Z", 
+        "pk": "2008677327", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Raymer, Fred (Team member)", 
+            "Sacramento", 
+            "Pacific Coast League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2008-02-29T00:00:00Z", 
+        "index": 93, 
+        "medium": "1 print : relief with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1259f (digital file from original, front)\nLC-DIG-bbc-1259b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2008676988/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2008676988/resource/"
+        }, 
+        "title": "[Elmer Criger, Los Angeles Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1250/1259fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1250/1259f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1250/1259f_150px.jpg"
+        }, 
+        "created": "2024-01-23T05:34:16Z", 
+        "modified": "2024-01-23T05:34:18Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-23, no. 41 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2024-01-16T11:10:24Z", 
+        "pk": "2008676988", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Criger, Elmer (Team member)", 
+            "Los Angeles", 
+            "Pacific Coast League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2008-02-29T00:00:00Z", 
+        "index": 94, 
+        "medium": "1 print : relief with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1260f (digital file from original, front)\nLC-DIG-bbc-1260b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2008676989/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2008676989/resource/"
+        }, 
+        "title": "[Tom Daley, Los Angeles Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1260/1260fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1260/1260f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1260/1260f_150px.jpg"
+        }, 
+        "created": "2024-01-23T06:19:09Z", 
+        "modified": "2024-01-23T06:19:11Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-23, no. 42 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2024-01-16T11:24:23Z", 
+        "pk": "2008676989", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Daley, Tom (Team member)", 
+            "Los Angeles", 
+            "Pacific Coast League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2008-02-29T00:00:00Z", 
+        "index": 95, 
+        "medium": "1 print : relief with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1261f (digital file from original, front)\nLC-DIG-bbc-1261b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2008676990/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2008676990/resource/"
+        }, 
+        "title": "[Del Delmas, Los Angeles Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1260/1261fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1260/1261f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1260/1261f_150px.jpg"
+        }, 
+        "created": "2024-01-23T06:05:09Z", 
+        "modified": "2024-01-23T06:05:11Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-23, no. 43 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2024-01-16T11:35:35Z", 
+        "pk": "2008676990", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Delmas, Del (Team member)", 
+            "Los Angeles", 
+            "Pacific Coast League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2008-02-29T00:00:00Z", 
+        "index": 96, 
+        "medium": "1 print : relief with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1262f (digital file from original, front)\nLC-DIG-bbc-1262b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2008676991/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2008676991/resource/"
+        }, 
+        "title": "[Ivan Howard, Los Angeles Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1260/1262fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1260/1262f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1260/1262f_150px.jpg"
+        }, 
+        "created": "2024-01-23T07:01:25Z", 
+        "modified": "2024-01-23T07:01:27Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-23, no. 44 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2024-01-16T11:42:56Z", 
+        "pk": "2008676991", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Howard, Ivan (Team member)", 
+            "Los Angeles", 
+            "Pacific Coast League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2008-02-29T00:00:00Z", 
+        "index": 97, 
+        "medium": "1 print : relief with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1263f (digital file from original, front)\nLC-DIG-bbc-1263b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2008676992/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2008676992/resource/"
+        }, 
+        "title": "[Frank Murphy, Los Angeles Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1260/1263fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1260/1263f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1260/1263f_150px.jpg"
+        }, 
+        "created": "2024-01-23T06:11:55Z", 
+        "modified": "2024-01-23T06:11:57Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-23, no. 45 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2024-01-16T11:43:36Z", 
+        "pk": "2008676992", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Murphy, Frank (Team member)", 
+            "Los Angeles", 
+            "Pacific Coast League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2008-02-29T00:00:00Z", 
+        "index": 98, 
+        "medium": "1 print : relief with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1265f (digital file from original, front)\nLC-DIG-bbc-1265b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2008676994/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2008676994/resource/"
+        }, 
+        "title": "[Hugh Smith, Los Angeles Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1260/1265fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1260/1265f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1260/1265f_150px.jpg"
+        }, 
+        "created": "2024-01-23T07:01:23Z", 
+        "modified": "2024-01-23T07:01:25Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-23, no. 47 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2024-01-16T11:54:16Z", 
+        "pk": "2008676994", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Smith, Hugh (Team member)", 
+            "Los Angeles", 
+            "Pacific Coast League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2008-02-29T00:00:00Z", 
+        "index": 99, 
+        "medium": "1 print : relief with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1266f (digital file from original, front)\nLC-DIG-bbc-1266b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2008676995/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2008676995/resource/"
+        }, 
+        "title": "[Jud Smith, Los Angeles Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1260/1266fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1260/1266f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1260/1266f_150px.jpg"
+        }, 
+        "created": "2024-01-23T07:01:27Z", 
+        "modified": "2024-01-23T07:01:29Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-23, no. 48 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2024-01-16T13:07:49Z", 
+        "pk": "2008676995", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Smith, Jud (Team member)", 
+            "Los Angeles", 
+            "Pacific Coast League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2008-02-29T00:00:00Z", 
+        "index": 100, 
+        "medium": "1 print : relief with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1267f (digital file from original, front)\nLC-DIG-bbc-1267b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2008676996/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2008676996/resource/"
+        }, 
+        "title": "[Bill Tozer, Los Angeles Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1260/1267fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1260/1267f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1260/1267f_150px.jpg"
+        }, 
+        "created": "2024-01-23T05:34:20Z", 
+        "modified": "2024-01-23T05:34:22Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-23, no. 49 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2024-01-16T13:08:33Z", 
+        "pk": "2008676996", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Tozer, Bill (Team member)", 
+            "Los Angeles", 
+            "Pacific Coast League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2008-02-29T00:00:00Z", 
+        "index": 101, 
+        "medium": "1 print : relief with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1268f (digital file from original, front)\nLC-DIG-bbc-1268b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2008676997/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2008676997/resource/"
+        }, 
+        "title": "[Ted Waring, Los Angeles Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1260/1268fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1260/1268f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1260/1268f_150px.jpg"
+        }, 
+        "created": "2024-01-23T06:32:39Z", 
+        "modified": "2024-01-23T06:32:41Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-23, no. 50 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2024-01-16T13:16:36Z", 
+        "pk": "2008676997", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Waring, Ted (Team member)", 
+            "Los Angeles", 
+            "Pacific Coast League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2008-02-29T00:00:00Z", 
+        "index": 102, 
+        "medium": "1 print : relief with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1269f (digital file from original, front)\nLC-DIG-bbc-1269b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2008676998/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2008676998/resource/"
+        }, 
+        "title": "[Don Cameron, Oakland Oaks, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1260/1269fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1260/1269f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1260/1269f_150px.jpg"
+        }, 
+        "created": "2024-01-23T07:01:19Z", 
+        "modified": "2024-01-23T07:01:21Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-23, no. 51 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2024-01-16T13:31:01Z", 
+        "pk": "2008676998", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Cameron, Don (Team member)", 
+            "Oakland", 
+            "Pacific Coast League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2008-02-29T00:00:00Z", 
+        "index": 103, 
+        "medium": "1 print : relief with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1270f (digital file from original, front)\nLC-DIG-bbc-1270b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2008676999/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2008676999/resource/"
+        }, 
+        "title": "[Tyler Christian, Oakland Oaks, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1270/1270fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1270/1270f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1270/1270f_150px.jpg"
+        }, 
+        "created": "2024-01-23T06:11:53Z", 
+        "modified": "2024-01-23T06:11:55Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-23, no. 52 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2024-01-16T13:36:23Z", 
+        "pk": "2008676999", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Christian, Tyler (Team member)", 
+            "Oakland", 
+            "Pacific Coast League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2008-03-03T00:00:00Z", 
+        "index": 104, 
+        "medium": "1 print : relief with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1281f (digital file from original, front)\nLC-DIG-bbc-1281b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2008677303/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2008677303/resource/"
+        }, 
+        "title": "[Harry Wolverton, Oakland Oaks, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1280/1281fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1280/1281f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1280/1281f_150px.jpg"
+        }, 
+        "created": "2024-01-23T05:50:20Z", 
+        "modified": "2024-01-23T05:50:22Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-23, no. 63 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2024-01-16T09:02:04Z", 
+        "pk": "2008677303", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Wolverton, Harry (Team member)", 
+            "Oakland", 
+            "Pacific Coast League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2008-03-03T00:00:00Z", 
+        "index": 105, 
+        "medium": "1 print : relief with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1283f (digital file from original, front)\nLC-DIG-bbc-1283b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2008677305/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2008677305/resource/"
+        }, 
+        "title": "[Pearl Casey, Portland Beavers, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1280/1283fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1280/1283f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1280/1283f_150px.jpg"
+        }, 
+        "created": "2024-01-23T05:34:13Z", 
+        "modified": "2024-01-23T05:34:15Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-23, no. 65 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2024-01-16T09:03:09Z", 
+        "pk": "2008677305", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Casey, Pearl (Team member)", 
+            "Portland", 
+            "Pacific Coast League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2008-03-03T00:00:00Z", 
+        "index": 106, 
+        "medium": "1 print : relief with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1284f (digital file from original, front)\nLC-DIG-bbc-1284b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2008677306/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2008677306/resource/"
+        }, 
+        "title": "[Jess Garrett, Portland Beavers, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1280/1284fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1280/1284f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1280/1284f_150px.jpg"
+        }, 
+        "created": "2024-01-23T05:43:06Z", 
+        "modified": "2024-01-23T05:43:08Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-23, no. 66 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2024-01-16T09:04:45Z", 
+        "pk": "2008677306", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Garrett, Jess (Team member)", 
+            "Portland", 
+            "Pacific Coast League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2008-03-03T00:00:00Z", 
+        "index": 107, 
+        "medium": "1 print : relief with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1285f (digital file from original, front)\nLC-DIG-bbc-1285b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2008677307/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2008677307/resource/"
+        }, 
+        "title": "[Vean Gregg, Portland Beavers, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1280/1285fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1280/1285f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1280/1285f_150px.jpg"
+        }, 
+        "created": "2024-01-23T07:01:21Z", 
+        "modified": "2024-01-23T07:01:23Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-23, no. 67 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2024-01-16T10:27:58Z", 
+        "pk": "2008677307", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Gregg, Vean (Team member)", 
+            "Portland", 
+            "Pacific Coast League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2008-03-03T00:00:00Z", 
+        "index": 108, 
+        "medium": "1 print : relief with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1286f (digital file from original, front)\nLC-DIG-bbc-1286b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2008677308/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2008677308/resource/"
+        }, 
+        "title": "[Gus Hetling, Portland Beavers, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1280/1286fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1280/1286f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1280/1286f_150px.jpg"
+        }, 
+        "created": "2024-01-23T07:16:26Z", 
+        "modified": "2024-01-23T07:16:29Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-23, no. 68 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2024-01-16T09:13:59Z", 
+        "pk": "2008677308", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Hetling, Gus (Team member)", 
+            "Portland", 
+            "Pacific Coast League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2008-03-03T00:00:00Z", 
+        "index": 109, 
+        "medium": "1 print : relief with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1287f (digital file from original, front)\nLC-DIG-bbc-1287b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2008677309/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2008677309/resource/"
+        }, 
+        "title": "[Gene Krapp, Portland Beavers, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1280/1287fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1280/1287f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1280/1287f_150px.jpg"
+        }, 
+        "created": "2024-01-23T06:39:56Z", 
+        "modified": "2024-01-23T06:39:58Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-23, no. 69 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2024-01-16T09:16:49Z", 
+        "pk": "2008677309", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Krapp, Gene (Team member)", 
+            "Portland", 
+            "Pacific Coast League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2008-03-03T00:00:00Z", 
+        "index": 110, 
+        "medium": "1 print : relief with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1288f (digital file from original, front)\nLC-DIG-bbc-1288b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2008677310/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2008677310/resource/"
+        }, 
+        "title": "[Judge McCredie, Portland Beavers, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1280/1288fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1280/1288f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1280/1288f_150px.jpg"
+        }, 
+        "created": "2024-01-23T05:34:18Z", 
+        "modified": "2024-01-23T05:34:20Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-23, no. 70 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2024-01-16T09:18:48Z", 
+        "pk": "2008677310", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "McCredie, Judge (Team member)", 
+            "Portland", 
+            "Pacific Coast League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2008-03-03T00:00:00Z", 
+        "index": 111, 
+        "medium": "1 print : relief with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1289f (digital file from original, front)\nLC-DIG-bbc-1289b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2008677311/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2008677311/resource/"
+        }, 
+        "title": "[George Ort, Portland Beavers, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1280/1289fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1280/1289f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1280/1289f_150px.jpg"
+        }, 
+        "created": "2024-01-23T06:39:59Z", 
+        "modified": "2024-01-23T06:40:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-23, no. 71 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2024-01-16T09:21:03Z", 
+        "pk": "2008677311", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Ort, George (Team member)", 
+            "Portland", 
+            "Pacific Coast League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2008-03-03T00:00:00Z", 
+        "index": 112, 
+        "medium": "1 print : relief with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1290f (digital file from original, front)\nLC-DIG-bbc-1290b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2008677312/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2008677312/resource/"
+        }, 
+        "title": "[Bill Rapps, Portland Beavers, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1290/1290fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1290/1290f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1290/1290f_150px.jpg"
+        }, 
+        "created": "2024-01-23T06:40:00Z", 
+        "modified": "2024-01-23T06:40:02Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-23, no. 72 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2024-01-16T09:21:56Z", 
+        "pk": "2008677312", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Rapps, Bill (Team member)", 
+            "Portland", 
+            "Pacific Coast League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2008-03-03T00:00:00Z", 
+        "index": 113, 
+        "medium": "1 print : relief with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1291f (digital file from original, front)\nLC-DIG-bbc-1291b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2008677313/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2008677313/resource/"
+        }, 
+        "title": "[John Ryan, Portland Beavers, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1290/1291fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1290/1291f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1290/1291f_150px.jpg"
+        }, 
+        "created": "2024-01-23T07:43:34Z", 
+        "modified": "2024-01-23T07:43:35Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-23, no. 73 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2024-01-16T09:25:20Z", 
+        "pk": "2008677313", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Ryan, John (Team member)", 
+            "Portland", 
+            "Pacific Coast League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2008-03-03T00:00:00Z", 
+        "index": 114, 
+        "medium": "1 print : relief with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1292f (digital file from original, front)\nLC-DIG-bbc-1292b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2008677314/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2008677314/resource/"
+        }, 
+        "title": "[Tom Seaton, Portland Beavers, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1290/1292fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1290/1292f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1290/1292f_150px.jpg"
+        }, 
+        "created": "2024-01-23T07:56:24Z", 
+        "modified": "2024-01-23T07:56:26Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-23, no. 74 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2024-01-16T09:27:41Z", 
+        "pk": "2008677314", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Seaton, Tom (Team member)", 
+            "Portland", 
+            "Pacific Coast League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2008-03-03T00:00:00Z", 
+        "index": 115, 
+        "medium": "1 print : relief with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1293f (digital file from original, front)\nLC-DIG-bbc-1293b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2008677315/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2008677315/resource/"
+        }, 
+        "title": "[Bill Speas, Portland Beavers, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1290/1293fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1290/1293f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1290/1293f_150px.jpg"
+        }, 
+        "created": "2024-01-23T06:25:54Z", 
+        "modified": "2024-01-23T06:25:57Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-23, no. 75 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2024-01-16T09:38:51Z", 
+        "pk": "2008677315", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Speas, Bill (Team member)", 
+            "Portland", 
+            "Pacific Coast League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2008-03-03T00:00:00Z", 
+        "index": 116, 
+        "medium": "1 print : relief with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-1294f (digital file from original, front)\nLC-DIG-bbc-1294b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2008677316/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2008677316/resource/"
+        }, 
+        "title": "[Bill Steen, Portland Beavers, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1290/1294fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1290/1294f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1200/1290/1294f_150px.jpg"
+        }, 
+        "created": "2024-01-23T07:30:21Z", 
+        "modified": "2024-01-23T07:30:23Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-23, no. 76 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2024-01-16T09:44:10Z", 
+        "pk": "2008677316", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Steen, BIll (Team member)", 
+            "Portland", 
+            "Pacific Coast League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }
+]}

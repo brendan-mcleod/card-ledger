@@ -1,0 +1,32 @@
+<svg width="400" height="560" viewBox="0 0 400 560" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="1949 Bowman placeholder card">
+  <defs>
+    <radialGradient id="g1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(122 92) rotate(61) scale(238 270)">
+      <stop stop-color="#c9835b" stop-opacity="0.46"/>
+      <stop offset="0.46" stop-color="#436157" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#141312" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="g2" x1="58" y1="31" x2="354" y2="547" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ffffff" stop-opacity="0.12"/>
+      <stop offset="0.52" stop-color="#ffffff" stop-opacity="0.025"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.25"/>
+    </linearGradient>
+    <filter id="shadow" x="34" y="74" width="332" height="352" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#000000" flood-opacity="0.34"/>
+    </filter>
+  </defs>
+  <rect width="400" height="560" rx="30" fill="#141312"/>
+  <rect x="1" y="1" width="398" height="558" rx="29" stroke="white" stroke-opacity="0.08"/>
+  <rect width="400" height="560" rx="30" fill="url(#g1)"/>
+  <path d="M54 108C114 72 175 72 236 108C282 135 319 137 355 112" stroke="white" stroke-opacity="0.06" stroke-width="1.5"/>
+  <path d="M44 449C120 409 193 410 264 449C304 471 335 473 362 454" stroke="#c9835b" stroke-opacity="0.17" stroke-width="1.5"/>
+  <g filter="url(#shadow)">
+    <rect x="66" y="108" width="268" height="268" rx="54" fill="#0b0d0f" fill-opacity="0.42"/>
+    <rect x="66.75" y="108.75" width="266.5" height="266.5" rx="53.25" stroke="white" stroke-opacity="0.08" stroke-width="1.5"/>
+    <path d="M200 142L286 192V292L200 342L114 292V192L200 142Z" fill="#c9835b" fill-opacity="0.13" stroke="#c9835b" stroke-opacity="0.34" stroke-width="1.5"/>
+    <circle cx="200" cy="242" r="78" stroke="white" stroke-opacity="0.11" stroke-width="1.5"/>
+    <text x="200" y="258" text-anchor="middle" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="52" font-weight="780" letter-spacing="-2" fill="#f4f0e8">B49</text>
+  </g>
+  <text x="200" y="432" text-anchor="middle" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="20" font-weight="760" fill="#f4f0e8">1949 Bowman</text>
+  <text x="200" y="462" text-anchor="middle" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" font-weight="720" letter-spacing="2.6" fill="#f4f0e8" fill-opacity="0.52">IMAGE PENDING REVIEW</text>
+  <rect width="400" height="560" rx="30" fill="url(#g2)"/>
+</svg>

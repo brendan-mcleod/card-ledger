@@ -1,0 +1,290 @@
+{"search":{
+    "field": "number", 
+    "hits": 5, 
+    "sort_order": null, 
+    "do_facets": true, 
+    "focus_item": null, 
+    "query": "\"13163-07\"", 
+    "type": "search", 
+    "sort_by": null
+},
+"focus":null,
+"views":{
+    "current": "grid", 
+    "grid": "https://www.loc.gov/pictures/search/?q=%2213163-07%22&fi=number&c=600&co=bbc&st=grid", 
+    "list": "https://www.loc.gov/pictures/search/?q=%2213163-07%22&fi=number&c=600&co=bbc", 
+    "gallery": "https://www.loc.gov/pictures/search/?q=%2213163-07%22&fi=number&c=600&co=bbc&st=gallery", 
+    "slideshow": "https://www.loc.gov/pictures/search/?q=%2213163-07%22&fi=number&c=600&co=bbc&st=slideshow"
+},
+"facets":[
+    {
+        "type": "displayed", 
+        "filters": [
+            {
+                "count": 5, 
+                "on": "https://www.loc.gov/pictures/search/?c=600&co=bbc&sp=1&st=grid&q=%2213163-07%22&fa=displayed%3Aanywhere&fi=number&fo=json", 
+                "selected": false, 
+                "off": "https://www.loc.gov/pictures/search/?c=600&co=bbc&sp=1&st=grid&q=%2213163-07%22&fi=number&fo=json", 
+                "title": "Larger image available anywhere"
+            }, 
+            {
+                "count": 0, 
+                "on": "https://www.loc.gov/pictures/search/?c=600&co=bbc&sp=1&st=grid&q=%2213163-07%22&fa=displayed%3Alc_only&fi=number&fo=json", 
+                "selected": false, 
+                "off": "https://www.loc.gov/pictures/search/?c=600&co=bbc&sp=1&st=grid&q=%2213163-07%22&fi=number&fo=json", 
+                "title": "Larger image available only at the Library of Congress"
+            }, 
+            {
+                "count": 0, 
+                "on": "https://www.loc.gov/pictures/search/?c=600&co=bbc&sp=1&st=grid&q=%2213163-07%22&fa=displayed%3Anot_digitized&fi=number&fo=json", 
+                "selected": false, 
+                "off": "https://www.loc.gov/pictures/search/?c=600&co=bbc&sp=1&st=grid&q=%2213163-07%22&fi=number&fo=json", 
+                "title": "Not Digitized"
+            }
+        ], 
+        "title": "displayed"
+    }
+],
+"links":{
+    "json": "https://www.loc.gov/pictures/search/?co=bbc&st=grid&fi=number&q=%2213163-07%22&c=600&fo=json", 
+    "html": "https://www.loc.gov/pictures/search/?co=bbc&st=grid&fi=number&q=%2213163-07%22&c=600", 
+    "rss": "https://www.loc.gov/pictures/search/?co=bbc&fi=number&q=%2213163-07%22&c=600&fo=rss"
+},
+"suggestions":{
+    "possible": []
+},
+"pages":{
+    "current": 1, 
+    "next": null, 
+    "perpage": 600, 
+    "last": null, 
+    "page_list": [
+        {
+            "url": null, 
+            "number": 1
+        }
+    ], 
+    "previous": null, 
+    "total": 1, 
+    "results": "1 - 5", 
+    "first": null
+},
+"collection":{
+    "digitized": "All", 
+    "code": "bbc", 
+    "display_offsite": "Yes", 
+    "thumb_large_item": "", 
+    "title": "Baseball Cards", 
+    "banner_item": "https://www.loc.gov/pictures/item/2007678538/", 
+    "brief": "Baseball cards representing more than one thousand major and minor league ballplayers (primarily major league), from teams in thirteen identified leagues and seventy-five cities in the United States and Canada.", 
+    "banner_title": "John M. Ward, New York Giants, 1887.", 
+    "thumb_item": "cph.3b38367", 
+    "home_link": "https://www.loc.gov/pictures/collection/bbc/", 
+    "from_date": "1887", 
+    "view_all": "https://www.loc.gov/pictures/search?st=grid&co=bbc", 
+    "link": "https://www.loc.gov/pictures/collection/bbc/", 
+    "to_date": "1914", 
+    "extent": "2,100 baseball cards.", 
+    "thumb_featured": "https://www.loc.gov/pictures/static/data/bbc/featured.png", 
+    "rights": "https://www.loc.gov/rr/print/res/620_base.html", 
+    "thumb_large": "https://www.loc.gov/pictures/static/data/bbc/thumb_large.png", 
+    "banner": "https://www.loc.gov/pictures/static/data/bbc/banner.jpg", 
+    "thumb": "https://www.loc.gov/pictures/static/data/bbc/thumb.png"
+},
+"results":[
+    {
+        "source_created": "2007-08-10T00:00:00Z", 
+        "index": 1, 
+        "medium": "1 print : chromolithograph.", 
+        "reproduction_number": "LC-DIG-bbc-2065f (digital file from original, front)\nLC-DIG-bbc-2065b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007680733/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007680733/resource/"
+        }, 
+        "title": "[Charlie Getzien, Detroit Wolverines, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/2000/2060/2065fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/2000/2060/2065f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/2000/2060/2065f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "Allen & Ginter", 
+        "call_number": "LOT 13163-07, no. 2 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-08-13T00:00:00Z", 
+        "pk": "2007680733", 
+        "created_published_date": "1888.", 
+        "subjects": [
+            "Getzien, Charlie (Team member)", 
+            "Detroit Wolverines", 
+            "Detroit", 
+            "National League", 
+            "pitcher", 
+            "Baseball cards--1880-1890.", 
+            "Chromolithographs--Color--1880-1890."
+        ]
+    }, 
+    {
+        "source_created": "2007-08-10T00:00:00Z", 
+        "index": 2, 
+        "medium": "1 print : chromolithograph.", 
+        "reproduction_number": "LC-DIG-bbc-2091f (digital file from original, front)\nLC-DIG-bbc-2091b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007680735/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007680735/resource/"
+        }, 
+        "title": "[Jas. H. Fogarty, Philadelphia Quakers, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/2000/2090/2091fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/2000/2090/2091f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/2000/2090/2091f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "Allen & Ginter", 
+        "call_number": "LOT 13163-07, no. 4 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-08-10T00:00:00Z", 
+        "pk": "2007680735", 
+        "created_published_date": "1888.", 
+        "subjects": [
+            "Fogarty, Jim (Team member)", 
+            "Philadelphia Quakers", 
+            "Philadelphia", 
+            "National League", 
+            "right fielder", 
+            "Baseball cards--1880-1890.", 
+            "Chromolithographs--Color--1880-1890."
+        ]
+    }, 
+    {
+        "source_created": "2007-08-10T00:00:00Z", 
+        "index": 3, 
+        "medium": "1 print : chromolithograph.", 
+        "reproduction_number": "LC-DIG-bbc-2064f (digital file from original, front)\nLC-DIG-bbc-2064b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007680732/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007680732/resource/"
+        }, 
+        "title": "[John Morrill, Boston Beaneaters, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/2000/2060/2064fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/2000/2060/2064f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/2000/2060/2064f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "Allen & Ginter", 
+        "call_number": "LOT 13163-07, no. 1 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-08-10T00:00:00Z", 
+        "pk": "2007680732", 
+        "created_published_date": "1888.", 
+        "subjects": [
+            "Morrill, John (Team member)", 
+            "Boston Beaneaters", 
+            "Boston", 
+            "National League", 
+            "first baseman", 
+            "Baseball cards--1880-1890.", 
+            "Chromolithographs--Color--1880-1890."
+        ]
+    }, 
+    {
+        "source_created": "2007-08-10T00:00:00Z", 
+        "index": 4, 
+        "medium": "1 print : chromolithograph.", 
+        "reproduction_number": "LC-DIG-bbc-2066f (digital file from original, front)\nLC-DIG-bbc-2066b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007680734/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007680734/resource/"
+        }, 
+        "title": "[Buck Ewing, New York Giants, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/2000/2060/2066fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/2000/2060/2066f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/2000/2060/2066f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "Allen & Ginter", 
+        "call_number": "LOT 13163-07, no. 3 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-08-10T00:00:00Z", 
+        "pk": "2007680734", 
+        "created_published_date": "1888.", 
+        "subjects": [
+            "Ewing, Buck (Team member)", 
+            "New York Giants", 
+            "New York", 
+            "National League", 
+            "catcher", 
+            "Baseball cards--1880-1890.", 
+            "Chromolithographs--Color--1880-1890."
+        ]
+    }, 
+    {
+        "source_created": "2007-08-10T00:00:00Z", 
+        "index": 5, 
+        "medium": "1 print : chromolithograph.", 
+        "reproduction_number": "LC-DIG-bbc-2092f (digital file from original, front)\nLC-DIG-bbc-2092b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007680736/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007680736/resource/"
+        }, 
+        "title": "[Geo. F. Miller, Pittsburgh Alleghenys, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/2000/2090/2092fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/2000/2090/2092f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/2000/2090/2092f_150px.jpg"
+        }, 
+        "created": "2017-10-24T00:00:00Z", 
+        "modified": "2017-10-24T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "Allen & Ginter", 
+        "call_number": "LOT 13163-07, no. 5 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2017-10-23T00:00:00Z", 
+        "pk": "2007680736", 
+        "created_published_date": "1888.", 
+        "subjects": [
+            "Miller, Doggie (Team member)", 
+            "Pittsburgh Alleghenys", 
+            "Pittsburgh", 
+            "National League", 
+            "catcher", 
+            "Baseball cards--1880-1890.", 
+            "Chromolithographs--Color--1880-1890."
+        ]
+    }
+]}

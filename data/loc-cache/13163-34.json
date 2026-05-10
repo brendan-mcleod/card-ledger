@@ -1,0 +1,380 @@
+{"search":{
+    "field": "number", 
+    "hits": 7, 
+    "sort_order": null, 
+    "do_facets": true, 
+    "focus_item": null, 
+    "query": "\"13163-34\"", 
+    "type": "search", 
+    "sort_by": null
+},
+"focus":null,
+"views":{
+    "current": "grid", 
+    "grid": "https://www.loc.gov/pictures/search/?q=%2213163-34%22&fi=number&c=600&co=bbc&st=grid", 
+    "list": "https://www.loc.gov/pictures/search/?q=%2213163-34%22&fi=number&c=600&co=bbc", 
+    "gallery": "https://www.loc.gov/pictures/search/?q=%2213163-34%22&fi=number&c=600&co=bbc&st=gallery", 
+    "slideshow": "https://www.loc.gov/pictures/search/?q=%2213163-34%22&fi=number&c=600&co=bbc&st=slideshow"
+},
+"facets":[
+    {
+        "type": "displayed", 
+        "filters": [
+            {
+                "count": 7, 
+                "on": "https://www.loc.gov/pictures/search/?c=600&co=bbc&sp=1&st=grid&q=%2213163-34%22&fa=displayed%3Aanywhere&fi=number&fo=json", 
+                "selected": false, 
+                "off": "https://www.loc.gov/pictures/search/?c=600&co=bbc&sp=1&st=grid&q=%2213163-34%22&fi=number&fo=json", 
+                "title": "Larger image available anywhere"
+            }, 
+            {
+                "count": 0, 
+                "on": "https://www.loc.gov/pictures/search/?c=600&co=bbc&sp=1&st=grid&q=%2213163-34%22&fa=displayed%3Alc_only&fi=number&fo=json", 
+                "selected": false, 
+                "off": "https://www.loc.gov/pictures/search/?c=600&co=bbc&sp=1&st=grid&q=%2213163-34%22&fi=number&fo=json", 
+                "title": "Larger image available only at the Library of Congress"
+            }, 
+            {
+                "count": 0, 
+                "on": "https://www.loc.gov/pictures/search/?c=600&co=bbc&sp=1&st=grid&q=%2213163-34%22&fa=displayed%3Anot_digitized&fi=number&fo=json", 
+                "selected": false, 
+                "off": "https://www.loc.gov/pictures/search/?c=600&co=bbc&sp=1&st=grid&q=%2213163-34%22&fi=number&fo=json", 
+                "title": "Not Digitized"
+            }, 
+            {
+                "count": 0, 
+                "on": "https://www.loc.gov/pictures/search/?c=600&co=bbc&sp=1&st=grid&q=%2213163-34%22&fa=displayed%3Asurveys_only&fi=number&fo=json", 
+                "selected": false, 
+                "off": "https://www.loc.gov/pictures/search/?c=600&co=bbc&sp=1&st=grid&q=%2213163-34%22&fi=number&fo=json", 
+                "title": "Surveys only"
+            }
+        ], 
+        "title": "displayed"
+    }
+],
+"links":{
+    "json": "https://www.loc.gov/pictures/search/?co=bbc&st=grid&fi=number&q=%2213163-34%22&c=600&fo=json", 
+    "html": "https://www.loc.gov/pictures/search/?co=bbc&st=grid&fi=number&q=%2213163-34%22&c=600", 
+    "rss": "https://www.loc.gov/pictures/search/?co=bbc&fi=number&q=%2213163-34%22&c=600&fo=rss"
+},
+"suggestions":{
+    "possible": []
+},
+"pages":{
+    "current": 1, 
+    "next": null, 
+    "perpage": 600, 
+    "last": null, 
+    "page_list": [
+        {
+            "url": null, 
+            "number": 1
+        }
+    ], 
+    "previous": null, 
+    "total": 1, 
+    "results": "1 - 7", 
+    "first": null
+},
+"collection":{
+    "digitized": "All", 
+    "code": "bbc", 
+    "display_offsite": "Yes", 
+    "thumb_large_item": "", 
+    "title": "Baseball Cards", 
+    "banner_item": "https://www.loc.gov/pictures/item/2007678538/", 
+    "brief": "Baseball cards representing more than one thousand major and minor league ballplayers (primarily major league), from teams in thirteen identified leagues and seventy-five cities in the United States and Canada.", 
+    "banner_title": "John M. Ward, New York Giants, 1887.", 
+    "thumb_item": "cph.3b38367", 
+    "home_link": "https://www.loc.gov/pictures/collection/bbc/", 
+    "from_date": "1887", 
+    "view_all": "https://www.loc.gov/pictures/search?st=grid&co=bbc", 
+    "link": "https://www.loc.gov/pictures/collection/bbc/", 
+    "to_date": "1914", 
+    "extent": "2,100 baseball cards.", 
+    "thumb_featured": "https://www.loc.gov/pictures/static/data/bbc/featured.png", 
+    "rights": "https://www.loc.gov/rr/print/res/620_base.html", 
+    "thumb_large": "https://www.loc.gov/pictures/static/data/bbc/thumb_large.png", 
+    "banner": "https://www.loc.gov/pictures/static/data/bbc/banner.jpg", 
+    "thumb": "https://www.loc.gov/pictures/static/data/bbc/thumb.png"
+},
+"results":[
+    {
+        "source_created": "2007-10-19T00:00:00Z", 
+        "index": 1, 
+        "medium": "1 photographic print : gelatin silver.", 
+        "reproduction_number": "LC-DIG-bbc-2082f (digital file from original, front)\nLC-DIG-bbc-2082b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685732/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685732/resource/"
+        }, 
+        "title": "[Roger Bresnahan, Chicago Cubs, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/2000/2080/2082fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/2000/2080/2082f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/2000/2080/2082f_150px.jpg"
+        }, 
+        "created": "2018-01-30T00:00:00Z", 
+        "modified": "2018-01-30T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "Liggett & Myers Tobacco Company", 
+        "call_number": "LOT 13163-34, no. 1 [P&P]", 
+        "medium_brief": "1 photographic print :", 
+        "source_modified": "2018-01-23T00:00:00Z", 
+        "pk": "2007685732", 
+        "created_published_date": "1914.", 
+        "subjects": [
+            "Bresnahan, Roger (Team member)", 
+            "Chicago Cubs", 
+            "Chicago", 
+            "National League", 
+            "catcher", 
+            "Baseball cards--1910-1920.", 
+            "Gelatin silver prints--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-19T00:00:00Z", 
+        "index": 2, 
+        "medium": "1 photographic print : gelatin silver ; sheet 11.3 x 6.3 cm.", 
+        "reproduction_number": "LC-DIG-bbc-2083f (digital file from original, front)\nLC-DIG-bbc-2083b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685733/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685733/resource/"
+        }, 
+        "title": "[Art Phelan, Chicago Cubs, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/2000/2080/2083fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/2000/2080/2083f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/2000/2080/2083f_150px.jpg"
+        }, 
+        "created": "2018-01-30T00:00:00Z", 
+        "modified": "2018-01-30T00:00:00Z", 
+        "collection": [
+            "00", 
+            "024", 
+            "04", 
+            "bbc", 
+            "diof", 
+            "exh", 
+            "l4804", 
+            "pp"
+        ], 
+        "creator": "Liggett & Myers Tobacco Company", 
+        "call_number": "LOT 13163-34, no. 2 [P&P]", 
+        "medium_brief": "1 photographic print :", 
+        "source_modified": "2018-01-23T00:00:00Z", 
+        "pk": "2007685733", 
+        "created_published_date": "1914.", 
+        "subjects": [
+            "Chicago Cubs (Baseball team)--People--1910-1920.", 
+            "Baseball players--Illinois--Chicago--1910-1920.", 
+            "Phelan, Art (Team member)", 
+            "National League", 
+            "second baseman", 
+            "Baseball cards--1910-1920.", 
+            "Gelatin silver prints--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-19T00:00:00Z", 
+        "index": 3, 
+        "medium": "1 photographic print : gelatin silver.", 
+        "reproduction_number": "LC-DIG-bbc-2085f (digital file from original, front)\nLC-DIG-bbc-2085b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685735/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685735/resource/"
+        }, 
+        "title": "[Boardwalk Brown, Philadelphia Athletics, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/2000/2080/2085fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/2000/2080/2085f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/2000/2080/2085f_150px.jpg"
+        }, 
+        "created": "2018-01-30T00:00:00Z", 
+        "modified": "2018-01-30T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "Liggett & Myers Tobacco Company", 
+        "call_number": "LOT 13163-34, no. 4 [P&P]", 
+        "medium_brief": "1 photographic print :", 
+        "source_modified": "2018-01-23T00:00:00Z", 
+        "pk": "2007685735", 
+        "created_published_date": "1914.", 
+        "subjects": [
+            "Brown, Boardwalk (Team member)", 
+            "Philadelphia Athletics", 
+            "Philadelphia", 
+            "American League", 
+            "pitcher", 
+            "Baseball cards--1910-1920.", 
+            "Gelatin silver prints--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-19T00:00:00Z", 
+        "index": 4, 
+        "medium": "1 photographic print : gelatin silver.", 
+        "reproduction_number": "LC-DIG-bbc-2086f (digital file from original, front)\nLC-DIG-bbc-2086b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685736/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685736/resource/"
+        }, 
+        "title": "[Joe Bush, Philadelphia Athletics, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/2000/2080/2086fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/2000/2080/2086f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/2000/2080/2086f_150px.jpg"
+        }, 
+        "created": "2018-01-30T00:00:00Z", 
+        "modified": "2018-01-30T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "Liggett & Myers Tobacco Company", 
+        "call_number": "LOT 13163-34, no. 5 [P&P]", 
+        "medium_brief": "1 photographic print :", 
+        "source_modified": "2018-01-23T00:00:00Z", 
+        "pk": "2007685736", 
+        "created_published_date": "1914.", 
+        "subjects": [
+            "Bush, Joe (Team member)", 
+            "Philadelphia Athletics", 
+            "Philadelphia", 
+            "American League", 
+            "pitcher", 
+            "Baseball cards--1910-1920.", 
+            "Gelatin silver prints--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-19T00:00:00Z", 
+        "index": 5, 
+        "medium": "1 photographic print : gelatin silver.", 
+        "reproduction_number": "LC-DIG-bbc-2087f (digital file from original, front)\nLC-DIG-bbc-2087b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685737/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685737/resource/"
+        }, 
+        "title": "[Eddie Murphy, Philadelphia Athletics, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/2000/2080/2087fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/2000/2080/2087f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/2000/2080/2087f_150px.jpg"
+        }, 
+        "created": "2018-01-30T00:00:00Z", 
+        "modified": "2018-01-30T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "Liggett & Myers Tobacco Company", 
+        "call_number": "LOT 13163-34, no. 6 [P&P]", 
+        "medium_brief": "1 photographic print :", 
+        "source_modified": "2018-01-23T00:00:00Z", 
+        "pk": "2007685737", 
+        "created_published_date": "1914.", 
+        "subjects": [
+            "Murphy, Eddie (Team member)", 
+            "Philadelphia Athletics", 
+            "Philadelphia", 
+            "American League", 
+            "outfielder", 
+            "Baseball cards--1910-1920.", 
+            "Gelatin silver prints--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-19T00:00:00Z", 
+        "index": 6, 
+        "medium": "1 photographic print : gelatin silver.", 
+        "reproduction_number": "LC-DIG-bbc-2088f (digital file from original, front)\nLC-DIG-bbc-2088b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685738/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685738/resource/"
+        }, 
+        "title": "[Bill Orr, Philadelphia Athletics, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/2000/2080/2088fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/2000/2080/2088f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/2000/2080/2088f_150px.jpg"
+        }, 
+        "created": "2018-01-30T00:00:00Z", 
+        "modified": "2018-01-30T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "Liggett & Myers Tobacco Company", 
+        "call_number": "LOT 13163-34, no. 7 [P&P]", 
+        "medium_brief": "1 photographic print :", 
+        "source_modified": "2018-01-23T00:00:00Z", 
+        "pk": "2007685738", 
+        "created_published_date": "1914.", 
+        "subjects": [
+            "Orr, Bill (Team member)", 
+            "Philadelphia Athletics", 
+            "Philadelphia", 
+            "American League", 
+            "shortstop", 
+            "Baseball cards--1910-1920.", 
+            "Gelatin silver prints--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-19T00:00:00Z", 
+        "index": 7, 
+        "medium": "1 photographic print : gelatin silver.", 
+        "reproduction_number": "LC-DIG-bbc-2084f (digital file from original, front)\nLC-DIG-bbc-2084b (digital file from original, back)\nLC-USZC4-6975 (color film copy transparency, front)\nLC-USZC4-6968 (color film copy transparency, back)\nLC-USZ62-123638 (b&w film copy neg., front)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685734/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685734/resource/"
+        }, 
+        "title": "[Slim Sallee, St. Louis Cardinals, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/2000/2080/2084fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/2000/2080/2084f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/2000/2080/2084f_150px.jpg"
+        }, 
+        "created": "2025-09-29T17:20:44Z", 
+        "modified": "2025-09-29T17:20:54Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "Liggett & Myers Tobacco Company", 
+        "call_number": "LOT 13163-34, no. 3 [P&P]", 
+        "medium_brief": "1 photographic print :", 
+        "source_modified": "2025-09-19T19:50:16Z", 
+        "pk": "2007685734", 
+        "created_published_date": "1914.", 
+        "subjects": [
+            "Sallee, Slim (Team member)", 
+            "St. Louis Cardinals", 
+            "St. Louis", 
+            "National League", 
+            "pitcher", 
+            "Baseball cards--1910-1920.", 
+            "Gelatin silver prints--1910-1920."
+        ]
+    }
+]}

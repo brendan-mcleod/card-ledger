@@ -4,19 +4,25 @@ import { useMemo, useState } from 'react'
 
 import { AccountSectionNav } from '@/app/components/account-section-nav'
 import { CollectionCardTile } from '@/app/components/collection-card-tile'
-import { useCollector } from '@/app/components/collector-provider'
+import { SHOWCASE_LIMIT, useCollector } from '@/app/components/collector-provider'
 import { InventoryTable, type InventoryTableSortState } from '@/app/components/inventory-table'
-import { getCardById } from '@/lib/data'
+import { brandCopy } from '@/lib/brand-copy'
+import { useClientCatalog } from '@/lib/client-catalog'
 import { buildCsv } from '@/lib/export'
-import { getCardCallouts, getDisplaySetLabel } from '@/lib/format'
+import { getCardCallouts, getCardDisplayTeam, getCardDisplayTitle, getDisplaySetLabel, getMeaningfulCardVariation } from '@/lib/format'
+import type { Card } from '@/lib/types'
 
-type WishlistSort = 'recent' | 'year' | 'value'
+type WishlistSort = 'recent' | 'favorites' | 'year' | 'value'
 type WishlistViewMode = 'grid' | 'large' | 'table'
 
 export function WishlistView() {
   const collector = useCollector()
-  const [viewMode, setViewMode] = useState<WishlistViewMode>('grid')
+  const catalog = useClientCatalog()
+  const preferredViewMode: WishlistViewMode = collector.preferences.defaultLibraryView === 'list' ? 'large' : 'grid'
+  const [viewMode, setViewMode] = useState<WishlistViewMode>(preferredViewMode)
   const [sort, setSort] = useState<WishlistSort>('recent')
+  const [setFilter, setSetFilter] = useState('All sets')
+  const [teamFilter, setTeamFilter] = useState('All teams')
   const [tableSort, setTableSort] = useState<InventoryTableSortState>(null)
   const [tablePage, setTablePage] = useState(1)
   const [rowsPerPage, setRowsPerPage] = useState(25)
@@ -25,16 +31,38 @@ export function WishlistView() {
   const rows = useMemo(
     () =>
       collector.wishlist
-        .map((cardId) => getCardById(cardId))
-        .filter((card): card is NonNullable<ReturnType<typeof getCardById>> => Boolean(card)),
-    [collector.wishlist],
+        .map((cardId) => catalog.cardById.get(cardId))
+        .filter((card): card is Card => Boolean(card)),
+    [catalog.cardById, collector.wishlist],
+  )
+
+  const setOptions = useMemo(
+    () => ['All sets', ...Array.from(new Set(rows.map((card) => card.setLabel))).sort((left, right) => right.localeCompare(left, undefined, { numeric: true }))],
+    [rows],
+  )
+  const teamOptions = useMemo(() => ['All teams', ...Array.from(new Set(rows.map((card) => card.team))).sort()], [rows])
+
+  const filteredCards = useMemo(
+    () =>
+      rows
+        .filter((card) => setFilter === 'All sets' || card.setLabel === setFilter)
+        .filter((card) => teamFilter === 'All teams' || card.team === teamFilter),
+    [rows, setFilter, teamFilter],
   )
 
   const sortedCards = useMemo(() => {
-    const next = [...rows]
+    const next = [...filteredCards]
 
     if (sort === 'year') {
       next.sort((left, right) => right.year - left.year || left.player.localeCompare(right.player))
+      return next
+    }
+
+    if (sort === 'favorites') {
+      next.sort((left, right) => {
+        const favoriteDiff = Number(collector.favorites.includes(right.id)) - Number(collector.favorites.includes(left.id))
+        return favoriteDiff || collector.wishlist.indexOf(left.id) - collector.wishlist.indexOf(right.id)
+      })
       return next
     }
 
@@ -45,21 +73,50 @@ export function WishlistView() {
 
     next.sort((left, right) => collector.wishlist.indexOf(left.id) - collector.wishlist.indexOf(right.id))
     return next
-  }, [collector.wishlist, rows, sort])
+  }, [collector.favorites, collector.wishlist, filteredCards, sort])
 
-  const wishlistValue = sortedCards.reduce((sum, card) => sum + card.marketValue, 0)
-  const watchTeams = new Set(sortedCards.map((card) => card.team)).size
+  const setCount = new Set(rows.map((card) => card.setSlug)).size
 
   function handleRemove(cardId: string) {
     collector.toggleWishlist(cardId)
-    setToast('Removed from wishlist')
+    setToast('Removed from watchlist')
     window.setTimeout(() => setToast(null), 1600)
   }
 
   function handleAdd(cardId: string) {
     collector.addCard(cardId)
-    collector.toggleWishlist(cardId)
     setToast('Moved into collection')
+    window.setTimeout(() => setToast(null), 1600)
+  }
+
+  function handleRemoveCopy(cardId: string) {
+    const copyCount = collector.collectionCopies[cardId]?.length ?? collector.collection[cardId]?.quantity ?? 0
+    collector.setQuantity(cardId, Math.max(0, copyCount - 1))
+    setToast('Removed one copy')
+    window.setTimeout(() => setToast(null), 1600)
+  }
+
+  function handleFeature(cardId: string) {
+    const alreadyShowcased = collector.showcase.includes(cardId)
+    if (!alreadyShowcased && collector.showcase.length >= SHOWCASE_LIMIT) {
+      setToast('Showcase full · remove one first')
+      window.setTimeout(() => setToast(null), 1600)
+      return
+    }
+    if (!collector.collection[cardId]) {
+      setToast('Add to collection before showcasing')
+      window.setTimeout(() => setToast(null), 1600)
+      return
+    }
+    collector.toggleShowcase(cardId)
+    setToast(alreadyShowcased ? 'Removed from showcase' : 'Added to showcase')
+    window.setTimeout(() => setToast(null), 1600)
+  }
+
+  function handleFavorite(cardId: string) {
+    const alreadyFavorite = collector.favorites.includes(cardId)
+    collector.toggleFavorite(cardId)
+    setToast(alreadyFavorite ? 'Removed favorite' : 'Favorited')
     window.setTimeout(() => setToast(null), 1600)
   }
 
@@ -67,14 +124,14 @@ export function WishlistView() {
     const exportCards = viewMode === 'table' && tableSort ? tableSortedCards : sortedCards
 
     const csv = buildCsv(
-      ['Player', 'Year', 'Brand', 'Set', 'Card Number', 'Team', 'Tags', 'Estimated Value'],
+      ['Subject', 'Year', 'Brand', 'Set', 'Variation', 'Team', 'Tags', 'Estimated Value'],
       exportCards.map((card) => [
-        card.player,
-        card.year,
+        getCardDisplayTitle(card),
+        card.yearRange ?? card.year,
         card.brand,
         card.setLabel,
-        card.cardNumber,
-        card.team,
+        getMeaningfulCardVariation(card),
+        getCardDisplayTeam(card),
         [card.hallOfFamer ? 'Hall of Famer' : null, card.rookieCard ? 'Rookie card' : null].filter(Boolean).join(' · '),
         card.marketValue,
       ]),
@@ -84,10 +141,10 @@ export function WishlistView() {
     const url = window.URL.createObjectURL(blob)
     const link = document.createElement('a')
     link.href = url
-    link.download = 'cardboard-wishlist.csv'
+    link.download = 'cardboard-watchlist.csv'
     link.click()
     window.URL.revokeObjectURL(url)
-    setToast('Exported wishlist CSV')
+    setToast('Exported watchlist CSV')
   }
 
   const tableSortedCards = [...sortedCards]
@@ -114,9 +171,9 @@ export function WishlistView() {
         case 'set':
           return compareText(getDisplaySetLabel(left), getDisplaySetLabel(right))
         case 'cardNumber':
-          return compareText(left.cardNumber, right.cardNumber)
+          return compareText(getMeaningfulCardVariation(left), getMeaningfulCardVariation(right))
         case 'team':
-          return compareText(left.team, right.team)
+          return compareText(getCardDisplayTeam(left), getCardDisplayTeam(right))
         case 'tags':
           return compareText(leftTags, rightTags)
         case 'value':
@@ -136,12 +193,23 @@ export function WishlistView() {
     <main className="page-shell collection-page-redesign wishlist-page">
       <AccountSectionNav />
 
-      <section className="collection-topbar">
-        <div className="collection-topbar-group">
-          <span className="collection-topbar-label">Wishlist</span>
-          <p className="wishlist-intro">Cards on your chase list.</p>
+      <section className="collection-page-header">
+        <div className="collection-page-header-copy">
+          <h1 className="collection-page-title">{brandCopy.pages.watchlist.title}</h1>
+          <p className="collection-page-subtitle">
+            {rows.length.toLocaleString()} {rows.length === 1 ? 'card' : 'cards'} · {setCount.toLocaleString()} {setCount === 1 ? 'set' : 'sets'}
+            {sortedCards.length !== rows.length ? ` · ${sortedCards.length.toLocaleString()} shown` : ''}
+          </p>
         </div>
 
+        {sortedCards.length > 0 ? (
+          <button className="collection-export-button" onClick={handleExport} type="button">
+            Export CSV
+          </button>
+        ) : null}
+      </section>
+
+      <section className="collection-topbar">
         <div className="collection-topbar-group">
           <span className="collection-topbar-label">View</span>
           <div className="collection-toggle-group">
@@ -189,40 +257,74 @@ export function WishlistView() {
             value={sort}
           >
             <option value="recent">Recently Added</option>
+            <option value="favorites">Favorites first</option>
             <option value="year">Year</option>
             <option value="value">Estimated Value</option>
           </select>
         </div>
 
-        {sortedCards.length > 0 ? (
-          <div className="collection-topbar-group">
-            <span className="collection-topbar-label">Export</span>
-            <button className="collection-export-button" onClick={handleExport} type="button">
-              Export CSV
-            </button>
-          </div>
+        {rows.length > 0 ? (
+          <details className="collection-refine">
+            <summary>Refine</summary>
+            <div className="collection-refine-panel">
+              <label className="collection-filter-field">
+                <span>Set</span>
+                <select
+                  className="collection-control-select"
+                  onChange={(event) => {
+                    setSetFilter(event.target.value)
+                    setTablePage(1)
+                  }}
+                  value={setFilter}
+                >
+                  {setOptions.map((option) => (
+                    <option key={option} value={option}>
+                      {option}
+                    </option>
+                  ))}
+                </select>
+              </label>
+              <label className="collection-filter-field">
+                <span>Team</span>
+                <select
+                  className="collection-control-select"
+                  onChange={(event) => {
+                    setTeamFilter(event.target.value)
+                    setTablePage(1)
+                  }}
+                  value={teamFilter}
+                >
+                  {teamOptions.map((option) => (
+                    <option key={option} value={option}>
+                      {option}
+                    </option>
+                  ))}
+                </select>
+              </label>
+              <button
+                className="collection-filter-reset"
+                onClick={() => {
+                  setSetFilter('All sets')
+                  setTeamFilter('All teams')
+                  setTablePage(1)
+                }}
+                type="button"
+              >
+                Reset
+              </button>
+            </div>
+          </details>
         ) : null}
-      </section>
-
-      <div className="app-transition-bridge" aria-hidden="true">
-        <span className="app-transition-chip">
-          <span>Chase list</span>
-        </span>
-        <span className="app-transition-rule" />
-      </div>
-
-      <section className="collection-summary-line">
-        <p>
-          {sortedCards.length} cards • ${wishlistValue.toLocaleString()} est. chase value • {watchTeams} teams on deck
-        </p>
       </section>
 
       {toast ? <div className="collection-toast">{toast}</div> : null}
 
       {!collector.hydrated ? (
-        <section className="collection-empty-state">Loading your wishlist…</section>
+        <section className="collection-empty-state">Loading your watchlist…</section>
+      ) : rows.length === 0 ? (
+        <section className="collection-empty-state">Save a card to start your watchlist.</section>
       ) : sortedCards.length === 0 ? (
-        <section className="collection-empty-state">Build your chase list by wishlisting a card from All Cards or any card page.</section>
+        <section className="collection-empty-state">No cards match this view.</section>
       ) : viewMode === 'table' ? (
         <InventoryTable
           currentPage={currentTablePage}
@@ -240,6 +342,8 @@ export function WishlistView() {
             id: card.id,
             href: `/cards/${card.slug}`,
             card,
+            flippable: true,
+            selectedBackId: collector.collection[card.id]?.selectedBackId,
           }))}
           rowsPerPage={rowsPerPage}
           sortState={tableSort}
@@ -250,16 +354,22 @@ export function WishlistView() {
         <section className={`collection-wall ${viewMode === 'large' ? 'collection-wall-large' : 'collection-wall-grid'}`}>
           {sortedCards.map((card) => (
             <CollectionCardTile
-              actionLabel="Add to collection"
               card={card}
-              featured={collector.favorites.includes(card.id)}
+              favorited={collector.favorites.includes(card.id)}
+              featured={collector.showcase.includes(card.id)}
               href={`/cards/${card.slug}`}
               key={card.id}
               large={viewMode === 'large'}
-              onFeature={() => collector.toggleFavorite(card.id)}
+              onFeature={handleFeature}
+              onFavorite={handleFavorite}
               onPrimaryAction={handleAdd}
               onRemove={handleRemove}
-              removeLabel="Remove"
+              onRemoveCopy={() => handleRemoveCopy(card.id)}
+              onWatchlist={handleRemove}
+              owned={Boolean(collector.collection[card.id])}
+              selectedBackId={collector.collection[card.id]?.selectedBackId}
+              showcaseAvailable={Boolean(collector.collection[card.id]) && (collector.showcase.includes(card.id) || collector.showcase.length < SHOWCASE_LIMIT)}
+              watchlisted
             />
           ))}
         </section>

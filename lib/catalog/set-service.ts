@@ -9,15 +9,6 @@ type CardSightSetCardsPayload = Record<string, unknown>
 
 const SEEDED_PROVIDER_SET_IDS: Record<string, string | null> = {
   '1909-t206-white-border': '5f2f1e80-bc25-433e-91b1-d98fcb6207d4',
-  '1933-goudey-goudey': 'a8e72b10-c573-4210-82b7-459cf4cec219',
-  '1948-leaf-leaf': null,
-  '1949-bowman-bowman': '0afbc710-5952-4b7c-90fa-16a591c33cf6',
-  '1952-bowman-bowman': '0eb9f57d-f925-4371-ad84-dc76960d30df',
-  '1952-topps-base-set': 'd7c7247a-896c-4159-bf20-334cb1641d13',
-  '1954-bowman-bowman': 'e70c162c-a0d2-45c9-aa14-c4735033c405',
-  '1954-topps-base-set': 'fec927af-2635-4e9d-bf9e-63c8b88dc1ab',
-  '1955-bowman-bowman': '27586aff-5c39-41e2-82c2-cae3f77c56c0',
-  '1956-topps-white-back': 'd3093625-8aa0-439a-81db-1a3c43627461',
 }
 
 function pickSetResults(payload: unknown) {
@@ -81,11 +72,6 @@ async function fetchSetCardsRemote(setId: string, setSlug: string) {
 }
 
 export async function getSets() {
-  const cached = await getCachedSets('all')
-  if (cached) {
-    return cached
-  }
-
   const seededSets = SEEDED_SET_SLUGS.map((setSlug) => getSetSummaryBySlug(setSlug))
     .filter((set): set is SetSummary => Boolean(set))
     .map((set) => ({
@@ -94,6 +80,17 @@ export async function getSets() {
       source: SEEDED_PROVIDER_SET_IDS[set.setSlug] ? ('cardsight' as const) : ('seeded' as const),
       providerLastSyncedAt: SEEDED_PROVIDER_SET_IDS[set.setSlug] ? new Date().toISOString() : undefined,
     }))
+
+  const cached = await getCachedSets('all')
+  if (cached) {
+    const merged = new Map(cached.map((set) => [set.setSlug, set]))
+    for (const set of seededSets) {
+      merged.set(set.setSlug, { ...merged.get(set.setSlug), ...set })
+    }
+    const sets = [...merged.values()]
+    await cacheSetQuery(sets, 'all')
+    return sets
+  }
 
   await upsertCachedSets(seededSets)
   await cacheSetQuery(seededSets, 'all')

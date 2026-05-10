@@ -10,7 +10,7 @@ export function HeaderSearch() {
   return (
     <div className={`header-search ${open ? 'header-search-open' : ''}`}>
       <div className="header-search-panel">
-        <SearchBar placeholder="Search cards, players, or sets" />
+        <SearchBar placeholder="Search cards and sets" />
       </div>
 
       <button

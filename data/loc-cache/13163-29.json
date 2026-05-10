@@ -1,0 +1,3828 @@
+{"search":{
+    "field": "number", 
+    "hits": 95, 
+    "sort_order": null, 
+    "do_facets": true, 
+    "focus_item": null, 
+    "query": "\"13163-29\"", 
+    "type": "search", 
+    "sort_by": null
+},
+"focus":null,
+"views":{
+    "current": "grid", 
+    "grid": "https://www.loc.gov/pictures/search/?q=%2213163-29%22&fi=number&c=600&co=bbc&st=grid", 
+    "list": "https://www.loc.gov/pictures/search/?q=%2213163-29%22&fi=number&c=600&co=bbc", 
+    "gallery": "https://www.loc.gov/pictures/search/?q=%2213163-29%22&fi=number&c=600&co=bbc&st=gallery", 
+    "slideshow": "https://www.loc.gov/pictures/search/?q=%2213163-29%22&fi=number&c=600&co=bbc&st=slideshow"
+},
+"facets":[
+    {
+        "type": "displayed", 
+        "filters": [
+            {
+                "count": 95, 
+                "on": "https://www.loc.gov/pictures/search/?c=600&co=bbc&sp=1&st=grid&q=%2213163-29%22&fa=displayed%3Aanywhere&fi=number&fo=json", 
+                "selected": false, 
+                "off": "https://www.loc.gov/pictures/search/?c=600&co=bbc&sp=1&st=grid&q=%2213163-29%22&fi=number&fo=json", 
+                "title": "Larger image available anywhere"
+            }, 
+            {
+                "count": 0, 
+                "on": "https://www.loc.gov/pictures/search/?c=600&co=bbc&sp=1&st=grid&q=%2213163-29%22&fa=displayed%3Alc_only&fi=number&fo=json", 
+                "selected": false, 
+                "off": "https://www.loc.gov/pictures/search/?c=600&co=bbc&sp=1&st=grid&q=%2213163-29%22&fi=number&fo=json", 
+                "title": "Larger image available only at the Library of Congress"
+            }, 
+            {
+                "count": 0, 
+                "on": "https://www.loc.gov/pictures/search/?c=600&co=bbc&sp=1&st=grid&q=%2213163-29%22&fa=displayed%3Anot_digitized&fi=number&fo=json", 
+                "selected": false, 
+                "off": "https://www.loc.gov/pictures/search/?c=600&co=bbc&sp=1&st=grid&q=%2213163-29%22&fi=number&fo=json", 
+                "title": "Not Digitized"
+            }, 
+            {
+                "count": 0, 
+                "on": "https://www.loc.gov/pictures/search/?c=600&co=bbc&sp=1&st=grid&q=%2213163-29%22&fa=displayed%3Asurveys_only&fi=number&fo=json", 
+                "selected": false, 
+                "off": "https://www.loc.gov/pictures/search/?c=600&co=bbc&sp=1&st=grid&q=%2213163-29%22&fi=number&fo=json", 
+                "title": "Surveys only"
+            }
+        ], 
+        "title": "displayed"
+    }
+],
+"links":{
+    "json": "https://www.loc.gov/pictures/search/?co=bbc&st=grid&fi=number&q=%2213163-29%22&c=600&fo=json", 
+    "html": "https://www.loc.gov/pictures/search/?co=bbc&st=grid&fi=number&q=%2213163-29%22&c=600", 
+    "rss": "https://www.loc.gov/pictures/search/?co=bbc&fi=number&q=%2213163-29%22&c=600&fo=rss"
+},
+"suggestions":{
+    "possible": []
+},
+"pages":{
+    "current": 1, 
+    "next": null, 
+    "perpage": 600, 
+    "last": null, 
+    "page_list": [
+        {
+            "url": null, 
+            "number": 1
+        }
+    ], 
+    "previous": null, 
+    "total": 1, 
+    "results": "1 - 95", 
+    "first": null
+},
+"collection":{
+    "digitized": "All", 
+    "code": "bbc", 
+    "display_offsite": "Yes", 
+    "thumb_large_item": "", 
+    "title": "Baseball Cards", 
+    "banner_item": "https://www.loc.gov/pictures/item/2007678538/", 
+    "brief": "Baseball cards representing more than one thousand major and minor league ballplayers (primarily major league), from teams in thirteen identified leagues and seventy-five cities in the United States and Canada.", 
+    "banner_title": "John M. Ward, New York Giants, 1887.", 
+    "thumb_item": "cph.3b38367", 
+    "home_link": "https://www.loc.gov/pictures/collection/bbc/", 
+    "from_date": "1887", 
+    "view_all": "https://www.loc.gov/pictures/search?st=grid&co=bbc", 
+    "link": "https://www.loc.gov/pictures/collection/bbc/", 
+    "to_date": "1914", 
+    "extent": "2,100 baseball cards.", 
+    "thumb_featured": "https://www.loc.gov/pictures/static/data/bbc/featured.png", 
+    "rights": "https://www.loc.gov/rr/print/res/620_base.html", 
+    "thumb_large": "https://www.loc.gov/pictures/static/data/bbc/thumb_large.png", 
+    "banner": "https://www.loc.gov/pictures/static/data/bbc/banner.jpg", 
+    "thumb": "https://www.loc.gov/pictures/static/data/bbc/thumb.png"
+},
+"results":[
+    {
+        "source_created": "2007-10-05T00:00:00Z", 
+        "index": 1, 
+        "medium": "1 print : chromolithograph with hand-color.", 
+        "reproduction_number": "LC-DIG-bbc-1646f (digital file from original, front)\nLC-DIG-bbc-1646b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685600/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685600/resource/"
+        }, 
+        "title": "[Peaches Graham, Boston Rustlers, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1640/1646fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1640/1646f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1640/1646f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-29, no. 1 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-11-06T00:00:00Z", 
+        "pk": "2007685600", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Graham, Peaches (Team member)", 
+            "Boston Rustlers", 
+            "Boston", 
+            "National League", 
+            "catcher", 
+            "Baseball cards--1910-1920.", 
+            "Chromolithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-05T00:00:00Z", 
+        "index": 2, 
+        "medium": "1 print : chromolithograph with hand-color.", 
+        "reproduction_number": "LC-DIG-bbc-1647f (digital file from original, front)\nLC-DIG-bbc-1647b (digital file from original, back)\nLC-USZC4-7008 (color film copy transparency, front)\nLC-USZC4-7050 (color film copy transparency of back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685601/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685601/resource/"
+        }, 
+        "title": "[George Bell, Brooklyn Dodgers, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1640/1647fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1640/1647f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1640/1647f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-29, no. 2 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-11-06T00:00:00Z", 
+        "pk": "2007685601", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Bell, George (Team member)", 
+            "Brooklyn Dodgers", 
+            "Brooklyn", 
+            "National League", 
+            "pitcher", 
+            "Baseball cards--1910-1920.", 
+            "Chromolithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-05T00:00:00Z", 
+        "index": 3, 
+        "medium": "1 print : chromolithograph with hand-color.", 
+        "reproduction_number": "LC-DIG-bbc-1649f (digital file from original, front)\nLC-DIG-bbc-1649b (digital file from original, back)\nLC-USZC4-7031 (color film copy transparency, front)\nLC-USZC4-7051 (color film copy transparency of back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685603/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685603/resource/"
+        }, 
+        "title": "[Bill Dahlen, Brooklyn Dodgers, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1640/1649fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1640/1649f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1640/1649f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-29, no. 4 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-11-06T00:00:00Z", 
+        "pk": "2007685603", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Dahlen, Bill (Team member)", 
+            "Brooklyn Dodgers", 
+            "Brooklyn", 
+            "National League", 
+            "shortstop", 
+            "Baseball cards--1910-1920.", 
+            "Chromolithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-05T00:00:00Z", 
+        "index": 4, 
+        "medium": "1 print : chromolithograph with hand-color.", 
+        "reproduction_number": "LC-DIG-bbc-1651f (digital file from original, front)\nLC-DIG-bbc-1651b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685605/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685605/resource/"
+        }, 
+        "title": "[Ed Lennox, Brooklyn Superbas, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1650/1651fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1650/1651f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1650/1651f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-29, no. 6 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-11-06T00:00:00Z", 
+        "pk": "2007685605", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Lennox, Ed (Team member)", 
+            "Brooklyn Superbas", 
+            "Brooklyn", 
+            "National League", 
+            "third baseman", 
+            "Baseball cards--1910-1920.", 
+            "Chromolithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-05T00:00:00Z", 
+        "index": 5, 
+        "medium": "1 print : chromolithograph with hand-color.", 
+        "reproduction_number": "LC-DIG-bbc-1653f (digital file from original, front)\nLC-DIG-bbc-1653b (digital file from original, back)\nLC-USZC4-7025 (color film copy transparency, front)\nLC-USZC4-7038 (color film copy transparency of back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685607/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685607/resource/"
+        }, 
+        "title": "[Nap Rucker, Brooklyn Dodgers, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1650/1653fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1650/1653f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1650/1653f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-29, no. 8 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-11-06T00:00:00Z", 
+        "pk": "2007685607", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Rucker, Nap (Team member)", 
+            "Brooklyn Dodgers", 
+            "Brooklyn", 
+            "National League", 
+            "pitcher", 
+            "Baseball cards--1910-1920.", 
+            "Chromolithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-05T00:00:00Z", 
+        "index": 6, 
+        "medium": "1 print : chromolithograph with hand-color.", 
+        "reproduction_number": "LC-DIG-bbc-1654f (digital file from original, front)\nLC-DIG-bbc-1654b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685608/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685608/resource/"
+        }, 
+        "title": "[Three Finger Brown, Chicago Cubs, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1650/1654fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1650/1654f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1650/1654f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-29, no. 9 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-11-06T00:00:00Z", 
+        "pk": "2007685608", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Brown, Three Finger (Team member)", 
+            "Chicago Cubs", 
+            "Chicago", 
+            "National League", 
+            "pitcher", 
+            "Baseball cards--1910-1920.", 
+            "Chromolithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-05T00:00:00Z", 
+        "index": 7, 
+        "medium": "1 print : chromolithograph with hand-color.", 
+        "reproduction_number": "LC-DIG-bbc-1656f (digital file from original, front)\nLC-DIG-bbc-1656b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685610/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685610/resource/"
+        }, 
+        "title": "[Johnny Evers, Chicago Cubs, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1650/1656fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1650/1656f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1650/1656f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-29, no. 11 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-11-06T00:00:00Z", 
+        "pk": "2007685610", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Evers, Johnny (Team member)", 
+            "Chicago Cubs", 
+            "Chicago", 
+            "National League", 
+            "second baseman", 
+            "Baseball cards--1910-1920.", 
+            "Chromolithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-05T00:00:00Z", 
+        "index": 8, 
+        "medium": "1 print : chromolithograph with hand-color.", 
+        "reproduction_number": "LC-DIG-bbc-1657f (digital file from original, front)\nLC-DIG-bbc-1657b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685611/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685611/resource/"
+        }, 
+        "title": "[Solly Hofman, Chicago Cubs, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1650/1657fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1650/1657f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1650/1657f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-29, no. 12 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-11-06T00:00:00Z", 
+        "pk": "2007685611", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Hofman, Solly (Team member)", 
+            "Chicago Cubs", 
+            "Chicago", 
+            "National League", 
+            "center fielder", 
+            "Baseball cards--1910-1920.", 
+            "Chromolithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-05T00:00:00Z", 
+        "index": 9, 
+        "medium": "1 print : chromolithograph with hand-color.", 
+        "reproduction_number": "LC-DIG-bbc-1658f (digital file from original, front)\nLC-DIG-bbc-1658b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685612/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685612/resource/"
+        }, 
+        "title": "[Pat Moran, Chicago Cubs, Philadelphia Phillies, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1650/1658fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1650/1658f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1650/1658f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-29, no. 13 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-11-06T00:00:00Z", 
+        "pk": "2007685612", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Moran, Pat (Team member)", 
+            "Chicago Cubs", 
+            "Chicago", 
+            "National League", 
+            "catcher", 
+            "Moran, Pat (Team member)", 
+            "Philadelphia Phillies", 
+            "Philadelphia", 
+            "National League", 
+            "catcher", 
+            "Baseball cards--1910-1920.", 
+            "Chromolithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-05T00:00:00Z", 
+        "index": 10, 
+        "medium": "1 print : chromolithograph with hand-color.", 
+        "reproduction_number": "LC-DIG-bbc-1659f (digital file from original, front)\nLC-DIG-bbc-1659b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685613/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685613/resource/"
+        }, 
+        "title": "[Orval Overall, Chicago Cubs, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1650/1659fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1650/1659f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1650/1659f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-29, no. 14 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-11-06T00:00:00Z", 
+        "pk": "2007685613", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Overall, Orval (Team member)", 
+            "Chicago Cubs", 
+            "Chicago", 
+            "National League", 
+            "pitcher", 
+            "Baseball cards--1910-1920.", 
+            "Chromolithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-05T00:00:00Z", 
+        "index": 11, 
+        "medium": "1 print : chromolithograph with hand-color.", 
+        "reproduction_number": "LC-DIG-bbc-1660f (digital file from original, front)\nLC-DIG-bbc-1660b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685614/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685614/resource/"
+        }, 
+        "title": "[Pfeister, Chicago Cubs, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1660/1660fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1660/1660f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1660/1660f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-29, no. 15 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-11-06T00:00:00Z", 
+        "pk": "2007685614", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Pfiester, Jack (Team member)", 
+            "Chicago Cubs", 
+            "Chicago", 
+            "National League", 
+            "pitcher", 
+            "Baseball cards--1910-1920.", 
+            "Chromolithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-05T00:00:00Z", 
+        "index": 12, 
+        "medium": "1 print : chromolithograph with hand-color.", 
+        "reproduction_number": "LC-DIG-bbc-1661f (digital file from original, front)\nLC-DIG-bbc-1661b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685615/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685615/resource/"
+        }, 
+        "title": "[Wildfire Schulte, Chicago Cubs, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1660/1661fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1660/1661f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1660/1661f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-29, no. 16 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-11-06T00:00:00Z", 
+        "pk": "2007685615", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Schulte, Wildfire (Team member)", 
+            "Chicago Cubs", 
+            "Chicago", 
+            "National League", 
+            "right fielder", 
+            "Baseball cards--1910-1920.", 
+            "Chromolithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-05T00:00:00Z", 
+        "index": 13, 
+        "medium": "1 print : chromolithograph with hand-color.", 
+        "reproduction_number": "LC-DIG-bbc-1664f (digital file from original, front)\nLC-DIG-bbc-1664b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685618/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685618/resource/"
+        }, 
+        "title": "[Harry Coveleski, Cincinnati Reds, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1660/1664fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1660/1664f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1660/1664f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-29, no. 19 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-11-06T00:00:00Z", 
+        "pk": "2007685618", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Coveleski, Harry (Team member)", 
+            "Cincinnati Reds", 
+            "Cincinnati", 
+            "National League", 
+            "pitcher", 
+            "Baseball cards--1910-1920.", 
+            "Chromolithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-05T00:00:00Z", 
+        "index": 14, 
+        "medium": "1 print : chromolithograph with hand-color.", 
+        "reproduction_number": "LC-DIG-bbc-1666f (digital file from original, front)\nLC-DIG-bbc-1666b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685620/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685620/resource/"
+        }, 
+        "title": "[Art Fromme, Cincinnati Reds, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1660/1666fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1660/1666f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1660/1666f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-29, no. 21 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-11-06T00:00:00Z", 
+        "pk": "2007685620", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Fromme, Art (Team member)", 
+            "Cincinnati Reds", 
+            "Cincinnati", 
+            "National League", 
+            "pitcher", 
+            "Baseball cards--1910-1920.", 
+            "Chromolithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-05T00:00:00Z", 
+        "index": 15, 
+        "medium": "1 print : chromolithograph with hand-color.", 
+        "reproduction_number": "LC-DIG-bbc-1668f (digital file from original, front)\nLC-DIG-bbc-1668b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685622/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685622/resource/"
+        }, 
+        "title": "[Dick Hoblitzell, Cincinnati Reds, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1660/1668fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1660/1668f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1660/1668f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-29, no. 23 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-11-06T00:00:00Z", 
+        "pk": "2007685622", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Hoblitzell, Dick (Team member)", 
+            "Cincinnati Reds", 
+            "Cincinnati", 
+            "National League", 
+            "first baseman", 
+            "Baseball cards--1910-1920.", 
+            "Chromolithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-05T00:00:00Z", 
+        "index": 16, 
+        "medium": "1 print : chromolithograph with hand-color.", 
+        "reproduction_number": "LC-DIG-bbc-1669f (digital file from original, front)\nLC-DIG-bbc-1669b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685623/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685623/resource/"
+        }, 
+        "title": "[Hans Lobert, Cincinnati Reds, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1660/1669fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1660/1669f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1660/1669f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-29, no. 24 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-11-06T00:00:00Z", 
+        "pk": "2007685623", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Lobert, Hans (Team member)", 
+            "Cincinnati Reds", 
+            "Cincinnati", 
+            "National League", 
+            "third baseman", 
+            "Baseball cards--1910-1920.", 
+            "Chromolithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-05T00:00:00Z", 
+        "index": 17, 
+        "medium": "1 print : chromolithograph with hand-color.", 
+        "reproduction_number": "LC-DIG-bbc-1673f (digital file from original, front)\nLC-DIG-bbc-1673b (digital file from original, back)\nLC-USZ62-134592 (b&w film copy neg., front)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685627/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685627/resource/"
+        }, 
+        "title": "[Al Bridwell, New York Giants, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1670/1673fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1670/1673f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1670/1673f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-29, no. 28 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-10-10T00:00:00Z", 
+        "pk": "2007685627", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Bridwell, Al (Team member)", 
+            "New York Giants", 
+            "New York", 
+            "National League", 
+            "shortstop", 
+            "Baseball cards--1910-1920.", 
+            "Chromolithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-05T00:00:00Z", 
+        "index": 18, 
+        "medium": "1 print : chromolithograph with hand-color.", 
+        "reproduction_number": "LC-DIG-bbc-1675f (digital file from original, front)\nLC-DIG-bbc-1675b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685629/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685629/resource/"
+        }, 
+        "title": "[Willie Keeler, New York Giants, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1670/1675fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1670/1675f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1670/1675f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-29, no. 30 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-11-06T00:00:00Z", 
+        "pk": "2007685629", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Keeler, Willie (Team member)", 
+            "New York Giants", 
+            "New York", 
+            "National League", 
+            "outfielder", 
+            "Baseball cards--1910-1920.", 
+            "Chromolithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-05T00:00:00Z", 
+        "index": 19, 
+        "medium": "1 print : chromolithograph with hand-color.", 
+        "reproduction_number": "LC-DIG-bbc-1677f (digital file from original, front)\nLC-DIG-bbc-1677b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685631/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685631/resource/"
+        }, 
+        "title": "[John McGraw, New York Giants, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1670/1677fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1670/1677f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1670/1677f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-29, no. 32 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-11-06T00:00:00Z", 
+        "pk": "2007685631", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "McGraw, John (Team member)", 
+            "New York Giants", 
+            "New York", 
+            "National League", 
+            "manager", 
+            "Baseball cards--1910-1920.", 
+            "Chromolithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-05T00:00:00Z", 
+        "index": 20, 
+        "medium": "1 print : chromolithograph with hand-color.", 
+        "reproduction_number": "LC-DIG-bbc-1679f (digital file from original, front)\nLC-DIG-bbc-1679b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685633/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685633/resource/"
+        }, 
+        "title": "[Red Murray, New York Giants, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1670/1679fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1670/1679f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1670/1679f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-29, no. 34 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-11-06T00:00:00Z", 
+        "pk": "2007685633", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Murray, Red (Team member)", 
+            "New York Giants", 
+            "New York", 
+            "National League", 
+            "right fielder", 
+            "Baseball cards--1910-1920.", 
+            "Chromolithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-05T00:00:00Z", 
+        "index": 21, 
+        "medium": "1 print : chromolithograph with hand-color.", 
+        "reproduction_number": "LC-DIG-bbc-1680f (digital file from original, front)\nLC-DIG-bbc-1680b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685634/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685634/resource/"
+        }, 
+        "title": "[Bugs Raymond, New York Giants, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1680/1680fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1680/1680f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1680/1680f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-29, no. 35 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-11-06T00:00:00Z", 
+        "pk": "2007685634", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Raymond, Bugs (Team member)", 
+            "New York Giants", 
+            "New York", 
+            "National League", 
+            "pitcher", 
+            "Baseball cards--1910-1920.", 
+            "Chromolithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-05T00:00:00Z", 
+        "index": 22, 
+        "medium": "1 print : chromolithograph with hand-color.", 
+        "reproduction_number": "LC-DIG-bbc-1681f (digital file from original, front)\nLC-DIG-bbc-1681b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685635/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685635/resource/"
+        }, 
+        "title": "[Admiral Schlei, New York Giants, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1680/1681fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1680/1681f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1680/1681f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-29, no. 36 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2008-06-25T00:00:00Z", 
+        "pk": "2007685635", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Schlei, Admiral (Team member)", 
+            "New York Giants", 
+            "New York", 
+            "National League", 
+            "catcher", 
+            "Baseball cards--1910-1920.", 
+            "Chromolithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-05T00:00:00Z", 
+        "index": 23, 
+        "medium": "1 print : chromolithograph with hand-color.", 
+        "reproduction_number": "LC-DIG-bbc-1683f (digital file from original, front)\nLC-DIG-bbc-1683b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685637/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685637/resource/"
+        }, 
+        "title": "[Hooks Wiltse, New York Giants, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1680/1683fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1680/1683f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1680/1683f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-29, no. 38 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-11-06T00:00:00Z", 
+        "pk": "2007685637", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Wiltse, Hooks (Team member)", 
+            "New York Giants", 
+            "New York", 
+            "National League", 
+            "pitcher", 
+            "Baseball cards--1910-1920.", 
+            "Chromolithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-05T00:00:00Z", 
+        "index": 24, 
+        "medium": "1 print : chromolithograph with hand-color.", 
+        "reproduction_number": "LC-DIG-bbc-1684f (digital file from original, front)\nLC-DIG-bbc-1684b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685638/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685638/resource/"
+        }, 
+        "title": "[Kitty Bransfield, Philadelphia Phillies, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1680/1684fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1680/1684f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1680/1684f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-29, no. 39 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-11-06T00:00:00Z", 
+        "pk": "2007685638", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Bransfield, Kitty (Team member)", 
+            "Philadelphia Phillies", 
+            "Philadelphia", 
+            "National League", 
+            "first baseman", 
+            "Baseball cards--1910-1920.", 
+            "Chromolithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-05T00:00:00Z", 
+        "index": 25, 
+        "medium": "1 print : chromolithograph with hand-color.", 
+        "reproduction_number": "LC-DIG-bbc-1687f (digital file from original, front)\nLC-DIG-bbc-1687b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685651/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685651/resource/"
+        }, 
+        "title": "[Sherry Magee, Philadelphia Phillies, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1680/1687fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1680/1687f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1680/1687f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-29, no. 42 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-11-06T00:00:00Z", 
+        "pk": "2007685651", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Magee, Sherry (Team member)", 
+            "Philadelphia Phillies", 
+            "Philadelphia", 
+            "National League", 
+            "left fielder", 
+            "Baseball cards--1910-1920.", 
+            "Chromolithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-12T00:00:00Z", 
+        "index": 26, 
+        "medium": "1 print : chromolithograph with hand-color.", 
+        "reproduction_number": "LC-DIG-bbc-1690f (digital file from original, front)\nLC-DIG-bbc-1690b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685654/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685654/resource/"
+        }, 
+        "title": "[George Gibson, Pittsburgh Pirates, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1690/1690fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1690/1690f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1690/1690f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-29, no. 45 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-11-06T00:00:00Z", 
+        "pk": "2007685654", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Gibson, George (Team member)", 
+            "Pittsburgh Pirates", 
+            "Pittsburgh", 
+            "National League", 
+            "catcher", 
+            "Baseball cards--1910-1920.", 
+            "Chromolithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-12T00:00:00Z", 
+        "index": 27, 
+        "medium": "1 print : chromolithograph with hand-color.", 
+        "reproduction_number": "LC-DIG-bbc-1692f (digital file from original, front)\nLC-DIG-bbc-1692b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685656/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685656/resource/"
+        }, 
+        "title": "[Vic Willis, Pittsburgh Pirates, St. Louis Cardinals, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1690/1692fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1690/1692f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1690/1692f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-29, no. 47 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-11-06T00:00:00Z", 
+        "pk": "2007685656", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Willis, Vic (Team member)", 
+            "Pittsburgh Pirates", 
+            "Pittsburgh", 
+            "National League", 
+            "pitcher", 
+            "Willis, Vic (Team member)", 
+            "St. Louis Cardinals", 
+            "St. Louis", 
+            "National League", 
+            "pitcher", 
+            "Baseball cards--1910-1920.", 
+            "Chromolithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-12T00:00:00Z", 
+        "index": 28, 
+        "medium": "1 print : chromolithograph with hand-color.", 
+        "reproduction_number": "LC-DIG-bbc-1694f (digital file from original, front)\nLC-DIG-bbc-1694b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685658/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685658/resource/"
+        }, 
+        "title": "[Roger Bresnahan, St. Louis Cardinals, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1690/1694fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1690/1694f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1690/1694f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-29, no. 49 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-11-06T00:00:00Z", 
+        "pk": "2007685658", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Bresnahan, Roger (Team member)", 
+            "St. Louis Cardinals", 
+            "St. Louis", 
+            "National League", 
+            "catcher", 
+            "Baseball cards--1910-1920.", 
+            "Chromolithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-12T00:00:00Z", 
+        "index": 29, 
+        "medium": "1 print : chromolithograph with hand-color.", 
+        "reproduction_number": "LC-DIG-bbc-1695f (digital file from original, front)\nLC-DIG-bbc-1695b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685659/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685659/resource/"
+        }, 
+        "title": "[Ed Konetchy, St. Louis Cardinals, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1690/1695fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1690/1695f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1690/1695f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-29, no. 50 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-11-06T00:00:00Z", 
+        "pk": "2007685659", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Konetchy, Ed (Team member)", 
+            "St. Louis Cardinals", 
+            "St. Louis", 
+            "National League", 
+            "first baseman", 
+            "Baseball cards--1910-1920.", 
+            "Chromolithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-12T00:00:00Z", 
+        "index": 30, 
+        "medium": "1 print : chromolithograph with hand-color.", 
+        "reproduction_number": "LC-DIG-bbc-1696f (digital file from original, front)\nLC-DIG-bbc-1696b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685660/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685660/resource/"
+        }, 
+        "title": "[Slim Sallee, St. Louis Cardinals, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1690/1696fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1690/1696f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1690/1696f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-29, no. 51 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-11-06T00:00:00Z", 
+        "pk": "2007685660", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Sallee, Slim (Team member)", 
+            "St. Louis Cardinals", 
+            "St. Louis", 
+            "National League", 
+            "pitcher", 
+            "Baseball cards--1910-1920.", 
+            "Chromolithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-12T00:00:00Z", 
+        "index": 31, 
+        "medium": "1 print : chromolithograph with hand-color.", 
+        "reproduction_number": "LC-DIG-bbc-1697f (digital file from original, front)\nLC-DIG-bbc-1697b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685661/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685661/resource/"
+        }, 
+        "title": "[Bill Carrigan, Boston Red Sox, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1690/1697fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1690/1697f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1690/1697f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-29, no. 52 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-11-06T00:00:00Z", 
+        "pk": "2007685661", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Carrigan, Bill (Team member)", 
+            "Boston Red Sox", 
+            "Boston", 
+            "American League", 
+            "catcher", 
+            "Baseball cards--1910-1920.", 
+            "Chromolithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-12T00:00:00Z", 
+        "index": 32, 
+        "medium": "1 print : chromolithograph with hand-color.", 
+        "reproduction_number": "LC-DIG-bbc-1699f (digital file from original, front)\nLC-DIG-bbc-1699b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685663/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685663/resource/"
+        }, 
+        "title": "[Amby McConnell, Boston Red Sox, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1690/1699fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1690/1699f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1690/1699f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-29, no. 54 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-11-06T00:00:00Z", 
+        "pk": "2007685663", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "McConnell, Amby (Team member)", 
+            "Boston Red Sox", 
+            "Boston", 
+            "American League", 
+            "second baseman", 
+            "Baseball cards--1910-1920.", 
+            "Chromolithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-12T00:00:00Z", 
+        "index": 33, 
+        "medium": "1 print : chromolithograph with hand-color.", 
+        "reproduction_number": "LC-DIG-bbc-1702f (digital file from original, front)\nLC-DIG-bbc-1702b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685666/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685666/resource/"
+        }, 
+        "title": "[Jake Stahl, Boston Red Sox, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1700/1702fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1700/1702f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1700/1702f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-29, no. 57 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-11-06T00:00:00Z", 
+        "pk": "2007685666", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Stahl, Jake (Team member)", 
+            "Boston Red Sox", 
+            "Boston", 
+            "American League", 
+            "first baseman", 
+            "Baseball cards--1910-1920.", 
+            "Chromolithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-12T00:00:00Z", 
+        "index": 34, 
+        "medium": "1 print : chromolithograph with hand-color.", 
+        "reproduction_number": "LC-DIG-bbc-1704f (digital file from original, front)\nLC-DIG-bbc-1704b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685668/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685668/resource/"
+        }, 
+        "title": "[Frank Smith, Chicago White Sox, Boston Doves, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1700/1704fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1700/1704f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1700/1704f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-29, no. 59 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-11-06T00:00:00Z", 
+        "pk": "2007685668", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Smith, Frank (Team member)", 
+            "Chicago White Sox", 
+            "Chicago", 
+            "American League", 
+            "pitcher", 
+            "Smith, Frank (Team member)", 
+            "Boston Doves", 
+            "Boston", 
+            "American League", 
+            "pitcher", 
+            "Baseball cards--1910-1920.", 
+            "Chromolithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-12T00:00:00Z", 
+        "index": 35, 
+        "medium": "1 print : chromolithograph with hand-color.", 
+        "reproduction_number": "LC-DIG-bbc-1707f (digital file from original, front)\nLC-DIG-bbc-1707b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685671/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685671/resource/"
+        }, 
+        "title": "[Addie Joss, Cleveland Naps, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1700/1707fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1700/1707f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1700/1707f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-29, no. 62 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-11-06T00:00:00Z", 
+        "pk": "2007685671", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Joss, Addie (Team member)", 
+            "Cleveland Naps", 
+            "Cleveland", 
+            "American League", 
+            "pitcher", 
+            "Baseball cards--1910-1920.", 
+            "Chromolithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-12T00:00:00Z", 
+        "index": 36, 
+        "medium": "1 print : chromolithograph with hand-color.", 
+        "reproduction_number": "LC-DIG-bbc-1711f (digital file from original, front)\nLC-DIG-bbc-1711b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685675/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685675/resource/"
+        }, 
+        "title": "[Ty Cobb, Detroit Tigers, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1710/1711fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1710/1711f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1710/1711f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-29, no. 66 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-11-06T00:00:00Z", 
+        "pk": "2007685675", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Cobb, Ty (Team member)", 
+            "Detroit Tigers", 
+            "Detroit", 
+            "American League", 
+            "outfielder", 
+            "Baseball cards--1910-1920.", 
+            "Chromolithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-12T00:00:00Z", 
+        "index": 37, 
+        "medium": "1 print : chromolithograph with hand-color.", 
+        "reproduction_number": "LC-DIG-bbc-1712f (digital file from original, front)\nLC-DIG-bbc-1712b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685676/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685676/resource/"
+        }, 
+        "title": "[Sam Crawford, Detroit Tigers, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1710/1712fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1710/1712f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1710/1712f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-29, no. 67 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-11-06T00:00:00Z", 
+        "pk": "2007685676", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Crawford, Sam (Team member)", 
+            "Detroit Tigers", 
+            "Detroit", 
+            "American League", 
+            "right fielder", 
+            "Baseball cards--1910-1920.", 
+            "Chromolithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-12T00:00:00Z", 
+        "index": 38, 
+        "medium": "1 print : chromolithograph with hand-color.", 
+        "reproduction_number": "LC-DIG-bbc-1714f (digital file from original, front)\nLC-DIG-bbc-1714b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685678/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685678/resource/"
+        }, 
+        "title": "[Hughie Jennings, Detroit Tigers, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1710/1714fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1710/1714f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1710/1714f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-29, no. 69 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-11-06T00:00:00Z", 
+        "pk": "2007685678", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Jennings, Hughie (Team member)", 
+            "Detroit Tigers", 
+            "Detroit", 
+            "American League", 
+            "second baseman", 
+            "Baseball cards--1910-1920.", 
+            "Chromolithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-12T00:00:00Z", 
+        "index": 39, 
+        "medium": "1 print : chromolithograph with hand-color.", 
+        "reproduction_number": "LC-DIG-bbc-1715f (digital file from original, front)\nLC-DIG-bbc-1715b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685679/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685679/resource/"
+        }, 
+        "title": "[D. Jones, Detroit Tigers, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1710/1715fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1710/1715f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1710/1715f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-29, no. 70 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-11-06T00:00:00Z", 
+        "pk": "2007685679", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Jones, Davy (Team member)", 
+            "Detroit Tigers", 
+            "Detroit", 
+            "American League", 
+            "outfielder", 
+            "Baseball cards--1910-1920.", 
+            "Chromolithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-12T00:00:00Z", 
+        "index": 40, 
+        "medium": "1 print : chromolithograph with hand-color.", 
+        "reproduction_number": "LC-DIG-bbc-1716f (digital file from original, front)\nLC-DIG-bbc-1716b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685680/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685680/resource/"
+        }, 
+        "title": "[Matty McIntyre, Detroit Tigers, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1710/1716fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1710/1716f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1710/1716f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-29, no. 71 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-11-06T00:00:00Z", 
+        "pk": "2007685680", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "McIntyre, Matty (Team member)", 
+            "Detroit Tigers", 
+            "Detroit", 
+            "American League", 
+            "outfielder", 
+            "Baseball cards--1910-1920.", 
+            "Chromolithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-12T00:00:00Z", 
+        "index": 41, 
+        "medium": "1 print : chromolithograph with hand-color.", 
+        "reproduction_number": "LC-DIG-bbc-1720f (digital file from original, front)\nLC-DIG-bbc-1720b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685684/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685684/resource/"
+        }, 
+        "title": "[Lou Criger, New York Highlanders, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1720/1720fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1720/1720f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1720/1720f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-29, no. 75 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-11-06T00:00:00Z", 
+        "pk": "2007685684", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Criger, Lou (Team member)", 
+            "New York Highlanders", 
+            "New York", 
+            "American League", 
+            "catcher", 
+            "Baseball cards--1910-1920.", 
+            "Chromolithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-12T00:00:00Z", 
+        "index": 42, 
+        "medium": "1 print : chromolithograph with hand-color.", 
+        "reproduction_number": "LC-DIG-bbc-1722f (digital file from original, front)\nLC-DIG-bbc-1722b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685686/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685686/resource/"
+        }, 
+        "title": "[Rube Manning, New York Highlanders, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1720/1722fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1720/1722f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1720/1722f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-29, no. 77 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-11-06T00:00:00Z", 
+        "pk": "2007685686", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Manning, Rube (Team member)", 
+            "New York Highlanders", 
+            "New York", 
+            "American League", 
+            "pitcher", 
+            "Baseball cards--1910-1920.", 
+            "Chromolithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-12T00:00:00Z", 
+        "index": 43, 
+        "medium": "1 print : chromolithograph with hand-color.", 
+        "reproduction_number": "LC-DIG-bbc-1723f (digital file from original, front)\nLC-DIG-bbc-1723b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685687/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685687/resource/"
+        }, 
+        "title": "[Frank Baker, Philadelphia Athletics, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1720/1723fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1720/1723f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1720/1723f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-29, no. 78 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-11-06T00:00:00Z", 
+        "pk": "2007685687", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Baker, Frank (Team member)", 
+            "Philadelphia Athletics", 
+            "Philadelphia", 
+            "American League", 
+            "third baseman", 
+            "Baseball cards--1910-1920.", 
+            "Chromolithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-19T00:00:00Z", 
+        "index": 44, 
+        "medium": "1 print : chromolithograph with hand-color.", 
+        "reproduction_number": "LC-DIG-bbc-1726f (digital file from original, front)\nLC-DIG-bbc-1726b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685700/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685700/resource/"
+        }, 
+        "title": "[Harry Krause, Philadelphia Athletics, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1720/1726fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1720/1726f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1720/1726f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-29, no. 81 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-11-06T00:00:00Z", 
+        "pk": "2007685700", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Krause, Harry (Team member)", 
+            "Philadelphia Athletics", 
+            "Philadelphia", 
+            "American League", 
+            "pitcher", 
+            "Baseball cards--1910-1920.", 
+            "Chromolithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-19T00:00:00Z", 
+        "index": 45, 
+        "medium": "1 print : chromolithograph with hand-color.", 
+        "reproduction_number": "LC-DIG-bbc-1727f (digital file from original, front)\nLC-DIG-bbc-1727b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685701/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685701/resource/"
+        }, 
+        "title": "[Ira Thomas, Philadelphia Athletics, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1720/1727fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1720/1727f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1720/1727f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-29, no. 82 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-11-06T00:00:00Z", 
+        "pk": "2007685701", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Thomas, Ira (Team member)", 
+            "Philadelphia Athletics", 
+            "Philadelphia", 
+            "American League", 
+            "catcher", 
+            "Baseball cards--1910-1920.", 
+            "Chromolithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-19T00:00:00Z", 
+        "index": 46, 
+        "medium": "1 print : chromolithograph with hand-color.", 
+        "reproduction_number": "LC-DIG-bbc-1731f (digital file from original, front)\nLC-DIG-bbc-1731b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685705/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685705/resource/"
+        }, 
+        "title": "[Kid Elberfeld, Washington Nationals, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1730/1731fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1730/1731f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1730/1731f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-29, no. 86 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-11-06T00:00:00Z", 
+        "pk": "2007685705", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Elberfeld, Kid (Team member)", 
+            "Washington Nationals", 
+            "Washington", 
+            "American League", 
+            "third baseman", 
+            "Baseball cards--1910-1920.", 
+            "Chromolithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-19T00:00:00Z", 
+        "index": 47, 
+        "medium": "1 print : chromolithograph with hand-color.", 
+        "reproduction_number": "LC-DIG-bbc-1732f (digital file from original, front)\nLC-DIG-bbc-1732b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685706/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685706/resource/"
+        }, 
+        "title": "[Bob Groom, Washington Nationals, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1730/1732fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1730/1732f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1730/1732f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-29, no. 87 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-11-06T00:00:00Z", 
+        "pk": "2007685706", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Groom, Bob (Team member)", 
+            "Washington Nationals", 
+            "Washington", 
+            "American League", 
+            "pitcher", 
+            "Baseball cards--1910-1920.", 
+            "Chromolithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-19T00:00:00Z", 
+        "index": 48, 
+        "medium": "1 print : chromolithograph with hand-color.", 
+        "reproduction_number": "LC-DIG-bbc-1735f (digital file from original, front)\nLC-DIG-bbc-1735b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685709/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685709/resource/"
+        }, 
+        "title": "[A close play at second, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1730/1735fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1730/1735f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1730/1735f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "13", 
+            "21", 
+            "216", 
+            "bbc", 
+            "diof", 
+            "exh", 
+            "l4105", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-29, no. 90 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2008-09-22T00:00:00Z", 
+        "pk": "2007685709", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Baseball cards--1910-1920.", 
+            "Chromolithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-19T00:00:00Z", 
+        "index": 49, 
+        "medium": "1 print : chromolithograph with hand-color.", 
+        "reproduction_number": "LC-DIG-bbc-1736f (digital file from original, front)\nLC-DIG-bbc-1736b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685710/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685710/resource/"
+        }, 
+        "title": "[Chief Myers at bat, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1730/1736fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1730/1736f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1730/1736f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-29, no. 91 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-10-23T00:00:00Z", 
+        "pk": "2007685710", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Baseball cards--1910-1920.", 
+            "Chromolithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-19T00:00:00Z", 
+        "index": 50, 
+        "medium": "1 print : chromolithograph with hand-color.", 
+        "reproduction_number": "LC-DIG-bbc-1740f (digital file from original, front)\nLC-DIG-bbc-1740b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685714/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685714/resource/"
+        }, 
+        "title": "[Trying to catch him napping, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1740/1740fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1740/1740f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1740/1740f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-29, no. 95 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-10-23T00:00:00Z", 
+        "pk": "2007685714", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Baseball cards--1910-1920.", 
+            "Chromolithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-05T00:00:00Z", 
+        "index": 51, 
+        "medium": "1 print : chromolithograph with hand-color.", 
+        "reproduction_number": "LC-DIG-bbc-1648f (digital file from original, front)\nLC-DIG-bbc-1648b (digital file from original, back)\nLC-USZC4-6998 (color film copy transparency, front)\nLC-USZC4-7052 (color film copy transparency of back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685602/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685602/resource/"
+        }, 
+        "title": "[Bill Bergen, Brooklyn Dodgers, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1640/1648fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1640/1648f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1640/1648f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-29, no. 2 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-11-06T00:00:00Z", 
+        "pk": "2007685602", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Bergen, Bill (Team member)", 
+            "Brooklyn Dodgers", 
+            "Brooklyn", 
+            "National League", 
+            "catcher", 
+            "Baseball cards--1910-1920.", 
+            "Chromolithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-05T00:00:00Z", 
+        "index": 52, 
+        "medium": "1 print : chromolithograph with hand-color.", 
+        "reproduction_number": "LC-DIG-bbc-1650f (digital file from original, front)\nLC-DIG-bbc-1650b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685604/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685604/resource/"
+        }, 
+        "title": "[Tim Jordan, Brooklyn Superbas, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1650/1650fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1650/1650f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1650/1650f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-29, no. 5 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-11-06T00:00:00Z", 
+        "pk": "2007685604", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Jordan, Tim (Team member)", 
+            "Brooklyn Superbas", 
+            "Brooklyn", 
+            "National League", 
+            "first baseman", 
+            "Baseball cards--1910-1920.", 
+            "Chromolithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-05T00:00:00Z", 
+        "index": 53, 
+        "medium": "1 print : chromolithograph with hand-color.", 
+        "reproduction_number": "LC-DIG-bbc-1652f (digital file from original, front)\nLC-DIG-bbc-1652b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685606/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685606/resource/"
+        }, 
+        "title": "[McIntire, Brooklyn Superbas, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1650/1652fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1650/1652f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1650/1652f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-29, no. 7 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-11-06T00:00:00Z", 
+        "pk": "2007685606", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "McIntire, Harry (Team member)", 
+            "Brooklyn Superbas", 
+            "Brooklyn", 
+            "National League", 
+            "pitcher", 
+            "Baseball cards--1910-1920.", 
+            "Chromolithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-05T00:00:00Z", 
+        "index": 54, 
+        "medium": "1 print : chromolithograph with hand-color.", 
+        "reproduction_number": "LC-DIG-bbc-1655f (digital file from original, front)\nLC-DIG-bbc-1655b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685609/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685609/resource/"
+        }, 
+        "title": "[Frank Chance, Chicago Cubs, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1650/1655fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1650/1655f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1650/1655f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-29, no. 10 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-11-06T00:00:00Z", 
+        "pk": "2007685609", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Chance, Frank (Team member)", 
+            "Chicago Cubs", 
+            "Chicago", 
+            "National League", 
+            "first baseman", 
+            "Baseball cards--1910-1920.", 
+            "Chromolithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-05T00:00:00Z", 
+        "index": 55, 
+        "medium": "1 print : chromolithograph with hand-color.", 
+        "reproduction_number": "LC-DIG-bbc-1662f (digital file from original, front)\nLC-DIG-bbc-1662b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685616/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685616/resource/"
+        }, 
+        "title": "[Joe Tinker, Chicago Cubs, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1660/1662fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1660/1662f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1660/1662f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-29, no. 17 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-11-06T00:00:00Z", 
+        "pk": "2007685616", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Tinker, Joe (Team member)", 
+            "Chicago Cubs", 
+            "Chicago", 
+            "National League", 
+            "shortstop", 
+            "Baseball cards--1910-1920.", 
+            "Chromolithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-05T00:00:00Z", 
+        "index": 56, 
+        "medium": "1 print : chromolithograph with hand-color.", 
+        "reproduction_number": "LC-DIG-bbc-1663f (digital file from original, front)\nLC-DIG-bbc-1663b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685617/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685617/resource/"
+        }, 
+        "title": "[Bob Bescher, Cincinnati Reds, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1660/1663fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1660/1663f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1660/1663f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-29, no. 18 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-11-06T00:00:00Z", 
+        "pk": "2007685617", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Bescher, Bob (Team member)", 
+            "Cincinnati Reds", 
+            "Cincinnati", 
+            "National League", 
+            "outfielder", 
+            "Baseball cards--1910-1920.", 
+            "Chromolithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-05T00:00:00Z", 
+        "index": 57, 
+        "medium": "1 print : chromolithograph with hand-color.", 
+        "reproduction_number": "LC-DIG-bbc-1665f (digital file from original, front)\nLC-DIG-bbc-1665b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685619/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685619/resource/"
+        }, 
+        "title": "[Tom Downey, Cincinnati Reds, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1660/1665fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1660/1665f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1660/1665f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-29, no. 20 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-11-06T00:00:00Z", 
+        "pk": "2007685619", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Downey, Tom (Team member)", 
+            "Cincinnati Reds", 
+            "Cincinnati", 
+            "National League", 
+            "shortstop", 
+            "Baseball cards--1910-1920.", 
+            "Chromolithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-05T00:00:00Z", 
+        "index": 58, 
+        "medium": "1 print : chromolithograph with hand-color.", 
+        "reproduction_number": "LC-DIG-bbc-1667f (digital file from original, front)\nLC-DIG-bbc-1667b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685621/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685621/resource/"
+        }, 
+        "title": "[Clark Griffith, Cincinnati Reds, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1660/1667fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1660/1667f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1660/1667f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-29, no. 22 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-11-06T00:00:00Z", 
+        "pk": "2007685621", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Griffith, Clark (Team member)", 
+            "Cincinnati Reds", 
+            "Cincinnati", 
+            "National League", 
+            "manager", 
+            "Baseball cards--1910-1920.", 
+            "Chromolithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-05T00:00:00Z", 
+        "index": 59, 
+        "medium": "1 print : chromolithograph with hand-color.", 
+        "reproduction_number": "LC-DIG-bbc-1670f (digital file from original, front)\nLC-DIG-bbc-1670b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685624/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685624/resource/"
+        }, 
+        "title": "[Mike Mitchell, Cincinnati Reds, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1670/1670fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1670/1670f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1670/1670f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-29, no. 25 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-11-06T00:00:00Z", 
+        "pk": "2007685624", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Mitchell, Mike (Team member)", 
+            "Cincinnati Reds", 
+            "Cincinnati", 
+            "National League", 
+            "right fielder", 
+            "Baseball cards--1910-1920.", 
+            "Chromolithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-05T00:00:00Z", 
+        "index": 60, 
+        "medium": "1 print : chromolithograph with hand-color.", 
+        "reproduction_number": "LC-DIG-bbc-1671f (digital file from original, front)\nLC-DIG-bbc-1671b (digital file from original, back)\nLC-USZC2-5122 (color film copy slide, front)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685625/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685625/resource/"
+        }, 
+        "title": "[Dode Paskert, Cincinnati Reds, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1670/1671fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1670/1671f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1670/1671f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-29, no. 26 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-11-06T00:00:00Z", 
+        "pk": "2007685625", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Paskert, Dode (Team member)", 
+            "Cincinnati Reds", 
+            "Cincinnati", 
+            "National League", 
+            "outfielder", 
+            "Baseball cards--1910-1920.", 
+            "Chromolithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-05T00:00:00Z", 
+        "index": 61, 
+        "medium": "1 print : chromolithograph with hand-color.", 
+        "reproduction_number": "LC-DIG-bbc-1672f (digital file from original, front)\nLC-DIG-bbc-1672b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685626/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685626/resource/"
+        }, 
+        "title": "[Red Ames, New York Giants, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1670/1672fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1670/1672f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1670/1672f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-29, no. 27 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-11-06T00:00:00Z", 
+        "pk": "2007685626", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Ames, Red (Team member)", 
+            "New York Giants", 
+            "New York", 
+            "National League", 
+            "pitcher", 
+            "Baseball cards--1910-1920.", 
+            "Chromolithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-05T00:00:00Z", 
+        "index": 62, 
+        "medium": "1 print : chromolithograph with hand-color.", 
+        "reproduction_number": "LC-DIG-bbc-1674f (digital file from original, front)\nLC-DIG-bbc-1674b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685628/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685628/resource/"
+        }, 
+        "title": "[Larry Doyle, New York Giants, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1670/1674fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1670/1674f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1670/1674f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-29, no. 29 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-11-06T00:00:00Z", 
+        "pk": "2007685628", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Doyle, Larry (Team member)", 
+            "New York Giants", 
+            "New York", 
+            "National League", 
+            "second baseman", 
+            "Baseball cards--1910-1920.", 
+            "Chromolithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-05T00:00:00Z", 
+        "index": 63, 
+        "medium": "1 print : chromolithograph with hand-color.", 
+        "reproduction_number": "LC-DIG-bbc-1678f (digital file from original, front)\nLC-DIG-bbc-1678b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685632/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685632/resource/"
+        }, 
+        "title": "[Fred Merkle, New York Giants, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1670/1678fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1670/1678f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1670/1678f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-29, no. 33 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-11-06T00:00:00Z", 
+        "pk": "2007685632", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Merkle, Fred (Team member)", 
+            "New York Giants", 
+            "New York", 
+            "National League", 
+            "first baseman", 
+            "Baseball cards--1910-1920.", 
+            "Chromolithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-05T00:00:00Z", 
+        "index": 64, 
+        "medium": "1 print : chromolithograph with hand-color.", 
+        "reproduction_number": "LC-DIG-bbc-1682f (digital file from original, front)\nLC-DIG-bbc-1682b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685636/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685636/resource/"
+        }, 
+        "title": "[Fred Tenney, New York Giants, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1680/1682fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1680/1682f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1680/1682f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-29, no. 37 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-11-06T00:00:00Z", 
+        "pk": "2007685636", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Tenney, Fred (Team member)", 
+            "New York Giants", 
+            "New York", 
+            "National League", 
+            "first baseman", 
+            "Baseball cards--1910-1920.", 
+            "Chromolithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-11-06T00:00:00Z", 
+        "index": 65, 
+        "medium": "1 print : chromolithograph with hand-color.", 
+        "reproduction_number": "LC-DIG-bbc-1685f (digital file from original, front)\nLC-DIG-bbc-1685b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685639/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685639/resource/"
+        }, 
+        "title": "[Red Dooin, Philadelphia Phillies, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1680/1685fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1680/1685f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1680/1685f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-29, no. 39 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-11-06T00:00:00Z", 
+        "pk": "2007685639", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Dooin, Red (Team member)", 
+            "Philadelphia Phillies", 
+            "Philadelphia", 
+            "National League", 
+            "catcher", 
+            "Baseball cards--1910-1920.", 
+            "Chromolithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-12T00:00:00Z", 
+        "index": 66, 
+        "medium": "1 print : chromolithograph with hand-color.", 
+        "reproduction_number": "LC-DIG-bbc-1686f (digital file from original, front)\nLC-DIG-bbc-1686b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685650/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685650/resource/"
+        }, 
+        "title": "[Doolan, Philadelphia Phillies, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1680/1686fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1680/1686f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1680/1686f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-29, no. 41 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-11-06T00:00:00Z", 
+        "pk": "2007685650", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Doolan, Mickey (Team member)", 
+            "Philadelphia Phillies", 
+            "Philadelphia", 
+            "National League", 
+            "shortstop", 
+            "Baseball cards--1910-1920.", 
+            "Chromolithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-12T00:00:00Z", 
+        "index": 67, 
+        "medium": "1 print : chromolithograph with hand-color.", 
+        "reproduction_number": "LC-DIG-bbc-1688f (digital file from original, front)\nLC-DIG-bbc-1688b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685652/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685652/resource/"
+        }, 
+        "title": "[Howie Camnitz, Pittsburgh Pirates, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1680/1688fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1680/1688f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1680/1688f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-29, no. 43 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-11-06T00:00:00Z", 
+        "pk": "2007685652", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Camnitz, Howie (Team member)", 
+            "Pittsburgh Pirates", 
+            "Pittsburgh", 
+            "National League", 
+            "pitcher", 
+            "Baseball cards--1910-1920.", 
+            "Chromolithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-12T00:00:00Z", 
+        "index": 68, 
+        "medium": "1 print : chromolithograph with hand-color.", 
+        "reproduction_number": "LC-DIG-bbc-1689f (digital file from original, front)\nLC-DIG-bbc-1689b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685653/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685653/resource/"
+        }, 
+        "title": "[Fred Clarke, Pittsburgh Pirates, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1680/1689fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1680/1689f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1680/1689f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-29, no. 44 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-11-06T00:00:00Z", 
+        "pk": "2007685653", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Clarke, Fred (Team member)", 
+            "Pittsburgh Pirates", 
+            "Pittsburgh", 
+            "National League", 
+            "outfielder", 
+            "Baseball cards--1910-1920.", 
+            "Chromolithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-12T00:00:00Z", 
+        "index": 69, 
+        "medium": "1 print : chromolithograph with hand-color.", 
+        "reproduction_number": "LC-DIG-bbc-1691f (digital file from original, front)\nLC-DIG-bbc-1691b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685655/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685655/resource/"
+        }, 
+        "title": "[Tommy Leach, Pittsburgh Pirates, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1690/1691fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1690/1691f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1690/1691f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-29, no. 46 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-11-06T00:00:00Z", 
+        "pk": "2007685655", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Leach, Tommy (Team member)", 
+            "Pittsburgh Pirates", 
+            "Pittsburgh", 
+            "National League", 
+            "outfielder", 
+            "Baseball cards--1910-1920.", 
+            "Chromolithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-12T00:00:00Z", 
+        "index": 70, 
+        "medium": "1 print : chromolithograph with hand-color.", 
+        "reproduction_number": "LC-DIG-bbc-1698f (digital file from original, front)\nLC-DIG-bbc-1698b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685662/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685662/resource/"
+        }, 
+        "title": "[Harry Lord, Boston Red Sox, Chicago White Sox, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1690/1698fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1690/1698f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1690/1698f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-29, no. 53 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-11-06T00:00:00Z", 
+        "pk": "2007685662", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Lord, Harry (Team member)", 
+            "Boston Red Sox", 
+            "Boston", 
+            "American League", 
+            "third baseman", 
+            "Lord, Harry (Team member)", 
+            "Chicago White Sox", 
+            "Chicago", 
+            "American League", 
+            "third baseman", 
+            "Baseball cards--1910-1920.", 
+            "Chromolithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-12T00:00:00Z", 
+        "index": 71, 
+        "medium": "1 print : chromolithograph with hand-color.", 
+        "reproduction_number": "LC-DIG-bbc-1700f (digital file from original, front)\nLC-DIG-bbc-1700b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685664/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685664/resource/"
+        }, 
+        "title": "[Harry Niles, Boston Red Sox, Cleveland Naps, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1700/1700fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1700/1700f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1700/1700f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-29, no. 55 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-11-06T00:00:00Z", 
+        "pk": "2007685664", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Niles, Harry (Team member)", 
+            "Boston Red Sox", 
+            "Boston", 
+            "American League", 
+            "outfielder", 
+            "Niles, Harry (Team member)", 
+            "Cleveland Naps", 
+            "Cleveland", 
+            "American League", 
+            "outfielder", 
+            "Baseball cards--1910-1920.", 
+            "Chromolithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-12T00:00:00Z", 
+        "index": 72, 
+        "medium": "1 print : chromolithograph with hand-color.", 
+        "reproduction_number": "LC-DIG-bbc-1703f (digital file from original, front)\nLC-DIG-bbc-1703b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685667/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685667/resource/"
+        }, 
+        "title": "[Bill Burns, Chicago White Sox, Cincinnati Reds, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1700/1703fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1700/1703f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1700/1703f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-29, no. 58 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-11-06T00:00:00Z", 
+        "pk": "2007685667", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Burns, Bill (Team member)", 
+            "Chicago White Sox", 
+            "Chicago", 
+            "American League", 
+            "pitcher", 
+            "Burns, Bill (Team member)", 
+            "Cincinnati Reds", 
+            "Cincinnati", 
+            "National League", 
+            "pitcher", 
+            "Baseball cards--1910-1920.", 
+            "Chromolithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-12T00:00:00Z", 
+        "index": 73, 
+        "medium": "1 print : chromolithograph with hand-color.", 
+        "reproduction_number": "LC-DIG-bbc-1705f (digital file from original, front)\nLC-DIG-bbc-1705b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685669/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685669/resource/"
+        }, 
+        "title": "[Billy Sullivan, Chicago White Sox, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1700/1705fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1700/1705f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1700/1705f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-29, no. 60 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-11-06T00:00:00Z", 
+        "pk": "2007685669", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Sullivan, Billy (Team member)", 
+            "Chicago White Sox", 
+            "Chicago", 
+            "American League", 
+            "catcher", 
+            "Baseball cards--1910-1920.", 
+            "Chromolithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-12T00:00:00Z", 
+        "index": 74, 
+        "medium": "1 print : chromolithograph with hand-color.", 
+        "reproduction_number": "LC-DIG-bbc-1706f (digital file from original, front)\nLC-DIG-bbc-1706b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685670/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685670/resource/"
+        }, 
+        "title": "[Ed Walsh, Chicago White Sox, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1700/1706fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1700/1706f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1700/1706f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-29, no. 61 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-11-06T00:00:00Z", 
+        "pk": "2007685670", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Walsh, Ed (Team member)", 
+            "Chicago White Sox", 
+            "Chicago", 
+            "American League", 
+            "pitcher", 
+            "Baseball cards--1910-1920.", 
+            "Chromolithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-12T00:00:00Z", 
+        "index": 75, 
+        "medium": "1 print : chromolithograph with hand-color.", 
+        "reproduction_number": "LC-DIG-bbc-1709f (digital file from original, front)\nLC-DIG-bbc-1709b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685673/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685673/resource/"
+        }, 
+        "title": "[Rhoads, Cleveland Naps, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1700/1709fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1700/1709f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1700/1709f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-29, no. 64 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-11-06T00:00:00Z", 
+        "pk": "2007685673", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Rhoads, Bob (Team member)", 
+            "Cleveland Naps", 
+            "Cleveland", 
+            "American League", 
+            "pitcher", 
+            "Baseball cards--1910-1920.", 
+            "Chromolithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-12T00:00:00Z", 
+        "index": 76, 
+        "medium": "1 print : chromolithograph with hand-color.", 
+        "reproduction_number": "LC-DIG-bbc-1713f (digital file from original, front)\nLC-DIG-bbc-1713b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685677/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685677/resource/"
+        }, 
+        "title": "[Wild Bill Donovan, Detroit Tigers, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1710/1713fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1710/1713f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1710/1713f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-29, no. 68 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-11-06T00:00:00Z", 
+        "pk": "2007685677", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Donovan, Wild Bill (Team member)", 
+            "Detroit Tigers", 
+            "Detroit", 
+            "American League", 
+            "pitcher", 
+            "Baseball cards--1910-1920.", 
+            "Chromolithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-12T00:00:00Z", 
+        "index": 77, 
+        "medium": "1 print : chromolithograph with hand-color.", 
+        "reproduction_number": "LC-DIG-bbc-1717f (digital file from original, front)\nLC-DIG-bbc-1717b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685681/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685681/resource/"
+        }, 
+        "title": "[George Mullin, Detroit Tigers, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1710/1717fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1710/1717f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1710/1717f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-29, no. 72 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-11-06T00:00:00Z", 
+        "pk": "2007685681", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Mullin, George (Team member)", 
+            "Detroit Tigers", 
+            "Detroit", 
+            "American League", 
+            "pitcher", 
+            "Baseball cards--1910-1920.", 
+            "Chromolithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-12T00:00:00Z", 
+        "index": 78, 
+        "medium": "1 print : chromolithograph with hand-color.", 
+        "reproduction_number": "LC-DIG-bbc-1718f (digital file from original, front)\nLC-DIG-bbc-1718b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685682/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685682/resource/"
+        }, 
+        "title": "[Boss Schmidt, Detroit Tigers, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1710/1718fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1710/1718f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1710/1718f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-29, no. 73 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-11-06T00:00:00Z", 
+        "pk": "2007685682", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Schmidt, Boss (Team member)", 
+            "Detroit Tigers", 
+            "Detroit", 
+            "American League", 
+            "catcher", 
+            "Baseball cards--1910-1920.", 
+            "Chromolithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-12T00:00:00Z", 
+        "index": 79, 
+        "medium": "1 print : chromolithograph with hand-color.", 
+        "reproduction_number": "LC-DIG-bbc-1719f (digital file from original, front)\nLC-DIG-bbc-1719b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685683/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685683/resource/"
+        }, 
+        "title": "[Hal Chase, New York Highlanders, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1710/1719fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1710/1719f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1710/1719f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-29, no. 74 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-11-06T00:00:00Z", 
+        "pk": "2007685683", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Chase, Hal (Team member)", 
+            "New York Highlanders", 
+            "New York", 
+            "American League", 
+            "first baseman", 
+            "Baseball cards--1910-1920.", 
+            "Chromolithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-12T00:00:00Z", 
+        "index": 80, 
+        "medium": "1 print : chromolithograph with hand-color.", 
+        "reproduction_number": "LC-DIG-bbc-1721f (digital file from original, front)\nLC-DIG-bbc-1721b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685685/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685685/resource/"
+        }, 
+        "title": "[Red Kleinow, New York Highlanders, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1720/1721fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1720/1721f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1720/1721f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-29, no. 76 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-11-06T00:00:00Z", 
+        "pk": "2007685685", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Kleinow, Red (Team member)", 
+            "New York Highlanders", 
+            "New York", 
+            "American League", 
+            "catcher", 
+            "Baseball cards--1910-1920.", 
+            "Chromolithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-12T00:00:00Z", 
+        "index": 81, 
+        "medium": "1 print : chromolithograph with hand-color.", 
+        "reproduction_number": "LC-DIG-bbc-1725f (digital file from original, front)\nLC-DIG-bbc-1725b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685689/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685689/resource/"
+        }, 
+        "title": "[Eddie Collins, Philadelphia Athletics, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1720/1725fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1720/1725f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1720/1725f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-29, no. 80 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-11-06T00:00:00Z", 
+        "pk": "2007685689", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Collins, Eddie (Team member)", 
+            "Philadelphia Athletics", 
+            "Philadelphia", 
+            "American League", 
+            "second baseman", 
+            "Baseball cards--1910-1920.", 
+            "Chromolithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-19T00:00:00Z", 
+        "index": 82, 
+        "medium": "1 print : chromolithograph with hand-color.", 
+        "reproduction_number": "LC-DIG-bbc-1728f (digital file from original, front)\nLC-DIG-bbc-1728b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685702/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685702/resource/"
+        }, 
+        "title": "[George Stone, St. Louis Browns, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1720/1728fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1720/1728f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1720/1728f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-29, no. 83 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-11-06T00:00:00Z", 
+        "pk": "2007685702", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Stone, George (Team member)", 
+            "St. Louis Browns", 
+            "St. Louis", 
+            "American League", 
+            "left fielder", 
+            "Baseball cards--1910-1920.", 
+            "Chromolithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-19T00:00:00Z", 
+        "index": 83, 
+        "medium": "1 print : chromolithograph with hand-color.", 
+        "reproduction_number": "LC-DIG-bbc-1729f (digital file from original, front)\nLC-DIG-bbc-1729b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685703/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685703/resource/"
+        }, 
+        "title": "[Rube Waddell, St. Louis Browns, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1720/1729fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1720/1729f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1720/1729f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-29, no. 84 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-11-06T00:00:00Z", 
+        "pk": "2007685703", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Waddell, Rube (Team member)", 
+            "St. Louis Browns", 
+            "St. Louis", 
+            "American League", 
+            "pitcher", 
+            "Baseball cards--1910-1920.", 
+            "Chromolithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-19T00:00:00Z", 
+        "index": 84, 
+        "medium": "1 print : chromolithograph with hand-color.", 
+        "reproduction_number": "LC-DIG-bbc-1730f (digital file from original, front)\nLC-DIG-bbc-1730b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685704/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685704/resource/"
+        }, 
+        "title": "[George Browne, Washington Nationals, Chicago White Sox, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1730/1730fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1730/1730f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1730/1730f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-29, no. 85 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-11-06T00:00:00Z", 
+        "pk": "2007685704", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Browne, George (Team member)", 
+            "Washington Nationals", 
+            "Washington", 
+            "American League", 
+            "outfielder", 
+            "Browne, George (Team member)", 
+            "Washington Nationals", 
+            "Chicago", 
+            "American League", 
+            "outfielder", 
+            "Baseball cards--1910-1920.", 
+            "Chromolithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-19T00:00:00Z", 
+        "index": 85, 
+        "medium": "1 print : chromolithograph with hand-color.", 
+        "reproduction_number": "LC-DIG-bbc-1737f (digital file from original, front)\nLC-DIG-bbc-1737b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685711/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685711/resource/"
+        }, 
+        "title": "[Jordan & Herzog at first, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1730/1737fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1730/1737f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1730/1737f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-29, no. 92 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-10-23T00:00:00Z", 
+        "pk": "2007685711", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Baseball cards--1910-1920.", 
+            "Chromolithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-19T00:00:00Z", 
+        "index": 86, 
+        "medium": "1 print : chromolithograph with hand-color.", 
+        "reproduction_number": "LC-DIG-bbc-1738f (digital file from original, front)\nLC-DIG-bbc-1738b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685712/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685712/resource/"
+        }, 
+        "title": "[Out at third,baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1730/1738fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1730/1738f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1730/1738f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-29, no. 93 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-10-23T00:00:00Z", 
+        "pk": "2007685712", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Baseball cards--1910-1920.", 
+            "Chromolithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-19T00:00:00Z", 
+        "index": 87, 
+        "medium": "1 print : chromolithograph with hand-color.", 
+        "reproduction_number": "LC-DIG-bbc-1739f (digital file from original, front)\nLC-DIG-bbc-1739b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685713/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685713/resource/"
+        }, 
+        "title": "[Safe at third, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1730/1739fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1730/1739f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1730/1739f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-29, no. 94 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-10-23T00:00:00Z", 
+        "pk": "2007685713", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Baseball cards--1910-1920.", 
+            "Chromolithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-05T00:00:00Z", 
+        "index": 88, 
+        "medium": "1 print : chromolithograph with hand-color ; sheet 20.4 x 14.6 cm.", 
+        "reproduction_number": "LC-DIG-bbc-1676f (digital file from original, front)\nLC-DIG-bbc-1676b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685630/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685630/resource/"
+        }, 
+        "title": "[Christy Mathewson, New York Giants, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1670/1676fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1670/1676f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1670/1676f_150px.jpg"
+        }, 
+        "created": "2017-10-17T00:00:00Z", 
+        "modified": "2017-10-17T00:00:00Z", 
+        "collection": [
+            "00", 
+            "01", 
+            "024", 
+            "bbc", 
+            "diof", 
+            "exh", 
+            "l4804", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-29, no. 31 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2017-10-16T00:00:00Z", 
+        "pk": "2007685630", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Mathewson, Christy,--1880-1925.", 
+            "New York Giants (Baseball team)--People--1910-1920.", 
+            "Baseball players--New York (State)--New York--1910-1920.", 
+            "Baseball cards--1910-1920.", 
+            "Chromolithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-12T00:00:00Z", 
+        "index": 89, 
+        "medium": "1 print : chromolithograph with hand-color.", 
+        "reproduction_number": "LC-DIG-bbc-1701f (digital file from original, front)\nLC-DIG-bbc-1701b (digital file from original, back)\nLC-USZC4-6320 (color film copy transparency, front)\nLC-USZC4-6976 (color film copy transparency, front)\nLC-USZC4-6979 (color film copy transparency, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685665/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685665/resource/"
+        }, 
+        "title": "[Tris Speaker, Boston Red Sox, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1700/1701fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1700/1701f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1700/1701f_150px.jpg"
+        }, 
+        "created": "2025-09-29T17:55:51Z", 
+        "modified": "2025-09-29T17:55:58Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-29, no. 56 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2025-09-18T20:43:44Z", 
+        "pk": "2007685665", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Speaker, Tris (Team member)", 
+            "Boston Red Sox", 
+            "Boston", 
+            "American League", 
+            "center fielder", 
+            "Baseball cards--1910-1920.", 
+            "Chromolithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-12T00:00:00Z", 
+        "index": 90, 
+        "medium": "1 print : chromolithograph with hand-color.", 
+        "reproduction_number": "LC-DIG-bbc-1708f (digital file from original, front)\nLC-DIG-bbc-1708b (digital file from original, back)\nLC-USZC4-6966 (color film copy transparency, front)\nLC-USZC4-6952 (color film copy transparency, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685672/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685672/resource/"
+        }, 
+        "title": "[Nap Lajoie, Cleveland Naps, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1700/1708fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1700/1708f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1700/1708f_150px.jpg"
+        }, 
+        "created": "2025-09-29T17:56:59Z", 
+        "modified": "2025-09-29T17:57:05Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-29, no. 63 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2025-09-19T19:10:12Z", 
+        "pk": "2007685672", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Lajoie, Nap (Team member)", 
+            "Cleveland Naps", 
+            "Cleveland", 
+            "American League", 
+            "second baseman", 
+            "Baseball cards--1910-1920.", 
+            "Chromolithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-12T00:00:00Z", 
+        "index": 91, 
+        "medium": "1 print : chromolithograph with hand-color.", 
+        "reproduction_number": "LC-DIG-bbc-1710f (digital file from original, front)\nLC-DIG-bbc-1710b (digital file from original, back)\nLC-USZ62-132874 (b&w film copy neg., front)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685674/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685674/resource/"
+        }, 
+        "title": "[Cy Young, Cleveland Naps, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1710/1710fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1710/1710f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1710/1710f_150px.jpg"
+        }, 
+        "created": "2025-09-29T16:16:20Z", 
+        "modified": "2025-09-29T16:16:34Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-29, no. 65 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2025-09-16T20:14:22Z", 
+        "pk": "2007685674", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Young, Cy (Team member)", 
+            "Cleveland Naps", 
+            "Cleveland", 
+            "American League", 
+            "pitcher", 
+            "Baseball cards--1910-1920.", 
+            "Chromolithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-12T00:00:00Z", 
+        "index": 92, 
+        "medium": "1 print : chromolithograph with hand-color ; sheet 20.2 x 14.7 cm.", 
+        "reproduction_number": "LC-DIG-bbc-1724f (digital file from original, front)\nLC-DIG-bbc-1724b (digital file from original, back)\nLC-USZ62-134593 (b&w film copy neg. showing player only, front)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685688/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685688/resource/"
+        }, 
+        "title": "[Chief Bender, Philadelphia Athletics, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1720/1724fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1720/1724f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1720/1724f_150px.jpg"
+        }, 
+        "created": "2025-09-29T17:40:47Z", 
+        "modified": "2025-09-29T17:40:53Z", 
+        "collection": [
+            "01", 
+            "2", 
+            "24", 
+            "bbc", 
+            "diof", 
+            "exh", 
+            "l4804", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-29, no. 79 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2025-09-16T20:16:57Z", 
+        "pk": "2007685688", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Bender, Charles Albert,--1884-1954.", 
+            "American League of Professional Baseball Clubs.", 
+            "Philadelphia Athletics (Baseball team)--1910-1920.", 
+            "Baseball players--1910-1920.", 
+            "Bender, Chief (Team member)", 
+            "Philadelphia Athletics", 
+            "Philadelphia", 
+            "American League", 
+            "pitcher", 
+            "Baseball cards--1910-1920.", 
+            "Chromolithographs--Color--1910-1920.", 
+            "Portrait prints--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-19T00:00:00Z", 
+        "index": 93, 
+        "medium": "1 print : chromolithograph with hand-color.", 
+        "reproduction_number": "LC-DIG-bbc-1733f (digital file from original, front)\nLC-DIG-bbc-1733b (digital file from original, back)\nLC-USZC4-6319 (color film copy transparency, front)\nLC-USZC4-6978 (color film copy transparency, front)\nLC-USZC4-6977 (color film copy transparency, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685707/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685707/resource/"
+        }, 
+        "title": "[Walter Johnson, Washington Nationals, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1730/1733fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1730/1733f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1730/1733f_150px.jpg"
+        }, 
+        "created": "2025-09-29T17:41:46Z", 
+        "modified": "2025-09-29T17:41:55Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-29, no. 88 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2025-09-18T20:44:08Z", 
+        "pk": "2007685707", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Johnson, Walter,--1887-1946.", 
+            "Washington Senators (Baseball team : 1901-1960)--People--1910-1920.", 
+            "Baseball players--Washington (D.C.)--1910-1920.", 
+            "Baseball cards--1910-1920.", 
+            "Chromolithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-19T00:00:00Z", 
+        "index": 94, 
+        "medium": "1 print : chromolithograph with hand-color.", 
+        "reproduction_number": "LC-DIG-bbc-1734f (digital file from original, front)\nLC-DIG-bbc-1734b (digital file from original, back)\nLC-USZ62-126171 (b&w film copy neg., front)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685708/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685708/resource/"
+        }, 
+        "title": "[Gabby Street, Washington Nationals, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1730/1734fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1730/1734f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1700/1730/1734f_150px.jpg"
+        }, 
+        "created": "2025-09-29T17:14:28Z", 
+        "modified": "2025-09-29T17:14:32Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-29, no. 89 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2025-09-16T17:13:26Z", 
+        "pk": "2007685708", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Street, Gabby (Team member)", 
+            "Washington Nationals", 
+            "Washington", 
+            "American League", 
+            "pitcher", 
+            "Baseball cards--1910-1920.", 
+            "Chromolithographs--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-12T00:00:00Z", 
+        "index": 95, 
+        "medium": "1 print : chromolithograph with hand-color.", 
+        "reproduction_number": "LC-DIG-bbc-1693f (digital file from original, front)\nLC-DIG-bbc-1693b (digital file from original, back)\nLC-USZC4-10101 (color film copy transparency, front)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685657/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685657/resource/"
+        }, 
+        "title": "[Owen Wilson, Pittsburgh Pirates, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1690/1693fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1690/1693f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1600/1690/1693f_150px.jpg"
+        }, 
+        "created": "2026-02-10T05:51:19Z", 
+        "modified": "2026-02-10T05:51:23Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-29, no. 48 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2026-01-29T16:20:26Z", 
+        "pk": "2007685657", 
+        "created_published_date": "1911.", 
+        "subjects": [
+            "Wilson, Owen (Team member)", 
+            "Pittsburgh Pirates", 
+            "Pittsburgh", 
+            "National League", 
+            "outfielder", 
+            "Baseball cards--1910-1920.", 
+            "Chromolithographs--Color--1910-1920."
+        ]
+    }
+]}

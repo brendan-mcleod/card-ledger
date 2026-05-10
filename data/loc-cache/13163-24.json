@@ -1,0 +1,391 @@
+{"search":{
+    "field": "number", 
+    "hits": 8, 
+    "sort_order": null, 
+    "do_facets": true, 
+    "focus_item": null, 
+    "query": "\"13163-24\"", 
+    "type": "search", 
+    "sort_by": null
+},
+"focus":null,
+"views":{
+    "current": "grid", 
+    "grid": "https://www.loc.gov/pictures/search/?q=%2213163-24%22&fi=number&c=600&co=bbc&st=grid", 
+    "list": "https://www.loc.gov/pictures/search/?q=%2213163-24%22&fi=number&c=600&co=bbc", 
+    "gallery": "https://www.loc.gov/pictures/search/?q=%2213163-24%22&fi=number&c=600&co=bbc&st=gallery", 
+    "slideshow": "https://www.loc.gov/pictures/search/?q=%2213163-24%22&fi=number&c=600&co=bbc&st=slideshow"
+},
+"facets":[
+    {
+        "type": "displayed", 
+        "filters": [
+            {
+                "count": 8, 
+                "on": "https://www.loc.gov/pictures/search/?c=600&co=bbc&sp=1&st=grid&q=%2213163-24%22&fa=displayed%3Aanywhere&fi=number&fo=json", 
+                "selected": false, 
+                "off": "https://www.loc.gov/pictures/search/?c=600&co=bbc&sp=1&st=grid&q=%2213163-24%22&fi=number&fo=json", 
+                "title": "Larger image available anywhere"
+            }, 
+            {
+                "count": 0, 
+                "on": "https://www.loc.gov/pictures/search/?c=600&co=bbc&sp=1&st=grid&q=%2213163-24%22&fa=displayed%3Alc_only&fi=number&fo=json", 
+                "selected": false, 
+                "off": "https://www.loc.gov/pictures/search/?c=600&co=bbc&sp=1&st=grid&q=%2213163-24%22&fi=number&fo=json", 
+                "title": "Larger image available only at the Library of Congress"
+            }, 
+            {
+                "count": 0, 
+                "on": "https://www.loc.gov/pictures/search/?c=600&co=bbc&sp=1&st=grid&q=%2213163-24%22&fa=displayed%3Anot_digitized&fi=number&fo=json", 
+                "selected": false, 
+                "off": "https://www.loc.gov/pictures/search/?c=600&co=bbc&sp=1&st=grid&q=%2213163-24%22&fi=number&fo=json", 
+                "title": "Not Digitized"
+            }
+        ], 
+        "title": "displayed"
+    }
+],
+"links":{
+    "json": "https://www.loc.gov/pictures/search/?co=bbc&st=grid&fi=number&q=%2213163-24%22&c=600&fo=json", 
+    "html": "https://www.loc.gov/pictures/search/?co=bbc&st=grid&fi=number&q=%2213163-24%22&c=600", 
+    "rss": "https://www.loc.gov/pictures/search/?co=bbc&fi=number&q=%2213163-24%22&c=600&fo=rss"
+},
+"suggestions":{
+    "possible": []
+},
+"pages":{
+    "current": 1, 
+    "next": null, 
+    "perpage": 600, 
+    "last": null, 
+    "page_list": [
+        {
+            "url": null, 
+            "number": 1
+        }
+    ], 
+    "previous": null, 
+    "total": 1, 
+    "results": "1 - 8", 
+    "first": null
+},
+"collection":{
+    "digitized": "All", 
+    "code": "bbc", 
+    "display_offsite": "Yes", 
+    "thumb_large_item": "", 
+    "title": "Baseball Cards", 
+    "banner_item": "https://www.loc.gov/pictures/item/2007678538/", 
+    "brief": "Baseball cards representing more than one thousand major and minor league ballplayers (primarily major league), from teams in thirteen identified leagues and seventy-five cities in the United States and Canada.", 
+    "banner_title": "John M. Ward, New York Giants, 1887.", 
+    "thumb_item": "cph.3b38367", 
+    "home_link": "https://www.loc.gov/pictures/collection/bbc/", 
+    "from_date": "1887", 
+    "view_all": "https://www.loc.gov/pictures/search?st=grid&co=bbc", 
+    "link": "https://www.loc.gov/pictures/collection/bbc/", 
+    "to_date": "1914", 
+    "extent": "2,100 baseball cards.", 
+    "thumb_featured": "https://www.loc.gov/pictures/static/data/bbc/featured.png", 
+    "rights": "https://www.loc.gov/rr/print/res/620_base.html", 
+    "thumb_large": "https://www.loc.gov/pictures/static/data/bbc/thumb_large.png", 
+    "banner": "https://www.loc.gov/pictures/static/data/bbc/banner.jpg", 
+    "thumb": "https://www.loc.gov/pictures/static/data/bbc/thumb.png"
+},
+"results":[
+    {
+        "source_created": "2007-09-07T00:00:00Z", 
+        "index": 1, 
+        "medium": "1 print : relief, halftone and stencil.", 
+        "reproduction_number": "LC-DIG-bbc-1337f (digital file from original, front)\nLC-DIG-bbc-1337b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683833/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683833/resource/"
+        }, 
+        "title": "[Cabrol, Raleigh Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1330/1337fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1330/1337f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1330/1337f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "Old Mill Cigarettes", 
+        "call_number": "LOT 13163-24, no. 3 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-09-07T00:00:00Z", 
+        "pk": "2007683833", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Cabrol (Team member)", 
+            "Raleigh", 
+            "Eastern Carolina League", 
+            "Baseball cards--1910.", 
+            "Relief prints--1910."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-07T00:00:00Z", 
+        "index": 2, 
+        "medium": "1 print : relief, halftone and stencil.", 
+        "reproduction_number": "LC-DIG-bbc-1335f (digital file from original, front)\nLC-DIG-bbc-1335b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683831/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683831/resource/"
+        }, 
+        "title": "[Frederick Stoehr, Goldsboro Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1330/1335fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1330/1335f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1330/1335f_150px.jpg"
+        }, 
+        "created": "2024-01-23T06:32:37Z", 
+        "modified": "2024-01-23T06:32:39Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "Old Mill Cigarettes", 
+        "call_number": "LOT 13163-24, no. 1 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2024-01-16T10:14:45Z", 
+        "pk": "2007683831", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Stoehr, Frederick (Team member)", 
+            "Goldsboro", 
+            "Eastern Carolina League", 
+            "Baseball cards--1910.", 
+            "Relief prints--1910."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-07T00:00:00Z", 
+        "index": 3, 
+        "medium": "1 print : relief, halftone and stencil.", 
+        "reproduction_number": "LC-DIG-bbc-1336f (digital file from original, front)\nLC-DIG-bbc-1336b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683832/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683832/resource/"
+        }, 
+        "title": "[Desmond Beatty, Raleigh Red Birds, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1330/1336fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1330/1336f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1330/1336f_150px.jpg"
+        }, 
+        "created": "2024-01-23T07:16:24Z", 
+        "modified": "2024-01-23T07:16:26Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "Old Mill Cigarettes", 
+        "call_number": "LOT 13163-24, no. 2 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2024-01-16T10:15:44Z", 
+        "pk": "2007683832", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Beatty, Desmond (Team member)", 
+            "Raleigh", 
+            "Eastern Carolina League", 
+            "Baseball cards--1910.", 
+            "Relief prints--1910."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-07T00:00:00Z", 
+        "index": 4, 
+        "medium": "1 print : relief, halftone and stencil.", 
+        "reproduction_number": "LC-DIG-bbc-1338f (digital file from original, front)\nLC-DIG-bbc-1338b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683834/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683834/resource/"
+        }, 
+        "title": "[Oscar Dugey, Waco Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1330/1338fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1330/1338f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1330/1338f_150px.jpg"
+        }, 
+        "created": "2024-01-23T06:39:54Z", 
+        "modified": "2024-01-23T06:39:56Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "Old Mill Cigarettes", 
+        "call_number": "LOT 13163-24, no. 4 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2024-01-16T10:18:22Z", 
+        "pk": "2007683834", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Dugey, Oscar (Team member)", 
+            "Waco", 
+            "Texas League", 
+            "Baseball cards--1910.", 
+            "Relief prints--1910."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-07T00:00:00Z", 
+        "index": 5, 
+        "medium": "1 print : relief, halftone and stencil.", 
+        "reproduction_number": "LC-DIG-bbc-1339f (digital file from original, front)\nLC-DIG-bbc-1339b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683835/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683835/resource/"
+        }, 
+        "title": "[Harry Griffin, Lynchburg Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1330/1339fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1330/1339f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1330/1339f_150px.jpg"
+        }, 
+        "created": "2024-01-23T06:25:52Z", 
+        "modified": "2024-01-23T06:25:54Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "Old Mill Cigarettes", 
+        "call_number": "LOT 13163-24, no. 5 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2024-01-16T10:19:37Z", 
+        "pk": "2007683835", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Griffin, Harry (Team member)", 
+            "Lynchburg", 
+            "Virginia League", 
+            "Baseball cards--1910.", 
+            "Relief prints--1910."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-07T00:00:00Z", 
+        "index": 6, 
+        "medium": "1 print : relief, halftone and stencil.", 
+        "reproduction_number": "LC-DIG-bbc-1340f (digital file from original, front)\nLC-DIG-bbc-1340b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683836/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683836/resource/"
+        }, 
+        "title": "[Curtis Walker, Oakland Oaks, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1340/1340fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1340/1340f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1340/1340f_150px.jpg"
+        }, 
+        "created": "2024-01-23T05:34:11Z", 
+        "modified": "2024-01-23T05:34:13Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "Old Mill Cigarettes", 
+        "call_number": "LOT 13163-24, no. 6 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2024-01-16T10:24:17Z", 
+        "pk": "2007683836", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Walker, Curtis (Team member)", 
+            "Norfolk", 
+            "Virginia League", 
+            "Baseball cards--1910.", 
+            "Relief prints--1910."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-07T00:00:00Z", 
+        "index": 7, 
+        "medium": "1 print : relief, halftone and stencil.", 
+        "reproduction_number": "LC-DIG-bbc-1341f (digital file from original, front)\nLC-DIG-bbc-1341b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683837/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683837/resource/"
+        }, 
+        "title": "[Henry Cote, Portsmouth Tuckers, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1340/1341fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1340/1341f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1340/1341f_150px.jpg"
+        }, 
+        "created": "2024-01-23T06:39:52Z", 
+        "modified": "2024-01-23T06:39:54Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "Old Mill Cigarettes", 
+        "call_number": "LOT 13163-24, no. 7 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2024-01-16T10:25:11Z", 
+        "pk": "2007683837", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Cote, Henry (Team member)", 
+            "Portsmouth", 
+            "Virginia League", 
+            "Baseball cards--1910.", 
+            "Relief prints--1910."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-07T00:00:00Z", 
+        "index": 8, 
+        "medium": "1 print : relief, halftone and stencil.", 
+        "reproduction_number": "LC-DIG-bbc-1342f (digital file from original, front)\nLC-DIG-bbc-1342b (digital file from original, back)\nLC-USZC4-6938 (color film copy transparency, front)\nLC-USZC4-6956 (color film copy transparency, back)\nLC-USZ62-123653 (b&w film copy neg., front)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683838/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683838/resource/"
+        }, 
+        "title": "[Thomas Foxen, Portsmouth Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1340/1342fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1340/1342f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1300/1340/1342f_150px.jpg"
+        }, 
+        "created": "2025-09-29T17:20:38Z", 
+        "modified": "2025-09-29T17:20:44Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "Old Mill Cigarettes", 
+        "call_number": "LOT 13163-24, no. 8 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2025-09-18T20:41:30Z", 
+        "pk": "2007683838", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Foxen, Thomas (Team member)", 
+            "Portsmouth", 
+            "Virginia League", 
+            "Baseball cards--1910.", 
+            "Relief prints--1910."
+        ]
+    }
+]}

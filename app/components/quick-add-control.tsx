@@ -3,29 +3,51 @@
 import Link from 'next/link'
 import { useEffect, useMemo, useRef, useState } from 'react'
 
+import { CardActionDock } from '@/app/components/card-action-icons'
 import { useCollector } from '@/app/components/collector-provider'
 import { UserAvatar } from '@/app/components/user-avatar'
-import { getAutocompleteSuggestions, getCardById } from '@/lib/data'
-import { getDisplaySetLabel } from '@/lib/format'
+import { getCardActionDescriptors, getCardState } from '@/lib/card-state'
+import { getClientAutocompleteCards } from '@/lib/client-catalog'
+import { T206_SET_SLUG } from '@/lib/catalog/constants'
+import { formatCardSubtitle, getCardDisplayTitle } from '@/lib/format'
 import type { Card } from '@/lib/types'
 
 export function QuickAddControl() {
   const collector = useCollector()
   const [open, setOpen] = useState(false)
   const [query, setQuery] = useState('')
+  const [suggestions, setSuggestions] = useState<Card[]>([])
   const [recentlyAddedId, setRecentlyAddedId] = useState<string | null>(null)
   const menuRef = useRef<HTMLDivElement | null>(null)
 
-  const suggestions = useMemo(() => {
+  const trimmedQuery = useMemo(() => query.trim(), [query])
+
+  useEffect(() => {
+    if (trimmedQuery.length < 2) {
+      return
+    }
+
+    let cancelled = false
+    getClientAutocompleteCards(trimmedQuery, 8)
+      .then((cards) => {
+        if (!cancelled) setSuggestions(cards)
+      })
+      .catch(() => {
+        if (!cancelled) setSuggestions([])
+      })
+
+    return () => {
+      cancelled = true
+    }
+  }, [trimmedQuery])
+
+  const visibleSuggestions = useMemo(() => {
     if (query.trim().length < 2) {
       return []
     }
 
-    return getAutocompleteSuggestions(query)
-      .map((suggestion) => getCardById(suggestion.id))
-      .filter((card): card is Card => Boolean(card))
-      .slice(0, 8)
-  }, [query])
+    return suggestions.slice(0, 8)
+  }, [query, suggestions])
 
   useEffect(() => {
     if (!open) {
@@ -62,10 +84,19 @@ export function QuickAddControl() {
     collector.toggleWishlist(card.id)
   }
 
+  function handleRemove(card: Card) {
+    const copyCount = collector.collectionCopies[card.id]?.length ?? collector.collection[card.id]?.quantity ?? 0
+    collector.setQuantity(card.id, Math.max(0, copyCount - 1))
+  }
+
   function closeMenu() {
     setOpen(false)
     setQuery('')
     setRecentlyAddedId(null)
+  }
+
+  if (!collector.isAuthenticated) {
+    return null
   }
 
   return (
@@ -92,8 +123,8 @@ export function QuickAddControl() {
         <section aria-label="Quick add card" className="quick-add-menu" role="dialog">
           <div className="quick-add-utility-row">
             <span className="quick-add-utility-chip quick-add-utility-chip-active">Add Card</span>
-            <Link className="quick-add-utility-chip" href="/sets" onClick={closeMenu}>
-              Add Set
+            <Link className="quick-add-utility-chip" href={`/sets/${T206_SET_SLUG}`} onClick={closeMenu}>
+              T206 Set
             </Link>
             <button className="quick-add-utility-chip quick-add-utility-chip-disabled" type="button">
               Scan Card
@@ -105,7 +136,7 @@ export function QuickAddControl() {
               autoFocus
               className="search-input"
               onChange={(event) => setQuery(event.target.value)}
-              placeholder="Search cards, players, or sets"
+              placeholder="Search cards"
               type="search"
               value={query}
             />
@@ -114,13 +145,14 @@ export function QuickAddControl() {
           <div className="quick-add-results">
             {query.trim().length < 2 ? (
               <div className="quick-add-empty">Search to add a card.</div>
-            ) : suggestions.length === 0 ? (
+            ) : visibleSuggestions.length === 0 ? (
               <div className="quick-add-empty">No cards found.</div>
             ) : (
-              suggestions.map((card) => {
-                const isWishlisted = collector.wishlist.includes(card.id)
-                const isOwned = Object.values(collector.collection).some((entry) => entry.cardId === card.id)
+              visibleSuggestions.map((card) => {
+                const cardState = getCardState(card.id, collector)
+                const cardActions = getCardActionDescriptors(cardState)
                 const isJustAdded = recentlyAddedId === card.id
+                const isOwned = cardState.isOwned || isJustAdded
 
                 return (
                   <div className="quick-add-result" key={card.id}>
@@ -128,7 +160,7 @@ export function QuickAddControl() {
                       <div className="quick-add-result-media">
                         {card.imageUrl ? (
                           // eslint-disable-next-line @next/next/no-img-element
-                          <img alt="" className="quick-add-result-image" src={card.imageUrl} />
+                          <img alt="" className="quick-add-result-image" decoding="async" loading="lazy" src={card.imageUrl} />
                         ) : (
                           <div className="quick-add-result-placeholder">
                             <UserAvatar name={card.player} size="sm" />
@@ -136,29 +168,45 @@ export function QuickAddControl() {
                         )}
                       </div>
                       <div className="quick-add-result-copy">
-                        <strong>{card.player}</strong>
-                        <span>{card.year} {getDisplaySetLabel(card)} #{card.cardNumber}</span>
+                        <strong>{getCardDisplayTitle(card)}</strong>
+                        <span>{formatCardSubtitle(card)}</span>
                       </div>
                     </Link>
 
-                    <div className="quick-add-actions">
-                      <button
-                        className={`quick-add-action quick-add-action-primary ${isOwned || isJustAdded ? 'quick-add-action-active' : ''}`}
-                        onClick={() => handleAdd(card)}
-                        type="button"
-                      >
-                        {isOwned || isJustAdded ? 'Added' : 'Add'}
-                      </button>
-                      <button
-                        aria-label={isWishlisted ? 'Remove from wishlist' : 'Add to wishlist'}
-                        className={`quick-add-action quick-add-action-icon ${isWishlisted ? 'quick-add-action-active' : ''}`}
-                        onClick={() => handleWishlist(card)}
-                        title={isWishlisted ? 'Wishlisted' : 'Add to wishlist'}
-                        type="button"
-                      >
-                        <span aria-hidden="true">♥</span>
-                      </button>
-                    </div>
+                    <CardActionDock
+                      overflowActions={[
+                        isOwned
+                          ? {
+                              kind: 'add',
+                              label: 'Add another copy',
+                              onClick: () => handleAdd(card),
+                            }
+                          : null,
+                      ]}
+                      primaryActions={[
+                        {
+                          active: cardActions.watchlist.active,
+                          disabled: cardActions.watchlist.disabled,
+                          kind: 'watch',
+                          label: cardActions.watchlist.active ? cardActions.watchlist.activeLabel : cardActions.watchlist.label,
+                          onClick: () => handleWishlist(card),
+                        },
+                        isOwned
+                          ? {
+                              active: true,
+                              kind: 'remove',
+                              label: 'Remove one copy',
+                              onClick: () => handleRemove(card),
+                            }
+                          : {
+                              kind: 'add',
+                              label: 'Add to collection',
+                              onClick: () => handleAdd(card),
+                            },
+                      ]}
+                      className="quick-add-actions"
+                      variant="inline"
+                    />
                   </div>
                 )
               })

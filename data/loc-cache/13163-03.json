@@ -1,0 +1,258 @@
+{"search":{
+    "field": "number", 
+    "hits": 4, 
+    "sort_order": null, 
+    "do_facets": true, 
+    "focus_item": null, 
+    "query": "\"13163-03\"", 
+    "type": "search", 
+    "sort_by": null
+},
+"focus":null,
+"views":{
+    "current": "grid", 
+    "grid": "https://www.loc.gov/pictures/search/?q=%2213163-03%22&fi=number&c=600&co=bbc&st=grid", 
+    "list": "https://www.loc.gov/pictures/search/?q=%2213163-03%22&fi=number&c=600&co=bbc", 
+    "gallery": "https://www.loc.gov/pictures/search/?q=%2213163-03%22&fi=number&c=600&co=bbc&st=gallery", 
+    "slideshow": "https://www.loc.gov/pictures/search/?q=%2213163-03%22&fi=number&c=600&co=bbc&st=slideshow"
+},
+"facets":[
+    {
+        "type": "displayed", 
+        "filters": [
+            {
+                "count": 4, 
+                "on": "https://www.loc.gov/pictures/search/?c=600&co=bbc&sp=1&st=grid&q=%2213163-03%22&fa=displayed%3Aanywhere&fi=number&fo=json", 
+                "selected": false, 
+                "off": "https://www.loc.gov/pictures/search/?c=600&co=bbc&sp=1&st=grid&q=%2213163-03%22&fi=number&fo=json", 
+                "title": "Larger image available anywhere"
+            }, 
+            {
+                "count": 0, 
+                "on": "https://www.loc.gov/pictures/search/?c=600&co=bbc&sp=1&st=grid&q=%2213163-03%22&fa=displayed%3Alc_only&fi=number&fo=json", 
+                "selected": false, 
+                "off": "https://www.loc.gov/pictures/search/?c=600&co=bbc&sp=1&st=grid&q=%2213163-03%22&fi=number&fo=json", 
+                "title": "Larger image available only at the Library of Congress"
+            }, 
+            {
+                "count": 0, 
+                "on": "https://www.loc.gov/pictures/search/?c=600&co=bbc&sp=1&st=grid&q=%2213163-03%22&fa=displayed%3Anot_digitized&fi=number&fo=json", 
+                "selected": false, 
+                "off": "https://www.loc.gov/pictures/search/?c=600&co=bbc&sp=1&st=grid&q=%2213163-03%22&fi=number&fo=json", 
+                "title": "Not Digitized"
+            }, 
+            {
+                "count": 0, 
+                "on": "https://www.loc.gov/pictures/search/?c=600&co=bbc&sp=1&st=grid&q=%2213163-03%22&fa=displayed%3Asurveys_only&fi=number&fo=json", 
+                "selected": false, 
+                "off": "https://www.loc.gov/pictures/search/?c=600&co=bbc&sp=1&st=grid&q=%2213163-03%22&fi=number&fo=json", 
+                "title": "Surveys only"
+            }
+        ], 
+        "title": "displayed"
+    }
+],
+"links":{
+    "json": "https://www.loc.gov/pictures/search/?co=bbc&st=grid&fi=number&q=%2213163-03%22&c=600&fo=json", 
+    "html": "https://www.loc.gov/pictures/search/?co=bbc&st=grid&fi=number&q=%2213163-03%22&c=600", 
+    "rss": "https://www.loc.gov/pictures/search/?co=bbc&fi=number&q=%2213163-03%22&c=600&fo=rss"
+},
+"suggestions":{
+    "possible": []
+},
+"pages":{
+    "current": 1, 
+    "next": null, 
+    "perpage": 600, 
+    "last": null, 
+    "page_list": [
+        {
+            "url": null, 
+            "number": 1
+        }
+    ], 
+    "previous": null, 
+    "total": 1, 
+    "results": "1 - 4", 
+    "first": null
+},
+"collection":{
+    "digitized": "All", 
+    "code": "bbc", 
+    "display_offsite": "Yes", 
+    "thumb_large_item": "", 
+    "title": "Baseball Cards", 
+    "banner_item": "https://www.loc.gov/pictures/item/2007678538/", 
+    "brief": "Baseball cards representing more than one thousand major and minor league ballplayers (primarily major league), from teams in thirteen identified leagues and seventy-five cities in the United States and Canada.", 
+    "banner_title": "John M. Ward, New York Giants, 1887.", 
+    "thumb_item": "cph.3b38367", 
+    "home_link": "https://www.loc.gov/pictures/collection/bbc/", 
+    "from_date": "1887", 
+    "view_all": "https://www.loc.gov/pictures/search?st=grid&co=bbc", 
+    "link": "https://www.loc.gov/pictures/collection/bbc/", 
+    "to_date": "1914", 
+    "extent": "2,100 baseball cards.", 
+    "thumb_featured": "https://www.loc.gov/pictures/static/data/bbc/featured.png", 
+    "rights": "https://www.loc.gov/rr/print/res/620_base.html", 
+    "thumb_large": "https://www.loc.gov/pictures/static/data/bbc/thumb_large.png", 
+    "banner": "https://www.loc.gov/pictures/static/data/bbc/banner.jpg", 
+    "thumb": "https://www.loc.gov/pictures/static/data/bbc/thumb.png"
+},
+"results":[
+    {
+        "source_created": "2007-07-20T00:00:00Z", 
+        "index": 1, 
+        "medium": "1 photographic print : albumen.", 
+        "reproduction_number": "LC-DIG-bbc-0069f (digital file from original, front)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007680724/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007680724/resource/"
+        }, 
+        "title": "[Tug Arundel, Indianapolis Hoosiers, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/0000/0060/0069fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/0000/0060/0069f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/0000/0060/0069f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "Goodwin & Co.", 
+        "call_number": "LOT 13163-03, no. 2 [P&P]", 
+        "medium_brief": "1 photographic print :", 
+        "source_modified": "2007-08-13T00:00:00Z", 
+        "pk": "2007680724", 
+        "created_published_date": "1887.", 
+        "subjects": [
+            "Arundel, Tug (Team member)", 
+            "Indianapolis Hoosiers", 
+            "Indianapolis", 
+            "National League", 
+            "catcher", 
+            "Albumen prints--1880-1890.", 
+            "Baseball cards--1880-1890."
+        ]
+    }, 
+    {
+        "source_created": "2007-07-20T00:00:00Z", 
+        "index": 2, 
+        "medium": "1 photographic print : albumen.", 
+        "reproduction_number": "LC-DIG-bbc-0068f (digital file from original, front)\nLC-USZC4-6944 (color film copy transparency)\nLC-USZ62-123646 (b&w film copy neg.)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007680723/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007680723/resource/"
+        }, 
+        "title": "[Ezra Sutton, Boston Beaneaters, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/0000/0060/0068fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/0000/0060/0068f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/0000/0060/0068f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "Goodwin & Co.", 
+        "call_number": "LOT 13163-03, no. 1 [P&P]", 
+        "medium_brief": "1 photographic print :", 
+        "source_modified": "2007-08-13T00:00:00Z", 
+        "pk": "2007680723", 
+        "created_published_date": "1887.", 
+        "subjects": [
+            "Sutton Ezra (Team member)", 
+            "Boston Beaneaters", 
+            "Boston", 
+            "National League", 
+            "third baseman", 
+            "Albumen prints--1880-1890.", 
+            "Baseball cards--1880-1890."
+        ]
+    }, 
+    {
+        "source_created": "2007-07-20T00:00:00Z", 
+        "index": 3, 
+        "medium": "1 photographic print : albumen.", 
+        "reproduction_number": "LC-DIG-bbc-0070f (digital file from original, front)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007680725/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007680725/resource/"
+        }, 
+        "title": "[Jack Glasscock, Indianapolis Hoosiers, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/0000/0070/0070fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/0000/0070/0070f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/0000/0070/0070f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "Goodwin & Co.", 
+        "call_number": "LOT 13163-03, no. 3 [P&P]", 
+        "medium_brief": "1 photographic print :", 
+        "source_modified": "2007-08-13T00:00:00Z", 
+        "pk": "2007680725", 
+        "created_published_date": "1887.", 
+        "subjects": [
+            "Glasscock, Jack (Team member)", 
+            "Indianapolis Hoosiers", 
+            "Indianapolis", 
+            "National League", 
+            "shortstop", 
+            "Albumen prints--1880-1890.", 
+            "Baseball cards--1880-1890."
+        ]
+    }, 
+    {
+        "source_created": "2007-07-20T00:00:00Z", 
+        "index": 4, 
+        "medium": "1 photographic print : albumen.", 
+        "reproduction_number": "LC-DIG-bbc-0071f (digital file from original, front)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007680726/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007680726/resource/"
+        }, 
+        "title": "[Sam Barkley, Pittsburgh Alleghenys, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/0000/0070/0071fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/0000/0070/0071f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/0000/0070/0071f_150px.jpg"
+        }, 
+        "created": "2016-04-21T00:00:00Z", 
+        "modified": "2016-04-21T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "Goodwin & Co.", 
+        "call_number": "LOT 13163-03, no. 4 [P&P]", 
+        "medium_brief": "1 photographic print :", 
+        "source_modified": "2007-08-13T00:00:00Z", 
+        "pk": "2007680726", 
+        "created_published_date": "1887.", 
+        "subjects": [
+            "Barkley, Sam (Team member)", 
+            "Pittsburgh Alleghenys", 
+            "Pittsburgh", 
+            "National League", 
+            "first baseman", 
+            "Albumen prints--1880-1890.", 
+            "Baseball cards--1880-1890."
+        ]
+    }
+]}

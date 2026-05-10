@@ -5,23 +5,23 @@ import { useState } from 'react'
 
 import { AccountSectionNav } from '@/app/components/account-section-nav'
 import { CardTile } from '@/app/components/card-tile'
+import { CardVisual } from '@/app/components/card-visual'
 import { FeedItem } from '@/app/components/feed-item'
 import { ProfileHeader } from '@/app/components/profile-header'
 import { SetStackVisual } from '@/app/components/set-stack-visual'
 import { UserAvatar } from '@/app/components/user-avatar'
 import { useCollector } from '@/app/components/collector-provider'
+import { getClientSetDirectory, useClientCatalog } from '@/lib/client-catalog'
 import {
   CURRENT_USER_ID,
-  getCardById,
-  getCardsForSet,
-  getFavoriteCardsForUser,
+  getCurrentUser,
   getFollowerUsers,
   getFollowingUsers,
-  getSetProgress,
   getSeedCollectionForUser,
   getUserByUsername,
-} from '@/lib/data'
-import { formatQuantity } from '@/lib/format'
+} from '@/lib/seed-data'
+import { formatCardSubtitle, getCardDisplayTitle } from '@/lib/format'
+import type { Card, CollectionEntry, MockUser, SetProgress } from '@/lib/types'
 
 type ProfileViewProps = {
   username: string
@@ -29,28 +29,53 @@ type ProfileViewProps = {
 
 type PeopleMode = 'following' | 'followers'
 
+function getProfileEraBreakdown(cards: Card[]) {
+  const buckets = [
+    { label: 'Prewar', value: 0 },
+    { label: 'Gum', value: 0 },
+    { label: 'Post-war', value: 0 },
+    { label: 'HOF', value: 0 },
+  ]
+
+  for (const card of cards) {
+    if (card.year < 1930) {
+      buckets[0]!.value += 1
+    } else if (card.year < 1940) {
+      buckets[1]!.value += 1
+    } else {
+      buckets[2]!.value += 1
+    }
+    if (card.hallOfFamer) {
+      buckets[3]!.value += 1
+    }
+  }
+
+  return buckets
+}
+
 function ProfileOverlapCard({
   card,
   href,
   index,
 }: {
-  card: NonNullable<ReturnType<typeof getCardById>>
+  card: Card
   href: string
   index: number
 }) {
+  const title = getCardDisplayTitle(card)
   return (
     <Link
-      aria-label={`${card.player} ${card.year} ${card.set}`}
+      aria-label={`${title} ${card.year} ${card.set}`}
       className="profile-overlap-card"
       href={href}
       style={{ zIndex: 10 - index }}
     >
       {card.imageUrl ? (
         // eslint-disable-next-line @next/next/no-img-element
-        <img alt={`${card.player} ${card.year} ${card.set}`} className="profile-overlap-card-image" src={card.imageUrl} />
+        <img alt={`${title} ${card.year} ${card.set}`} className="profile-overlap-card-image" decoding="async" loading="lazy" src={card.imageUrl} />
       ) : (
         <span className="profile-overlap-card-image profile-overlap-card-image-placeholder">
-          {card.player}
+          {title}
         </span>
       )}
     </Link>
@@ -59,10 +84,13 @@ function ProfileOverlapCard({
 
 function ProfileSetRailCard({
   progress,
+  cards,
 }: {
-  progress: ReturnType<typeof getSetProgress>[number]
+  progress: SetProgress
+  cards: Card[]
 }) {
-  const previewCards = getCardsForSet(progress.setSlug)
+  const previewCards = cards
+    .filter((card) => card.setSlug === progress.setSlug)
     .filter((card) => card.imageUrl)
     .slice(0, 5)
 
@@ -89,11 +117,38 @@ function ProfileSetRailCard({
   )
 }
 
+function ProfileShowcaseCard({
+  card,
+  entry,
+}: {
+  card: Card
+  entry?: CollectionEntry
+}) {
+  const title = getCardDisplayTitle(card)
+  return (
+    <Link aria-label={title} className="profile-showcase-card" href={`/cards/${card.slug}`}>
+      <div className="profile-showcase-frame">
+        <CardVisual
+          card={card}
+          className="profile-showcase-visual"
+          flipOnSurface={false}
+          flippable={Boolean(entry)}
+          selectedBackId={entry?.selectedBackId}
+        />
+      </div>
+      <div className="profile-showcase-copy">
+        <strong>{title}</strong>
+        <span>{formatCardSubtitle(card)}</span>
+      </div>
+    </Link>
+  )
+}
+
 function ProfilePersonRow({
   user,
   cue,
 }: {
-  user: NonNullable<ReturnType<typeof getUserByUsername>>
+  user: MockUser
   cue: string
 }) {
   return (
@@ -110,68 +165,26 @@ function ProfilePersonRow({
             </>
           ) : null}
         </span>
+        <span className="profile-person-cue">{cue}</span>
       </div>
-      <span className="profile-person-cue">{cue}</span>
     </Link>
   )
 }
 
-function ProfileSectionIcon({ kind }: { kind: 'highlights' | 'wishlist' | 'sets' | 'collection' | 'recent' | 'activity' }) {
-  switch (kind) {
-    case 'highlights':
-      return (
-        <svg aria-hidden="true" className="profile-section-icon profile-section-icon-highlights" viewBox="0 0 16 16">
-          <path d="M8 2.4 9.6 5.6l3.5.5-2.5 2.4.6 3.4L8 10.3 4.8 12l.6-3.4L2.9 6.1l3.5-.5Z" fill="currentColor" />
-        </svg>
-      )
-    case 'wishlist':
-      return (
-        <svg aria-hidden="true" className="profile-section-icon profile-section-icon-wishlist" viewBox="0 0 16 16">
-          <path d="M8 13.2 3 8.6a2.8 2.8 0 0 1 4-4L8 5.5l1-1A2.8 2.8 0 1 1 13 8.6Z" fill="none" stroke="currentColor" strokeWidth="1.3" strokeLinejoin="round" />
-        </svg>
-      )
-    case 'sets':
-      return (
-        <svg aria-hidden="true" className="profile-section-icon profile-section-icon-sets" viewBox="0 0 16 16">
-          <path d="M3.5 4.2h9v7.6h-9z" fill="none" stroke="currentColor" strokeWidth="1.2" />
-          <path d="M5.2 6.4h5.6" fill="none" stroke="currentColor" strokeLinecap="round" strokeWidth="1.2" />
-          <path d="M5.2 9h3.6" fill="none" stroke="currentColor" strokeLinecap="round" strokeWidth="1.2" />
-        </svg>
-      )
-    case 'collection':
-      return (
-        <svg aria-hidden="true" className="profile-section-icon profile-section-icon-collection" viewBox="0 0 16 16">
-          <rect x="3.2" y="2.6" width="9.2" height="10.8" rx="1.5" fill="none" stroke="currentColor" strokeWidth="1.2" />
-          <path d="M5.3 5.4h5" fill="none" stroke="currentColor" strokeLinecap="round" strokeWidth="1.2" />
-          <path d="M5.3 8h5" fill="none" stroke="currentColor" strokeLinecap="round" strokeWidth="1.2" />
-        </svg>
-      )
-    case 'recent':
-      return (
-        <svg aria-hidden="true" className="profile-section-icon profile-section-icon-recent" viewBox="0 0 16 16">
-          <path d="M8 3.1v5.2l3 1.7" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.3" />
-          <circle cx="8" cy="8" r="5.2" fill="none" stroke="currentColor" strokeWidth="1.2" />
-        </svg>
-      )
-    case 'activity':
-      return (
-        <svg aria-hidden="true" className="profile-section-icon profile-section-icon-activity" viewBox="0 0 16 16">
-          <path d="M8 1.8 3.9 8.2h2.9l-.7 6 6-7.7H9.2l1-4.7Z" fill="currentColor" />
-        </svg>
-      )
-  }
-}
-
 export function ProfileView({ username }: ProfileViewProps) {
   const collector = useCollector()
-  const user = getUserByUsername(username)
+  const catalog = useClientCatalog()
+  const seedCurrentUser = getCurrentUser()
+  const runtimeCurrentUser = collector.currentUser
+  const isCurrentUserRoute = username === seedCurrentUser.username || username === runtimeCurrentUser.username
+  const user = isCurrentUserRoute ? runtimeCurrentUser : getUserByUsername(username)
   const [peopleMode, setPeopleMode] = useState<PeopleMode>('following')
 
   if (!user) {
     return null
   }
 
-  const isCurrentUser = user.id === CURRENT_USER_ID
+  const isCurrentUser = collector.isAuthenticated && (isCurrentUserRoute || user.id === CURRENT_USER_ID)
   const sourceEntries = isCurrentUser
     ? Object.values(collector.collection)
     : getSeedCollectionForUser(user.id)
@@ -179,97 +192,126 @@ export function ProfileView({ username }: ProfileViewProps) {
   const collectionCards = sourceEntries
     .map((entry) => ({
       entry,
-      card: getCardById(entry.cardId),
+      card: catalog.cardById.get(entry.cardId),
     }))
-    .filter((row): row is { entry: typeof sourceEntries[number]; card: NonNullable<ReturnType<typeof getCardById>> } => Boolean(row.card))
+    .filter((row): row is { entry: typeof sourceEntries[number]; card: Card } => Boolean(row.card))
+  const entryByCardId = new Map(collectionCards.map((item) => [item.card.id, item.entry]))
 
   const favoriteCards = isCurrentUser
-    ? collector.favorites.map((cardId) => getCardById(cardId)).filter((card): card is NonNullable<ReturnType<typeof getCardById>> => Boolean(card))
-    : getFavoriteCardsForUser(user.id)
+    ? collector.favorites.map((cardId) => catalog.cardById.get(cardId)).filter((card): card is Card => Boolean(card))
+    : user.favoriteCardIds.map((cardId) => catalog.cardById.get(cardId)).filter((card): card is Card => Boolean(card))
+  const currentUserShowcaseCards = collector.showcase
+    .map((cardId) => catalog.cardById.get(cardId))
+    .filter((card): card is Card => Boolean(card && entryByCardId.has(card.id)))
   const wishlistCards = isCurrentUser
-    ? collector.wishlist.map((cardId) => getCardById(cardId)).filter((card): card is NonNullable<ReturnType<typeof getCardById>> => Boolean(card))
+    ? collector.wishlist.map((cardId) => catalog.cardById.get(cardId)).filter((card): card is Card => Boolean(card))
     : []
-  const setProgress = getSetProgress(sourceEntries).slice(0, 3)
+  const allSetProgress: SetProgress[] = (() => {
+    const entriesByCardId = new Map(sourceEntries.map((entry) => [entry.cardId, entry]))
+    return getClientSetDirectory(sourceEntries, catalog).map((set) => {
+      const setCards = catalog.cards.filter((card) => card.setSlug === set.setSlug)
+      const missingCards = setCards.filter((card) => !entriesByCardId.has(card.id))
+      const keyCards = setCards.filter((card) => card.hallOfFamer || card.rarityLabel || card.rookieCard)
+      return {
+        setSlug: set.setSlug,
+        setLabel: set.setLabel,
+        year: set.year,
+        brand: set.brand,
+        set: set.set,
+        totalCards: set.totalCards,
+        ownedCards: set.ownedCards,
+        ownedCopies: setCards.reduce((sum, card) => sum + (entriesByCardId.get(card.id)?.quantity ?? 0), 0),
+        percent: set.percent,
+        keyCardIds: (keyCards.length ? keyCards : setCards).slice(0, 3).map((card) => card.id),
+        missingCardIds: missingCards.slice(0, 4).map((card) => card.id),
+      }
+    })
+  })()
+  const startedSetProgress = allSetProgress.filter((progress) => progress.ownedCards > 0)
+  const setProgress = startedSetProgress.slice(0, 1)
   const followingUsers = getFollowingUsers(user.id)
   const followerUsers = getFollowerUsers(user.id)
   const profileActivity = collector.activity
     .filter((event) => event.userId === user.id)
     .slice(0, 3)
 
-  const recentAddedCards = [...collectionCards]
-    .sort((left, right) => right.entry.addedAt.localeCompare(left.entry.addedAt))
+  const showcaseCards = isCurrentUser
+    ? currentUserShowcaseCards
+    : favoriteCards.filter((card) => entryByCardId.has(card.id)).slice(0, 4)
+  const showcaseOpenSlots = Math.max(0, 4 - showcaseCards.length)
+  const highlightCards = collectionCards
+    .map((item) => item.card)
+    .filter((card) => card.hallOfFamer || card.rarityLabel)
     .slice(0, 4)
-  const favoriteRailCards = favoriteCards.slice(0, 4)
-  const favoriteOpenSlots = Math.max(0, 4 - favoriteRailCards.length)
   const activePeople = peopleMode === 'following' ? followingUsers : followerUsers
   const activePeopleCount = activePeople.length
+  const totalCollectionValue = collectionCards.reduce(
+    (sum, item) => sum + item.card.marketValue * item.entry.quantity,
+    0,
+  )
+  const eraBreakdown = getProfileEraBreakdown(collectionCards.map((item) => item.card))
+  const maxEraValue = Math.max(...eraBreakdown.map((item) => item.value), 1)
+  const featuredSetProgress = setProgress[0]
+  const totalOwnedCopies = collectionCards.reduce((sum, item) => sum + item.entry.quantity, 0)
+  const uniqueOwnedSubjects = collectionCards.length
 
   return (
-    <main className="page-shell profile-page">
+    <main className="page-shell profile-page profile-page-polished">
       <ProfileHeader
         canEdit={isCurrentUser}
         stats={[
-          { label: 'Favorite team', value: user.favoriteTeam },
-          { label: 'Cards', value: `${collectionCards.reduce((sum, item) => sum + item.entry.quantity, 0)}` },
-          { label: 'Following', value: `${followingUsers.length}` },
-          { label: 'Followers', value: `${followerUsers.length}` },
+          { label: 'Cards', value: totalOwnedCopies, detail: `${uniqueOwnedSubjects} subjects` },
+          { label: 'Sets', value: startedSetProgress.length, detail: startedSetProgress.length === 1 ? 'set started' : 'sets started' },
+          { label: 'Followers', value: followerUsers.length, detail: followingUsers.length === 1 ? '1 following' : `${followingUsers.length} following` },
+          { label: 'Shelf', value: `${showcaseCards.length}/4`, detail: showcaseCards.length === 1 ? 'card featured' : 'cards featured' },
         ]}
         user={user}
       />
 
       <AccountSectionNav />
 
-      <div className="app-transition-bridge" aria-hidden="true">
-        <span className="app-transition-chip">
-          <span>Collector profile</span>
-        </span>
-        <span className="app-transition-rule" />
-      </div>
-
       <section className="profile-content-grid">
         <div className="panel-stack-lg profile-main-stack">
-          <section className="section-panel profile-section-panel panel-stack-md" id="profile-highlights">
+          <section className="section-panel profile-section-panel profile-showcase-panel panel-stack-md" id="profile-highlights">
             <div className="section-heading profile-section-heading">
               <div className="profile-section-heading-copy">
-                <h2 className="profile-section-title">
-                  <ProfileSectionIcon kind="highlights" />
-                  <span>Favorite cards</span>
-                </h2>
+                <h2 className="profile-section-title">Showcase</h2>
               </div>
               <div className="profile-section-actions">
                 <div className="profile-section-heading-meta">
-                  <span className="profile-section-count">{favoriteCards.length}</span>
+                  <span className="profile-section-count">{showcaseCards.length}/4</span>
                 </div>
                 {isCurrentUser ? (
-                  <Link className="text-link" href="/library">
-                    Browse
+                  <Link className="text-link" href="/collection">
+                    Curate
                   </Link>
                 ) : null}
               </div>
             </div>
 
-            {favoriteCards.length === 0 ? (
-              <div className="section-empty">No favorite cards logged yet.</div>
+            {showcaseCards.length === 0 ? (
+              <div className="profile-showcase-empty">
+                <strong>Build your top four</strong>
+                <span>Showcase up to four owned cards.</span>
+                {isCurrentUser ? (
+                  <Link className="text-link" href="/collection">
+                    Choose from collection
+                  </Link>
+                ) : null}
+              </div>
             ) : (
-              <div className="profile-card-rail">
-                {favoriteRailCards.map((card) => (
-                  <CardTile
-                    key={card.id}
-                    card={card}
-                    compact
-                    hideCopy
-                    href={`/cards/${card.slug}`}
-                    status="Favorite"
-                  />
+              <div className="profile-showcase-grid">
+                {showcaseCards.map((card) => (
+                  <ProfileShowcaseCard card={card} entry={entryByCardId.get(card.id)} key={card.id} />
                 ))}
-                {Array.from({ length: favoriteOpenSlots }).map((_, index) => (
+                {Array.from({ length: showcaseOpenSlots }).map((_, index) => (
                   <div className="profile-favorite-filler" key={`favorite-filler-${index}`}>
                     <div className="profile-favorite-filler-frame">
                       <span className="profile-favorite-filler-plus">+</span>
                     </div>
                     <div className="profile-favorite-filler-copy">
-                      <strong>Pick more favorites</strong>
-                      <span>Show off your cardboard connoisseur eye.</span>
+                      <strong>Pick a showcase card</strong>
+                      <span>Add an owned card.</span>
                     </div>
                   </div>
                 ))}
@@ -277,60 +319,76 @@ export function ProfileView({ username }: ProfileViewProps) {
             )}
           </section>
 
-          <section className="section-panel profile-section-panel panel-stack-md" id="profile-activity">
+          <section className="section-panel profile-section-panel profile-set-completion-panel panel-stack-md">
             <div className="section-heading profile-section-heading">
               <div className="profile-section-heading-copy">
-                <h2 className="profile-section-title">
-                  <ProfileSectionIcon kind="recent" />
-                  <span>Recently added</span>
-                </h2>
+                <h2 className="profile-section-title">Set progress</h2>
               </div>
               <div className="profile-section-heading-meta">
-                <span className="profile-section-count">{recentAddedCards.length}</span>
+                <span className="profile-section-count">{featuredSetProgress ? `${featuredSetProgress.percent}%` : '0%'}</span>
               </div>
             </div>
 
-            {recentAddedCards.length === 0 ? (
-              <div className="section-empty">No recent cards added yet.</div>
+            {setProgress.length === 0 ? (
+              <div className="section-empty">No set started yet.</div>
+            ) : (
+              <div className="profile-set-rail profile-set-rail-featured">
+                {setProgress.map((progress) => (
+                  <ProfileSetRailCard cards={catalog.cards} key={progress.setSlug} progress={progress} />
+                ))}
+              </div>
+            )}
+          </section>
+
+          <section className="section-panel profile-section-panel panel-stack-md" id="profile-collection-highlights">
+            <div className="section-heading profile-section-heading">
+              <div className="profile-section-heading-copy">
+                <h2 className="profile-section-title">Collection highlights</h2>
+              </div>
+              <div className="profile-section-heading-meta">
+                <span className="profile-section-count">{highlightCards.length}</span>
+              </div>
+            </div>
+
+            {highlightCards.length === 0 ? (
+              <div className="section-empty">Add cards to start this shelf.</div>
             ) : (
               <div className="profile-card-rail">
-                {recentAddedCards.map((item) => (
+                {highlightCards.map((card) => (
                   <CardTile
-                    key={`${item.card.id}-${item.entry.addedAt}`}
-                    card={item.card}
+                    key={card.id}
+                    card={card}
                     compact
-                    href={`/cards/${item.card.slug}`}
-                    status={formatQuantity(item.entry.quantity)}
-                    libraryIndicators={{
-                      owned: true,
-                      graded: false,
-                      favorite: isCurrentUser ? collector.favorites.includes(item.card.id) : false,
-                    }}
+                    hideCopy
+                    href={`/cards/${card.slug}`}
                   />
                 ))}
               </div>
             )}
           </section>
 
-          <section className="section-panel profile-section-panel profile-bottom-feature-panel profile-set-completion-panel panel-stack-md">
+          <section className="section-panel profile-section-panel panel-stack-md" id="profile-favorites">
             <div className="section-heading profile-section-heading">
               <div className="profile-section-heading-copy">
-                <h2 className="profile-section-title">
-                  <ProfileSectionIcon kind="sets" />
-                  <span>Set completion</span>
-                </h2>
+                <h2 className="profile-section-title">Favorite cards</h2>
               </div>
               <div className="profile-section-heading-meta">
-                <span className="profile-section-count">{setProgress.length}</span>
+                <span className="profile-section-count">{favoriteCards.length}</span>
               </div>
             </div>
 
-            {setProgress.length === 0 ? (
-              <div className="section-empty">No active runs yet.</div>
+            {favoriteCards.length === 0 ? (
+              <div className="section-empty">Use the heart action to add favorites.</div>
             ) : (
-              <div className="profile-set-rail">
-                {setProgress.map((progress) => (
-                  <ProfileSetRailCard key={progress.setSlug} progress={progress} />
+              <div className="profile-card-rail">
+                {favoriteCards.slice(0, 4).map((card) => (
+                  <CardTile
+                    key={card.id}
+                    card={card}
+                    compact
+                    hideCopy
+                    href={`/cards/${card.slug}`}
+                  />
                 ))}
               </div>
             )}
@@ -342,10 +400,7 @@ export function ProfileView({ username }: ProfileViewProps) {
             <section className="section-panel profile-section-panel profile-wishlist-panel panel-stack-md">
               <div className="section-heading profile-section-heading">
                 <div className="profile-section-heading-copy">
-                  <h2 className="profile-section-title">
-                    <ProfileSectionIcon kind="wishlist" />
-                    <span>Wishlist</span>
-                  </h2>
+                  <h2 className="profile-section-title">Watchlist</h2>
                 </div>
                 <div className="profile-section-heading-meta">
                   <span className="profile-section-count">{wishlistCards.length}</span>
@@ -356,7 +411,7 @@ export function ProfileView({ username }: ProfileViewProps) {
               </div>
 
               {wishlistCards.length === 0 ? (
-                <div className="section-empty">No wishlist cards logged yet.</div>
+                <div className="section-empty">No cards on the watchlist yet.</div>
               ) : (
                 <div className="profile-overlap-rail">
                   {wishlistCards.slice(0, 5).map((card, index) => (
@@ -375,10 +430,7 @@ export function ProfileView({ username }: ProfileViewProps) {
           <section className="section-panel profile-section-panel profile-activity-panel home-activity-rail panel-stack-md">
             <div className="section-heading profile-section-heading home-lane-heading">
               <div className="profile-section-heading-copy">
-                <h2 className="home-lane-title">
-                  <ProfileSectionIcon kind="activity" />
-                  <span>Activity</span>
-                </h2>
+                <h2 className="home-lane-title">Activity</h2>
               </div>
             </div>
 
@@ -387,7 +439,7 @@ export function ProfileView({ username }: ProfileViewProps) {
             ) : (
               <div className="home-activity-list home-activity-list-inline">
                 {profileActivity.map((event) => {
-                  const card = getCardById(event.cardId)
+                  const card = catalog.cardById.get(event.cardId)
                   if (!card) {
                     return null
                   }
@@ -398,16 +450,48 @@ export function ProfileView({ username }: ProfileViewProps) {
             )}
           </section>
 
-          <section className="section-panel profile-section-panel profile-people-panel profile-bottom-feature-panel panel-stack-md" id="profile-collection">
+          <section className="section-panel profile-section-panel profile-analytics-panel profile-bottom-feature-panel panel-stack-md">
             <div className="section-heading profile-section-heading">
               <div className="profile-section-heading-copy">
-                <h2 className="profile-section-title">
-                  <ProfileSectionIcon kind="collection" />
-                  <span>Collectors</span>
-                </h2>
+                <h2 className="profile-section-title">Collection mix</h2>
               </div>
-              <div className="profile-section-actions">
-                <div className="profile-segmented-control" role="tablist" aria-label="Collectors view">
+            </div>
+
+            <div className="profile-analytics-copy">
+              <span className="profile-analytics-label">Estimated collection value</span>
+              <strong className="profile-analytics-value">${totalCollectionValue.toLocaleString()}</strong>
+            </div>
+
+            <div className="profile-analytics-chart" aria-label="Collection breakdown by era">
+              {eraBreakdown.map((bucket) => (
+                <div className="profile-analytics-bar-group" key={bucket.label}>
+                  <div className="profile-analytics-bar-meta">
+                    <span>{bucket.label}</span>
+                    <strong>{bucket.value}</strong>
+                  </div>
+                  <div className="profile-analytics-bar-shell">
+                    <span
+                      className="profile-analytics-bar-fill"
+                      style={{ width: `${(bucket.value / maxEraValue) * 100}%` }}
+                    />
+                  </div>
+                </div>
+              ))}
+            </div>
+          </section>
+
+          <section className="section-panel profile-section-panel profile-people-panel profile-bottom-feature-panel panel-stack-md" id="profile-collection">
+            <div className="section-heading profile-section-heading profile-network-heading">
+              <div className="profile-network-heading-main">
+                <div className="profile-section-heading-copy">
+                  <h2 className="profile-section-title">Collector Network</h2>
+                </div>
+                <div className="profile-section-heading-meta">
+                  <span className="profile-section-count">{activePeopleCount}</span>
+                </div>
+              </div>
+              <div className="profile-network-heading-controls">
+                <div className="profile-segmented-control profile-segmented-control-network" role="tablist" aria-label="Collectors view">
                   <button
                     aria-selected={peopleMode === 'following'}
                     className={`profile-segment ${peopleMode === 'following' ? 'profile-segment-active' : ''}`}
@@ -426,9 +510,6 @@ export function ProfileView({ username }: ProfileViewProps) {
                   >
                     Followers
                   </button>
-                </div>
-                <div className="profile-section-heading-meta">
-                  <span className="profile-section-count">{activePeopleCount}</span>
                 </div>
               </div>
             </div>

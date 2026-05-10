@@ -1,0 +1,466 @@
+{"search":{
+    "field": "number", 
+    "hits": 10, 
+    "sort_order": null, 
+    "do_facets": true, 
+    "focus_item": null, 
+    "query": "\"13163-20\"", 
+    "type": "search", 
+    "sort_by": null
+},
+"focus":null,
+"views":{
+    "current": "grid", 
+    "grid": "https://www.loc.gov/pictures/search/?q=%2213163-20%22&fi=number&c=600&co=bbc&st=grid", 
+    "list": "https://www.loc.gov/pictures/search/?q=%2213163-20%22&fi=number&c=600&co=bbc", 
+    "gallery": "https://www.loc.gov/pictures/search/?q=%2213163-20%22&fi=number&c=600&co=bbc&st=gallery", 
+    "slideshow": "https://www.loc.gov/pictures/search/?q=%2213163-20%22&fi=number&c=600&co=bbc&st=slideshow"
+},
+"facets":[
+    {
+        "type": "displayed", 
+        "filters": [
+            {
+                "count": 10, 
+                "on": "https://www.loc.gov/pictures/search/?c=600&co=bbc&sp=1&st=grid&q=%2213163-20%22&fa=displayed%3Aanywhere&fi=number&fo=json", 
+                "selected": false, 
+                "off": "https://www.loc.gov/pictures/search/?c=600&co=bbc&sp=1&st=grid&q=%2213163-20%22&fi=number&fo=json", 
+                "title": "Larger image available anywhere"
+            }, 
+            {
+                "count": 0, 
+                "on": "https://www.loc.gov/pictures/search/?c=600&co=bbc&sp=1&st=grid&q=%2213163-20%22&fa=displayed%3Alc_only&fi=number&fo=json", 
+                "selected": false, 
+                "off": "https://www.loc.gov/pictures/search/?c=600&co=bbc&sp=1&st=grid&q=%2213163-20%22&fi=number&fo=json", 
+                "title": "Larger image available only at the Library of Congress"
+            }, 
+            {
+                "count": 0, 
+                "on": "https://www.loc.gov/pictures/search/?c=600&co=bbc&sp=1&st=grid&q=%2213163-20%22&fa=displayed%3Anot_digitized&fi=number&fo=json", 
+                "selected": false, 
+                "off": "https://www.loc.gov/pictures/search/?c=600&co=bbc&sp=1&st=grid&q=%2213163-20%22&fi=number&fo=json", 
+                "title": "Not Digitized"
+            }
+        ], 
+        "title": "displayed"
+    }
+],
+"links":{
+    "json": "https://www.loc.gov/pictures/search/?co=bbc&st=grid&fi=number&q=%2213163-20%22&c=600&fo=json", 
+    "html": "https://www.loc.gov/pictures/search/?co=bbc&st=grid&fi=number&q=%2213163-20%22&c=600", 
+    "rss": "https://www.loc.gov/pictures/search/?co=bbc&fi=number&q=%2213163-20%22&c=600&fo=rss"
+},
+"suggestions":{
+    "possible": []
+},
+"pages":{
+    "current": 1, 
+    "next": null, 
+    "perpage": 600, 
+    "last": null, 
+    "page_list": [
+        {
+            "url": null, 
+            "number": 1
+        }
+    ], 
+    "previous": null, 
+    "total": 1, 
+    "results": "1 - 10", 
+    "first": null
+},
+"collection":{
+    "digitized": "All", 
+    "code": "bbc", 
+    "display_offsite": "Yes", 
+    "thumb_large_item": "", 
+    "title": "Baseball Cards", 
+    "banner_item": "https://www.loc.gov/pictures/item/2007678538/", 
+    "brief": "Baseball cards representing more than one thousand major and minor league ballplayers (primarily major league), from teams in thirteen identified leagues and seventy-five cities in the United States and Canada.", 
+    "banner_title": "John M. Ward, New York Giants, 1887.", 
+    "thumb_item": "cph.3b38367", 
+    "home_link": "https://www.loc.gov/pictures/collection/bbc/", 
+    "from_date": "1887", 
+    "view_all": "https://www.loc.gov/pictures/search?st=grid&co=bbc", 
+    "link": "https://www.loc.gov/pictures/collection/bbc/", 
+    "to_date": "1914", 
+    "extent": "2,100 baseball cards.", 
+    "thumb_featured": "https://www.loc.gov/pictures/static/data/bbc/featured.png", 
+    "rights": "https://www.loc.gov/rr/print/res/620_base.html", 
+    "thumb_large": "https://www.loc.gov/pictures/static/data/bbc/thumb_large.png", 
+    "banner": "https://www.loc.gov/pictures/static/data/bbc/banner.jpg", 
+    "thumb": "https://www.loc.gov/pictures/static/data/bbc/thumb.png"
+},
+"results":[
+    {
+        "source_created": "2007-09-07T00:00:00Z", 
+        "index": 1, 
+        "medium": "1 print : relief with halftone, color", 
+        "reproduction_number": "LC-DIG-bbc-1195f (digital file from original, front)\nLC-DIG-bbc-1195b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683807/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683807/resource/"
+        }, 
+        "title": "[Bourquise, Rocky Mount Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1100/1190/1195fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1100/1190/1195f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1100/1190/1195f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-20, no. 6 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-09-07T00:00:00Z", 
+        "pk": "2007683807", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Bourquise (Team member)", 
+            "Rocky Mount", 
+            "Minor League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-07T00:00:00Z", 
+        "index": 2, 
+        "medium": "1 print : relief with halftone, color", 
+        "reproduction_number": "LC-DIG-bbc-1198f (digital file from original, front)\nLC-DIG-bbc-1198b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683810/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683810/resource/"
+        }, 
+        "title": "[McGeehan, Wilson Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1100/1190/1198fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1100/1190/1198f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1100/1190/1198f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-20, no. 9 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-09-07T00:00:00Z", 
+        "pk": "2007683810", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "McGeehan (Team member)", 
+            "Wilson", 
+            "Minor League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-07T00:00:00Z", 
+        "index": 3, 
+        "medium": "1 print : relief with halftone, color", 
+        "reproduction_number": "LC-DIG-bbc-1199f (digital file from original, front)\nLC-DIG-bbc-1199b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683811/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683811/resource/"
+        }, 
+        "title": "[Gilmore, Winston-Salem Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1100/1190/1199fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1100/1190/1199f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1100/1190/1199f_150px.jpg"
+        }, 
+        "created": "2016-04-20T00:00:00Z", 
+        "modified": "2016-04-20T00:00:00Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-20, no. 10 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2007-09-07T00:00:00Z", 
+        "pk": "2007683811", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Gilmore (Team member)", 
+            "Winston-Salem", 
+            "Minor League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-07T00:00:00Z", 
+        "index": 4, 
+        "medium": "1 print : relief with halftone, color", 
+        "reproduction_number": "LC-DIG-bbc-1191f (digital file from original, front)\nLC-DIG-bbc-1191b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683803/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683803/resource/"
+        }, 
+        "title": "[Charles Steubbe, Goldsboro Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1100/1190/1191fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1100/1190/1191f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1100/1190/1191f_150px.jpg"
+        }, 
+        "created": "2023-12-19T05:53:24Z", 
+        "modified": "2023-12-19T05:53:26Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-20, no. 2 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2023-12-18T17:14:23Z", 
+        "pk": "2007683803", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Stubbe (Team member)", 
+            "Goldsboro", 
+            "Minor League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-07T00:00:00Z", 
+        "index": 5, 
+        "medium": "1 print : relief with halftone, color", 
+        "reproduction_number": "LC-DIG-bbc-1192f (digital file from original, front)\nLC-DIG-bbc-1192b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683804/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683804/resource/"
+        }, 
+        "title": "[Joseph Walsh, Greensboro Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1100/1190/1192fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1100/1190/1192f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1100/1190/1192f_150px.jpg"
+        }, 
+        "created": "2023-12-19T06:41:49Z", 
+        "modified": "2023-12-19T06:41:51Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-20, no. 3 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2023-12-18T17:12:37Z", 
+        "pk": "2007683804", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Walsh (Team member)", 
+            "Greensboro", 
+            "Minor League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-07T00:00:00Z", 
+        "index": 6, 
+        "medium": "1 print : relief with halftone, color", 
+        "reproduction_number": "LC-DIG-bbc-1193f (digital file from original, front)\nLC-DIG-bbc-1193b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683805/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683805/resource/"
+        }, 
+        "title": "[Red Booles, Raleigh Red Birds, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1100/1190/1193fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1100/1190/1193f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1100/1190/1193f_150px.jpg"
+        }, 
+        "created": "2023-12-19T05:46:05Z", 
+        "modified": "2023-12-19T05:46:07Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-20, no. 4 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2023-12-18T17:11:13Z", 
+        "pk": "2007683805", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Booles (Team member)", 
+            "Raleigh", 
+            "Minor League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-07T00:00:00Z", 
+        "index": 7, 
+        "medium": "1 print : relief with halftone, color", 
+        "reproduction_number": "LC-DIG-bbc-1194f (digital file from original, front)\nLC-DIG-bbc-1194b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683806/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683806/resource/"
+        }, 
+        "title": "[Ashley Pope, Raleigh Red Birds, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1100/1190/1194fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1100/1190/1194f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1100/1190/1194f_150px.jpg"
+        }, 
+        "created": "2023-12-19T06:10:18Z", 
+        "modified": "2023-12-19T06:10:20Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-20, no. 5 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2023-12-18T17:09:43Z", 
+        "pk": "2007683806", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Pope (Team member)", 
+            "Raleigh", 
+            "Minor League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-07T00:00:00Z", 
+        "index": 8, 
+        "medium": "1 print : relief with halftone, color", 
+        "reproduction_number": "LC-DIG-bbc-1196f (digital file from original, front)\nLC-DIG-bbc-1196b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683808/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683808/resource/"
+        }, 
+        "title": "[Charles Armstrong, Wilson Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1100/1190/1196fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1100/1190/1196f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1100/1190/1196f_150px.jpg"
+        }, 
+        "created": "2023-12-19T06:25:13Z", 
+        "modified": "2023-12-19T06:25:15Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-20, no. 7 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2023-12-12T14:59:16Z", 
+        "pk": "2007683808", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Armstrong, Charles (Team member)", 
+            "Wilson", 
+            "Minor League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-07T00:00:00Z", 
+        "index": 9, 
+        "medium": "1 print : relief with halftone, color", 
+        "reproduction_number": "LC-DIG-bbc-1197f (digital file from original, front)\nLC-DIG-bbc-1197b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683809/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683809/resource/"
+        }, 
+        "title": "[Joe Cowell, Wilson Team, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1100/1190/1197fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1100/1190/1197f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1100/1190/1197f_150px.jpg"
+        }, 
+        "created": "2023-12-19T06:10:16Z", 
+        "modified": "2023-12-19T06:10:18Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-20, no. 8 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2023-12-12T14:58:24Z", 
+        "pk": "2007683809", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Cowell, Joe (Team member)", 
+            "Wilson", 
+            "Minor League", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }, 
+    {
+        "source_created": "2007-09-07T00:00:00Z", 
+        "index": 10, 
+        "medium": "1 print : relief with halftone, color", 
+        "reproduction_number": "LC-DIG-bbc-1190f (digital file from original, front)\nLC-DIG-bbc-1190b (digital file from original, back)\nLC-USZC4-6983 (color film copy transparency, front)\nLC-USZC4-6961 (color film copy transparency, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007683802/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007683802/resource/"
+        }, 
+        "title": "[H.H. Hoffman, Raleigh Red Birds, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/1100/1190/1190fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/1100/1190/1190f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/1100/1190/1190f_150px.jpg"
+        }, 
+        "created": "2026-02-10T06:01:12Z", 
+        "modified": "2026-02-10T06:01:17Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "American Tobacco Company", 
+        "call_number": "LOT 13163-20, no. 1 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2026-01-29T16:48:52Z", 
+        "pk": "2007683802", 
+        "created_published_date": "1910.", 
+        "subjects": [
+            "Eastern Carolina League.", 
+            "Raleigh Red Birds (Baseball team)", 
+            "Baseball players--North Carolina--Raleigh--1910.", 
+            "Hoffman, H.H. (Team member)", 
+            "Baseball cards--1910.", 
+            "Relief prints--Color--1910."
+        ]
+    }
+]}

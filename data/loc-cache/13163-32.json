@@ -1,0 +1,274 @@
+{"search":{
+    "field": "number", 
+    "hits": 4, 
+    "sort_order": null, 
+    "do_facets": true, 
+    "focus_item": null, 
+    "query": "\"13163-32\"", 
+    "type": "search", 
+    "sort_by": null
+},
+"focus":null,
+"views":{
+    "current": "grid", 
+    "grid": "https://www.loc.gov/pictures/search/?q=%2213163-32%22&fi=number&c=50&co=bbc&st=grid", 
+    "list": "https://www.loc.gov/pictures/search/?q=%2213163-32%22&fi=number&c=50&co=bbc", 
+    "gallery": "https://www.loc.gov/pictures/search/?q=%2213163-32%22&fi=number&c=50&co=bbc&st=gallery", 
+    "slideshow": "https://www.loc.gov/pictures/search/?q=%2213163-32%22&fi=number&c=50&co=bbc&st=slideshow"
+},
+"facets":[
+    {
+        "type": "displayed", 
+        "filters": [
+            {
+                "count": 4, 
+                "on": "https://www.loc.gov/pictures/search/?c=50&co=bbc&sp=1&st=grid&q=%2213163-32%22&fa=displayed%3Aanywhere&fi=number&fo=json", 
+                "selected": false, 
+                "off": "https://www.loc.gov/pictures/search/?c=50&co=bbc&sp=1&st=grid&q=%2213163-32%22&fi=number&fo=json", 
+                "title": "Larger image available anywhere"
+            }, 
+            {
+                "count": 0, 
+                "on": "https://www.loc.gov/pictures/search/?c=50&co=bbc&sp=1&st=grid&q=%2213163-32%22&fa=displayed%3Alc_only&fi=number&fo=json", 
+                "selected": false, 
+                "off": "https://www.loc.gov/pictures/search/?c=50&co=bbc&sp=1&st=grid&q=%2213163-32%22&fi=number&fo=json", 
+                "title": "Larger image available only at the Library of Congress"
+            }, 
+            {
+                "count": 0, 
+                "on": "https://www.loc.gov/pictures/search/?c=50&co=bbc&sp=1&st=grid&q=%2213163-32%22&fa=displayed%3Anot_digitized&fi=number&fo=json", 
+                "selected": false, 
+                "off": "https://www.loc.gov/pictures/search/?c=50&co=bbc&sp=1&st=grid&q=%2213163-32%22&fi=number&fo=json", 
+                "title": "Not Digitized"
+            }, 
+            {
+                "count": 0, 
+                "on": "https://www.loc.gov/pictures/search/?c=50&co=bbc&sp=1&st=grid&q=%2213163-32%22&fa=displayed%3Asurveys_only&fi=number&fo=json", 
+                "selected": false, 
+                "off": "https://www.loc.gov/pictures/search/?c=50&co=bbc&sp=1&st=grid&q=%2213163-32%22&fi=number&fo=json", 
+                "title": "Surveys only"
+            }
+        ], 
+        "title": "displayed"
+    }
+],
+"links":{
+    "json": "https://loc.gov/pictures/search/?co=bbc&st=grid&fi=number&q=%2213163-32%22&c=50&fo=json", 
+    "html": "https://loc.gov/pictures/search/?co=bbc&st=grid&fi=number&q=%2213163-32%22&c=50", 
+    "rss": "https://loc.gov/pictures/search/?co=bbc&fi=number&q=%2213163-32%22&c=50&fo=rss"
+},
+"suggestions":{
+    "possible": []
+},
+"pages":{
+    "current": 1, 
+    "next": null, 
+    "perpage": 50, 
+    "last": null, 
+    "page_list": [
+        {
+            "url": null, 
+            "number": 1
+        }
+    ], 
+    "previous": null, 
+    "total": 1, 
+    "results": "1 - 4", 
+    "first": null
+},
+"collection":{
+    "digitized": "All", 
+    "code": "bbc", 
+    "display_offsite": "Yes", 
+    "thumb_large_item": "", 
+    "title": "Baseball Cards", 
+    "banner_item": "https://www.loc.gov/pictures/item/2007678538/", 
+    "brief": "Baseball cards representing more than one thousand major and minor league ballplayers (primarily major league), from teams in thirteen identified leagues and seventy-five cities in the United States and Canada.", 
+    "banner_title": "John M. Ward, New York Giants, 1887.", 
+    "thumb_item": "cph.3b38367", 
+    "home_link": "https://www.loc.gov/pictures/collection/bbc/", 
+    "from_date": "1887", 
+    "view_all": "https://www.loc.gov/pictures/search?st=grid&co=bbc", 
+    "link": "https://www.loc.gov/pictures/collection/bbc/", 
+    "to_date": "1914", 
+    "extent": "2,100 baseball cards.", 
+    "thumb_featured": "https://www.loc.gov/pictures/static/data/bbc/featured.png", 
+    "rights": "https://www.loc.gov/rr/print/res/620_base.html", 
+    "thumb_large": "https://www.loc.gov/pictures/static/data/bbc/thumb_large.png", 
+    "banner": "https://www.loc.gov/pictures/static/data/bbc/banner.jpg", 
+    "thumb": "https://www.loc.gov/pictures/static/data/bbc/thumb.png"
+},
+"results":[
+    {
+        "source_created": "2007-10-19T00:00:00Z", 
+        "index": 1, 
+        "medium": "1 print : relief with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-2067f (digital file from original, front)\nLC-DIG-bbc-2067b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685715/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685715/resource/"
+        }, 
+        "title": "[Richard Marquard, New York Giants, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/2000/2060/2067fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/2000/2060/2067f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/2000/2060/2067f_150px.jpg"
+        }, 
+        "created": "2022-06-14T06:24:05Z", 
+        "modified": "2022-06-14T06:24:08Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "Honest Long Cut and Miners Extra brands", 
+        "call_number": "LOT 13163-32, no. 1 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2022-06-09T16:41:38Z", 
+        "pk": "2007685715", 
+        "created_published_date": "1912.", 
+        "subjects": [
+            "Marquard, Rube (Team member)", 
+            "New York Giants", 
+            "New York", 
+            "National League", 
+            "pitcher", 
+            "Baseball cards--1910-1920.", 
+            "Relief prints--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-19T00:00:00Z", 
+        "index": 2, 
+        "medium": "1 print : relief with halftone, color ; sheet 8.1 x 5.8 cm.", 
+        "reproduction_number": "LC-DIG-bbc-2099f (digital file from original, front)\nLC-DIG-bbc-2099b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685717/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685717/resource/"
+        }, 
+        "title": "[Home Run Baker, Philadelphia Athletics, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/2000/2090/2099fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/2000/2090/2099f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/2000/2090/2099f_150px.jpg"
+        }, 
+        "created": "2022-06-14T06:59:44Z", 
+        "modified": "2022-06-14T06:59:47Z", 
+        "collection": [
+            "01", 
+            "10", 
+            "2", 
+            "24", 
+            "bbc", 
+            "diof", 
+            "exh", 
+            "l4804", 
+            "pp"
+        ], 
+        "creator": "Honest Long Cut and Miners Extra brands", 
+        "call_number": "LOT 13163-32, no. 3 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2022-06-09T16:43:57Z", 
+        "pk": "2007685717", 
+        "created_published_date": "1912.", 
+        "subjects": [
+            "Baker, John Franklin,--1886-1963.", 
+            "American League of Professional Baseball Clubs.", 
+            "Philadelphia Athletics (Baseball team)--1910-1920.", 
+            "Baseball players--1910-1920.", 
+            "Baker, Frank (Team member)", 
+            "Philadelphia Athletics", 
+            "Philadelphia", 
+            "American League", 
+            "third baseman", 
+            "Baseball cards--1910-1920.", 
+            "Portrait prints--1910-1920.", 
+            "Relief prints--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-19T00:00:00Z", 
+        "index": 3, 
+        "medium": "1 print : relief with halftone, color.", 
+        "reproduction_number": "LC-DIG-bbc-2068f (digital file from original, front)\nLC-DIG-bbc-2068b (digital file from original, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685718/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685718/resource/"
+        }, 
+        "title": "[Chief Bender, Philadelphia Athletics, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/2000/2060/2068fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/2000/2060/2068f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/2000/2060/2068f_150px.jpg"
+        }, 
+        "created": "2022-06-14T06:25:34Z", 
+        "modified": "2022-06-14T06:25:38Z", 
+        "collection": [
+            "bbc", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "Honest Long Cut and Miners Extra brands", 
+        "call_number": "LOT 13163-32, no. 4 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2022-06-08T09:48:26Z", 
+        "pk": "2007685718", 
+        "created_published_date": "1912.", 
+        "subjects": [
+            "Bender, Chief (Team member)", 
+            "Philadelphia Athletics", 
+            "Philadelphia", 
+            "American League", 
+            "pitcher", 
+            "Baseball cards--1910-1920.", 
+            "Relief prints--Color--1910-1920."
+        ]
+    }, 
+    {
+        "source_created": "2007-10-19T00:00:00Z", 
+        "index": 4, 
+        "medium": "1 print : relief with halftone, color ; sheet 8.9 x 5.9 cm.", 
+        "reproduction_number": "LC-DIG-bbc-2098f (digital file from original, front)\nLC-DIG-bbc-2098b (digital file from original, back)\nLC-USZC4-6987 (color film copy transparency, front)\nLC-USZC4-6951 (color film copy transparency, back)", 
+        "links": {
+            "item": "https://www.loc.gov/pictures/collection/bbc/item/2007685716/", 
+            "resource": "https://www.loc.gov/pictures/collection/bbc/item/2007685716/resource/"
+        }, 
+        "title": "[Tyrus Raymond Cobb, Detroit Tigers, baseball card portrait]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "https://tile.loc.gov/storage-services/service/pnp/bbc/2000/2090/2098fr.jpg", 
+            "square": "https://tile.loc.gov/storage-services/service/pnp/bbc/2000/2090/2098f_75x75px.jpg", 
+            "thumb": "https://tile.loc.gov/storage-services/service/pnp/bbc/2000/2090/2098f_150px.jpg"
+        }, 
+        "created": "2026-02-10T05:41:08Z", 
+        "modified": "2026-02-10T05:41:13Z", 
+        "collection": [
+            "00", 
+            "024", 
+            "10", 
+            "bbc", 
+            "diof", 
+            "exh", 
+            "l4804", 
+            "pp"
+        ], 
+        "creator": "Honest Long Cut and Miners Extra brands", 
+        "call_number": "LOT 13163-32, no. 2 [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2026-01-29T16:37:26Z", 
+        "pk": "2007685716", 
+        "created_published_date": "1912.", 
+        "subjects": [
+            "Cobb, Ty,--1886-1961.", 
+            "Detroit Tigers (Baseball team)--People--1910-1920.", 
+            "Baseball players--Michigan--Detroit--1910-1920.", 
+            "American League", 
+            "outfielder", 
+            "Baseball cards--1910-1920.", 
+            "Relief prints--Color--1910-1920."
+        ]
+    }
+]}

@@ -2,15 +2,27 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 import { CollectorProvider } from '@/app/components/collector-provider'
+import { AuthPromptModal } from '@/app/components/auth-prompt-modal'
 import { HeaderSearch } from '@/app/components/header-search'
 import { PrimaryNav } from '@/app/components/primary-nav'
 import { QuickAddControl } from '@/app/components/quick-add-control'
+import { brandCopy } from '@/lib/brand-copy'
 
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Slabbed',
-  description: 'A collectible baseball card archive, set directory, and collector log.',
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? 'http://localhost:3000'),
+  title: {
+    default: 'Slabbed',
+    template: '%s',
+  },
+  description: brandCopy.seo.defaultDescription,
+  openGraph: {
+    siteName: 'Slabbed',
+    title: 'Slabbed',
+    description: brandCopy.seo.shortDescription,
+    type: 'website',
+  },
 }
 
 export default function RootLayout({
@@ -48,6 +60,7 @@ export default function RootLayout({
             </header>
 
             {children}
+            <AuthPromptModal />
           </div>
         </CollectorProvider>
       </body>
